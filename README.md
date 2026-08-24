@@ -41,6 +41,16 @@ one system area.
 | 12 | [open-questions.md](12-open-questions.md) | What we still don't know and how to find out |
 | 13 | [operations-troubleshooting.md](13-operations-troubleshooting.md) | **Living incident log** — patterns, symptoms, diagnoses. Update this after real shifts. |
 
+## Market context — why we care about this platform
+
+[`research/01-market-context.md`](research/01-market-context.md) — Web
+research on Lyons Group / Kings Dining & Entertainment ownership, the
+industry duopoly (QubicaAMF vs Brunswick), why Kings runs Conqueror X
+specifically (hardware lock-in, not preference), competitor pricing
+benchmarks, and what other bowling chains use. Answers "why does this
+matter for our tools" — the same platform runs across all 10 Kings
+locations, so anything we build has chain-wide leverage.
+
 ## Official product documentation (extracted)
 
 `extracted-strings/` holds the officially-shipped English help file, mined
