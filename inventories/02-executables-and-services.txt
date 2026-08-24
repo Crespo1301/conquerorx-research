@@ -1,0 +1,130 @@
+==========================================
+EXECUTABLES AND WINDOWS SERVICES
+Snapshot: 2026-08-24T21:01:10Z
+==========================================
+
+### ALL .exe FILES (path, size in KB) ###
+      17 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/CD1/Conqueror/InsQDesk.exe
+      18 KB  /mnt/c/QDesk/Bin/ConquerorServer/QServiceController.exe
+      18 KB  /mnt/c/QDesk/Bin/ConquerorServer/RestartServices.exe
+      19 KB  /mnt/c/QDesk/Bin/ConquerorServer/QGetDb.exe
+      25 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Conqueror/WorkingCopyServerInstaller.exe
+      26 KB  /mnt/c/QDesk/Bin/ConquerorServer/DbRepair.exe
+      29 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/CD1/Conqueror/ConquerorInstallerLauncher.exe
+      30 KB  /mnt/c/QDesk/Bin/ConquerorServer/WebStaticServer.exe
+      32 KB  /mnt/c/QDesk/Bin/Qbk.BixolonSPPR210HostProcess.exe
+      34 KB  /mnt/c/QDesk/Bin/ConquerorServer/QCert.exe
+      43 KB  /mnt/c/QDesk/Bin/ConquerorServer/WarningMessageEngine.exe
+      54 KB  /mnt/c/QDesk/Bin/ConquerorServer/makecert.exe
+      62 KB  /mnt/c/QDesk/Bin/StopButton.exe
+      85 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Conqueror/ConquerorInstaller.exe
+     123 KB  /mnt/c/QDesk/Bin/ConquerorServer/MxCtl.exe
+     139 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Favero_PoolControlSystem/setup.exe
+     149 KB  /mnt/c/QDesk/Bin/ConquerorServer/makecab.exe
+     157 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/UpgradeAccessTo2005/MsdeDbCreation.exe
+     199 KB  /mnt/c/QDesk/Bin/ConquerorServer/ghostscript/gswin32c.exe
+     231 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/ACS_Unified_Driver_MSI_Win/Setup.exe
+     232 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Conqueror/InstLoader.exe
+     239 KB  /mnt/c/QDesk/Bin/ConquerorServer/QdbSql.exe
+     334 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/SpeechEngine/SpeechEngineLoader.exe
+     337 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/SpeechEngine/SpeechEngine.exe
+     349 KB  /mnt/c/QDesk/Bin/ConquerorServer/uftp.exe
+     361 KB  /mnt/c/QDesk/Bin/DailyTaskMonitor.exe
+     381 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Axis_Camera/IPUtility.exe
+     393 KB  /mnt/c/QDesk/Bin/ConquerorServer/MxSvc.exe
+     418 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/FingerPrint/DigitalPersonaOneTouchForWindowsSDK1.6/x64/setup.exe
+     418 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/FingerPrint/DigitalPersonaOneTouchForWindowsSDK1.6/x86/setup.exe
+     433 KB  /mnt/c/QDesk/Bin/ConquerorServer/ConquerorServer.exe
+     453 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/UpgQBrac.EXE
+     475 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/QFirewall_Setup/setup.exe
+     477 KB  /mnt/c/QDesk/Bin/ConquerorServer/WelcomeMessageEngine.exe
+     505 KB  /mnt/c/QDesk/Bin/ConquerorServer/7za.exe
+     533 KB  /mnt/c/QDesk/Bin/ReportViewerApp.exe
+     679 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/RAB12/IPAssign_v1.1.2.exe
+     900 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/CleanCash/dpinst_x86.exe
+     903 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/WinPcap/WinPcap_4_1_1.exe
+     963 KB  /mnt/c/QDesk/Bin/ConquerorServer/HeidiSQL/plink.exe
+     993 KB  /mnt/c/QDesk/Bin/Conqueror.exe
+    1025 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/CleanCash/dpinst_amd64.exe
+    1107 KB  /mnt/c/QDesk/Bin/VirtualWaiterFrontDesk/VirtualWaiterFrontDesk.exe
+    1158 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/7z1900.exe
+    1195 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Axis_Camera/AXISMediaControlSDK_redist.exe
+    1204 KB  /mnt/c/QDesk/Bin/ConquerorServer/QServerMonitor.exe
+    1209 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/MicrosaleBridgeLoader.exe
+    1214 KB  /mnt/c/QDesk/Bin/vncviewer.exe
+    1378 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/UpgradeMsdeTo2005/UpgradeDb2000to2014.exe
+    1451 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/CleanCash/dpinst_ia64.exe
+    1534 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/UpgradeAccessTo2005/UpgradeDb2000to2014.exe
+    1644 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Putty/putty64.exe
+    1778 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/QFirewall_Setup/vcredist_x86/vcredist_x86.exe
+    1780 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/ACS_Unified_Driver_MSI_Win/redist/InstMsiW.exe
+    2012 KB  /mnt/c/QDesk/Bin/TechSupportClient.exe
+    2094 KB  /mnt/c/QDesk/Bin/ConquerorServer/QAnimationManager/QAnimationManager.exe
+    2338 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Conqueror/BossLanesGraphics.exe
+    2425 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/WinSCP/winscp418setup.exe
+    2591 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Video_Converter/Setup.exe
+    2604 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/ConquerorSetup.exe
+    2687 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Wifi_Printers_Utilities/Zebra_ZQ110/ZQ110_Net_Configuration_Setup_V1.0.0P02_20140729.exe
+    2786 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Conqueror/LegacyConquerorUpgrade.exe
+    3367 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/ReportViewerSetup.exe
+    3664 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Conqueror/ConquerorSetup.exe
+    3835 KB  /mnt/c/QDesk/Bin/ConquerorServer/TechSupport.exe
+    4926 KB  /mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/node-builds/win32/node.exe
+    5063 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Conqueror/UpgradeMessageDispatcher.exe
+    5341 KB  /mnt/c/QDesk/Bin/ConquerorServer/NodeProxy/node.exe
+    5455 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Wifi_Printers_Utilities/Bixolon_SPP-R210/SPP-R210_Unified_Mobile_Utility_for_PC_V1.0.3.exe
+    5876 KB  /mnt/c/QDesk/Bin/ConquerorServer/QCloudTestConnection.exe
+    5947 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Wifi_Printers_Utilities/Zebra_ZQ110/ZQ110_Unified_Utility_for_PC_V1.0.0.exe
+    6715 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Conqueror/VC_redist.x86.exe
+    6715 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/VC_redist.x86.exe
+    7972 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Vim/gvim70.exe
+   18177 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Wifi_Printers_Utilities/EpsonTM-P20/EpsonNetConfig_v4_9_5.exe
+   19013 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Wifi_Printers_Utilities/Bixolon_SPP-R210/Software_NetConfigurationTool_V3.2.7.exe
+   21958 KB  /mnt/c/QDesk/Bin/ConquerorServer/HeidiSQL/heidisql.exe
+   25677 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/UpgradeMsdeTo2005/DotNetInstaller.exe
+   27725 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/VKeyboard/QubicaVKeyboard.exe
+   48028 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/UpgradeAccessTo2005/MSDEInstaller.exe
+   48041 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/UpgradeMsdeTo2005/MSDEInstaller.exe
+   49776 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/UpgradeAccessTo2005/DotNetInstaller.exe
+   55053 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Hopewiser/AddressLookupBootstrapper.exe
+   59473 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/CD1/Conqueror/WorkingCopySetup.exe
+   72773 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Logitech_Webcam_Drivers/C270-C210/Windows8/lws280.exe
+   72888 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Logitech_Webcam_Drivers/C270-C210/Windows7/lws251.exe
+  179857 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Conqueror/MicrosoftEdgeWebView2RuntimeInstallerX64.exe
+     184 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/IdTech/IdTech_IDWA_V2.00_Driver_XP_ 2K/FTDIUNIN.exe
+    4374 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Conqueror/Visual C++ 2008 SP1/vcredist_x86.exe
+    8779 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Conqueror/Visual C++ 2010 SP1/vcredist_x86.exe
+     522 KB  /mnt/c/Program Files (x86)/QubicaAMF/BowlingAgent/BowlingAgent.exe
+      57 KB  /mnt/c/Program Files (x86)/QubicaAMF/BowlingAgent/createdump.exe
+     125 KB  /mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor/QServiceController.exe
+     125 KB  /mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor/QWorkingCopyMonitor.exe
+      45 KB  /mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor/createdump.exe
+     125 KB  /mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Server/QWorkingCopyServer.exe
+      45 KB  /mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Server/createdump.exe
+    2094 KB  /mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/WorkingCopyUpdater.exe
+  272747 KB  /mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Conqueror/SQL Server Express 2022/sqlexpr_x64_enu.exe
+
+### WINDOWS SERVICES INSTALLED FROM QUBICAAMF PATHS ###
+
+Name                    State   StartMode DisplayName                          PathName                                                                                             
+----                    -----   --------- -----------                          --------                                                                                             
+BowlingAgent            Running Auto      BowlingAgent                         "C:\Program Files (x86)\QubicaAMF\BowlingAgent\BowlingAgent.exe"                                     
+ConquerorServer         Running Auto      ConquerorServer                      C:\QDesk\Bin\ConquerorServer\ConquerorServer.exe                                                     
+MSSQL$CONQUERORX        Running Auto      SQL Server (CONQUERORX)              "C:\Program Files\Microsoft SQL Server\MSSQL16.CONQUERORX\MSSQL\Binn\sqlservr.exe" -sCONQUERORX      
+MxSvc                   Running Auto      Matrix Configuration Server          C:\QDesk\Bin\ConquerorServer\MxSvc.exe                                                               
+QWorkingCopyServer      Running Auto      QWorkingCopyServer                   "C:\Program Files (x86)\QubicaAMF_Internet_Update\QWorkingCopyMonitor\Server\QWorkingCopyServer.exe" 
+SQLTELEMETRY$CONQUERORX Running Auto      SQL Server CEIP service (CONQUERORX) "C:\Program Files\Microsoft SQL Server\MSSQL16.CONQUERORX\MSSQL\Binn\sqlceip.exe" -Service CONQUERORX
+SQLAgent$CONQUERORX     Stopped Disabled  SQL Server Agent (CONQUERORX)        "C:\Program Files\Microsoft SQL Server\MSSQL16.CONQUERORX\MSSQL\Binn\SQLAGENT.EXE" -i CONQUERORX     
+WorkingCopyUpdater      Stopped Manual    WorkingCopyUpdater                   "C:\Program Files (x86)\QubicaAMF_Internet_Update\WorkingCopyUpdater.exe" /runservice                
+
+
+
+
+### RUNNING PROCESSES FROM QUBICAAMF PATHS ###
+
+
+### LISTENING TCP PORTS OWNED BY QUBICAAMF PROCESSES ###
+
+
+### WINDOWS SCHEDULED TASKS FROM QUBICAAMF PATHS ###
+

@@ -1,0 +1,199 @@
+==========================================
+CONQUERORX FILESYSTEM TOPOLOGY
+Snapshot: 2026-08-24T21:00:03Z
+==========================================
+
+### TOP-LEVEL QUBICAAMF INSTALL DIRS ###
+/mnt/c/Program Files (x86)/QubicaAMF
+/mnt/c/Program Files (x86)/QubicaAMF/BowlingAgent
+/mnt/c/Program Files (x86)/QubicaAMF/FontInstaller
+/mnt/c/Program Files (x86)/QubicaAMF/ThirdPartyComponentsInstaller
+/mnt/c/Program Files (x86)/QubicaAMF/VncRepeater
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopy
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor/cs
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor/de
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor/es
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor/fr
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor/it
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor/ja
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor/ko
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor/pl
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor/pt-BR
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor/ru
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor/tr
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor/zh-Hans
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Monitor/zh-Hant
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Server
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Server/Resources
+/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update/QWorkingCopyMonitor/Server/wwwroot
+/mnt/c/ProgramData/QubicaAMF
+/mnt/c/ProgramData/QubicaAMF/BowlingAgent
+/mnt/c/ProgramData/QubicaAMF/BowlingAgent/Database
+/mnt/c/ProgramData/QubicaAMF/BowlingAgent/Logs
+/mnt/c/ProgramData/QubicaAMF/Bubbles
+/mnt/c/ProgramData/QubicaAMF/Bubbles/Animations
+/mnt/c/ProgramData/QubicaAMF/Bubbles/Birthday
+/mnt/c/ProgramData/QubicaAMF/Bubbles/BrandKit
+/mnt/c/ProgramData/QubicaAMF/Bubbles/Dassle
+/mnt/c/ProgramData/QubicaAMF/Bubbles/EconomicalInterface
+/mnt/c/ProgramData/QubicaAMF/Bubbles/GamesService
+/mnt/c/ProgramData/QubicaAMF/Bubbles/LaneOrder
+/mnt/c/ProgramData/QubicaAMF/Bubbles/LaneServices
+/mnt/c/ProgramData/QubicaAMF/Bubbles/LegacyResources
+/mnt/c/ProgramData/QubicaAMF/Bubbles/MxGCLogs
+/mnt/c/ProgramData/QubicaAMF/Bubbles/Pictures
+/mnt/c/ProgramData/QubicaAMF/Bubbles/Sally
+/mnt/c/ProgramData/QubicaAMF/Bubbles/YouToons
+/mnt/c/ProgramData/QubicaAMF/Conqueror
+/mnt/c/ProgramData/QubicaAMF/Logs
+/mnt/c/ProgramData/QubicaAMF/Logs/WorkingCopyServer
+/mnt/c/ProgramData/QubicaAMF/PrintImages
+/mnt/c/ProgramData/QubicaAMF/Repositories
+/mnt/c/ProgramData/QubicaAMF/Repositories/BesxAnimations
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859
+/mnt/c/ProgramData/QubicaAMF/RsyncServer
+/mnt/c/ProgramData/QubicaAMF/SwapForUpg
+/mnt/c/ProgramData/QubicaAMF/WorkingCopyServer
+/mnt/c/ProgramData/QubicaAMF/WorkingCopyServer/updates
+/mnt/c/QDesk
+/mnt/c/QDesk/Bin
+/mnt/c/QDesk/Bin/ConquerorServer
+/mnt/c/QDesk/Bin/ConquerorServer/Graphics
+/mnt/c/QDesk/Bin/ConquerorServer/HeidiSQL
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer
+/mnt/c/QDesk/Bin/ConquerorServer/NodeProxy
+/mnt/c/QDesk/Bin/ConquerorServer/Print
+/mnt/c/QDesk/Bin/ConquerorServer/QAnimationManager
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts
+/mnt/c/QDesk/Bin/ConquerorServer/Translations
+/mnt/c/QDesk/Bin/ConquerorServer/ghostscript
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings
+/mnt/c/QDesk/Bin/Graphics
+/mnt/c/QDesk/Bin/Graphics/HyperHighScores
+/mnt/c/QDesk/Bin/Graphics/Icons
+/mnt/c/QDesk/Bin/Graphics/Skin
+/mnt/c/QDesk/Bin/Graphics/VdbBirthday
+/mnt/c/QDesk/Bin/Graphics/Web
+/mnt/c/QDesk/Bin/Graphics/Youtoons
+/mnt/c/QDesk/Bin/Help
+/mnt/c/QDesk/Bin/Print
+/mnt/c/QDesk/Bin/Print/Images
+/mnt/c/QDesk/Bin/Print/MadGameHeaders
+/mnt/c/QDesk/Bin/QDeskConfigs
+/mnt/c/QDesk/Bin/Reports
+/mnt/c/QDesk/Bin/Translations
+/mnt/c/QDesk/Bin/VirtualWaiterFrontDesk
+/mnt/c/QDesk/Bin/VirtualWaiterFrontDesk/Qt
+/mnt/c/QDesk/Bin/VirtualWaiterFrontDesk/QtWebKit
+/mnt/c/QDesk/Bin/VirtualWaiterFrontDesk/imageformats
+/mnt/c/QDesk/Bin/VirtualWaiterFrontDesk/phonon_backend
+/mnt/c/QDesk/Bin/runtimes
+/mnt/c/QDesk/Bin/runtimes/win-x86
+/mnt/c/QDesk/Bin/xlt
+/mnt/c/QDesk/Database
+/mnt/c/QDesk/Database/BackupedResources
+/mnt/c/QDesk/Database/BackupedResources/Bubbles
+/mnt/c/QDesk/Database/Effects
+/mnt/c/QDesk/Database/GridBackgrounds
+/mnt/c/QDesk/Database/MMS
+/mnt/c/QDesk/Database/MMS/Advertising
+/mnt/c/QDesk/Database/Mailmerge
+/mnt/c/QDesk/Database/Messages
+/mnt/c/QDesk/Database/Settings
+/mnt/c/QDesk/Database/VolatileResources
+/mnt/c/QDesk/Database/VolatileResources/Bubbles
+/mnt/c/QDesk/Database/keyboards
+/mnt/c/QDesk/Score
+/mnt/c/QDesk/Score/configurations
+/mnt/c/QDesk/Score/params
+/mnt/c/QDesk/Score/params/bin
+/mnt/c/QDesk/Score/params/customized
+/mnt/c/QDesk/Score/params/tna
+
+### SIZES BY TOP-LEVEL DIRECTORY ###
+768M	/mnt/c/QDesk
+1.7G	/mnt/c/ProgramData/QubicaAMF
+128M	/mnt/c/Program Files (x86)/QubicaAMF
+244M	/mnt/c/Program Files (x86)/QubicaAMF_Internet_Update
+
+### C:\QDesk\Bin — SIZES BY SUBDIR ###
+4.0K	/mnt/c/QDesk/Bin/QDeskConfigs/
+96K	/mnt/c/QDesk/Bin/xlt/
+116K	/mnt/c/QDesk/Bin/runtimes/
+3.2M	/mnt/c/QDesk/Bin/Print/
+7.2M	/mnt/c/QDesk/Bin/Reports/
+9.6M	/mnt/c/QDesk/Bin/Help/
+21M	/mnt/c/QDesk/Bin/Graphics/
+33M	/mnt/c/QDesk/Bin/Translations/
+73M	/mnt/c/QDesk/Bin/VirtualWaiterFrontDesk/
+380M	/mnt/c/QDesk/Bin/ConquerorServer/
+
+### C:\ProgramData\QubicaAMF — SIZES BY SUBDIR ###
+0	/mnt/c/ProgramData/QubicaAMF/Bubbles/
+0	/mnt/c/ProgramData/QubicaAMF/RsyncServer/
+0	/mnt/c/ProgramData/QubicaAMF/SwapForUpg/
+4.0K	/mnt/c/ProgramData/QubicaAMF/Conqueror/
+76K	/mnt/c/ProgramData/QubicaAMF/WorkingCopyServer/
+140K	/mnt/c/ProgramData/QubicaAMF/BowlingAgent/
+2.8M	/mnt/c/ProgramData/QubicaAMF/PrintImages/
+27M	/mnt/c/ProgramData/QubicaAMF/Logs/
+1.7G	/mnt/c/ProgramData/QubicaAMF/Repositories/
+
+### FILE-TYPE COUNTS in C:\QDesk\Bin ###
+   2477 .png
+    916 .dll
+    540 .js
+    269 .xml
+    223 .as
+    197 .sql
+    182 .rpt
+     89 .json
+     77 .svg
+     60 .map
+     48 .html
+     45 .css
+     40 .jpg
+     38 .md
+     33 .exe
+     32 .config
+     26 .tga
+     20 .txt
+     17 .ttf
+     17 .scss
+     17 .npmignore
+     14 .woff2
+     14 .bmp
+     13 .gif
+     10 .yml
+
+### FILE-TYPE COUNTS in C:\ProgramData\QubicaAMF ###
+    116 .png
+     57 .exe
+     50 .mst
+     31 .dll
+     22 .log
+     21 .msi
+     18 .sys
+     11 .json
+     10 .cat
+      9 .pdf
+      9 .lib
+      9 .inf
+      8 .bmp
+      6 .txt
+      6 .doc
+      4 .xml
+      3 .bes
+      3 .2
+      3 .1
+      3 .0
+      2 .url
+      2 .pl
+      2 .imm
+      2 .h
+      2 .cab

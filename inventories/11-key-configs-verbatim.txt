@@ -1,0 +1,276 @@
+==========================================
+KEY CONFIG FILES — VERBATIM CONTENTS
+Snapshot: 2026-08-24T21:04:09Z
+==========================================
+
+########## /mnt/c/QDesk/Bin/QDeskConfigs/RoutingDefs.json  (69 lines) ##########
+{
+    "Routes": [
+        {
+            "Name": "LaneOptions",
+            "RelativePath": "/lane-options",
+            "Icon": 3
+        },
+        {
+            "Name": "Loyalty",
+            "RelativePath": "/loyalty",
+            "Icon": 89
+        },
+        {
+            "Name": "MultiAttractions",
+            "RelativePath": "/ma-reservations",
+            "Icon": 617,
+            "SingleInstance": true
+        },
+        {
+            "Name": "SquareReceiptPlugin",
+            "RelativePath": "/square-receipt-plugin",
+            "Icon": 418,
+            "SingleInstance": true
+        },
+        {
+            "Name": "CashlessRecharge",
+            "RelativePath": "/cashless/recharge",
+            "Icon": 244
+        },
+        {
+            "Name": "CashlessPay",
+            "RelativePath": "/cashless/pay",
+            "Icon": 244
+        },
+        {
+            "Name": "Home",
+            "RelativePath": "/",
+            "Icon": 417
+        },
+        {
+            "Name": "Pos",
+            "RelativePath": "/pos",
+            "Icon": 33
+        },
+        {
+            "Name": "PictureValidation",
+            "RelativePath": "/picture-validation",
+            "Icon": 371,
+            "CloudPlugin": true
+        },
+        {
+            "Name": "Calculator",
+            "RelativePath": "/unicorn-calculator",
+            "Icon": 33,
+            "CloudPlugin": true
+        },
+        {
+            "Name": "CashDrawer",
+            "RelativePath": "/cash-drawer",
+            "Icon": 130,
+            "CloudPlugin": true
+        },
+        {
+            "Name": "CashDrawerReport",
+            "RelativePath": "/cash-drawer-report",
+            "Icon": 130,
+            "CloudPlugin": true
+        }
+    ]
+}
+########## /mnt/c/QDesk/Bin/ConquerorServer/StorageConf.json  (0 lines) ##########
+{ "Url": "https://resourcesexpoqamfeuw.blob.core.windows.net" }
+########## /mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/production-stable.json  (19 lines) ##########
+{
+	"environment": "production",
+	"channel": "stable",
+	"cloudBackendUrl": "https://qcloud.qubicaamf.com",
+	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+	"appInsightsConnString": "InstrumentationKey=fb12b2df-4e62-487f-a8c6-74a29fad9346;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=6c9b3b35-9eb6-4bc2-9d25-73e1a4a719f5",
+	"accountPageUrl": "",
+	"helpSiteUrl": "",
+	"bowlerUrl": "",
+	"bowlerUrlBeta": "",
+	"qportalUrl": "https://qportal.qubicaamf.com",
+	"qportalUrlBeta": "",
+	"qdeskUrl": "",
+	"qdeskUrlBeta": "",
+	"adb2cAuth": {},
+	"oidcAuth": {},
+	"mixPanelProjectId": "",
+	"amplitudeProjectId": ""
+}
+
+########## /mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/local-stable.json  (19 lines) ##########
+{
+	"environment": "development",
+	"channel": "beta",
+	"cloudBackendUrl": "https://qcloud-develop.qubicaamf.com:44301",
+	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+	"appInsightsConnString": "InstrumentationKey=a5f9840d-a0d4-4a7a-ae53-00a39edee732;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=ffb8cd9e-d4e9-44b2-ad6a-217dcfbb340b",
+	"accountPageUrl": "",
+	"helpSiteUrl": "",
+	"bowlerUrl": "",
+	"bowlerUrlBeta": "",
+	"qportalUrl": "https://localhost:5001",
+	"qportalUrlBeta": "",
+	"qdeskUrl": "",
+	"qdeskUrlBeta": "",
+	"adb2cAuth": {},
+	"oidcAuth": {},
+	"mixPanelProjectId": "",
+	"amplitudeProjectId": ""
+}
+
+########## /mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/server.config  (5 lines) ##########
+{
+    "experienceIntervals": { "static": 10000, "video": 6000 },
+    "highscoresInterval": 20000,
+    "loglevel": "TRACE"
+}
+
+########## SEARCH FOR HTTP/URL/PORT PATTERNS IN CONFIGS ##########
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/local-stable.json:4:	"cloudBackendUrl": "https://qcloud-develop.qubicaamf.com:44301",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/local-stable.json:5:	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/local-stable.json:6:	"appInsightsConnString": "InstrumentationKey=a5f9840d-a0d4-4a7a-ae53-00a39edee732;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=ffb8cd9e-d4e9-44b2-ad6a-217dcfbb340b",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/local-stable.json:11:	"qportalUrl": "https://localhost:5001",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/local-beta.json:4:	"cloudBackendUrl": "https://qcloud-develop.qubicaamf.com:44301",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/local-beta.json:5:	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/local-beta.json:6:	"appInsightsConnString": "InstrumentationKey=a5f9840d-a0d4-4a7a-ae53-00a39edee732;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=ffb8cd9e-d4e9-44b2-ad6a-217dcfbb340b",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/local-beta.json:11:	"qportalUrl": "https://localhost:5001",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/development-beta.json:4:	"cloudBackendUrl": "https://qcloud-develop.qubicaamf.com:44301",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/development-beta.json:5:	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/development-beta.json:6:	"appInsightsConnString": "InstrumentationKey=0925ab93-7512-4192-a4a4-b4efbe6de358;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=5b345a1e-63a4-44b6-b166-591046d12f14",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/development-beta.json:11:	"qportalUrl": "https://qportal-develop-qamfeuw-beta.azurewebsites.net",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/expo-stable.json:4:	"cloudBackendUrl": "https://qcloud-expo.qubicaamf.com",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/expo-stable.json:5:	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/expo-stable.json:6:	"appInsightsConnString": "InstrumentationKey=07fbd78c-4c7a-49be-810d-4c16f0a0f489;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=09ecb1f1-515b-4fce-a81c-14553072eaa1",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/expo-stable.json:11:	"qportalUrl": "https://qportal-expo.qubicaamf.com",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/development-stable.json:4:	"cloudBackendUrl": "https://qcloud-develop.qubicaamf.com",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/development-stable.json:5:	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/development-stable.json:6:	"appInsightsConnString": "InstrumentationKey=0925ab93-7512-4192-a4a4-b4efbe6de358;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=5b345a1e-63a4-44b6-b166-591046d12f14",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/development-stable.json:11:	"qportalUrl": "https://qportal-develop-qamfeuw.azurewebsites.net",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/production-stable.json:4:	"cloudBackendUrl": "https://qcloud.qubicaamf.com",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/production-stable.json:5:	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/production-stable.json:6:	"appInsightsConnString": "InstrumentationKey=fb12b2df-4e62-487f-a8c6-74a29fad9346;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=6c9b3b35-9eb6-4bc2-9d25-73e1a4a719f5",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/production-stable.json:11:	"qportalUrl": "https://qportal.qubicaamf.com",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-02-beta.json:4:	"cloudBackendUrl": "https://qcloud-test02.qubicaamf.com:44301",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-02-beta.json:5:	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-02-beta.json:6:	"appInsightsConnString": "InstrumentationKey=ceeee9bd-7462-4550-afef-7d770c2d6848;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=15d0a53a-41c5-425f-a59c-65ede0d3dc3b",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-02-beta.json:11:	"qportalUrl": "https://qportal-develop-qamfeuw-testing-slot-2.azurewebsites.net",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/production-beta.json:4:	"cloudBackendUrl": "https://qcloud-beta.qubicaamf.com:44301",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/production-beta.json:5:	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/production-beta.json:6:	"appInsightsConnString": "InstrumentationKey=fb12b2df-4e62-487f-a8c6-74a29fad9346;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=6c9b3b35-9eb6-4bc2-9d25-73e1a4a719f5",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/production-beta.json:11:	"qportalUrl": "https://qportal-beta.qubicaamf.com",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/expo-beta.json:4:	"cloudBackendUrl": "https://qcloud-expo.qubicaamf.com:44301",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/expo-beta.json:5:	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/expo-beta.json:6:	"appInsightsConnString": "InstrumentationKey=07fbd78c-4c7a-49be-810d-4c16f0a0f489;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=09ecb1f1-515b-4fce-a81c-14553072eaa1",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/expo-beta.json:11:	"qportalUrl": "https://qportal-expo-beta.qubicaamf.com",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-01-stable.json:4:	"cloudBackendUrl": "https://qcloud-test01.qubicaamf.com",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-01-stable.json:5:	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-01-stable.json:6:	"appInsightsConnString": "InstrumentationKey=8b2806cd-f239-49b9-9137-771137b443a4;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=9a6522a2-38b8-4df2-b577-92b607995849",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-01-stable.json:11:	"qportalUrl": "https://qportal-develop-qamfeuw-testing-slot-1.azurewebsites.net",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-01-beta.json:4:	"cloudBackendUrl": "https://qcloud-test01.qubicaamf.com:44301",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-01-beta.json:5:	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-01-beta.json:6:	"appInsightsConnString": "InstrumentationKey=8b2806cd-f239-49b9-9137-771137b443a4;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=9a6522a2-38b8-4df2-b577-92b607995849",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-01-beta.json:11:	"qportalUrl": "https://qportal-develop-qamfeuw-testing-slot-1.azurewebsites.net",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-03-beta.json:4:	"cloudBackendUrl": "https://qcloud-test03.qubicaamf.com:44301",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-03-beta.json:5:	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-03-beta.json:6:	"appInsightsConnString": "InstrumentationKey=1b9edcb3-0cb9-46e0-8bc8-3904e5c8d896;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=d7269eff-858b-489f-b0a6-2130f6c00642",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-03-beta.json:11:	"qportalUrl": "https://qportal-develop-qamfeuw-testing-slot-3.azurewebsites.net",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-05-stable.json:4:	"cloudBackendUrl": "https://qcloud-test05.qubicaamf.com",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-05-stable.json:5:	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-05-stable.json:6:	"appInsightsConnString": "InstrumentationKey=8fcd589d-a81a-41d2-9ff2-c115ba62efc2;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=dc2447f1-d416-4983-ac86-1c33cf718e30",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-05-stable.json:11:	"qportalUrl": "https://qportal-develop-qamfeuw-testing-slot-5.azurewebsites.net",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/staging-beta.json:4:	"cloudBackendUrl": "https://qcloud-staging.qubicaamf.com:44301",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/staging-beta.json:5:	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/staging-beta.json:6:	"appInsightsConnString": "InstrumentationKey=5187d3f1-69c7-4bec-92a6-323407e7497e;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=38966dc0-1e0f-4f4a-91ed-69ec3ab79f28",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/staging-beta.json:11:	"qportalUrl": "https://qportal-staging-beta.qubicaamf.com",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-02-stable.json:4:	"cloudBackendUrl": "https://qcloud-test02.qubicaamf.com",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-02-stable.json:5:	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-02-stable.json:6:	"appInsightsConnString": "InstrumentationKey=ceeee9bd-7462-4550-afef-7d770c2d6848;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/;ApplicationId=15d0a53a-41c5-425f-a59c-65ede0d3dc3b",
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-02-stable.json:11:	"qportalUrl": "https://qportal-develop-qamfeuw-testing-slot-2.azurewebsites.net",
+
+########## SEARCH FOR CONNECTION STRINGS ANYWHERE UNDER Bin/ ##########
+/mnt/c/QDesk/Bin/ConquerorServer/HeidiSQL/functions-mssql.ini:772:description=Executes the specified pass-through query on the specified linked server. This server is an OLE DB data source. OPENQUERY can be referenced in the FROM clause of a query as if it were a table name. OPENQUERY can also be referenced as the target table of an INSERT, UPDATE, or DELETE statement. This is subject to the capabilities of the OLE DB provider. Although the query may return multiple result sets, OPENQUERY returns only the first one.
+/mnt/c/QDesk/Bin/ConquerorServer/HeidiSQL/functions-mssql.ini:776:description=Includes all connection information that is required to access remote data from an OLE DB data source. This method is an alternative to accessing tables in a linked server and is a one-time, ad hoc method of connecting and accessing remote data by using OLE DB. For more frequent references to OLE DB data sources, use linked servers instead. For more information, see Linked Servers (Database Engine). The OPENROWSET function can be referenced in the FROM clause of a query as if it were a table name. The OPENROWSET function can also be referenced as the target table of an INSERT, UPDATE, or DELETE statement, subject to the capabilities of the OLE DB provider. Although the query might return multiple result sets, OPENROWSET returns only the first one.
+/mnt/c/QDesk/Bin/ConquerorServer/HeidiSQL/functions-mssql.ini:784:description=Returns the database name that is specified by the user in the database connection string. This is the database that is specified by using the sqlcmd-d option (USE database) or the ODBC data source expression (initial catalog =databasename).
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/qdb.ini:2:Server=(local)\CONQUERORX
+
+########## ConquerorServer log4net config sample ##########
+﻿<?xml version="1.0" encoding="utf-8"?>
+<log4net>
+	<property type="log4net.Util.PropertyEntry">
+		<key value="SourceName" />
+		<value value="ConquerorServer" />
+	</property>
+	
+	<appender name="ADONetBufferedAppender" type="Qubica.Server.Logger.ADONetBufferedAppender, Qbk.Server.Logger">
+		<bufferFileName value="BufferForDbLogs.log" />
+		<sourceName value="ConquerorServer" />
+		<bufferSize value="50" />
+		<connectionType value="System.Data.SqlClient.SqlConnection, System.Data, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+		<commandText value="qsp_log_insert" /> 
+		<commandType value="StoredProcedure" />
+		<errorHandler type="Qubica.Server.Logger.OutDebugErrorHandler, Qbk.Server.Logger" />
+		<fix value="Partial" />
+		<lossy value="false" />
+		<filter type="Qubica.Server.Logger.ExcludeScoreLogFilter, Qbk.Server.Logger" />
+		<parameter>
+			<parameterName value="@Date" />
+			<dbType value="DateTime" />
+			<layout type="log4net.Layout.RawTimeStampLayout" />
+		</parameter>
+		<parameter>
+			<parameterName value="@Source" />
+			<dbType value="AnsiString" />
+			<size value="255" />
+			<layout type="log4net.Layout.PatternLayout">
+				<conversionPattern value="%property{SourceName}" />
+			</layout>
+		</parameter>
+		<parameter>
+			<parameterName value="@Thread" />
+			<dbType value="AnsiString" />
+			<size value="255" />
+			<layout type="log4net.Layout.PatternLayout">
+				<conversionPattern value="%t" />
+			</layout>
+		</parameter>
+		<parameter>
+			<parameterName value="@NDC" />
+			<dbType value="AnsiString" />
+			<size value="255" />
+			<layout type="log4net.Layout.PatternLayout">
+				<conversionPattern value="%x" />
+			</layout>
+		</parameter>
+		<parameter>
+			<parameterName value="@Level" />
+			<dbType value="AnsiString" />
+			<size value="50" />
+			<layout type="log4net.Layout.PatternLayout">
+				<conversionPattern value="%level" />
+			</layout>
+		</parameter>
+		<parameter>
+			<parameterName value="@Logger" />
+			<dbType value="AnsiString" />
+			<size value="255" />
+			<layout type="log4net.Layout.PatternLayout">
+				<conversionPattern value="%c" />
+			</layout>
+		</parameter>
+		<parameter>
+			<parameterName value="@Message" />
+			<dbType value="String" />
+			<size value="3460" />
+			<layout type="log4net.Layout.PatternLayout">
+				<conversionPattern value="%m" />
+			</layout>
+		</parameter>
+		<parameter>
+			<parameterName value="@exception" />
+			<dbType value="String" />
+			<size value="32000" />
+			<layout type="log4net.Layout.ExceptionLayout" />
+		</parameter>
+	</appender>
+
+	<appender name="CloudLogAppender" type="Qubica.Server.Logger.ADONetBufferedAppender, Qbk.Server.Logger">

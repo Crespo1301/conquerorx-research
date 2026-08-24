@@ -1,0 +1,323 @@
+==========================================
+CONFIG FILE CONTENTS (redacted where obvious)
+Snapshot: 2026-08-24T21:03:36Z
+==========================================
+
+########## /mnt/c/QDesk/Bin/Conqueror.exe.config ##########
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <runtime>
+    <generatePublisherEvidence enabled="false" />
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Bcl.AsyncInterfaces" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-9.0.0.4" newVersion="9.0.0.4" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-13.0.0.0" newVersion="13.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Buffers" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.4.0" newVersion="4.0.4.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Memory" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.2.0" newVersion="4.0.2.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Numerics.Vectors" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.1.5.0" newVersion="4.1.5.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-6.0.1.0" newVersion="6.0.1.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Text.Encodings.Web" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-9.0.0.4" newVersion="9.0.0.4" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Text.Json" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-9.0.0.4" newVersion="9.0.0.4" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Threading.Tasks.Extensions" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.2.0.1" newVersion="4.2.0.1" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.ValueTuple" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.3.0" newVersion="4.0.3.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0" />
+  </startup>
+</configuration>...
+(file total lines: 68)
+
+########## /mnt/c/QDesk/Bin/ConquerorServer/ConquerorServer.exe.config ##########
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+  </startup>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.ValueTuple" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.3.0" newVersion="4.0.3.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.AspNetCore.Authentication.Abstractions" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.3.0.0" newVersion="2.3.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.AspNetCore.Authentication.Core" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.3.0.0" newVersion="2.3.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.AspNetCore.Authorization" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.3.0.0" newVersion="2.3.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.AspNetCore.Hosting.Abstractions" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.3.0.0" newVersion="2.3.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.AspNetCore.Http.Abstractions" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.3.9.0" newVersion="2.3.9.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.AspNetCore.Http.Extensions" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.3.0.0" newVersion="2.3.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.AspNetCore.Http.Features" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.3.0.0" newVersion="2.3.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.AspNetCore.Mvc.Abstractions" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.3.0.0" newVersion="2.3.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.AspNetCore.Mvc.ApiExplorer" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.3.0.0" newVersion="2.3.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.AspNetCore.Mvc.Core" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.3.0.0" newVersion="2.3.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.AspNetCore.Mvc.Formatters.Json" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.3.0.0" newVersion="2.3.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.AspNetCore.Routing" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.3.0.0" newVersion="2.3.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.AspNetCore.Routing.Abstractions" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.3.0.0" newVersion="2.3.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.AspNetCore.StaticFiles" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.3.0.0" newVersion="2.3.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Bcl.AsyncInterfaces" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-8.0.0.0" newVersion="8.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Extensions.Caching.Abstractions" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-8.0.0.0" newVersion="8.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Extensions.Caching.Memory" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-8.0.0.1" newVersion="8.0.0.1" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Extensions.Configuration.Abstractions" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-8.0.0.0" newVersion="8.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+...
+(file total lines: 373)
+
+########## /mnt/c/QDesk/Bin/ConquerorServer/StorageConf.json ##########
+{ "Url": "https://resourcesexpoqamfeuw.blob.core.windows.net" }...
+(file total lines: 0)
+
+########## /mnt/c/QDesk/Bin/QDeskConfigs/RoutingDefs.json ##########
+{
+    "Routes": [
+        {
+            "Name": "LaneOptions",
+            "RelativePath": "/lane-options",
+            "Icon": 3
+        },
+        {
+            "Name": "Loyalty",
+            "RelativePath": "/loyalty",
+            "Icon": 89
+        },
+        {
+            "Name": "MultiAttractions",
+            "RelativePath": "/ma-reservations",
+            "Icon": 617,
+            "SingleInstance": true
+        },
+        {
+            "Name": "SquareReceiptPlugin",
+            "RelativePath": "/square-receipt-plugin",
+            "Icon": 418,
+            "SingleInstance": true
+        },
+        {
+            "Name": "CashlessRecharge",
+            "RelativePath": "/cashless/recharge",
+            "Icon": 244
+        },
+        {
+            "Name": "CashlessPay",
+            "RelativePath": "/cashless/pay",
+            "Icon": 244
+        },
+        {
+            "Name": "Home",
+            "RelativePath": "/",
+            "Icon": 417
+        },
+        {
+            "Name": "Pos",
+            "RelativePath": "/pos",
+            "Icon": 33
+        },
+        {
+            "Name": "PictureValidation",
+            "RelativePath": "/picture-validation",
+            "Icon": 371,
+            "CloudPlugin": true
+        },
+        {
+            "Name": "Calculator",
+            "RelativePath": "/unicorn-calculator",
+            "Icon": 33,
+            "CloudPlugin": true
+        },
+        {
+            "Name": "CashDrawer",
+            "RelativePath": "/cash-drawer",
+            "Icon": 130,
+            "CloudPlugin": true
+        },
+        {
+            "Name": "CashDrawerReport",
+            "RelativePath": "/cash-drawer-report",
+            "Icon": 130,
+            "CloudPlugin": true
+        }
+    ]
+}...
+(file total lines: 69)
+
+########## /mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/production-stable.json ##########
+{
+	"environment": "production",
+	"channel": "stable",
+	"cloudBackendUrl": "https://qcloud.qubicaamf.com",
+	"localCA": "https://dist.qubicaamf.com/localca/QubicaAMF-LocalCA.cer",
+	"appInsightsConnString": "InstrumentationKey=fb12b2df-4e62-487f-a8c6-74a29fad9346;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=6c9b3b35-9eb6-4bc2-9d25-73e1a4a719f5",
+	"accountPageUrl": "",
+	"helpSiteUrl": "",
+	"bowlerUrl": "",
+	"bowlerUrlBeta": "",
+	"qportalUrl": "https://qportal.qubicaamf.com",
+	"qportalUrlBeta": "",
+	"qdeskUrl": "",
+	"qdeskUrlBeta": "",
+	"adb2cAuth": {},
+	"oidcAuth": {},
+	"mixPanelProjectId": "",
+	"amplitudeProjectId": ""
+}
+...
+(file total lines: 19)
+
+########## /mnt/c/QDesk/Bin/ConquerorServer/CenterReservationSvc.Database.dll.config ##########
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.ComponentModel.Annotations" publicKeyToken="[REDACTED]" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.2.1.0" newVersion="4.2.1.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>...
+(file total lines: 10)
+
+########## /mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/server.config ##########
+{
+    "experienceIntervals": { "static": 10000, "video": 6000 },
+    "highscoresInterval": 20000,
+    "loglevel": "TRACE"
+}
+...
+(file total lines: 5)

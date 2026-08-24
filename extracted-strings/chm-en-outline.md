@@ -1,0 +1,2035 @@
+# ConquerorX Help — Extracted Table of Contents
+
+Source: `C:\QDesk\Bin\Help\ConquerorHelp_EN.chm` v15.18.0.
+
+Extracted via Windows `hh.exe -decompile`. Full HTML corpus lives in
+`extracted-strings/chm-en/`. 535 topic pages under this table of contents.
+
+## Outline
+
+- 
+- MAIN MENU  · `Conqueror-2-001.html`
+  - 1.  Conqueror Main Menu  · `Conqueror-2-002.html`
+  - 2.  Main Menu  · `Conqueror-2-003.html`
+    - 2.1  Quick Access  · `Conqueror-2-003.html#wp9000008`
+    - 2.2  Front Desk  · `Conqueror-2-004.html`
+    - 2.3  POS  · `Conqueror-2-005.html`
+    - 2.4  Back Office  · `Conqueror-2-006.html`
+    - 2.5  Setup  · `Conqueror-2-007.html`
+    - 2.6  Utilities  · `Conqueror-2-008.html`
+      - Windows Access  · `Conqueror-2-008.html#wp9000022`
+    - 2.7  Search Bar  · `Conqueror-2-009.html`
+    - 2.8  Sticky Notes  · `Conqueror-2-010.html`
+  - 3.  TopNav and External Frame  · `Conqueror-2-011.html`
+    - 3.1  TopNav bar  · `Conqueror-2-012.html`
+      - Version in use  · `Conqueror-2-012.html#wp9000032`
+      - Cloud Connection  · `Conqueror-2-012.html#wp9000034`
+      - Help on-line  · `Conqueror-2-012.html#wp9000035`
+      - Shift Check  · `Conqueror-2-012.html#wp9000052`
+      - Urgent Tasks  · `Conqueror-2-012.html#wp9000054`
+      - Time and Date  · `Conqueror-2-012.html#wp9000056`
+      - User  · `Conqueror-2-012.html#wp9000058`
+    - 3.2  External Frame  · `Conqueror-2-013.html`
+      - Bowling Mode  · `Conqueror-2-013.html#wp9000061`
+      - Quick Buttons  · `Conqueror-2-013.html#wp9000064`
+      - Task Holding  · `Conqueror-2-013.html#wp9000066`
+    - 3.3  Stop Button  · `Conqueror-2-014.html`
+  - 4.  User Messages  · `Conqueror-2-015.html`
+    - 4.1  Marking User Messages  · `Conqueror-2-016.html`
+    - 4.2  Deleting a User Message  · `Conqueror-2-017.html`
+    - 4.3  Table  · `Conqueror-2-018.html`
+  - 5.  Utilities  · `Conqueror-2-019.html`
+    - 5.1  About Conqueror  · `Conqueror-2-020.html`
+    - 5.2  Database  · `Conqueror-2-021.html`
+      - Database Backup  · `Conqueror-2-021.html#wp9000105`
+      - Database Restore  · `Conqueror-2-021.html#wp9000112`
+      - Database Cleanup  · `Conqueror-2-021.html#wp9000119`
+    - 5.3  Marketing Kits  · `Conqueror-2-022.html`
+    - 5.4  Technical Support  · `Conqueror-2-023.html`
+  - 6.  Keyboard Shortcuts  · `Conqueror-2-024.html`
+    - F1  · `Conqueror-2-024.html#wp9000139`
+    - Shift + F1  · `Conqueror-2-024.html#wp9000141`
+    - F10  · `Conqueror-2-024.html#wp9000143`
+    - Ctrl + F1-F9  · `Conqueror-2-024.html#wp9000145`
+    - Ctrl + 0-9  · `Conqueror-2-024.html#wp9000147`
+    - Tab  · `Conqueror-2-024.html#wp9000149`
+    - Shift + Tab  · `Conqueror-2-024.html#wp9000151`
+    - Esc  · `Conqueror-2-024.html#wp9000153`
+    - Shift + Esc (or Alt + F4)  · `Conqueror-2-024.html#wp9000155`
+    - Windows Key  · `Conqueror-2-024.html#wp9000157`
+    - Alt + Tab  · `Conqueror-2-024.html#wp9000159`
+- POINT OF SALE  · `Conqueror-2-025.html`
+  - 1.  Overview  · `Conqueror-2-026.html`
+  - 2.  Sales  · `Conqueror-2-027.html`
+    - 2.1  Selling Items  · `Conqueror-2-028.html`
+      - Selling Multiple Items  · `Conqueror-2-028.html#wp9000186`
+      - Adding Modifiers  · `Conqueror-2-028.html#wp9000192`
+      - Selecting Menu Choices  · `Conqueror-2-028.html#wp9000197`
+      - Inserting a Note  · `Conqueror-2-028.html#wp9000201`
+      - Deleting a Row  · `Conqueror-2-028.html#wp9000203`
+      - Voiding a Price Key  · `Conqueror-2-028.html#wp9000206`
+      - Applying Discounts  · `Conqueror-2-028.html#wp9000210`
+      - Clearing a Bill  · `Conqueror-2-028.html#wp9000215`
+      - Assigning a Transaction to a Member  · `Conqueror-2-028.html#wp9000217`
+      - Adding a Tip  · `Conqueror-2-028.html#wp9000225`
+      - Creating a New Tab  · `Conqueror-2-028.html#wp9000227`
+      - Saving Items within a Tab  · `Conqueror-2-028.html#wp9000231`
+      - Managing Tabs  · `Conqueror-2-028.html#wp9000237`
+      - Proceeding with Payment  · `Conqueror-2-028.html#wp9000239`
+      - Undoing a Payment and Reprinting a Receipt  · `Conqueror-2-028.html#wp9000241`
+    - 2.2  Recharging Prepaid Cards  · `Conqueror-2-029.html`
+    - 2.3  Selling Beverages through Dispenser  · `Conqueror-2-030.html`
+    - 2.4  Sending Orders to Kitchen Printer  · `Conqueror-2-031.html`
+  - 3.  Tabs  · `Conqueror-2-032.html`
+    - Creating a Tab Manually  · `Conqueror-2-032.html#wp9000279`
+    - Sorting Tabs  · `Conqueror-2-032.html#wp9000286`
+    - Deleting a Tab  · `Conqueror-2-032.html#wp9000289`
+    - Tabs Automatically Created  · `Conqueror-2-032.html#wp9000292`
+    - Incoming Reservation Tabs  · `Conqueror-2-032.html#wp9000297`
+    - Merging Tabs  · `Conqueror-2-032.html#wp9000301`
+    - Credit Card and Seamless Transactions  · `Conqueror-2-032.html#wp9000309`
+    - Printing the Bill  · `Conqueror-2-032.html#wp9000313`
+  - 4.  Gratuities and Tips  · `Conqueror-2-033.html`
+    - Automatic Gratuities  · `Conqueror-2-033.html#wp9000324`
+    - Collecting a Payment  · `Conqueror-2-033.html#wp9000328`
+    - Shift Reports  · `Conqueror-2-033.html#wp9000334`
+  - 5.  Payments  · `Conqueror-2-034.html`
+    - 5.1  Payment Window  · `Conqueror-2-034.html#wp9000338`
+    - 5.2  Special Payments  · `Conqueror-2-035.html`
+      - Paying with QCash  · `Conqueror-2-035.html#wp9000357`
+      - Paying by Credit Card  · `Conqueror-2-035.html#wp9000362`
+      - Paying by Debit Card  · `Conqueror-2-035.html#wp9000366`
+      - Paying with Player Club Cash  · `Conqueror-2-035.html#wp9000370`
+      - Paying with a Prepaid Credit Card  · `Conqueror-2-035.html#wp9000373`
+      - Paying with Member Account  · `Conqueror-2-035.html#wp9000377`
+    - 5.3  Paying Separately  · `Conqueror-2-036.html`
+    - 5.4  Dividing the Bill in Equal Portions  · `Conqueror-2-037.html`
+    - 5.5  Reprinting a Receipt  · `Conqueror-2-038.html`
+    - 5.6  Undoing Payments  · `Conqueror-2-039.html`
+      - Restrictions  · `Conqueror-2-039.html#wp9000402`
+    - 5.7  Opening the Cash Drawer  · `Conqueror-2-040.html`
+  - 6.  Expenses  · `Conqueror-2-041.html`
+  - 7.  Deposits  · `Conqueror-2-042.html`
+  - 8.  Refunds  · `Conqueror-2-043.html`
+  - 9.  Tax Exemption Handling  · `Conqueror-2-044.html`
+    - 9.1  Payment Modes  · `Conqueror-2-045.html`
+    - 9.2  Tax-exempt ID Linked to FB  · `Conqueror-2-046.html`
+      - Reservations  · `Conqueror-2-046.html#wp9000442`
+      - Web Reservations  · `Conqueror-2-046.html#wp9000445`
+    - 9.3  Reporting  · `Conqueror-2-047.html`
+      - Summary Section in Shift Report  · `Conqueror-2-047.html#wp9000449`
+      - Shift Report Grouped by Tax Exemption  · `Conqueror-2-047.html#wp9000451`
+      - Historical Report Grouped by Tax Exemption  · `Conqueror-2-047.html#wp9000453`
+    - 9.4  Tax-exempt Exports  · `Conqueror-2-048.html`
+      - Export to Dassle (QCAD)  · `Conqueror-2-048.html#wp9000459`
+      - Export to QuickBooks Desktop  · `Conqueror-2-048.html#wp9000461`
+  - 10.  Credit Card Transactions  · `Conqueror-2-049.html`
+    - From...To...  · `Conqueror-2-049.html#wp9000477`
+    - Reprint  · `Conqueror-2-049.html#wp9000479`
+    - Void  · `Conqueror-2-049.html#wp9000481`
+    - Refresh  · `Conqueror-2-049.html#wp9000483`
+    - Web or Local  · `Conqueror-2-049.html#wp9000485`
+    - 10.1  Batch Summary  · `Conqueror-2-050.html`
+  - 11.  Payment Provider Setup  · `Conqueror-2-051.html`
+    - License and Additional Hardware  · `Conqueror-2-051.html#wp9000495`
+    - Payment Mode Activation  · `Conqueror-2-051.html#wp9000497`
+    - Provider Setup  · `Conqueror-2-051.html#wp9000499`
+    - 11.1  Local Payment Providers  · `Conqueror-2-052.html`
+      - PAYwareConnect Settings  · `Conqueror-2-052.html#wp9000505`
+      - PAYwarePC Settings  · `Conqueror-2-052.html#wp9000509`
+      - PCCharge Settings  · `Conqueror-2-052.html#wp9000513`
+      - Mercury Settings  · `Conqueror-2-052.html#wp9000515`
+    - 11.2  Web Payment Providers  · `Conqueror-2-053.html`
+  - 12.  POS Setup  · `Conqueror-2-054.html`
+    - Tip Management  · `Conqueror-2-054.html#wp9000523`
+    - Use Tabs Screen as POS Main Window  · `Conqueror-2-054.html#wp9000525`
+    - Display Price Keys Needing Authorization  · `Conqueror-2-054.html#wp9000527`
+    - Kitchen Printer Profiles  · `Conqueror-2-054.html#wp9000531`
+    - Tab Assigned to the Last Operator  · `Conqueror-2-054.html#wp9000536`
+    - Organization Number  · `Conqueror-2-054.html#wp9000538`
+    - 12.1  Accounting Software Interfaces  · `Conqueror-2-055.html`
+      - Micros  · `Conqueror-2-055.html#wp9000543`
+      - WinTic  · `Conqueror-2-055.html#wp9000545`
+    - 12.2  Prepaid Cards  · `Conqueror-2-056.html`
+    - 12.3  Customizable POS Layout  · `Conqueror-2-057.html`
+      - Moving Price Keys  · `Conqueror-2-057.html#wp9000567`
+      - Forming Groups of Price Keys  · `Conqueror-2-057.html#wp9000572`
+- LANE MANAGEMENT  · `Conqueror-2-058.html`
+  - 1.  Overview  · `Conqueror-2-059.html`
+  - 2.  Key Concepts  · `Conqueror-2-060.html`
+    - 2.1  Opening Modes  · `Conqueror-2-060.html#wp9000587`
+      - Games  · `Conqueror-2-060.html#wp9000589`
+      - Time  · `Conqueror-2-060.html#wp9000592`
+      - Unlimited  · `Conqueror-2-060.html#wp9000594`
+      - Coin-op  · `Conqueror-2-060.html#wp9000596`
+    - 2.2  Pre-assigned and Post-assigned  · `Conqueror-2-061.html`
+      - Pre-assigned  · `Conqueror-2-061.html#wp9000599`
+      - Post-assigned  · `Conqueror-2-061.html#wp9000604`
+  - 3.  Lane Status  · `Conqueror-2-062.html`
+    - 3.1  Lane Tile Layout  · `Conqueror-2-063.html`
+      - Lane Icon Legend  · `Conqueror-2-063.html#wp9000616`
+    - 3.2  The Control Panel  · `Conqueror-2-064.html`
+      - Select Lanes  · `Conqueror-2-064.html#wp9000636`
+      - Next Lane and Next Pair  · `Conqueror-2-064.html#wp9000643`
+      - Opening Modes  · `Conqueror-2-064.html#wp9000649`
+      - Pinsetter  · `Conqueror-2-064.html#wp9000656`
+      - Special Functions  · `Conqueror-2-064.html#wp9000661`
+      - Workshop  · `Conqueror-2-064.html#wp9000663`
+      - Mechanic Service  · `Conqueror-2-064.html#wp9000668`
+      - Shoes  · `Conqueror-2-064.html#wp9000670`
+      - Print Games  · `Conqueror-2-064.html#wp9000672`
+      - Waiting List  · `Conqueror-2-064.html#wp9000675`
+      - Transfer  · `Conqueror-2-064.html#wp9000677`
+      - Score  · `Conqueror-2-064.html#wp9000681`
+      - Options  · `Conqueror-2-064.html#wp9000683`
+      - Modify  · `Conqueror-2-064.html#wp9000685`
+      - Void  · `Conqueror-2-064.html#wp9000688`
+      - Park  · `Conqueror-2-064.html#wp9000690`
+      - Close  · `Conqueror-2-064.html#wp9000694`
+  - 4.  Lane Control  · `Conqueror-2-065.html`
+    - Window Title  · `Conqueror-2-065.html#wp9000700`
+    - Player Info  · `Conqueror-2-065.html#wp9000702`
+    - Fast Sale Items  · `Conqueror-2-065.html#wp9000704`
+    - Prices  · `Conqueror-2-065.html#wp9000706`
+    - Games/Time  · `Conqueror-2-065.html#wp9000710`
+    - Total  · `Conqueror-2-065.html#wp9000713`
+    - Due  · `Conqueror-2-065.html#wp9000716`
+    - Selection Column  · `Conqueror-2-065.html#wp9000718`
+    - Extra Frames  · `Conqueror-2-065.html#wp9000720`
+    - Scroll Arrows  · `Conqueror-2-065.html#wp9000722`
+    - Lane Purchases  · `Conqueror-2-065.html#wp9000724`
+    - Selected Totals  · `Conqueror-2-065.html#wp9000726`
+    - Grand Totals  · `Conqueror-2-065.html#wp9000728`
+    - Extra Frame Details  · `Conqueror-2-065.html#wp9000730`
+  - 5.  Opening a Lane  · `Conqueror-2-066.html`
+    - 5.2  Quick Opening  · `Conqueror-2-067.html`
+      - Open Now/Pay Now/Pay Later  · `Conqueror-2-067.html#wp9000742`
+    - 5.3  Number of Bowlers and Bowler Options  · `Conqueror-2-068.html`
+      - Quick Insertion of Families and Groups  · `Conqueror-2-068.html#wp9000757`
+    - 5.4  Quantities  · `Conqueror-2-069.html`
+    - 5.5  Price Keys  · `Conqueror-2-070.html`
+      - Default Price Keys  · `Conqueror-2-070.html#wp9000769`
+      - Time Limit  · `Conqueror-2-070.html#wp9000778`
+    - 5.6  Lane Options  · `Conqueror-2-071.html`
+    - 5.7  Selling POS Items  · `Conqueror-2-072.html`
+    - 5.8  Practice  · `Conqueror-2-073.html`
+    - 5.9  Opening a Booked Lane  · `Conqueror-2-074.html`
+  - 6.  Managing an Open Lane  · `Conqueror-2-075.html`
+    - 6.2  Adding a Bowler  · `Conqueror-2-076.html`
+    - 6.3  Collecting Partial Payments  · `Conqueror-2-077.html`
+    - 6.4  Checking a Bowler out  · `Conqueror-2-078.html`
+    - 6.5  Printing Scores  · `Conqueror-2-079.html`
+    - 6.6  Voiding a Lane Opening  · `Conqueror-2-080.html`
+    - 6.7  Refunding Items  · `Conqueror-2-081.html`
+      - Procedure  · `Conqueror-2-081.html#wp9000807`
+  - 7.  Closing a Lane  · `Conqueror-2-082.html`
+    - 7.2  Viewing Prizes  · `Conqueror-2-083.html`
+    - 7.3  Global Price Assignment  · `Conqueror-2-084.html`
+      - Procedure  · `Conqueror-2-084.html#wp9000826`
+      - Rounding and Combining  · `Conqueror-2-084.html#wp9000828`
+    - 7.4  Proportional Payment  · `Conqueror-2-085.html`
+  - 8.  Parking a Lane  · `Conqueror-2-086.html`
+    - Retrieving a Parked Lane  · `Conqueror-2-086.html#wp9000845`
+  - 9.  Group Lane Management  · `Conqueror-2-087.html`
+    - 9.2  Group Opening  · `Conqueror-2-088.html`
+      - Assigning Players  · `Conqueror-2-088.html#wp9000854`
+      - Practice Setup  · `Conqueror-2-088.html#wp9000857`
+      - Fast Sale Items  · `Conqueror-2-088.html#wp9000859`
+      - Price Keys  · `Conqueror-2-088.html#wp9000861`
+      - Time/Games/Ticket Distribution  · `Conqueror-2-088.html#wp9000863`
+      - Totals  · `Conqueror-2-088.html#wp9000865`
+      - Partial Opening  · `Conqueror-2-088.html#wp9000867`
+    - 9.3  Group Closure  · `Conqueror-2-089.html`
+      - Closing a Group of Lanes  · `Conqueror-2-089.html#wp9000871`
+  - 10.  Waiting List  · `Conqueror-2-090.html`
+    - Printing Item Receipts  · `Conqueror-2-090.html#wp9000880`
+    - Ordering Items  · `Conqueror-2-090.html#wp9000882`
+    - Resetting Item ID Number  · `Conqueror-2-090.html#wp9000884`
+    - 10.1  Creating an Item  · `Conqueror-2-091.html`
+    - 10.2  Modifying an Item  · `Conqueror-2-092.html`
+    - 10.3  Revealing Item Details  · `Conqueror-2-093.html`
+    - 10.4  Removing an Item  · `Conqueror-2-094.html`
+    - 10.5  Sending an Item to the Lane  · `Conqueror-2-095.html`
+    - 10.6  SMS Notifications  · `Conqueror-2-096.html`
+      - Conqueror Pro Settings  · `Conqueror-2-096.html#wp9000905`
+      - Twilio Setup  · `Conqueror-2-096.html#wp9000919`
+      - Inserting a New Item in the Waiting List  · `Conqueror-2-096.html#wp9000922`
+      - Sending Notifications and Modifying Item Details  · `Conqueror-2-096.html#wp9000924`
+      - Waiting List Display  · `Conqueror-2-096.html#wp9000929`
+  - 11.  Score  · `Conqueror-2-097.html`
+    - Modifying Bowler Score  · `Conqueror-2-097.html#wp9000938`
+    - Scroll Lanes  · `Conqueror-2-097.html#wp9000940`
+    - Delay  · `Conqueror-2-097.html#wp9000942`
+    - Special Functions  · `Conqueror-2-097.html#wp9000944`
+    - Practice  · `Conqueror-2-097.html#wp9000947`
+    - View Prizes  · `Conqueror-2-097.html#wp9000949`
+    - Print  · `Conqueror-2-097.html#wp9000954`
+  - 12.  Bowler Options  · `Conqueror-2-099.html`
+    - Name  · `Conqueror-2-099.html#wp9000962`
+    - Games/Time  · `Conqueror-2-099.html#wp9000966`
+    - Handicap  · `Conqueror-2-099.html#wp9000968`
+    - Start Mode  · `Conqueror-2-099.html#wp9000970`
+    - Delete  · `Conqueror-2-099.html#wp9000972`
+    - Birthday Photo  · `Conqueror-2-099.html#wp9000974`
+    - Search  · `Conqueror-2-099.html#wp9000976`
+    - Info  · `Conqueror-2-099.html#wp9000978`
+    - Bowler Price  · `Conqueror-2-099.html#wp9000980`
+    - OK  · `Conqueror-2-099.html#wp9000982`
+    - 12.1  Bowler Type  · `Conqueror-2-100.html`
+      - Pacer  · `Conqueror-2-100.html#wp9000986`
+      - Regular  · `Conqueror-2-100.html#wp9000988`
+      - Blind  · `Conqueror-2-100.html#wp9001001`
+      - Best Ball  · `Conqueror-2-100.html#wp9001003`
+      - Best Frame  · `Conqueror-2-100.html#wp9001008`
+      - Vacant  · `Conqueror-2-100.html#wp9001011`
+      - Pre-bowled  · `Conqueror-2-100.html#wp9001013`
+      - Player and Team Attribute  · `Conqueror-2-100.html#wp9001016`
+  - 13.  Special Functions - BES &amp; Bowland  · `Conqueror-2-101.html`
+    - Split/Merge  · `Conqueror-2-101.html#wp9001023`
+    - Last  · `Conqueror-2-101.html#wp9001027`
+    - TV  · `Conqueror-2-101.html#wp9001029`
+    - Reopen  · `Conqueror-2-101.html#wp9001033`
+    - Skip Boot Error  · `Conqueror-2-101.html#wp9001036`
+    - Transfer Bowlers  · `Conqueror-2-101.html#wp9001040`
+    - Pogo Pin  · `Conqueror-2-101.html#wp9001043`
+    - Strike Challenge  · `Conqueror-2-101.html#wp9001046`
+    - Lucky Train  · `Conqueror-2-101.html#wp9001049`
+    - Swap  · `Conqueror-2-101.html#wp9001052`
+    - Keyboard  · `Conqueror-2-101.html#wp9001054`
+    - Volume  · `Conqueror-2-101.html#wp9001056`
+    - Monitor Image  · `Conqueror-2-101.html#wp9001060`
+    - Restore Last Game  · `Conqueror-2-101.html#wp9001062`
+    - Lane Lights  · `Conqueror-2-101.html#wp9001066`
+    - 13.1  Pogo Pin  · `Conqueror-2-102.html`
+      - Pogo Pin Setup  · `Conqueror-2-102.html#wp9001084`
+    - 13.2  Lucky Train  · `Conqueror-2-103.html`
+      - Lucky Train Setup  · `Conqueror-2-103.html#wp9001097`
+  - 14.  Special Functions - Universal  · `Conqueror-2-104.html`
+    - Advertising  · `Conqueror-2-104.html#wp9001107`
+    - Clear NV  · `Conqueror-2-104.html#wp9001110`
+    - Hold Lane  · `Conqueror-2-104.html#wp9001113`
+    - Intercom  · `Conqueror-2-104.html#wp9001117`
+    - Keyboard  · `Conqueror-2-104.html#wp9001120`
+    - Mask Color  · `Conqueror-2-104.html#wp9001123`
+    - Monitor On/Off  · `Conqueror-2-104.html#wp9001128`
+    - New Game Button  · `Conqueror-2-104.html#wp9001131`
+    - Reboot  · `Conqueror-2-104.html#wp9001136`
+    - Reopen  · `Conqueror-2-104.html#wp9001139`
+    - Reset Lane  · `Conqueror-2-104.html#wp9001142`
+    - Restart Bumpers  · `Conqueror-2-104.html#wp9001144`
+    - Reverse Arrow  · `Conqueror-2-104.html#wp9001147`
+    - Split/Merge  · `Conqueror-2-104.html#wp9001151`
+    - Start New Game  · `Conqueror-2-104.html#wp9001155`
+    - Touchscreen  · `Conqueror-2-104.html#wp9001158`
+    - TV  · `Conqueror-2-104.html#wp9001161`
+    - Send Password  · `Conqueror-2-104.html#wp9001166`
+  - 15.  Lane Options - BES &amp; Bowland  · `Conqueror-2-105.html`
+    - 15.2  Basic  · `Conqueror-2-106.html`
+      - Environment  · `Conqueror-2-106.html#wp9001184`
+      - Practice  · `Conqueror-2-106.html#wp9001189`
+      - Classic Game &amp; Skill Games  · `Conqueror-2-106.html#wp9001197`
+      - Special Games  · `Conqueror-2-106.html#wp9001199`
+      - YOUTOONS  · `Conqueror-2-106.html#wp9001202`
+      - Special Games for All  · `Conqueror-2-106.html#wp9001204`
+      - Redemption  · `Conqueror-2-106.html#wp9001207`
+      - Bumpers  · `Conqueror-2-106.html#wp9001210`
+      - 5 Frames Mode  · `Conqueror-2-106.html#wp9001212`
+      - Keyboard  · `Conqueror-2-106.html#wp9001215`
+      - Environment from Console  · `Conqueror-2-106.html#wp9001219`
+      - Animation  · `Conqueror-2-106.html#wp9001222`
+      - Sound  · `Conqueror-2-106.html#wp9001225`
+      - Speed  · `Conqueror-2-106.html#wp9001228`
+      - Spare Finder  · `Conqueror-2-106.html#wp9001230`
+      - Swap Lanes  · `Conqueror-2-106.html#wp9001238`
+      - Swap Every Game  · `Conqueror-2-106.html#wp9001240`
+      - Disable Ball Cycle  · `Conqueror-2-106.html#wp9001242`
+      - Language  · `Conqueror-2-106.html#wp9001244`
+    - 15.3  Advanced  · `Conqueror-2-107.html`
+      - Pinsetter on with Sign-in Screen  · `Conqueror-2-107.html#wp9001247`
+      - Begin Practice When First Ball is Thrown  · `Conqueror-2-107.html#wp9001250`
+      - Warning Message  · `Conqueror-2-107.html#wp9001254`
+      - Print Score after Closure  · `Conqueror-2-107.html#wp9001258`
+      - Stop Game  · `Conqueror-2-107.html#wp9001262`
+      - Score Correction  · `Conqueror-2-107.html#wp9001271`
+      - Delete Throw  · `Conqueror-2-107.html#wp9001275`
+      - Your Lane Your Way  · `Conqueror-2-107.html#wp9001279`
+      - Foul Input Check  · `Conqueror-2-107.html#wp9001282`
+      - Light setting  · `Conqueror-2-107.html#wp9001286`
+      - Picture Validation  · `Conqueror-2-107.html#wp9001291`
+      - Speed Limit  · `Conqueror-2-107.html#wp9001294`
+      - Hyper Speed Limit  · `Conqueror-2-107.html#wp9001297`
+      - Advanced Foul Mode  · `Conqueror-2-107.html#wp9001299`
+      - Game Eligibility  · `Conqueror-2-107.html#wp9001305`
+      - Club  · `Conqueror-2-107.html#wp9001307`
+      - Slow Bowling  · `Conqueror-2-107.html#wp9001311`
+      - Walk Down Time  · `Conqueror-2-107.html#wp9001313`
+      - Upper and Lower Monitor Mode  · `Conqueror-2-107.html#wp9001318`
+      - Welcome Screen  · `Conqueror-2-107.html#wp9001329`
+    - 15.4  Bowling and Lane Services  · `Conqueror-2-108.html`
+      - Bowling Services  · `Conqueror-2-108.html#wp9001353`
+      - Disable Automatic Recap  · `Conqueror-2-108.html#wp9001360`
+      - Lane On Advertising  · `Conqueror-2-108.html#wp9001362`
+      - Intercom  · `Conqueror-2-108.html#wp9001369`
+      - Lane Chatter  · `Conqueror-2-108.html#wp9001371`
+      - Bowler Photo  · `Conqueror-2-108.html#wp9001374`
+      - Selfie Grid Photo  · `Conqueror-2-108.html#wp9001376`
+      - GameConnect  · `Conqueror-2-108.html#wp9001378`
+      - Virtual Waiter  · `Conqueror-2-108.html#wp9001381`
+      - Video Intercom  · `Conqueror-2-108.html#wp9001384`
+      - Takeaway Picture Message  · `Conqueror-2-108.html#wp9001387`
+      - SuperTouch Slideshow  · `Conqueror-2-108.html#wp9001390`
+    - 15.5  Modifications  · `Conqueror-2-109.html`
+      - Correct Bowler  · `Conqueror-2-109.html#wp9001401`
+      - Modify Bowler Name  · `Conqueror-2-109.html#wp9001403`
+      - Modify Bowler Handicap  · `Conqueror-2-109.html#wp9001405`
+      - Change Line up  · `Conqueror-2-109.html#wp9001407`
+      - Edit Blind Score  · `Conqueror-2-109.html#wp9001409`
+      - Skip/Unskip a Bowler  · `Conqueror-2-109.html#wp9001411`
+      - Modify Bumper Status  · `Conqueror-2-109.html#wp9001414`
+      - Modify Bowler Gender  · `Conqueror-2-109.html#wp9001416`
+      - Modify Bowler Hand  · `Conqueror-2-109.html#wp9001418`
+      - Edit Prebowled Scores  · `Conqueror-2-109.html#wp9001420`
+      - Select Special Game Bowler  · `Conqueror-2-109.html#wp9001422`
+      - Substitute League Bowler  · `Conqueror-2-109.html#wp9001424`
+      - Edit No Tap Values  · `Conqueror-2-109.html#wp9001426`
+      - Add/Remove Bowler  · `Conqueror-2-109.html#wp9001428`
+      - FB Sign in  · `Conqueror-2-109.html#wp9001435`
+      - Correct Team  · `Conqueror-2-109.html#wp9001437`
+      - Display Card Hands  · `Conqueror-2-109.html#wp9001439`
+      - Give/Remove a Card  · `Conqueror-2-109.html#wp9001441`
+    - 15.6  Qubica Key  · `Conqueror-2-110.html`
+      - Substitute League Bowler  · `Conqueror-2-110.html#wp9001448`
+      - Add New League Bowler  · `Conqueror-2-110.html#wp9001450`
+      - Edit Pre-bowled League Scores  · `Conqueror-2-110.html#wp9001452`
+      - Set a Pacer  · `Conqueror-2-110.html#wp9001454`
+      - Edit Team Handicap  · `Conqueror-2-110.html#wp9001456`
+      - Insert/Remove a Team Member  · `Conqueror-2-110.html#wp9001458`
+      - Edit Blind Scores  · `Conqueror-2-110.html#wp9001461`
+      - Skip a Bowler  · `Conqueror-2-110.html#wp9001463`
+      - Change Line up  · `Conqueror-2-110.html#wp9001466`
+      - Display Team Info  · `Conqueror-2-110.html#wp9001468`
+      - Modify Bowler Name/Handicap  · `Conqueror-2-110.html#wp9001470`
+      - Display Bowler Options  · `Conqueror-2-110.html#wp9001472`
+      - Modify Bumper Status  · `Conqueror-2-110.html#wp9001474`
+      - Select Special Game Bowlers  · `Conqueror-2-110.html#wp9001476`
+      - Edit QFlash Value  · `Conqueror-2-110.html#wp9001478`
+      - Display Card Hands  · `Conqueror-2-110.html#wp9001480`
+      - Give a Card to a Bowler/Take a Card from a Bowler  · `Conqueror-2-110.html#wp9001482`
+      - Edit No Tap Values  · `Conqueror-2-110.html#wp9001485`
+      - Select Best Ball Bowler  · `Conqueror-2-110.html#wp9001487`
+      - Select Best Frame Bowler  · `Conqueror-2-110.html#wp9001490`
+    - 15.7  Score Style  · `Conqueror-2-111.html`
+      - Display Consecutive Strikes  · `Conqueror-2-111.html#wp9001494`
+      - Display Incomplete Frames  · `Conqueror-2-111.html#wp9001497`
+      - Handicap per Frame  · `Conqueror-2-111.html#wp9001500`
+      - Incomplete Frames in Team Total  · `Conqueror-2-111.html#wp9001502`
+      - Display Game Total with Handicap  · `Conqueror-2-111.html#wp9001504`
+      - Bowler Initials  · `Conqueror-2-111.html#wp9001506`
+      - Message in Pair Mode  · `Conqueror-2-111.html#wp9001508`
+      - Change Grid Color with Game  · `Conqueror-2-111.html#wp9001511`
+      - Strike = X - Spare = /  · `Conqueror-2-111.html#wp9001514`
+      - Reset Message  · `Conqueror-2-111.html#wp9001517`
+      - Carry over Game Total  · `Conqueror-2-111.html#wp9001519`
+      - Highlight Pre-paid  · `Conqueror-2-111.html#wp9001521`
+      - Frame/Time Counter  · `Conqueror-2-111.html#wp9001523`
+      - Zoom to 5 Frames  · `Conqueror-2-111.html#wp9001526`
+      - Zoom Frame Numbers  · `Conqueror-2-111.html#wp9001528`
+      - Smart Best Game  · `Conqueror-2-111.html#wp9001531`
+      - All Bowlers on Screen  · `Conqueror-2-111.html#wp9001535`
+      - Carry over Best Game  · `Conqueror-2-111.html#wp9001538`
+      - Show Empty Frames  · `Conqueror-2-111.html#wp9001541`
+      - Flip Screens in Pair Mode  · `Conqueror-2-111.html#wp9001545`
+      - Display Bowler Total  · `Conqueror-2-111.html#wp9001548`
+      - Display Team Total  · `Conqueror-2-111.html#wp9001551`
+      - Only complete games in totals  · `Conqueror-2-111.html#wp9001554`
+    - 15.8  External Devices  · `Conqueror-2-112.html`
+    - 15.9  Classic Games  · `Conqueror-2-113.html`
+      - 3 6 9  · `Conqueror-2-113.html#wp9001567`
+      - Even Better  · `Conqueror-2-113.html#wp9001570`
+      - Head Hunter  · `Conqueror-2-113.html#wp9001576`
+      - Last Pin Standing  · `Conqueror-2-113.html#wp9001584`
+      - Low Game  · `Conqueror-2-113.html#wp9001594`
+      - No Tap  · `Conqueror-2-113.html#wp9001598`
+      - Odd Duck  · `Conqueror-2-113.html#wp9001600`
+      - Odds and Evens  · `Conqueror-2-113.html#wp9001606`
+    - 15.10  Signature Grids  · `Conqueror-2-114.html`
+      - Foreground and Background  · `Conqueror-2-114.html#wp9001614`
+      - Change Grid Color with Game  · `Conqueror-2-114.html#wp9001616`
+      - Loading Custom Pictures  · `Conqueror-2-114.html#wp9001618`
+      - Animation Set  · `Conqueror-2-114.html#wp9001623`
+      - Webcam Picture  · `Conqueror-2-114.html#wp9001625`
+      - Picture Validation  · `Conqueror-2-114.html#wp9001627`
+    - 15.11   Selfie Grids  · `Conqueror-2-115.html`
+      - Foreground and Background  · `Conqueror-2-115.html#wp9001638`
+      - Picture Validation  · `Conqueror-2-115.html#wp9001640`
+  - 16.  BES Birthday Parties  · `Conqueror-2-116.html`
+    - 16.2  Enabling a Birthday Party on the Lanes  · `Conqueror-2-117.html`
+      - By Choosing the Default Birthday Lane Option Set  · `Conqueror-2-117.html#wp9001649`
+      - By Choosing a Customized Session  · `Conqueror-2-117.html#wp9001653`
+    - 16.3  Creating the Picture List to be Displayed on the Lanes  · `Conqueror-2-118.html`
+  - 17.  Redemption Ticket Management  · `Conqueror-2-119.html`
+    - 17.2  Reporting  · `Conqueror-2-120.html`
+  - 18.  Lights - Lane Effects  · `Conqueror-2-121.html`
+    - States and Events Default Effects  · `Conqueror-2-121.html#wp9001681`
+    - Managing New Light Effect Combinations  · `Conqueror-2-121.html#wp9001683`
+    - Customizing a Light Effect  · `Conqueror-2-121.html#wp9001685`
+    - Overriding Lane Effect or Global Mood  · `Conqueror-2-121.html#wp9001689`
+    - Associating a Light Combination to a Bowling Mode  · `Conqueror-2-121.html#wp9001691`
+    - Light Effect Combination Lane Option  · `Conqueror-2-121.html#wp9001693`
+    - Lane Lighting Server Setup  · `Conqueror-2-121.html#wp9001695`
+    - Open Lane Console Light  · `Conqueror-2-121.html#wp9001699`
+  - 19.  Lights - Global Moods  · `Conqueror-2-122.html`
+    - 19.1  Managing Global Moods  · `Conqueror-2-123.html`
+    - 19.2  Managing Sequences  · `Conqueror-2-124.html`
+    - 19.3  Sequence Item Setup  · `Conqueror-2-125.html`
+      - Modifying Lane Lights and Capping lights  · `Conqueror-2-125.html#wp9001723`
+  - 20.  Lane Options - BOSS  · `Conqueror-2-126.html`
+    - Bowler Keyboard  · `Conqueror-2-126.html#wp9001735`
+    - Action Graphics  · `Conqueror-2-126.html#wp9001737`
+    - Pindication  · `Conqueror-2-126.html#wp9001739`
+    - Spare Maker  · `Conqueror-2-126.html#wp9001741`
+    - Color Sequencing  · `Conqueror-2-126.html#wp9001744`
+    - Exciter Bumper Lights  · `Conqueror-2-126.html#wp9001746`
+    - Bumpers  · `Conqueror-2-126.html#wp9001748`
+    - Bumpers by Player  · `Conqueror-2-126.html#wp9001750`
+    - Baker  · `Conqueror-2-126.html#wp9001752`
+    - Classic Game  · `Conqueror-2-126.html#wp9001754`
+    - Swap Lanes  · `Conqueror-2-126.html#wp9001756`
+    - Frames per Bowler  · `Conqueror-2-126.html#wp9001762`
+    - Language  · `Conqueror-2-126.html#wp9001765`
+    - Practice  · `Conqueror-2-126.html#wp9001767`
+    - Practice Time  · `Conqueror-2-126.html#wp9001769`
+    - Walk Down  · `Conqueror-2-126.html#wp9001771`
+    - Print Score after Closure  · `Conqueror-2-126.html#wp9001774`
+    - Game Eligibility  · `Conqueror-2-126.html#wp9001778`
+    - Image Set for Lanes off  · `Conqueror-2-126.html#wp9001780`
+    - Display Format  · `Conqueror-2-126.html#wp9001782`
+    - Chase Light Pattern  · `Conqueror-2-126.html#wp9001784`
+  - 21.  Lane Options - AccuScore Plus  · `Conqueror-2-127.html`
+    - Bowler Keyboard  · `Conqueror-2-127.html#wp9001788`
+    - Next Game Key during Game  · `Conqueror-2-127.html#wp9001791`
+    - Paging/Speaker  · `Conqueror-2-127.html#wp9001793`
+    - Lane Viewer  · `Conqueror-2-127.html#wp9001795`
+    - Graphics  · `Conqueror-2-127.html#wp9001797`
+    - Pindication  · `Conqueror-2-127.html#wp9001799`
+    - Spare Maker  · `Conqueror-2-127.html#wp9001801`
+    - Print Score after Closure  · `Conqueror-2-127.html#wp9001803`
+    - Baker  · `Conqueror-2-127.html#wp9001807`
+    - Classic Game  · `Conqueror-2-127.html#wp9001809`
+    - Swap Lanes  · `Conqueror-2-127.html#wp9001813`
+    - Display Type  · `Conqueror-2-127.html#wp9001824`
+    - Score Color Sequence  · `Conqueror-2-127.html#wp9001826`
+    - Practice  · `Conqueror-2-127.html#wp9001828`
+    - Practice Time  · `Conqueror-2-127.html#wp9001833`
+  - 22.  Lane Options - AS 80/90  · `Conqueror-2-128.html`
+    - Lane Printer  · `Conqueror-2-128.html#wp9001836`
+    - Speaker  · `Conqueror-2-128.html#wp9001838`
+    - Fill in Frames  · `Conqueror-2-128.html#wp9001840`
+    - Graphics  · `Conqueror-2-128.html#wp9001842`
+    - Accumulated Score  · `Conqueror-2-128.html#wp9001844`
+    - Mark Total Pinfall  · `Conqueror-2-128.html#wp9001846`
+    - Print Score after Closure  · `Conqueror-2-128.html#wp9001848`
+    - High Game Exciter  · `Conqueror-2-128.html#wp9001852`
+    - Console Language  · `Conqueror-2-128.html#wp9001854`
+    - Overhead Monitor  · `Conqueror-2-128.html#wp9001856`
+    - Classic Games  · `Conqueror-2-128.html#wp9001858`
+    - Swap Lanes  · `Conqueror-2-128.html#wp9001862`
+    - Display Type  · `Conqueror-2-128.html#wp9001870`
+    - Score Color Sequence  · `Conqueror-2-128.html#wp9001872`
+    - Practice  · `Conqueror-2-128.html#wp9001874`
+    - Practice Time  · `Conqueror-2-128.html#wp9001879`
+  - 23.  Lane Options - Frameworx  · `Conqueror-2-129.html`
+    - Professional Display  · `Conqueror-2-129.html#wp9001882`
+    - Sound for Graphics  · `Conqueror-2-129.html#wp9001884`
+    - Accumulated Score  · `Conqueror-2-129.html#wp9001886`
+    - String of Strikes  · `Conqueror-2-129.html#wp9001888`
+    - No Tap  · `Conqueror-2-129.html#wp9001890`
+    - Allow Editing No Tap  · `Conqueror-2-129.html#wp9001892`
+    - Bonus Frames  · `Conqueror-2-129.html#wp9001894`
+    - Allow Editing Bonus frames  · `Conqueror-2-129.html#wp9001896`
+    - Allow Changing Bumpers  · `Conqueror-2-129.html#wp9001898`
+    - Bumpers for All Players  · `Conqueror-2-129.html#wp9001900`
+    - Coach Control  · `Conqueror-2-129.html#wp9001902`
+    - Swap Lanes  · `Conqueror-2-129.html#wp9001905`
+    - Frames per Player  · `Conqueror-2-129.html#wp9001913`
+    - Frames per Lane  · `Conqueror-2-129.html#wp9001915`
+    - Special Game  · `Conqueror-2-129.html#wp9001917`
+    - Practice  · `Conqueror-2-129.html#wp9001919`
+    - Practice Time  · `Conqueror-2-129.html#wp9001921`
+    - Sequencer Color Bar  · `Conqueror-2-129.html#wp9001923`
+    - Sequencer Arrows  · `Conqueror-2-129.html#wp9001925`
+    - Recaps  · `Conqueror-2-129.html#wp9001927`
+    - Bowler Statistics  · `Conqueror-2-129.html#wp9001929`
+    - Allow Viewing Previous Game  · `Conqueror-2-129.html#wp9001931`
+    - Auto-advertising  · `Conqueror-2-129.html#wp9001933`
+    - Print Score after Closure  · `Conqueror-2-129.html#wp9001935`
+    - Frames per Row  · `Conqueror-2-129.html#wp9001939`
+    - High Game Exciter  · `Conqueror-2-129.html#wp9001944`
+    - Console Language  · `Conqueror-2-129.html#wp9001946`
+    - Score Color Sequence  · `Conqueror-2-129.html#wp9001948`
+    - Walk Down Time  · `Conqueror-2-129.html#wp9001950`
+    - Graphics  · `Conqueror-2-129.html#wp9001953`
+  - 24.  Bowling Modes  · `Conqueror-2-130.html`
+    - 24.2  Bowling Mode Management  · `Conqueror-2-131.html`
+    - 24.3  Bowling Mode Setup  · `Conqueror-2-132.html`
+      - Creating a Bowling Mode  · `Conqueror-2-132.html#wp9001969`
+      - Set of Lane Options  · `Conqueror-2-132.html#wp9001971`
+      - Message  · `Conqueror-2-132.html#wp9001973`
+      - Default Price Keys  · `Conqueror-2-132.html#wp9001975`
+      - Opening Mode  · `Conqueror-2-132.html#wp9001977`
+      - Unlimited Default Mode  · `Conqueror-2-132.html#wp9001979`
+      - External Devices  · `Conqueror-2-132.html#wp9001985`
+      - Console Lights  · `Conqueror-2-132.html#wp9001987`
+      - Extend Bowling Session  · `Conqueror-2-132.html#wp9001992`
+      - Lane Lighting  · `Conqueror-2-132.html#wp9001994`
+      - Time Zones  · `Conqueror-2-132.html#wp9001996`
+      - MMS Service Set  · `Conqueror-2-132.html#wp9002003`
+  - 25.  Virtual Waiter and Video Intercom Setup  · `Conqueror-2-133.html`
+    - Menu File Management  · `Conqueror-2-133.html#wp9002011`
+    - Terminal Settings  · `Conqueror-2-133.html#wp9002013`
+    - Missed Calls Button  · `Conqueror-2-133.html#wp9002017`
+  - 26.  Scrolling Messages  · `Conqueror-2-134.html`
+    - 26.1  In BES and Bowland Centers  · `Conqueror-2-134.html#wp9002020`
+    - 26.2  In Universal Centers  · `Conqueror-2-135.html`
+  - 27.  Impact Images  · `Conqueror-2-136.html`
+    - Set Name  · `Conqueror-2-136.html#wp9002054`
+    - On-lane Only/Off-lane Only/Always  · `Conqueror-2-136.html#wp9002056`
+    - Graphics Time  · `Conqueror-2-136.html#wp9002058`
+    - Off-lane Time  · `Conqueror-2-136.html#wp9002060`
+    - Advertising Time/Frequency  · `Conqueror-2-136.html#wp9002062`
+    - Historical Highs  · `Conqueror-2-136.html#wp9002065`
+    - Qubicards  · `Conqueror-2-136.html#wp9002067`
+    - Advertising  · `Conqueror-2-136.html#wp9002070`
+    - Sound  · `Conqueror-2-136.html#wp9002072`
+    - Copy to  · `Conqueror-2-136.html#wp9002074`
+    - Pictures Chosen  · `Conqueror-2-136.html#wp9002076`
+    - Enable/Disable  · `Conqueror-2-136.html#wp9002078`
+  - 28.  Advertising - BES &amp; Bowland  · `Conqueror-2-137.html`
+    - View  · `Conqueror-2-137.html#wp9002086`
+    - Rename  · `Conqueror-2-137.html#wp9002088`
+    - Delete  · `Conqueror-2-137.html#wp9002090`
+    - Paste  · `Conqueror-2-137.html#wp9002092`
+    - All/None  · `Conqueror-2-137.html#wp9002094`
+  - 29.  Advertising - BOSS  · `Conqueror-2-138.html`
+    - 29.2  Advertising Categories  · `Conqueror-2-139.html`
+    - 29.3  Lane Advertisings  · `Conqueror-2-140.html`
+  - 30.  Advertising - Universal  · `Conqueror-2-141.html`
+  - 31.  Lane Highs  · `Conqueror-2-142.html`
+    - New  · `Conqueror-2-142.html#wp9002134`
+    - Delete  · `Conqueror-2-142.html#wp9002140`
+    - Preview  · `Conqueror-2-142.html#wp9002142`
+    - Copy to  · `Conqueror-2-142.html#wp9002144`
+    - Clear  · `Conqueror-2-142.html#wp9002146`
+    - Save  · `Conqueror-2-142.html#wp9002148`
+  - 32.  Game Printouts  · `Conqueror-2-143.html`
+    - 32.2  Filtering Events  · `Conqueror-2-144.html`
+    - 32.3  Selecting Events for Printouts  · `Conqueror-2-145.html`
+      - Export  · `Conqueror-2-145.html#wp9002169`
+      - Game Eligibility  · `Conqueror-2-145.html#wp9002171`
+    - 32.4  Modifying Game Score before Printing  · `Conqueror-2-146.html`
+    - 32.5  Managing Team and Player Attributes  · `Conqueror-2-147.html`
+    - 32.6  Printing Scores and Standings  · `Conqueror-2-148.html`
+      - Score Printouts  · `Conqueror-2-148.html#wp9002184`
+      - Standing Printouts  · `Conqueror-2-148.html#wp9002200`
+    - 32.7  Printing Mad Game Giveaways  · `Conqueror-2-149.html`
+  - 33.  Keyboard  · `Conqueror-2-150.html`
+- EXPERIENCE  · `Conqueror-2-151.html`
+  - 1.  Experience  · `Conqueror-2-152.html`
+    - 1.1  Privileges  · `Conqueror-2-153.html`
+    - 1.2  Experience Setup  · `Conqueror-2-154.html`
+      - Setting up Game/Time/Unlimited Price Keys  · `Conqueror-2-154.html#wp9002231`
+      - Setting up Environments  · `Conqueror-2-154.html#wp9002233`
+      - Selecting an Experience  · `Conqueror-2-154.html#wp9002235`
+      - Lane Control - Set Price  · `Conqueror-2-154.html#wp9002237`
+      - Lane Control - Lane Options  · `Conqueror-2-154.html#wp9002239`
+      - Merge/Transfer/Split  · `Conqueror-2-154.html#wp9002241`
+- SHIFT MANAGEMENT  · `Conqueror-2-155.html`
+  - 1.  Overview  · `Conqueror-2-156.html`
+  - 2.  Key Concepts  · `Conqueror-2-157.html`
+    - Sector  · `Conqueror-2-157.html#wp9002254`
+    - Shift  · `Conqueror-2-157.html#wp9002258`
+    - Cash Drawer Sessions  · `Conqueror-2-157.html#wp9002260`
+    - Reports  · `Conqueror-2-157.html#wp9002264`
+    - Shift Progression  · `Conqueror-2-157.html#wp9002267`
+    - Magic Number  · `Conqueror-2-157.html#wp9002271`
+    - 2.1  No Shift Mode  · `Conqueror-2-158.html`
+      - Daily Report  · `Conqueror-2-158.html#wp9002279`
+      - Print and Reset  · `Conqueror-2-158.html#wp9002282`
+  - 3.  Operating with Shifts  · `Conqueror-2-159.html`
+    - Info  · `Conqueror-2-159.html#wp9002297`
+    - Counter Report  · `Conqueror-2-159.html#wp9002302`
+    - Report  · `Conqueror-2-159.html#wp9002306`
+    - 3.1  Starting Cash Drawer Sessions  · `Conqueror-2-160.html`
+    - 3.2  Closing Cash Drawer Sessions  · `Conqueror-2-161.html`
+    - 3.3  Parking Cash Drawer Sessions  · `Conqueror-2-162.html`
+    - 3.4  Moneys Received Summary  · `Conqueror-2-163.html`
+    - 3.5  Closing a Shift  · `Conqueror-2-164.html`
+  - 4.  Personal Cash Drawer  · `Conqueror-2-165.html`
+    - 4.1  How does it Work?  · `Conqueror-2-166.html`
+      - Logging off from terminal  · `Conqueror-2-166.html#wp9002360`
+      - Managing Shifts  · `Conqueror-2-166.html#wp9002362`
+    - 4.2  Conqueror Pro Settings  · `Conqueror-2-167.html`
+      - Configuring the Personal Cash Drawer Management  · `Conqueror-2-167.html#wp9002368`
+      - Setting Personal Cash Drawers Values  · `Conqueror-2-167.html#wp9002372`
+      - Connecting Hardware Cash Drawer to the Terminal  · `Conqueror-2-167.html#wp9002378`
+      - Configuring the Printer Profiles  · `Conqueror-2-167.html#wp9002381`
+      - Assigning User Privileges to Cashiers  · `Conqueror-2-167.html#wp9002384`
+  - 5.  Shift Reporting  · `Conqueror-2-168.html`
+    - Detail Level  · `Conqueror-2-168.html#wp9002395`
+    - To be Printed on Receipt Printer  · `Conqueror-2-168.html#wp9002404`
+    - Group Type  · `Conqueror-2-168.html#wp9002408`
+    - Price Information  · `Conqueror-2-168.html#wp9002411`
+    - Optional Information  · `Conqueror-2-168.html#wp9002418`
+    - Export  · `Conqueror-2-168.html#wp9002433`
+    - E-mail  · `Conqueror-2-168.html#wp9002435`
+    - Print  · `Conqueror-2-168.html#wp9002438`
+    - Preview  · `Conqueror-2-168.html#wp9002440`
+    - QuCad/Zonal  · `Conqueror-2-168.html#wp9002442`
+    - QuickBooks Desktop  · `Conqueror-2-168.html#wp9002445`
+  - 6.  Managing Shifts  · `Conqueror-2-169.html`
+    - Report  · `Conqueror-2-169.html#wp9002465`
+    - Delete Shift  · `Conqueror-2-169.html#wp9002468`
+    - Transfer History  · `Conqueror-2-169.html#wp9002471`
+    - Ordered by  · `Conqueror-2-169.html#wp9002473`
+    - Magic Number  · `Conqueror-2-169.html#wp9002475`
+    - Filters  · `Conqueror-2-169.html#wp9002480`
+  - 7.  Historical Reports  · `Conqueror-2-170.html`
+    - Fiscal Requirements for the German Market  · `Conqueror-2-170.html#wp9002490`
+  - 8.  Profiles and Privileges  · `Conqueror-2-171.html`
+    - 8.1  Examples  · `Conqueror-2-172.html`
+  - 9.  Shift Setup  · `Conqueror-2-173.html`
+    - Shifts  · `Conqueror-2-173.html#wp9002514`
+    - Personal Cash Drawer  · `Conqueror-2-173.html#wp9002517`
+    - Count Float on Closure  · `Conqueror-2-173.html#wp9002525`
+    - Bill and Coin Details  · `Conqueror-2-173.html#wp9002527`
+    - Stricter Under/over Management  · `Conqueror-2-173.html#wp9002529`
+    - Notes, Weather and Staff  · `Conqueror-2-173.html#wp9002532`
+    - Float Confirmation  · `Conqueror-2-173.html#wp9002534`
+    - Shift Report Signing Section  · `Conqueror-2-173.html#wp9002536`
+    - Automatic Shift Closure  · `Conqueror-2-173.html#wp9002538`
+    - Print Function  · `Conqueror-2-173.html#wp9002541`
+    - Automatic Export  · `Conqueror-2-173.html#wp9002544`
+    - Tax Exemption Suffix  · `Conqueror-2-173.html#wp9002547`
+    - QuickBooks Desktop  · `Conqueror-2-173.html#wp9002550`
+    - Reset Shift Report Number  · `Conqueror-2-173.html#wp9002554`
+    - Backtask Sector  · `Conqueror-2-173.html#wp9002556`
+    - Send Report  · `Conqueror-2-173.html#wp9002558`
+    - Shift Zone  · `Conqueror-2-173.html#wp9002561`
+    - 9.1  Sector Setup  · `Conqueror-2-174.html`
+      - Exclusive Responsibility of Cash Drawers  · `Conqueror-2-174.html#wp9002571`
+    - 9.2  QuickBooks Desktop Account Settings  · `Conqueror-2-175.html`
+      - Exporting Payment Modes  · `Conqueror-2-175.html#wp9002590`
+- FREQUENT BOWLER TRACKING  · `Conqueror-2-176.html`
+  - 1.  Overview  · `Conqueror-2-177.html`
+  - 2.  Managing Members  · `Conqueror-2-178.html`
+    - New Member/New Group  · `Conqueror-2-178.html#wp9002612`
+    - Modify  · `Conqueror-2-178.html#wp9002614`
+    - Info  · `Conqueror-2-178.html#wp9002616`
+    - Clear  · `Conqueror-2-178.html#wp9002619`
+    - Search  · `Conqueror-2-178.html#wp9002621`
+  - 3.  Finding a Member  · `Conqueror-2-179.html`
+    - Filtering FB without Mandatory Fields Filled  · `Conqueror-2-179.html#wp9002631`
+    - Member Search through Conqueror Modules  · `Conqueror-2-179.html#wp9002633`
+  - 4.  Registering a New Member  · `Conqueror-2-180.html`
+    - Log  · `Conqueror-2-180.html#wp9002640`
+    - Print  · `Conqueror-2-180.html#wp9002642`
+    - Delete  · `Conqueror-2-180.html#wp9002644`
+    - Save  · `Conqueror-2-180.html#wp9002650`
+    - Cancel  · `Conqueror-2-180.html#wp9002652`
+    - 4.1  Basic  · `Conqueror-2-181.html`
+      - Member Details  · `Conqueror-2-181.html#wp9002657`
+      - Group Details  · `Conqueror-2-181.html#wp9002665`
+    - 4.2  Advanced  · `Conqueror-2-182.html`
+      - No Longer a Member  · `Conqueror-2-182.html#wp9002669`
+      - Privacy  · `Conqueror-2-182.html#wp9002672`
+      - Data Available for Others  · `Conqueror-2-182.html#wp9002675`
+      - Can Be Contacted Directly  · `Conqueror-2-182.html#wp9002677`
+      - Statistics  · `Conqueror-2-182.html#wp9002679`
+      - Registration Date  · `Conqueror-2-182.html#wp9002682`
+      - Expiry Date  · `Conqueror-2-182.html#wp9002684`
+      - One Year Extension  · `Conqueror-2-182.html#wp9002686`
+      - Discover Source  · `Conqueror-2-182.html#wp9002689`
+      - VAT Number  · `Conqueror-2-182.html#wp9002692`
+      - National Code  · `Conqueror-2-182.html#wp9002694`
+      - Free Entry Code  · `Conqueror-2-182.html#wp9002696`
+      - Tax-exempt ID  · `Conqueror-2-182.html#wp9002698`
+      - Company Name  · `Conqueror-2-182.html#wp9002701`
+      - Notes  · `Conqueror-2-182.html#wp9002703`
+    - 4.3  Links  · `Conqueror-2-183.html`
+      - Main Member  · `Conqueror-2-183.html#wp9002706`
+      - Introduced by  · `Conqueror-2-183.html#wp9002710`
+      - Destination of Statistics  · `Conqueror-2-183.html#wp9002714`
+      - Destination of Points  · `Conqueror-2-183.html#wp9002716`
+      - Locker Link  · `Conqueror-2-183.html#wp9002718`
+      - Main Contact/Active Contact  · `Conqueror-2-183.html#wp9002721`
+      - Other Member Links  · `Conqueror-2-183.html#wp9002723`
+    - 4.4  Account  · `Conqueror-2-184.html`
+      - Category/Payments  · `Conqueror-2-184.html#wp9002728`
+      - Owns an Account  · `Conqueror-2-184.html#wp9002732`
+      - Games on Account  · `Conqueror-2-184.html#wp9002734`
+      - Refund Games  · `Conqueror-2-184.html#wp9002736`
+      - Points in Account  · `Conqueror-2-184.html#wp9002738`
+      - Use Points  · `Conqueror-2-184.html#wp9002741`
+      - QCash in Account  · `Conqueror-2-184.html#wp9002743`
+      - Refund QCash  · `Conqueror-2-184.html#wp9002746`
+      - QCash Debt Limit  · `Conqueror-2-184.html#wp9002748`
+      - Account Balance and Account Debt Limit  · `Conqueror-2-184.html#wp9002750`
+    - 4.5  Cards  · `Conqueror-2-185.html`
+      - Type  · `Conqueror-2-185.html#wp9002765`
+      - Status  · `Conqueror-2-185.html#wp9002767`
+      - Description  · `Conqueror-2-185.html#wp9002769`
+      - Free Entry Code  · `Conqueror-2-185.html#wp9002771`
+      - Notes  · `Conqueror-2-185.html#wp9002773`
+    - 4.6  Photo  · `Conqueror-2-186.html`
+    - 4.7  History  · `Conqueror-2-187.html`
+  - 5.  Managing Member Accounts, Cards and QCash  · `Conqueror-2-188.html`
+  - 6.  Managing Invoices  · `Conqueror-2-189.html`
+    - 6.1  Managing Receipts and Invoices  · `Conqueror-2-190.html`
+    - 6.2  Settings  · `Conqueror-2-191.html`
+      - Enabling the FB&#39;s Member Account  · `Conqueror-2-191.html#wp9002817`
+      - Setting the Member Account Payment Mode  · `Conqueror-2-191.html#wp9002821`
+      - Specifying the FB&#39;s VAT Number  · `Conqueror-2-191.html#wp9002824`
+      - Setting the Invoice Page  · `Conqueror-2-191.html#wp9002826`
+  - 7.  Member Reporting  · `Conqueror-2-192.html`
+    - 7.1  Filtering Clientele  · `Conqueror-2-193.html`
+      - Basic Filters  · `Conqueror-2-193.html#wp9002846`
+      - Advanced Filters  · `Conqueror-2-193.html#wp9002849`
+    - 7.2  Reporting  · `Conqueror-2-194.html`
+  - 8.  Mail Merge  · `Conqueror-2-195.html`
+    - 8.1  Creating Mail  · `Conqueror-2-196.html`
+    - 8.2  Using the Template  · `Conqueror-2-197.html`
+      - Loading the Template  · `Conqueror-2-197.html#wp9002905`
+      - Printing Letters and Labels  · `Conqueror-2-197.html#wp9002907`
+  - 9.  Duplicated Members  · `Conqueror-2-198.html`
+    - Identifying Duplicated Members  · `Conqueror-2-198.html#wp9002918`
+    - Comparing and Merging Two Members  · `Conqueror-2-198.html#wp9002922`
+  - 10.  Exporting and Importing FB Data  · `Conqueror-2-199.html`
+    - Exporting Member Data  · `Conqueror-2-199.html#wp9002940`
+    - Importing Member Data  · `Conqueror-2-199.html#wp9002946`
+  - 11.  Management of Historical Games  · `Conqueror-2-200.html`
+    - Filtering Games  · `Conqueror-2-200.html#wp9002956`
+    - Adding a New Game  · `Conqueror-2-200.html#wp9002963`
+    - Changing Eligibility Option  · `Conqueror-2-200.html#wp9002968`
+    - Modifying a Game  · `Conqueror-2-200.html#wp9002970`
+    - Deleting a Game  · `Conqueror-2-200.html#wp9002974`
+  - 12.  Member Setup  · `Conqueror-2-201.html`
+    - 12.1  Member Categories  · `Conqueror-2-202.html`
+    - 12.2  Point Collection  · `Conqueror-2-203.html`
+    - 12.3  Player Club Cash  · `Conqueror-2-204.html`
+    - 12.4  Promotions  · `Conqueror-2-205.html`
+    - 12.5  Member Formats  · `Conqueror-2-206.html`
+    - 12.6  Mandatory Fields  · `Conqueror-2-207.html`
+      - Filtering FB without Mandatory Fields Filled  · `Conqueror-2-207.html#wp9003039`
+      - Disable Personal Identification Fields  · `Conqueror-2-207.html#wp9003041`
+    - 12.7  Interface to FB Point System  · `Conqueror-2-208.html`
+- LEAGUES  · `Conqueror-2-209.html`
+  - 1.  Overview  · `Conqueror-2-210.html`
+  - 2.  Managing a League  · `Conqueror-2-211.html`
+    - Opening League Lanes  · `Conqueror-2-211.html#wp9003064`
+    - Turning Pinsetters on/off  · `Conqueror-2-211.html#wp9003069`
+    - Closing League Lanes  · `Conqueror-2-211.html#wp9003071`
+    - Zooming in/out the Lanes  · `Conqueror-2-211.html#wp9003077`
+  - 3.  League Setup  · `Conqueror-2-212.html`
+    - 3.1  Creating a League  · `Conqueror-2-213.html`
+      - Number of Teams/Number of Players per Team  · `Conqueror-2-213.html#wp9003088`
+      - Maximum Number of Permanent Team Substitutes  · `Conqueror-2-213.html#wp9003093`
+      - Number of Weeks/Number of Games per Week  · `Conqueror-2-213.html#wp9003096`
+      - Teams per Pair  · `Conqueror-2-213.html#wp9003099`
+      - Lane Set  · `Conqueror-2-213.html#wp9003102`
+      - Schedule Type  · `Conqueror-2-213.html#wp9003105`
+      - Play Date and Time  · `Conqueror-2-213.html#wp9003109`
+      - Bowler Category Type  · `Conqueror-2-213.html#wp9003114`
+      - Calculation Rule  · `Conqueror-2-213.html#wp9003117`
+      - Automatic Calculation  · `Conqueror-2-213.html#wp9003121`
+      - Bowling Type  · `Conqueror-2-213.html#wp9003123`
+      - Automatic Lane Closure  · `Conqueror-2-213.html#wp9003125`
+      - Auto Pinsetter on During Practice  · `Conqueror-2-213.html#wp9003129`
+      - Send Roster Substitutes  · `Conqueror-2-213.html#wp9003131`
+      - Lane Options  · `Conqueror-2-213.html#wp9003133`
+      - Score Sheet  · `Conqueror-2-213.html#wp9003137`
+      - Reservations  · `Conqueror-2-213.html#wp9003139`
+    - 3.2  Setting the League Handicaps  · `Conqueror-2-214.html`
+      - Team Handicap  · `Conqueror-2-214.html#wp9003143`
+      - Bowler Handicap  · `Conqueror-2-214.html#wp9003152`
+    - 3.3  Setting the Average Rules  · `Conqueror-2-215.html`
+      - Minimum Number of Games for Establishing League Average  · `Conqueror-2-215.html#wp9003158`
+      - Apply League Average to Games Already Played  · `Conqueror-2-215.html#wp9003161`
+      - Maintain the Same Average for the Entire Series  · `Conqueror-2-215.html#wp9003163`
+    - 3.4  Setting the Player Categories  · `Conqueror-2-216.html`
+    - 3.5  Managing the Team Pairing  · `Conqueror-2-217.html`
+      - Schedule Table Details  · `Conqueror-2-217.html#wp9003183`
+      - Modifying Date and Time of a Week  · `Conqueror-2-217.html#wp9003189`
+      - Modifying Team Pairing for a Week  · `Conqueror-2-217.html#wp9003191`
+      - Setting a Roll Off Night  · `Conqueror-2-217.html#wp9003200`
+      - Printing the League Schedule  · `Conqueror-2-217.html#wp9003202`
+    - 3.6  Setting Point Attribution  · `Conqueror-2-218.html`
+      - Automatic Points  · `Conqueror-2-218.html#wp9003206`
+      - Team Point Attribution Rules  · `Conqueror-2-218.html#wp9003209`
+      - Player Point Attribution Rules  · `Conqueror-2-218.html#wp9003215`
+      - Regressive Points  · `Conqueror-2-218.html#wp9003221`
+      - Peterson Points  · `Conqueror-2-218.html#wp9003229`
+    - 3.7  Legal Line up  · `Conqueror-2-219.html`
+      - Point Attribution Rules in Case of Forfeit  · `Conqueror-2-219.html#wp9003240`
+    - 3.8  Setting the League Standard Standing  · `Conqueror-2-220.html`
+      - How to Display Team Ties in Standings  · `Conqueror-2-220.html#wp9003251`
+    - 3.9  Consulting Modification Logs  · `Conqueror-2-221.html`
+    - 3.10  Setting the League Payments  · `Conqueror-2-222.html`
+      - Structured Number of Players  · `Conqueror-2-222.html#wp9003265`
+      - Linage and Linage Total  · `Conqueror-2-222.html#wp9003267`
+      - Prize Fund and Banquet Fund  · `Conqueror-2-222.html#wp9003270`
+      - Total per Player/Included Taxes  · `Conqueror-2-222.html#wp9003272`
+      - Enrolled Number of Players  · `Conqueror-2-222.html#wp9003274`
+      - Guarantee Players  · `Conqueror-2-222.html#wp9003276`
+      - Generic Fund  · `Conqueror-2-222.html#wp9003279`
+      - One Game Price  · `Conqueror-2-222.html#wp9003281`
+      - Price of Shoes  · `Conqueror-2-222.html#wp9003284`
+      - Weekly/Season Total  · `Conqueror-2-222.html#wp9003286`
+  - 4.  Managing Teams and Players  · `Conqueror-2-223.html`
+    - 4.1  Teams and Players Main Window  · `Conqueror-2-224.html`
+      - Selecting League Level  · `Conqueror-2-224.html#wp9003298`
+      - Selecting Team Level  · `Conqueror-2-224.html#wp9003302`
+    - 4.2  Enrolling Players  · `Conqueror-2-225.html`
+      - Enlisting Players  · `Conqueror-2-225.html#wp9003319`
+      - Defining the Player Category  · `Conqueror-2-225.html#wp9003328`
+      - Defining the Player Type  · `Conqueror-2-225.html#wp9003331`
+      - Moving the League Players in Teams  · `Conqueror-2-225.html#wp9003333`
+      - Line up Management  · `Conqueror-2-225.html#wp9003336`
+      - Managing the Team Substitutes  · `Conqueror-2-225.html#wp9003340`
+      - Managing the Roving Substitutes  · `Conqueror-2-225.html#wp9003345`
+      - Removing a Player from a Team  · `Conqueror-2-225.html#wp9003348`
+      - Deleting a Player from League  · `Conqueror-2-225.html#wp9003350`
+    - 4.3  Managing a Mid-season Start  · `Conqueror-2-226.html`
+  - 5.  Managing the Scores  · `Conqueror-2-227.html`
+    - 5.1  Consulting Scores  · `Conqueror-2-228.html`
+    - 5.2  Modifying and Entering the Scores Manually  · `Conqueror-2-229.html`
+      - Entering the Scores in Quick Edit Mode  · `Conqueror-2-229.html#wp9003376`
+    - 5.3  Assigning Points Manually  · `Conqueror-2-230.html`
+    - 5.4  Printing Score Sheets and Recap Sheets  · `Conqueror-2-231.html`
+    - 5.5  Recalculating League Scores  · `Conqueror-2-232.html`
+  - 6.  Printing Standings  · `Conqueror-2-233.html`
+    - 6.1  Standing Types  · `Conqueror-2-234.html`
+      - Standard/Custom Standings &amp; Press Sheet  · `Conqueror-2-234.html#wp9003394`
+      - Team Standings  · `Conqueror-2-234.html#wp9003399`
+      - Player Standings  · `Conqueror-2-234.html#wp9003406`
+      - Game Reports  · `Conqueror-2-234.html#wp9003414`
+  - 7.  Managing League Payments  · `Conqueror-2-235.html`
+    - Week Number  · `Conqueror-2-235.html#wp9003428`
+    - Guarantee Players or Players Present  · `Conqueror-2-235.html#wp9003430`
+    - Carry Forward Balance  · `Conqueror-2-235.html#wp9003434`
+    - Games/Linage  · `Conqueror-2-235.html#wp9003436`
+    - Banquet Fund/Prize Fund/Shoes &amp; Socks  · `Conqueror-2-235.html#wp9003439`
+    - Generic Fund  · `Conqueror-2-235.html#wp9003441`
+    - Total/Total Including Taxes  · `Conqueror-2-235.html#wp9003444`
+    - Payment Received  · `Conqueror-2-235.html#wp9003446`
+    - New Carry Forward Balance  · `Conqueror-2-235.html#wp9003448`
+    - Description  · `Conqueror-2-235.html#wp9003450`
+    - Refund/Pay out/Void/Pay  · `Conqueror-2-235.html#wp9003452`
+    - 7.1  Consulting Payment History  · `Conqueror-2-236.html`
+  - 8.  Center League Settings  · `Conqueror-2-237.html`
+    - Default League Lane Option Set  · `Conqueror-2-237.html#wp9003462`
+    - Display Remaining Pins in the Average Field  · `Conqueror-2-237.html#wp9003465`
+    - Display Players&#39; Average with 2 Decimals  · `Conqueror-2-237.html#wp9003467`
+    - Standing Sheet Options  · `Conqueror-2-237.html#wp9003469`
+- BLS LEAGUES  · `Conqueror-2-238.html`
+  - 1.  Overview  · `Conqueror-2-239.html`
+  - 2.  Selecting a League  · `Conqueror-2-240.html`
+    - Quick Search  · `Conqueror-2-240.html#wp9003486`
+    - Delete  · `Conqueror-2-240.html#wp9003488`
+    - OK  · `Conqueror-2-240.html#wp9003491`
+  - 3.  League Setup  · `Conqueror-2-241.html`
+    - League Type  · `Conqueror-2-241.html#wp9003495`
+    - Week Day  · `Conqueror-2-241.html#wp9003497`
+    - Games per Session  · `Conqueror-2-241.html#wp9003499`
+    - Week Number  · `Conqueror-2-241.html#wp9003501`
+    - Structured Number of Players  · `Conqueror-2-241.html#wp9003503`
+    - Enrolled Number of Players  · `Conqueror-2-241.html#wp9003505`
+    - 3.1  Financials  · `Conqueror-2-242.html`
+    - 3.2  Technical  · `Conqueror-2-243.html`
+      - Automatic Lane Closure  · `Conqueror-2-243.html#wp9003512`
+      - Delay in Closing Lanes  · `Conqueror-2-243.html#wp9003515`
+      - Send Roster Substitutes  · `Conqueror-2-243.html#wp9003518`
+      - Modify Team Handicap from Keyboard  · `Conqueror-2-243.html#wp9003520`
+      - Auto Pinsetter on for Practice  · `Conqueror-2-243.html#wp9003522`
+      - Bowling Type  · `Conqueror-2-243.html#wp9003524`
+      - Lanes in Pair  · `Conqueror-2-243.html#wp9003526`
+      - Options  · `Conqueror-2-243.html#wp9003528`
+  - 4.  League Payments  · `Conqueror-2-244.html`
+  - 5.  League Lanes  · `Conqueror-2-245.html`
+    - Start Practice/Send Roster  · `Conqueror-2-245.html#wp9003537`
+    - Start Score  · `Conqueror-2-245.html#wp9003539`
+    - League off  · `Conqueror-2-245.html#wp9003543`
+    - Pinsetter on  · `Conqueror-2-245.html#wp9003545`
+    - Pinsetter off  · `Conqueror-2-245.html#wp9003547`
+    - Select all Lanes  · `Conqueror-2-245.html#wp9003549`
+    - Absent Teams  · `Conqueror-2-245.html#wp9003551`
+    - Options  · `Conqueror-2-245.html#wp9003553`
+  - 6.  Opening and Closing a League  · `Conqueror-2-246.html`
+- TOURNAMENTS  · `Conqueror-2-247.html`
+  - 1.  Overview  · `Conqueror-2-248.html`
+  - 2.  Tournament Lane Status  · `Conqueror-2-249.html`
+    - Start Practice/Start Score  · `Conqueror-2-249.html#wp9003576`
+    - Open Squad  · `Conqueror-2-249.html#wp9003582`
+    - Close Squad  · `Conqueror-2-249.html#wp9003586`
+    - Pinsetter on/Pinsetter off  · `Conqueror-2-249.html#wp9003590`
+    - Score  · `Conqueror-2-249.html#wp9003592`
+    - Options  · `Conqueror-2-249.html#wp9003597`
+  - 3.  Creating a Tournament  · `Conqueror-2-250.html`
+    - Options  · `Conqueror-2-250.html#wp9003603`
+    - Undo  · `Conqueror-2-250.html#wp9003606`
+    - Save  · `Conqueror-2-250.html#wp9003608`
+    - 3.1  Tournament Settings  · `Conqueror-2-251.html`
+      - New/Copy from  · `Conqueror-2-251.html#wp9003613`
+      - Rename  · `Conqueror-2-251.html#wp9003616`
+      - Bowling Type  · `Conqueror-2-251.html#wp9003618`
+      - Tournament Start Date  · `Conqueror-2-251.html#wp9003620`
+      - Division Style  · `Conqueror-2-251.html#wp9003622`
+      - Auto Pinsetter on During Practice  · `Conqueror-2-251.html#wp9003625`
+      - Description/Note  · `Conqueror-2-251.html#wp9003627`
+      - Pay  · `Conqueror-2-251.html#wp9003629`
+      - Delete  · `Conqueror-2-251.html#wp9003632`
+    - 3.2  Event Settings  · `Conqueror-2-252.html`
+      - Event Start Date/Time  · `Conqueror-2-252.html#wp9003638`
+      - Type  · `Conqueror-2-252.html#wp9003640`
+      - Maximum Amount of Substitutes  · `Conqueror-2-252.html#wp9003642`
+      - Lanes in Pair  · `Conqueror-2-252.html#wp9003644`
+      - Show Teams for Single Tournament  · `Conqueror-2-252.html#wp9003646`
+      - Individual Handicap  · `Conqueror-2-252.html#wp9003649`
+      - Add/Rename/Delete  · `Conqueror-2-252.html#wp9003656`
+  - 4.  Teams and Players  · `Conqueror-2-253.html`
+    - 4.1  Player Setup  · `Conqueror-2-254.html`
+      - Creating a Player  · `Conqueror-2-254.html#wp9003670`
+      - Deleting a Player  · `Conqueror-2-254.html#wp9003678`
+      - Modifying Player Data  · `Conqueror-2-254.html#wp9003681`
+      - Importing a Player  · `Conqueror-2-254.html#wp9003683`
+    - 4.2  Team Setup  · `Conqueror-2-255.html`
+      - Creating a Team  · `Conqueror-2-255.html#wp9003693`
+      - Inserting Players in Team  · `Conqueror-2-255.html#wp9003698`
+      - Modifying or Deleting a Team  · `Conqueror-2-255.html#wp9003704`
+      - Position within the Team  · `Conqueror-2-255.html#wp9003708`
+      - Creating a Player Directly in the Team  · `Conqueror-2-255.html#wp9003710`
+      - Replacing a Team Previously Sent to Lanes  · `Conqueror-2-255.html#wp9003713`
+  - 5.  Squad Setup  · `Conqueror-2-256.html`
+    - 5.1  Global  · `Conqueror-2-257.html`
+      - Lanes  · `Conqueror-2-257.html#wp9003728`
+      - Teams per Lane  · `Conqueror-2-257.html#wp9003732`
+      - Games per Series  · `Conqueror-2-257.html#wp9003735`
+      - Series  · `Conqueror-2-257.html#wp9003737`
+      - Total Number of Games  · `Conqueror-2-257.html#wp9003739`
+      - Total Lane Movements  · `Conqueror-2-257.html#wp9003741`
+      - Last Game Played  · `Conqueror-2-257.html#wp9003743`
+      - Start Date/Time  · `Conqueror-2-257.html#wp9003745`
+      - Auto Pinsetter on During Practice  · `Conqueror-2-257.html#wp9003747`
+      - Automatically Add Vacant Bowler  · `Conqueror-2-257.html#wp9003749`
+    - 5.2  Teams and Players  · `Conqueror-2-258.html`
+      - Import from Lanes  · `Conqueror-2-258.html#wp9003755`
+      - Modify Team  · `Conqueror-2-258.html#wp9003758`
+      - Modify Player  · `Conqueror-2-258.html#wp9003760`
+      - Import  · `Conqueror-2-258.html#wp9003763`
+      - Sign in  · `Conqueror-2-258.html#wp9003765`
+      - Delete  · `Conqueror-2-258.html#wp9003767`
+    - 5.3  Movement  · `Conqueror-2-259.html`
+      - Assign  · `Conqueror-2-259.html#wp9003774`
+      - Remove  · `Conqueror-2-259.html#wp9003777`
+      - Movement Type  · `Conqueror-2-259.html#wp9003781`
+      - Modify  · `Conqueror-2-259.html#wp9003785`
+      - Opponents  · `Conqueror-2-259.html#wp9003787`
+    - 5.4  Point Assignment  · `Conqueror-2-260.html`
+  - 6.  Standing Setup  · `Conqueror-2-261.html`
+    - Export  · `Conqueror-2-261.html#wp9003817`
+    - Message  · `Conqueror-2-261.html#wp9003819`
+    - Print  · `Conqueror-2-261.html#wp9003821`
+    - Preview  · `Conqueror-2-261.html#wp9003823`
+    - 6.1  Quick Squad Sign-in  · `Conqueror-2-262.html`
+  - 7.  Game Manager  · `Conqueror-2-263.html`
+    - Inserting a Game  · `Conqueror-2-263.html#wp9003836`
+    - Copying a Game  · `Conqueror-2-263.html#wp9003843`
+    - Deleting a Game  · `Conqueror-2-263.html#wp9003845`
+    - Modifying a Game  · `Conqueror-2-263.html#wp9003847`
+    - Finding a Game  · `Conqueror-2-263.html#wp9003850`
+  - 8.  Creating a Division  · `Conqueror-2-264.html`
+    - New  · `Conqueror-2-264.html#wp9003859`
+    - Modify  · `Conqueror-2-264.html#wp9003861`
+    - Order  · `Conqueror-2-264.html#wp9003863`
+    - Delete  · `Conqueror-2-264.html#wp9003865`
+  - 9.  Tournament Setup  · `Conqueror-2-265.html`
+    - Default Tournament Lane Option Set  · `Conqueror-2-265.html#wp9003870`
+    - Default Team Name Prefix  · `Conqueror-2-265.html#wp9003873`
+    - Default Player Name Prefix  · `Conqueror-2-265.html#wp9003875`
+    - How to Display Ties in Standings  · `Conqueror-2-265.html#wp9003877`
+    - Delay in Closing Lanes  · `Conqueror-2-265.html#wp9003883`
+    - Automatic Lane Closure  · `Conqueror-2-265.html#wp9003886`
+    - Download Games in Real Time  · `Conqueror-2-265.html#wp9003888`
+- SWEDISH LEAGUES  · `Conqueror-2-266.html`
+  - 1.  Overview  · `Conqueror-2-267.html`
+  - 2.  League Setup  · `Conqueror-2-268.html`
+  - 3.  Creating Swedish Leagues  · `Conqueror-2-269.html`
+    - 3.1  Global  · `Conqueror-2-270.html`
+      - Number of Games per Series  · `Conqueror-2-270.html#wp9003914`
+      - Total Series  · `Conqueror-2-270.html#wp9003916`
+      - Last Game Played  · `Conqueror-2-270.html#wp9003919`
+      - Start Date/Start Time  · `Conqueror-2-270.html#wp9003921`
+      - Lanes  · `Conqueror-2-270.html#wp9003923`
+      - Score Updating  · `Conqueror-2-270.html#wp9003926`
+      - Auto Pinsetter on When Practice  · `Conqueror-2-270.html#wp9003933`
+      - Lanes in Pair  · `Conqueror-2-270.html#wp9003935`
+      - Options  · `Conqueror-2-270.html#wp9003937`
+      - On the Monitors  · `Conqueror-2-270.html#wp9003940`
+    - 3.2  Teams and Players  · `Conqueror-2-271.html`
+    - 3.3  Movement  · `Conqueror-2-272.html`
+    - 3.4  Point Assignment  · `Conqueror-2-273.html`
+      - Bonus Points for Pairs  · `Conqueror-2-273.html#wp9003953`
+      - Bonus Points for Series  · `Conqueror-2-273.html#wp9003955`
+  - 4.  Standings  · `Conqueror-2-274.html`
+  - 5.  Game Management  · `Conqueror-2-275.html`
+  - 6.  Swedish League Setup  · `Conqueror-2-276.html`
+    - Home Team Name/Visitor Team Name  · `Conqueror-2-276.html#wp9003970`
+    - Delay in Closing Lanes (Sec.)  · `Conqueror-2-276.html#wp9003972`
+    - Default Player Name Prefix  · `Conqueror-2-276.html#wp9003974`
+    - Update Frequency  · `Conqueror-2-276.html#wp9003976`
+    - Automatic Lane Closure  · `Conqueror-2-276.html#wp9003978`
+    - Default Lane Option Set  · `Conqueror-2-276.html#wp9003980`
+- DANISH LEAGUES  · `Conqueror-2-277.html`
+  - 1.  Overview  · `Conqueror-2-278.html`
+  - 2.  League Setup  · `Conqueror-2-279.html`
+  - 3.  Creating Danish Leagues  · `Conqueror-2-280.html`
+    - 3.1  Global  · `Conqueror-2-281.html`
+      - Number of Games per Series  · `Conqueror-2-281.html#wp9004006`
+      - Total Series  · `Conqueror-2-281.html#wp9004008`
+      - Last Game Played  · `Conqueror-2-281.html#wp9004011`
+      - Start Date/Start Time  · `Conqueror-2-281.html#wp9004013`
+      - Lanes  · `Conqueror-2-281.html#wp9004015`
+      - Score Updating  · `Conqueror-2-281.html#wp9004018`
+      - Auto Pinsetter on When Practice  · `Conqueror-2-281.html#wp9004025`
+      - Lanes in Pair  · `Conqueror-2-281.html#wp9004027`
+      - Options  · `Conqueror-2-281.html#wp9004029`
+      - On the Monitors  · `Conqueror-2-281.html#wp9004032`
+    - 3.2  Teams and Players  · `Conqueror-2-282.html`
+    - 3.3  Movement  · `Conqueror-2-283.html`
+    - 3.4  Point Assignment  · `Conqueror-2-284.html`
+      - Bonus Points for Pairs  · `Conqueror-2-284.html#wp9004045`
+      - Bonus Points for Series  · `Conqueror-2-284.html#wp9004047`
+  - 4.  Standings  · `Conqueror-2-285.html`
+  - 5.  Game Management  · `Conqueror-2-286.html`
+  - 6.  Danish League Setup  · `Conqueror-2-287.html`
+    - Home Team Name/Visitor Team Name  · `Conqueror-2-287.html#wp9004062`
+    - Delay in Closing Lanes (Sec.)  · `Conqueror-2-287.html#wp9004064`
+    - Default Player Name Prefix  · `Conqueror-2-287.html#wp9004066`
+    - Update Frequency  · `Conqueror-2-287.html#wp9004068`
+    - Automatic Lane Closure  · `Conqueror-2-287.html#wp9004070`
+    - Default Lane Option Set  · `Conqueror-2-287.html#wp9004072`
+- BES X MAD GAMES  · `Conqueror-2-288.html`
+  - 1.  Overview  · `Conqueror-2-289.html`
+  - 2.  Special Game Types  · `Conqueror-2-290.html`
+    - 2.1  Bowlin&#39;Hood  · `Conqueror-2-290.html#wp9004084`
+    - 2.2  Battle on the Lanes  · `Conqueror-2-291.html`
+    - 2.3  Character Factory  · `Conqueror-2-292.html`
+    - 2.4  Monsters Factory  · `Conqueror-2-293.html`
+    - 2.1  Assigning Mad Games to Lanes  · `Conqueror-2-294.html`
+- BES SPECIAL GAMES  · `Conqueror-2-295.html`
+  - 1.  Overview  · `Conqueror-2-296.html`
+  - 2.  Special Game Types  · `Conqueror-2-297.html`
+    - 2.1  Striker  · `Conqueror-2-297.html#wp9004122`
+    - 2.2  Red Pin Frame  · `Conqueror-2-298.html`
+    - 2.3  Mega Slot / Lane Lotto / Magic Wheel Mistress  · `Conqueror-2-299.html`
+    - 2.4  Christmas  · `Conqueror-2-300.html`
+    - 2.5  Rocky Road Race  · `Conqueror-2-301.html`
+    - 2.6  Poker  · `Conqueror-2-302.html`
+    - 2.7  Sledgehammer  · `Conqueror-2-303.html`
+  - 3.  Management of Special Game Sessions  · `Conqueror-2-304.html`
+    - Lanes  · `Conqueror-2-304.html#wp9004157`
+    - Status  · `Conqueror-2-304.html#wp9004159`
+    - Games Played  · `Conqueror-2-304.html#wp9004161`
+    - Prizes Issued  · `Conqueror-2-304.html#wp9004163`
+    - Awarded  · `Conqueror-2-304.html#wp9004165`
+    - Delete  · `Conqueror-2-304.html#wp9004171`
+    - 3.1  Assigning Special Games to Lanes  · `Conqueror-2-305.html`
+  - 4.  Special Game Sessions Setup  · `Conqueror-2-306.html`
+    - Prestart Games  · `Conqueror-2-306.html#wp9004186`
+    - Reminder Frequency  · `Conqueror-2-306.html#wp9004188`
+    - Available Prizes  · `Conqueror-2-306.html#wp9004190`
+    - Win Every ...  · `Conqueror-2-306.html#wp9004192`
+    - Hot Shot  · `Conqueror-2-306.html#wp9004194`
+    - Prestart Alert  · `Conqueror-2-306.html#wp9004196`
+    - Spin Time (Sec.)  · `Conqueror-2-306.html#wp9004199`
+    - 4.1  Rocky Road Race Settings  · `Conqueror-2-307.html`
+      - Loop Mode  · `Conqueror-2-307.html#wp9004203`
+      - Hot Shots per Race  · `Conqueror-2-307.html#wp9004205`
+      - Spare  · `Conqueror-2-307.html#wp9004207`
+    - 4.2  Poker Settings  · `Conqueror-2-308.html`
+      - Decks  · `Conqueror-2-308.html#wp9004211`
+      - Full House Beats Flush  · `Conqueror-2-308.html#wp9004213`
+      - Winners  · `Conqueror-2-308.html#wp9004215`
+      - Spare/Split Converted  · `Conqueror-2-308.html#wp9004217`
+    - 4.3  Birthday Settings  · `Conqueror-2-309.html`
+    - 4.4  Striker Settings  · `Conqueror-2-310.html`
+      - Strike Time  · `Conqueror-2-310.html#wp9004224`
+    - 4.5  Sledgehammer Settings  · `Conqueror-2-311.html`
+      - Win After...  · `Conqueror-2-311.html#wp9004227`
+- BOWLAND SPECIAL GAMES  · `Conqueror-2-312.html`
+  - 1.  Overview  · `Conqueror-2-313.html`
+  - 2.  Bowland Special Games Types  · `Conqueror-2-314.html`
+    - 2.1  Poker  · `Conqueror-2-314.html#wp9004241`
+    - 2.2  Lucky Draw  · `Conqueror-2-315.html`
+    - 2.3  Tic Tac Toe  · `Conqueror-2-316.html`
+    - 2.4  Slot Machine  · `Conqueror-2-317.html`
+    - 2.5  Cubes  · `Conqueror-2-318.html`
+  - 3.  Management of Bowland Special Games Sessions  · `Conqueror-2-319.html`
+  - 4.  Bowland Special Game Sessions Setup  · `Conqueror-2-320.html`
+    - Hot Shot  · `Conqueror-2-320.html#wp9004269`
+    - Poker  · `Conqueror-2-320.html#wp9004273`
+    - Lucky Draw  · `Conqueror-2-320.html#wp9004280`
+    - Tic Tac Toe  · `Conqueror-2-320.html#wp9004284`
+    - Slot Machine/Cubes  · `Conqueror-2-320.html#wp9004286`
+- LOCKERS  · `Conqueror-2-321.html`
+  - 1.  Overview  · `Conqueror-2-322.html`
+  - 2.  Managing Lockers  · `Conqueror-2-323.html`
+    - 2.1  Assigning Lockers  · `Conqueror-2-324.html`
+      - Extending Expiry Dates  · `Conqueror-2-324.html#wp9004315`
+      - Vacating a Locker  · `Conqueror-2-324.html#wp9004318`
+      - Changing Lockers  · `Conqueror-2-324.html#wp9004322`
+    - 2.2  Finding a Rented Locker  · `Conqueror-2-325.html`
+    - 2.3  Locker Maintenance  · `Conqueror-2-326.html`
+    - 2.4  Locker Waiting List  · `Conqueror-2-327.html`
+  - 3.  Locker Reports  · `Conqueror-2-328.html`
+    - 3.1  Creating a Locker Report  · `Conqueror-2-329.html`
+      - All Lockers  · `Conqueror-2-329.html#wp9004342`
+      - Available  · `Conqueror-2-329.html#wp9004344`
+      - Rented  · `Conqueror-2-329.html#wp9004346`
+      - Expired  · `Conqueror-2-329.html#wp9004348`
+      - Out of Order  · `Conqueror-2-329.html#wp9004350`
+    - 3.2  Creating Advisory Slips  · `Conqueror-2-330.html`
+  - 4.  Locker Bank Setup  · `Conqueror-2-331.html`
+    - New  · `Conqueror-2-331.html#wp9004360`
+    - Delete  · `Conqueror-2-331.html#wp9004367`
+    - Modify  · `Conqueror-2-331.html#wp9004370`
+    - Select  · `Conqueror-2-331.html#wp9004372`
+- TIME GAMES  · `Conqueror-2-332.html`
+  - 1.  Overview  · `Conqueror-2-333.html`
+  - 2.  Time Game Management  · `Conqueror-2-334.html`
+    - 2.1  Time Game Status  · `Conqueror-2-334.html#wp9004383`
+      - Next Item  · `Conqueror-2-334.html#wp9004385`
+      - Workshop  · `Conqueror-2-334.html#wp9004389`
+      - Light on/Light off  · `Conqueror-2-334.html#wp9004391`
+      - Waiting List  · `Conqueror-2-334.html#wp9004393`
+      - Transfer  · `Conqueror-2-334.html#wp9004399`
+      - Modify  · `Conqueror-2-334.html#wp9004401`
+      - Open and Close  · `Conqueror-2-334.html#wp9004404`
+    - 2.2  Opening and Closing a Time Game Item  · `Conqueror-2-335.html`
+      - Inserting Players  · `Conqueror-2-335.html#wp9004413`
+      - Setting Price Keys  · `Conqueror-2-335.html#wp9004417`
+      - Setting Amount of Time  · `Conqueror-2-335.html#wp9004423`
+      - Selling POS Items  · `Conqueror-2-335.html#wp9004427`
+      - Closing a Time Game Item  · `Conqueror-2-335.html#wp9004429`
+  - 3.  Time Game Setup  · `Conqueror-2-336.html`
+    - 3.1  Creating a Time Game  · `Conqueror-2-337.html`
+      - Rounding Type  · `Conqueror-2-337.html#wp9004444`
+      - Default Price  · `Conqueror-2-337.html#wp9004446`
+      - Walk-down Time  · `Conqueror-2-337.html#wp9004448`
+      - Minimum Billing Time  · `Conqueror-2-337.html#wp9004450`
+      - Minimum Time to Pay  · `Conqueror-2-337.html#wp9004452`
+      - Time Unit for Billing  · `Conqueror-2-337.html#wp9004454`
+      - Maximum Number of Players  · `Conqueror-2-337.html#wp9004460`
+      - Time Game Icon  · `Conqueror-2-337.html#wp9004463`
+      - Time Game Items  · `Conqueror-2-337.html#wp9004465`
+      - Table Control Device  · `Conqueror-2-337.html#wp9004470`
+    - 3.2  Modifying a Time Game  · `Conqueror-2-338.html`
+    - 3.3  Deleting a Time Game  · `Conqueror-2-339.html`
+- STATISTICAL REPORTS  · `Conqueror-2-340.html`
+  - 1.  Overview  · `Conqueror-2-341.html`
+  - 2.  Lane Usage Report (Linage Report)  · `Conqueror-2-342.html`
+  - 3.  Comparison Report  · `Conqueror-2-343.html`
+  - 4.  Weekly Income Report  · `Conqueror-2-344.html`
+    - Time Zone Setup  · `Conqueror-2-344.html#wp9004502`
+  - 5.  Weekly Games Report  · `Conqueror-2-345.html`
+  - 6.  League Attendance Report  · `Conqueror-2-346.html`
+  - 7.  Trust Report  · `Conqueror-2-347.html`
+- SECURITY  · `Conqueror-2-348.html`
+  - 1.  Overview  · `Conqueror-2-349.html`
+  - 2.  Staff Setup  · `Conqueror-2-350.html`
+    - Creating/Deleting a Staff Member  · `Conqueror-2-350.html#wp9004531`
+    - Assigning Profiles  · `Conqueror-2-350.html#wp9004534`
+    - Sectors  · `Conqueror-2-350.html#wp9004539`
+    - Staff Member Cards  · `Conqueror-2-350.html#wp9004543`
+    - User Recognition Modes  · `Conqueror-2-350.html#wp9004548`
+  - 3.  User Profile Setup  · `Conqueror-2-351.html`
+    - Creating a User Profile  · `Conqueror-2-351.html#wp9004554`
+    - Modifying User Profiles  · `Conqueror-2-351.html#wp9004561`
+    - Importing/Exporting Profiles  · `Conqueror-2-351.html#wp9004564`
+    - Profile Levels  · `Conqueror-2-351.html#wp9004567`
+    - 3.1  Privilege Tabs  · `Conqueror-2-352.html`
+      - Operate  · `Conqueror-2-352.html#wp9004574`
+      - Shifts  · `Conqueror-2-352.html#wp9004576`
+      - Prices  · `Conqueror-2-352.html#wp9004578`
+      - Technical  · `Conqueror-2-352.html#wp9004580`
+      - Management  · `Conqueror-2-352.html#wp9004582`
+      - Reservations  · `Conqueror-2-352.html#wp9004584`
+  - 4.  Quick Authorization  · `Conqueror-2-353.html`
+  - 5.  Safe Mode  · `Conqueror-2-354.html`
+  - 6.  User Log on and Log off  · `Conqueror-2-355.html`
+    - 6.1  Log on  · `Conqueror-2-355.html#wp9004598`
+      - Select User Profile  · `Conqueror-2-355.html#wp9004603`
+      - Change Password  · `Conqueror-2-355.html#wp9004605`
+      - Center to Connect to  · `Conqueror-2-355.html#wp9004607`
+    - 6.2  Log off  · `Conqueror-2-356.html`
+  - 7.  System Log Events  · `Conqueror-2-357.html`
+    - Zoom  · `Conqueror-2-357.html#wp9004625`
+    - Filter  · `Conqueror-2-357.html#wp9004629`
+    - Print  · `Conqueror-2-357.html#wp9004632`
+    - Delete  · `Conqueror-2-357.html#wp9004634`
+    - Maximum Log Number  · `Conqueror-2-357.html#wp9004637`
+  - 8.  Suspect Actions  · `Conqueror-2-358.html`
+- TIME TRACKING SYSTEM  · `Conqueror-2-359.html`
+  - 1.  Overview  · `Conqueror-2-360.html`
+  - 2.  Staff Actions  · `Conqueror-2-361.html`
+    - 2.1  Staff Log Actions  · `Conqueror-2-362.html`
+      - Modify  · `Conqueror-2-362.html#wp9004658`
+      - Add  · `Conqueror-2-362.html#wp9004661`
+      - Delete  · `Conqueror-2-362.html#wp9004664`
+      - Zoom  · `Conqueror-2-362.html#wp9004666`
+      - Filter  · `Conqueror-2-362.html#wp9004670`
+      - Print  · `Conqueror-2-362.html#wp9004672`
+  - 3.  Time Tracking Reports  · `Conqueror-2-363.html`
+- BOOKING SYSTEM  · `Conqueror-2-364.html`
+  - 1.  Overview  · `Conqueror-2-365.html`
+  - 2.  Booking System Main Window  · `Conqueror-2-366.html`
+    - 2.1  The Reservation Sheet  · `Conqueror-2-367.html`
+      - Overbooking Area  · `Conqueror-2-367.html#wp9004716`
+    - 2.2  The Control Panel  · `Conqueror-2-368.html`
+      - Calendar  · `Conqueror-2-368.html#wp9004724`
+      - Navigator  · `Conqueror-2-368.html#wp9004727`
+      - Zoom  · `Conqueror-2-368.html#wp9004732`
+      - Find  · `Conqueror-2-368.html#wp9004734`
+      - New Reservation  · `Conqueror-2-368.html#wp9004736`
+      - Set Arrived and Set Ready  · `Conqueror-2-368.html#wp9004738`
+      - Open and Close  · `Conqueror-2-368.html#wp9004740`
+      - Merge/Split  · `Conqueror-2-368.html#wp9004745`
+      - Customer  · `Conqueror-2-368.html#wp9004750`
+      - Reservation  · `Conqueror-2-368.html#wp9004753`
+      - Information  · `Conqueror-2-368.html#wp9004755`
+      - Cut, Copy and Paste  · `Conqueror-2-368.html#wp9004757`
+      - Modify  · `Conqueror-2-368.html#wp9004762`
+      - Delete  · `Conqueror-2-368.html#wp9004768`
+      - No Show  · `Conqueror-2-368.html#wp9004771`
+      - Color Table  · `Conqueror-2-368.html#wp9004774`
+      - Clear Customer  · `Conqueror-2-368.html#wp9004776`
+      - Print  · `Conqueror-2-368.html#wp9004778`
+      - Waiting List/Lane Status/Menu/Exit  · `Conqueror-2-368.html#wp9004785`
+  - 3.  Creating a Reservation  · `Conqueror-2-369.html`
+    - To Create a New Reservation  · `Conqueror-2-369.html#wp9004790`
+    - Creating a Reservation Using the Drag &amp; Drop Method  · `Conqueror-2-369.html#wp9004798`
+    - Reservation Overlapping  · `Conqueror-2-369.html#wp9004803`
+    - 3.1  Necessary Data for New Reservation  · `Conqueror-2-370.html`
+      - Starting Date/Time  · `Conqueror-2-370.html#wp9004810`
+      - Customer  · `Conqueror-2-370.html#wp9004817`
+      - Type of Reservation  · `Conqueror-2-370.html#wp9004821`
+      - Quantities  · `Conqueror-2-370.html#wp9004823`
+      - Resource  · `Conqueror-2-370.html#wp9004835`
+      - Requirements  · `Conqueror-2-370.html#wp9004838`
+      - Automatic Opening  · `Conqueror-2-370.html#wp9004846`
+      - Fast Sale  · `Conqueror-2-370.html#wp9004849`
+      - Promotional Code  · `Conqueror-2-370.html#wp9004852`
+      - Finding the Best Price  · `Conqueror-2-370.html#wp9004854`
+      - Finding Free Booking Space  · `Conqueror-2-370.html#wp9004860`
+  - 4.  Reservation Status  · `Conqueror-2-371.html`
+    - Provisional/Confirmed  · `Conqueror-2-371.html#wp9004869`
+    - Late  · `Conqueror-2-371.html#wp9004874`
+    - Arrived  · `Conqueror-2-371.html#wp9004877`
+    - Delayed  · `Conqueror-2-371.html#wp9004879`
+    - Ready  · `Conqueror-2-371.html#wp9004881`
+    - Customer Waiting  · `Conqueror-2-371.html#wp9004886`
+    - Running  · `Conqueror-2-371.html#wp9004888`
+    - Finished  · `Conqueror-2-371.html#wp9004890`
+    - Incomplete Payment  · `Conqueror-2-371.html#wp9004892`
+    - Complete  · `Conqueror-2-371.html#wp9004894`
+    - Cancelled  · `Conqueror-2-371.html#wp9004896`
+    - No Show  · `Conqueror-2-371.html#wp9004898`
+  - 5.  Managing a Reservation  · `Conqueror-2-372.html`
+    - 5.1  Moving a Booking  · `Conqueror-2-372.html#wp9004901`
+    - 5.2  Extending and Reducing a Booking  · `Conqueror-2-373.html`
+    - 5.3  Reservation Details  · `Conqueror-2-374.html`
+      - Customer  · `Conqueror-2-374.html#wp9004915`
+      - Reservation Type  · `Conqueror-2-374.html#wp9004919`
+      - Notes  · `Conqueror-2-374.html#wp9004921`
+      - Arrival Time in Advance  · `Conqueror-2-374.html#wp9004925`
+      - Players  · `Conqueror-2-374.html#wp9004927`
+      - Lanes  · `Conqueror-2-374.html#wp9004936`
+      - Open Type  · `Conqueror-2-374.html#wp9004941`
+      - Bumpers  · `Conqueror-2-374.html#wp9004945`
+      - Sales  · `Conqueror-2-374.html#wp9004948`
+      - Payments  · `Conqueror-2-374.html#wp9004953`
+      - Meals  · `Conqueror-2-374.html#wp9004961`
+      - History and Log  · `Conqueror-2-374.html#wp9004966`
+      - Staff Requirements  · `Conqueror-2-374.html#wp9004971`
+    - 5.4  Mixed Reservations  · `Conqueror-2-375.html`
+    - 5.5  Recurring Reservations  · `Conqueror-2-376.html`
+    - 5.6  Reservation Confirmation  · `Conqueror-2-377.html`
+      - All Details  · `Conqueror-2-377.html#wp9004991`
+      - Customer Confirmation  · `Conqueror-2-377.html#wp9004993`
+      - Header and Footer Files  · `Conqueror-2-377.html#wp9004995`
+      - Font  · `Conqueror-2-377.html#wp9004999`
+      - E-mail  · `Conqueror-2-377.html#wp9005001`
+      - Print  · `Conqueror-2-377.html#wp9005003`
+      - Preview  · `Conqueror-2-377.html#wp9005005`
+      - Save  · `Conqueror-2-377.html#wp9005007`
+    - 5.7  Importing Reservations  · `Conqueror-2-378.html`
+  - 6.  Finding a Reservation  · `Conqueror-2-379.html`
+  - 7.  Reports  · `Conqueror-2-380.html`
+    - 7.1  Creating a Report  · `Conqueror-2-381.html`
+    - 7.2  Report Types  · `Conqueror-2-382.html`
+      - Reservation Details  · `Conqueror-2-382.html#wp9005038`
+      - Outstanding Balance/Deposits Due  · `Conqueror-2-382.html#wp9005046`
+      - Cancelled/No Show Bookings  · `Conqueror-2-382.html#wp9005049`
+      - Function Sheet  · `Conqueror-2-382.html#wp9005052`
+      - Revenue Report  · `Conqueror-2-382.html#wp9005056`
+      - Highest/Lowest Spenders  · `Conqueror-2-382.html#wp9005058`
+  - 8.  Booking System Settings  · `Conqueror-2-383.html`
+    - Grid Time Unit  · `Conqueror-2-383.html#wp9005065`
+    - Lane Status Advice Time  · `Conqueror-2-383.html#wp9005067`
+    - Start Auto-allocation from Lane...  · `Conqueror-2-383.html#wp9005069`
+    - Arrival Time in Advance  · `Conqueror-2-383.html#wp9005072`
+    - Suggested Maximum of Players per Lane  · `Conqueror-2-383.html#wp9005075`
+    - Resource Type  · `Conqueror-2-383.html#wp9005077`
+    - Meals  · `Conqueror-2-383.html#wp9005079`
+    - Opening Hours  · `Conqueror-2-383.html#wp9005081`
+    - Reservation Types  · `Conqueror-2-383.html#wp9005083`
+    - Reservation Status  · `Conqueror-2-383.html#wp9005093`
+    - Group Types  · `Conqueror-2-383.html#wp9005096`
+    - Professions and Workplaces  · `Conqueror-2-383.html#wp9005098`
+    - Discover Sources  · `Conqueror-2-383.html#wp9005101`
+    - History Log Types  · `Conqueror-2-383.html#wp9005104`
+    - Subtract Time from Late Bookings  · `Conqueror-2-383.html#wp9005106`
+    - Incoming Reservation Delay (Minutes)  · `Conqueror-2-383.html#wp9005108`
+    - Promotion Setup  · `Conqueror-2-383.html#wp9005110`
+    - E-mail Template  · `Conqueror-2-383.html#wp9005119`
+    - Fee Setup  · `Conqueror-2-383.html#wp9005124`
+    - Provisional Auto Delete Setup  · `Conqueror-2-383.html#wp9005133`
+    - Late Arrival Management  · `Conqueror-2-383.html#wp9005136`
+    - Reservation Confirmation  · `Conqueror-2-383.html#wp9005142`
+    - Display Original Reservation  · `Conqueror-2-383.html#wp9005144`
+    - Confirmed Reservations by Default  · `Conqueror-2-383.html#wp9005146`
+    - Anonymous Reservations by Default  · `Conqueror-2-383.html#wp9005148`
+    - Pay after Customer Arrival  · `Conqueror-2-383.html#wp9005150`
+    - Use Quick Booking Window  · `Conqueror-2-383.html#wp9005152`
+    - Show Lane and Player Details in Receipts  · `Conqueror-2-383.html#wp9005155`
+    - Dynamic Prices for Local Booking System  · `Conqueror-2-383.html#wp9005157`
+    - Close Reserved Lanes Still to be Paid  · `Conqueror-2-383.html#wp9005159`
+    - Deposit Default Value (%)  · `Conqueror-2-383.html#wp9005161`
+    - Days after Date of Insertion the Deposit Must be Paid  · `Conqueror-2-383.html#wp9005164`
+    - Days before Date of Play the Balance Must be Paid  · `Conqueror-2-383.html#wp9005166`
+    - Message of the Day  · `Conqueror-2-383.html#wp9005168`
+    - Extended Availability  · `Conqueror-2-383.html#wp9005171`
+    - Dynamic Pricing  · `Conqueror-2-383.html#wp9005174`
+  - 9.  Privileges  · `Conqueror-2-384.html`
+    - Inserting and Modifying Reservations  · `Conqueror-2-384.html#wp9005191`
+    - Collecting Reservation Payments or Deposits  · `Conqueror-2-384.html#wp9005193`
+    - Giving Refunds  · `Conqueror-2-384.html#wp9005195`
+    - Giving Deposit Refunds  · `Conqueror-2-384.html#wp9005197`
+    - Modifying Reservation Price Keys  · `Conqueror-2-384.html#wp9005199`
+    - Inserting Payment Date after Date of Play  · `Conqueror-2-384.html#wp9005201`
+    - Opening &quot;Not Completely Paid&quot; Reservations  · `Conqueror-2-384.html#wp9005203`
+    - Modifying Reservation Lane Options and Bowler Options  · `Conqueror-2-384.html#wp9005205`
+    - Cancelling Provisional/Confirmed/Today&#39;s Reservations  · `Conqueror-2-384.html#wp9005208`
+    - Setting No Show Manually  · `Conqueror-2-384.html#wp9005210`
+    - Inserting Unlimited Reservations  · `Conqueror-2-384.html#wp9005212`
+    - Inserting Service Reservations  · `Conqueror-2-384.html#wp9005214`
+    - Inserting Anonymous Reservations  · `Conqueror-2-384.html#wp9005216`
+    - Confirming Provisional Reservations  · `Conqueror-2-384.html#wp9005218`
+    - Moving Provisional and Confirmed Reservations  · `Conqueror-2-384.html#wp9005220`
+    - Editing Reservation Description  · `Conqueror-2-384.html#wp9005222`
+    - Editing Message of the Day  · `Conqueror-2-384.html#wp9005224`
+    - Skipping Member Search while Creating Reservations  · `Conqueror-2-384.html#wp9005226`
+    - Defining Groups with no Contacts  · `Conqueror-2-384.html#wp9005228`
+- TROUBLE CALL SYSTEM  · `Conqueror-2-385.html`
+  - 1.  Overview  · `Conqueror-2-386.html`
+  - 2.  Trouble Calling  · `Conqueror-2-387.html`
+    - 2.1  Signaling Errors  · `Conqueror-2-388.html`
+      - The MAG 3 Pinsetter  · `Conqueror-2-388.html#wp9005250`
+      - The Bowler  · `Conqueror-2-388.html#wp9005252`
+      - The Operator  · `Conqueror-2-388.html#wp9005257`
+      - The Mechanic  · `Conqueror-2-388.html#wp9005261`
+    - 2.2  Alarms and User Warnings  · `Conqueror-2-389.html`
+  - 3.  Managing a Trouble Call  · `Conqueror-2-390.html`
+    - 3.1  Dealing with Trouble Calls through Lane Status  · `Conqueror-2-390.html#wp9005274`
+    - 3.2  Dealing with Trouble Calls through Back Office  · `Conqueror-2-391.html`
+    - 3.3  Voice Messages  · `Conqueror-2-392.html`
+  - 4.  TCS Reports  · `Conqueror-2-393.html`
+    - 4.1  Filters  · `Conqueror-2-393.html#wp9005293`
+    - 4.2  Reports  · `Conqueror-2-394.html`
+  - 5.  TCS Setup  · `Conqueror-2-395.html`
+    - Alert on All QDacs  · `Conqueror-2-395.html#wp9005308`
+    - 5.1  Alarm and Warning Settings  · `Conqueror-2-396.html`
+      - Lanes  · `Conqueror-2-396.html#wp9005314`
+      - Status  · `Conqueror-2-396.html#wp9005316`
+      - Alarm Checks  · `Conqueror-2-396.html#wp9005318`
+      - Keep Records for __ Days  · `Conqueror-2-396.html#wp9005326`
+    - 5.2  Voice Alarm Settings  · `Conqueror-2-397.html`
+      - Voice  · `Conqueror-2-397.html#wp9005329`
+      - Voice Speed  · `Conqueror-2-397.html#wp9005331`
+      - Voice Volume  · `Conqueror-2-397.html#wp9005333`
+      - Phone Timeout  · `Conqueror-2-397.html#wp9005335`
+      - Repeat Frequency  · `Conqueror-2-397.html#wp9005337`
+      - Phone Pause  · `Conqueror-2-397.html#wp9005339`
+      - Speaker Pause  · `Conqueror-2-397.html#wp9005341`
+      - Speaker Repetition  · `Conqueror-2-397.html#wp9005344`
+      - Test Sentence  · `Conqueror-2-397.html#wp9005346`
+  - 6.  Privileges  · `Conqueror-2-398.html`
+    - Make a New Trouble Call  · `Conqueror-2-398.html#wp9005349`
+    - Acknowledge a Call  · `Conqueror-2-398.html#wp9005352`
+    - Complete a Call  · `Conqueror-2-398.html#wp9005355`
+    - Cancel a Call  · `Conqueror-2-398.html#wp9005358`
+    - Access TCS Plugin  · `Conqueror-2-398.html#wp9005361`
+    - Access TCS Setup Plugin  · `Conqueror-2-398.html#wp9005364`
+  - 7.  TCS Telephone Commands  · `Conqueror-2-399.html`
+    - 7.1  Entering Response Codes  · `Conqueror-2-400.html`
+    - 7.2  Commands  · `Conqueror-2-401.html`
+      - Acknowledge (Key 1)  · `Conqueror-2-401.html#wp9005379`
+      - Repairs Completed (Key 2)  · `Conqueror-2-401.html#wp9005383`
+      - Cancel Request (Key 3)  · `Conqueror-2-401.html#wp9005385`
+      - Perform a Pinsetter Partial Set (Key 4)  · `Conqueror-2-401.html#wp9005388`
+      - Perform a Pinsetter Full Set (Key 5)  · `Conqueror-2-401.html#wp9005392`
+      - Spot Pins (Key 6)  · `Conqueror-2-401.html#wp9005396`
+      - Record Voice Message (Key 9)  · `Conqueror-2-401.html#wp9005403`
+      - Aborting a Command (Key #)  · `Conqueror-2-401.html#wp9005408`
+- CAMERAS AND REAL TIME INCOME  · `Conqueror-2-402.html`
+  - 1.  Camera Management  · `Conqueror-2-403.html`
+    - Camera Setup  · `Conqueror-2-403.html#wp9005421`
+  - 2.  Real Time Income  · `Conqueror-2-404.html`
+- MULTI MEDIA SYSTEM  · `Conqueror-2-405.html`
+  - 1.  MMS Monitor Management  · `Conqueror-2-406.html`
+    - 1.1  Waiting List  · `Conqueror-2-407.html`
+    - 1.2  Standing Sessions  · `Conqueror-2-408.html`
+    - 1.3  Price Lists  · `Conqueror-2-409.html`
+      - Managing Price Lists  · `Conqueror-2-409.html#wp9005459`
+      - Managing Price Groups  · `Conqueror-2-409.html#wp9005465`
+    - 1.4  Score Sessions  · `Conqueror-2-410.html`
+    - 1.5  Advertising Playlists  · `Conqueror-2-411.html`
+      - Managing Playlists  · `Conqueror-2-411.html#wp9005486`
+      - Recommended Formats  · `Conqueror-2-411.html#wp9005493`
+      - Other Supported Formats  · `Conqueror-2-411.html#wp9005504`
+      - Conversion Warning  · `Conqueror-2-411.html#wp9005506`
+    - 1.6  Experiences  · `Conqueror-2-412.html`
+  - 2.  MMS Sequence Setup  · `Conqueror-2-413.html`
+  - 3.  Strike Challenge  · `Conqueror-2-414.html`
+    - 3.1  Strike Challenge Management  · `Conqueror-2-415.html`
+      - Strikes per Race  · `Conqueror-2-415.html#wp9005542`
+      - Available Prizes  · `Conqueror-2-415.html#wp9005544`
+      - Prizes Issued  · `Conqueror-2-415.html#wp9005546`
+      - Loop Mode  · `Conqueror-2-415.html#wp9005548`
+      - Prestart Alert  · `Conqueror-2-415.html#wp9005550`
+      - Lanes  · `Conqueror-2-415.html#wp9005552`
+      - Status  · `Conqueror-2-415.html#wp9005555`
+      - Awarded  · `Conqueror-2-415.html#wp9005557`
+      - Delete  · `Conqueror-2-415.html#wp9005561`
+  - 4.  MMS Monitor Setup  · `Conqueror-2-416.html`
+  - 5.  MMS Program Upload  · `Conqueror-2-417.html`
+- CALL CENTER  · `Conqueror-2-418.html`
+  - 1.  Overview  · `Conqueror-2-419.html`
+  - 2.  Operating in the Call Center  · `Conqueror-2-420.html`
+    - 2.1  Creating a Reservation in a Chain Center  · `Conqueror-2-421.html`
+  - 3.  Reporting  · `Conqueror-2-422.html`
+  - 4.  Call Center Setup  · `Conqueror-2-423.html`
+    - 4.1  Adding Bowling Centers  · `Conqueror-2-424.html`
+      - Name  · `Conqueror-2-424.html#wp9005616`
+      - Color  · `Conqueror-2-424.html#wp9005618`
+      - Server IP Address  · `Conqueror-2-424.html#wp9005620`
+      - Welcome Message  · `Conqueror-2-424.html#wp9005622`
+      - Authorization Required  · `Conqueror-2-424.html#wp9005624`
+      - Currently Available  · `Conqueror-2-424.html#wp9005626`
+      - Not Available Because  · `Conqueror-2-424.html#wp9005628`
+    - 4.2  Call Center Settings  · `Conqueror-2-425.html`
+      - Unsent E-mail Folder  · `Conqueror-2-425.html#wp9005631`
+      - Report Folder  · `Conqueror-2-425.html#wp9005633`
+      - Confirmation E-mail Templates  · `Conqueror-2-425.html#wp9005635`
+      - E-mail Protocol Settings  · `Conqueror-2-425.html#wp9005638`
+      - Number of Versions to Maintain  · `Conqueror-2-425.html#wp9005641`
+- WEB SETUP  · `Conqueror-2-426.html`
+  - 1.  Web Reservations  · `Conqueror-2-427.html`
+    - 1.1  Reservation Scenarios  · `Conqueror-2-428.html`
+      - Name/Picture/Description  · `Conqueror-2-428.html#wp9005658`
+      - Reservation Type  · `Conqueror-2-428.html#wp9005663`
+      - Tag  · `Conqueror-2-428.html#wp9005666`
+      - Number of Players  · `Conqueror-2-428.html#wp9005669`
+      - Allow Web Customer Note  · `Conqueror-2-428.html#wp9005671`
+      - Extended Availability  · `Conqueror-2-428.html#wp9005673`
+      - Deposit  · `Conqueror-2-428.html#wp9005675`
+      - Booking Restrictions  · `Conqueror-2-428.html#wp9005678`
+      - Validity Dates  · `Conqueror-2-428.html#wp9005682`
+      - Note for Web Customers  · `Conqueror-2-428.html#wp9005686`
+      - Lane Groups  · `Conqueror-2-428.html#wp9005688`
+      - Linking Price Keys to the Scenario  · `Conqueror-2-428.html#wp9005691`
+      - Customizing Web Price Keys  · `Conqueror-2-428.html#wp9005699`
+      - Scenario Display Order  · `Conqueror-2-428.html#wp9005707`
+      - Managing Add-ons  · `Conqueror-2-428.html#wp9005710`
+    - 1.2  Web Reservation Global Settings  · `Conqueror-2-429.html`
+      - Allow Payment without Activation  · `Conqueror-2-429.html#wp9005724`
+      - CV2 Code Necessary  · `Conqueror-2-429.html#wp9005726`
+      - Reservation Time Unit (Minutes)  · `Conqueror-2-429.html#wp9005728`
+      - Book before Playing (Hours)  · `Conqueror-2-429.html#wp9005731`
+      - Display Price Keys Available before/after Selected Time (Minutes)  · `Conqueror-2-429.html#wp9005733`
+      - Maximum Playing Duration after Last Bookable Time  · `Conqueror-2-429.html#wp9005736`
+      - Default Password for Web Users  · `Conqueror-2-429.html#wp9005739`
+      - Reservation Conditions  · `Conqueror-2-429.html#wp9005742`
+      - Menu Choice Message  · `Conqueror-2-429.html#wp9005745`
+      - Disabled Scenario Message  · `Conqueror-2-429.html#wp9005747`
+      - Discount Display Setup  · `Conqueror-2-429.html#wp9005750`
+      - Lane Groups  · `Conqueror-2-429.html#wp9005753`
+      - Fee Setup  · `Conqueror-2-429.html#wp9005760`
+    - 1.3  Bookable Days and Times  · `Conqueror-2-430.html`
+    - 1.4  Center Legal Information  · `Conqueror-2-431.html`
+      - Disclaimer  · `Conqueror-2-431.html#wp9005780`
+      - Contacts  · `Conqueror-2-431.html#wp9005787`
+      - Send the Confirmation E-mail also to the Center  · `Conqueror-2-431.html#wp9005790`
+      - Center Website  · `Conqueror-2-431.html#wp9005793`
+      - E-mail Setup  · `Conqueror-2-431.html#wp9005795`
+    - 1.5  Reservation Confirmation Settings  · `Conqueror-2-432.html`
+    - 1.6  Extended Availability  · `Conqueror-2-433.html`
+  - 2.  Online Scoring  · `Conqueror-2-434.html`
+  - 3.  BES X GameConnect  · `Conqueror-2-435.html`
+    - Fan Page Address  · `Conqueror-2-435.html#wp9005815`
+    - Website Link  · `Conqueror-2-435.html#wp9005817`
+    - Link to Center Logo  · `Conqueror-2-435.html#wp9005820`
+    - Login Post Message  · `Conqueror-2-435.html#wp9005823`
+    - Post Caption  · `Conqueror-2-435.html#wp9005826`
+    - Post Description  · `Conqueror-2-435.html#wp9005829`
+- COIN-OP INSTALLATIONS  · `Conqueror-2-436.html`
+  - 1.  Settings  · `Conqueror-2-437.html`
+  - 2.  Bowling Mode Setup  · `Conqueror-2-438.html`
+    - Coin Mode Lane Options  · `Conqueror-2-438.html#wp9005845`
+  - 3.  Coin-op Options  · `Conqueror-2-439.html`
+    - Opening Types  · `Conqueror-2-439.html#wp9005852`
+    - 3.1  Timeouts in Seconds  · `Conqueror-2-440.html`
+      - Environment Choice  · `Conqueror-2-440.html#wp9005861`
+      - Single Player Sign-in  · `Conqueror-2-440.html#wp9005864`
+      - YouToons Pictures  · `Conqueror-2-440.html#wp9005866`
+      - Bowler Number Choice  · `Conqueror-2-440.html#wp9005868`
+      - Ready to Play Screen  · `Conqueror-2-440.html#wp9005870`
+      - End of Game Choices  · `Conqueror-2-440.html#wp9005872`
+      - Warning Message  · `Conqueror-2-440.html#wp9005874`
+      - Explanatory Screen  · `Conqueror-2-440.html#wp9005876`
+      - Bowler Throws  · `Conqueror-2-440.html#wp9005878`
+      - SuperTouch App Closure  · `Conqueror-2-440.html#wp9005880`
+      - Recap Closure  · `Conqueror-2-440.html#wp9005882`
+      - Standing Closure  · `Conqueror-2-440.html#wp9005884`
+  - 4.  Best Scores  · `Conqueror-2-441.html`
+    - 4.1  Best Scores Setup  · `Conqueror-2-442.html`
+  - 5.  MMS Advertising Setup  · `Conqueror-2-443.html`
+  - 6.  MMS Sequences Setup  · `Conqueror-2-444.html`
+- CENTER SETUP  · `Conqueror-2-445.html`
+  - 1.  Overview  · `Conqueror-2-446.html`
+  - 2.  Basic  · `Conqueror-2-447.html`
+    - Security  · `Conqueror-2-447.html#wp9005922`
+    - Password Expiration  · `Conqueror-2-447.html#wp9005925`
+    - Login Attempts before Disabling  · `Conqueror-2-447.html#wp9005933`
+    - Time Tracking at Log on/Log off  · `Conqueror-2-447.html#wp9005935`
+    - Automatic Safe Mode After  · `Conqueror-2-447.html#wp9005937`
+    - Database Language  · `Conqueror-2-447.html#wp9005942`
+    - Display Translator Codes  · `Conqueror-2-447.html#wp9005945`
+    - Unicode Font for Strike Challenge  · `Conqueror-2-447.html#wp9005947`
+    - Mask Language  · `Conqueror-2-447.html#wp9005949`
+    - Speed Unit  · `Conqueror-2-447.html#wp9005952`
+    - Paper Size  · `Conqueror-2-447.html#wp9005954`
+    - Normal/Compact Report Font  · `Conqueror-2-447.html#wp9005956`
+    - Current Bowling Day  · `Conqueror-2-447.html#wp9005959`
+    - First Day of the Week  · `Conqueror-2-447.html#wp9005965`
+    - Day Changing Time  · `Conqueror-2-447.html#wp9005967`
+    - System Date/Time  · `Conqueror-2-447.html#wp9005971`
+    - External Time Server/Et-Host Time  · `Conqueror-2-447.html#wp9005974`
+    - Default Report Export Format  · `Conqueror-2-447.html#wp9005978`
+    - Desktop Message  · `Conqueror-2-447.html#wp9005980`
+    - E-mail Setup  · `Conqueror-2-447.html#wp9005983`
+    - Boss Password  · `Conqueror-2-447.html#wp9005988`
+    - Print License  · `Conqueror-2-447.html#wp9005996`
+    - Terminals  · `Conqueror-2-447.html#wp9005998`
+    - Activation  · `Conqueror-2-447.html#wp9006002`
+  - 3.  Lane Control  · `Conqueror-2-448.html`
+    - Opening Modes  · `Conqueror-2-448.html#wp9006008`
+    - FB Confirmation Dialog  · `Conqueror-2-448.html#wp9006011`
+    - Force Sign in Screen on Lane  · `Conqueror-2-448.html#wp9006014`
+    - Default Bowling and Time Game Name Prefix  · `Conqueror-2-448.html#wp9006019`
+    - Defaults for Reports and Statistics  · `Conqueror-2-448.html#wp9006023`
+    - Maximum Number of Players per Lane  · `Conqueror-2-448.html#wp9006026`
+    - Lane Control Refresh Frequency  · `Conqueror-2-448.html#wp9006029`
+    - Add Games/Time to _  · `Conqueror-2-448.html#wp9006032`
+    - Estimated Duration  · `Conqueror-2-448.html#wp9006037`
+    - Default for Time Games  · `Conqueror-2-448.html#wp9006040`
+    - Warning Message  · `Conqueror-2-448.html#wp9006042`
+  - 4.  Prices  · `Conqueror-2-449.html`
+    - 4.1  Game Mode  · `Conqueror-2-450.html`
+      - Frame Payment  · `Conqueror-2-450.html#wp9006051`
+      - Pay 11th &amp; 12th Frames  · `Conqueror-2-450.html#wp9006054`
+      - Price Evaluation Mode  · `Conqueror-2-450.html#wp9006057`
+    - 4.2  Time Mode  · `Conqueror-2-451.html`
+      - Playing Duration  · `Conqueror-2-451.html#wp9006063`
+      - Charging Mode  · `Conqueror-2-451.html#wp9006068`
+      - Time Unit for Billing/Rounding Type  · `Conqueror-2-451.html#wp9006076`
+      - Minimum Billing Time  · `Conqueror-2-451.html#wp9006081`
+      - Minimum Time to Pay  · `Conqueror-2-451.html#wp9006085`
+      - Adding Time Unit  · `Conqueror-2-451.html#wp9006088`
+      - Price Evaluation Mode  · `Conqueror-2-451.html#wp9006090`
+      - Charge Double Time  · `Conqueror-2-451.html#wp9006096`
+    - 4.3  Unlimited Mode  · `Conqueror-2-452.html`
+      - Global Payment  · `Conqueror-2-452.html#wp9006099`
+      - Price Evaluation Mode  · `Conqueror-2-452.html#wp9006102`
+      - Charge Double Ticket  · `Conqueror-2-452.html#wp9006106`
+  - 5.  Payments  · `Conqueror-2-453.html`
+    - Bowling Default Price Keys  · `Conqueror-2-453.html#wp9006109`
+    - Automatic Gratuity Default Percentage  · `Conqueror-2-453.html#wp9006112`
+    - Receipt Detail Level  · `Conqueror-2-453.html#wp9006114`
+    - Split Package Revenue  · `Conqueror-2-453.html#wp9006116`
+    - Divide League Income  · `Conqueror-2-453.html#wp9006120`
+    - Rounded Subtotals  · `Conqueror-2-453.html#wp9006123`
+    - Print Receipt Total before Taxes  · `Conqueror-2-453.html#wp9006125`
+    - Print Included Taxes in Receipt  · `Conqueror-2-453.html#wp9006127`
+    - Print Receipt Number  · `Conqueror-2-453.html#wp9006129`
+    - Print Total Zero Receipts  · `Conqueror-2-453.html#wp9006131`
+    - Print Void Receipts  · `Conqueror-2-453.html#wp9006134`
+    - Receive Payment without Specifying Package Items  · `Conqueror-2-453.html#wp9006136`
+    - Increase Receipt Number for Un-printed Receipts  · `Conqueror-2-453.html#wp9006138`
+    - Print Receipt at Time Game Opening  · `Conqueror-2-453.html#wp9006140`
+    - Export Receipt to System Log  · `Conqueror-2-453.html#wp9006142`
+    - Enable Invoice Counter  · `Conqueror-2-453.html#wp9006144`
+    - Payment Mode Mandatory  · `Conqueror-2-453.html#wp9006146`
+    - Refund Receipts  · `Conqueror-2-453.html#wp9006149`
+    - Refund Receipts Using the Same Payment Mode  · `Conqueror-2-453.html#wp9006151`
+    - Provider Setup  · `Conqueror-2-453.html#wp9006153`
+  - 6.  Score  · `Conqueror-2-454.html`
+    - 6.1  In Bowland and BES Centers  · `Conqueror-2-455.html`
+      - Sound  · `Conqueror-2-455.html#wp9006160`
+      - Birthday  · `Conqueror-2-455.html#wp9006163`
+      - Erase Bowler Names with Stop Key  · `Conqueror-2-455.html#wp9006167`
+      - Time Pause between Pinsetters on  · `Conqueror-2-455.html#wp9006173`
+      - F-out Relay Pulse Duration  · `Conqueror-2-455.html#wp9006176`
+      - Delay in Closing Lanes  · `Conqueror-2-455.html#wp9006179`
+      - Lanes to Be Scanned  · `Conqueror-2-455.html#wp9006183`
+      - Pinsetter on after Practice  · `Conqueror-2-455.html#wp9006186`
+      - Automatic Pinspotter Cycle while Lane Opening  · `Conqueror-2-455.html#wp9006188`
+      - Skip Players with Finished Pre-assigned Games  · `Conqueror-2-455.html#wp9006190`
+      - SuperTouch Reboot after Daily Tasks  · `Conqueror-2-455.html#wp9006194`
+      - Lane Control Box Memory  · `Conqueror-2-455.html#wp9006196`
+      - External Device Controller  · `Conqueror-2-455.html#wp9006199`
+      - Advanced Foul Device  · `Conqueror-2-455.html#wp9006204`
+      - Billiard Light Controller Port  · `Conqueror-2-455.html#wp9006208`
+      - Favero Pool Control System  · `Conqueror-2-455.html#wp9006210`
+      - RAB-12 Setup  · `Conqueror-2-455.html#wp9006212`
+      - Video Server  · `Conqueror-2-455.html#wp9006214`
+    - 6.2  In BOSS Centers  · `Conqueror-2-456.html`
+      - End of Time Notice (Min.)  · `Conqueror-2-456.html#wp9006217`
+      - End of Game Notice (Frames)  · `Conqueror-2-456.html#wp9006220`
+      - Slow Bowling Notice (Min.)  · `Conqueror-2-456.html#wp9006223`
+      - Free Frames  · `Conqueror-2-456.html#wp9006226`
+      - Time Pause between Pinsetters on  · `Conqueror-2-456.html#wp9006230`
+      - F-out Relay Pulse Duration (Msec.)  · `Conqueror-2-456.html#wp9006233`
+      - Lanes to Be Scanned  · `Conqueror-2-456.html#wp9006235`
+      - Automatic Pinsetter Shutoff Delay (Sec.)  · `Conqueror-2-456.html#wp9006238`
+      - Lane Network 0.x.x.x  · `Conqueror-2-456.html#wp9006240`
+      - Special Character Support (Unicode)  · `Conqueror-2-456.html#wp9006242`
+      - ASXL v.6 or Lower  · `Conqueror-2-456.html#wp9006245`
+      - MCU for AMF 82/90-8800 Pinsetter  · `Conqueror-2-456.html#wp9006247`
+      - Billiard Light Controller Port  · `Conqueror-2-456.html#wp9006249`
+      - Favero Pool Control System  · `Conqueror-2-456.html#wp9006251`
+    - 6.3  In AccuScore Plus Centers  · `Conqueror-2-457.html`
+      - Free Frames  · `Conqueror-2-457.html#wp9006254`
+      - Time Pause between Pinsetters on  · `Conqueror-2-457.html#wp9006258`
+      - Lanes to Be Scanned  · `Conqueror-2-457.html#wp9006261`
+      - F-out Relay Pulse Duration (msec.)  · `Conqueror-2-457.html#wp9006264`
+      - Display Logo when Closing Lanes  · `Conqueror-2-457.html#wp9006266`
+      - AccuScorePlus v.5 Firmware  · `Conqueror-2-457.html#wp9006268`
+      - Billiard Light Controller Port  · `Conqueror-2-457.html#wp9006272`
+      - Favero Pool Control System  · `Conqueror-2-457.html#wp9006274`
+    - 6.4  In AS 80/90 Centers  · `Conqueror-2-458.html`
+      - Free Frames  · `Conqueror-2-458.html#wp9006277`
+      - Time Pause between Pinsetters on  · `Conqueror-2-458.html#wp9006281`
+      - Lanes to Be Scanned  · `Conqueror-2-458.html#wp9006284`
+      - F-out Relay Pulse Duration (msec.)  · `Conqueror-2-458.html#wp9006287`
+      - Billiard Light Controller Port  · `Conqueror-2-458.html#wp9006289`
+      - Favero Pool Control System  · `Conqueror-2-458.html#wp9006291`
+    - 6.5  In Frameworx Centers  · `Conqueror-2-459.html`
+      - Free Frames  · `Conqueror-2-459.html#wp9006294`
+      - Time Pause between Pinsetters on  · `Conqueror-2-459.html#wp9006298`
+      - Lanes to Be Scanned  · `Conqueror-2-459.html#wp9006301`
+      - F-out Relay Pulse Duration  · `Conqueror-2-459.html#wp9006304`
+      - Slow Bowling Notice  · `Conqueror-2-459.html#wp9006306`
+      - Pinspotter Inactive  · `Conqueror-2-459.html#wp9006310`
+      - Pinspotter off in League  · `Conqueror-2-459.html#wp9006312`
+      - Scorer off in League  · `Conqueror-2-459.html#wp9006314`
+      - Billiard Light Controller Port  · `Conqueror-2-459.html#wp9006316`
+      - Favero Pool Control System  · `Conqueror-2-459.html#wp9006318`
+      - Set Lane Password  · `Conqueror-2-459.html#wp9006320`
+  - 7.  System  · `Conqueror-2-460.html`
+    - Hopewiser  · `Conqueror-2-460.html#wp9006323`
+    - BLS and BTM  · `Conqueror-2-460.html#wp9006325`
+    - BES/QDac  · `Conqueror-2-460.html#wp9006329`
+    - R-Keeper  · `Conqueror-2-460.html#wp9006332`
+    - DSD  · `Conqueror-2-460.html#wp9006334`
+    - Zonal  · `Conqueror-2-460.html#wp9006337`
+    - RecTrac  · `Conqueror-2-460.html#wp9006343`
+    - Automatic Game Export Path  · `Conqueror-2-460.html#wp9006345`
+    - Number of Versions to Maintain  · `Conqueror-2-460.html#wp9006350`
+    - Automatic New Version Download  · `Conqueror-2-460.html#wp9006354`
+  - 8.  Backup  · `Conqueror-2-461.html`
+    - Automatic Backup  · `Conqueror-2-461.html#wp9006359`
+    - Backup MMS Media Files  · `Conqueror-2-461.html#wp9006363`
+    - Transfer Data to Historical Database  · `Conqueror-2-461.html#wp9006366`
+    - Database Cleanup  · `Conqueror-2-461.html#wp9006370`
+    - Backup Directory  · `Conqueror-2-461.html#wp9006374`
+    - Second Backup Directory  · `Conqueror-2-461.html#wp9006377`
+    - History Cleanup  · `Conqueror-2-461.html#wp9006380`
+  - 9.  Intercom  · `Conqueror-2-462.html`
+    - Description  · `Conqueror-2-462.html#wp9006392`
+    - Serial Number  · `Conqueror-2-462.html#wp9006394`
+    - Status  · `Conqueror-2-462.html#wp9006396`
+    - Number  · `Conqueror-2-462.html#wp9006399`
+    - Inter-Hub  · `Conqueror-2-462.html#wp9006403`
+    - Lanes  · `Conqueror-2-462.html#wp9006406`
+    - Speaker  · `Conqueror-2-462.html#wp9006409`
+    - Exponential Dynamics  · `Conqueror-2-462.html#wp9006411`
+    - Phone  · `Conqueror-2-462.html#wp9006414`
+    - Phone Commutation Threshold  · `Conqueror-2-462.html#wp9006416`
+    - Lane Recall Pause  · `Conqueror-2-462.html#wp9006419`
+    - Stop Ring after  · `Conqueror-2-462.html#wp9006421`
+    - Phone Lanes  · `Conqueror-2-462.html#wp9006424`
+    - Cancel Call if Busy  · `Conqueror-2-462.html#wp9006426`
+    - Phone Sensitivity Threshold  · `Conqueror-2-462.html#wp9006428`
+    - Lane Number Communication  · `Conqueror-2-462.html#wp9006430`
+  - 10.  Coin Hoppers  · `Conqueror-2-463.html`
+- TERMINAL SETUP  · `Conqueror-2-464.html`
+  - 1.  Preferences  · `Conqueror-2-465.html`
+    - Sector and Cash Drawer  · `Conqueror-2-465.html#wp9006447`
+    - Terminal  · `Conqueror-2-465.html#wp9006450`
+    - Center  · `Conqueror-2-465.html#wp9006453`
+    - Language  · `Conqueror-2-465.html#wp9006457`
+    - Diversified User Settings  · `Conqueror-2-465.html#wp9006460`
+    - Last Plugin in Foreground  · `Conqueror-2-465.html#wp9006464`
+    - Font Anti-aliasing  · `Conqueror-2-465.html#wp9006466`
+    - Second Click on Tabs  · `Conqueror-2-465.html#wp9006468`
+    - Available Fonts  · `Conqueror-2-465.html#wp9006471`
+    - Display Translator Codes  · `Conqueror-2-465.html#wp9006475`
+    - Digital Clock  · `Conqueror-2-465.html#wp9006477`
+    - TCS Pop up Module  · `Conqueror-2-465.html#wp9006479`
+    - Skin  · `Conqueror-2-465.html#wp9006481`
+    - Stop Button  · `Conqueror-2-465.html#wp9006483`
+    - Close Stop Button  · `Conqueror-2-465.html#wp9006485`
+    - Turn off Conqueror Sounds  · `Conqueror-2-465.html#wp9006487`
+  - 2.  Devices  · `Conqueror-2-466.html`
+    - Card Reader  · `Conqueror-2-466.html#wp9006491`
+    - Drawer  · `Conqueror-2-466.html#wp9006493`
+    - Display  · `Conqueror-2-466.html#wp9006495`
+    - Beverage Dispenser  · `Conqueror-2-466.html#wp9006497`
+    - Fingerprint Sensor  · `Conqueror-2-466.html#wp9006499`
+    - PinPad  · `Conqueror-2-466.html#wp9006501`
+  - 3.  Print  · `Conqueror-2-467.html`
+    - Empty Score and Mailing Header  · `Conqueror-2-467.html#wp9006506`
+    - Empty Score Report Footer  · `Conqueror-2-467.html#wp9006508`
+    - Print Center Data in Financial Report Header  · `Conqueror-2-467.html#wp9006510`
+    - Print Score after Closing Lanes  · `Conqueror-2-467.html#wp9006512`
+    - Images  · `Conqueror-2-467.html#wp9006515`
+    - Original and Duplicate Receipt Identifiers  · `Conqueror-2-467.html#wp9006517`
+    - Receipt Header and Footer  · `Conqueror-2-467.html#wp9006519`
+  - 4.  Printers  · `Conqueror-2-468.html`
+    - Receipt Printer/Bar Printer  · `Conqueror-2-468.html#wp9006525`
+    - PC Printers  · `Conqueror-2-468.html#wp9006530`
+    - Prize Printer  · `Conqueror-2-468.html#wp9006538`
+  - 5.  Externals  · `Conqueror-2-469.html`
+  - 6.  Quick Buttons  · `Conqueror-2-470.html`
+    - Urgent Tasks  · `Conqueror-2-470.html#wp9006548`
+  - 7.  Credit Card  · `Conqueror-2-471.html`
+    - Credit Card Receipt Printer  · `Conqueror-2-471.html#wp9006552`
+    - Print Receipt Twice  · `Conqueror-2-471.html#wp9006556`
+    - Original and Duplicate Receipt Identifier  · `Conqueror-2-471.html#wp9006559`
+    - Use Standard Receipt Header  · `Conqueror-2-471.html#wp9006562`
+- TECHNICAL SETUP  · `Conqueror-2-472.html`
+  - 1.  Upload Animation  · `Conqueror-2-473.html`
+    - Import  · `Conqueror-2-473.html#wp9006574`
+    - Reload  · `Conqueror-2-473.html#wp9006577`
+    - Upload  · `Conqueror-2-473.html#wp9006579`
+  - 2.  Lane Control Box Replacement  · `Conqueror-2-474.html`
+  - 3.  Lane Control Box Address  · `Conqueror-2-475.html`
+  - 4.  Com Test  · `Conqueror-2-476.html`
+  - 5.  TV and Sound Setup  · `Conqueror-2-477.html`
+    - Lanes  · `Conqueror-2-477.html#wp9006615`
+    - Copy to  · `Conqueror-2-477.html#wp9006618`
+    - Sound Test  · `Conqueror-2-477.html#wp9006620`
+    - TV Adjust  · `Conqueror-2-477.html#wp9006624`
+    - Modify  · `Conqueror-2-477.html#wp9006627`
+  - 6.  Pinsetter and Camera  · `Conqueror-2-478.html`
+    - 6.1  Pinsetter Parameters  · `Conqueror-2-479.html`
+      - First/Second Ball Delay  · `Conqueror-2-479.html#wp9006651`
+      - First/Second Read  · `Conqueror-2-479.html#wp9006655`
+      - Delay  · `Conqueror-2-479.html#wp9006658`
+      - Cm  · `Conqueror-2-479.html#wp9006661`
+      - Level  · `Conqueror-2-479.html#wp9006664`
+      - Reset Time  · `Conqueror-2-479.html#wp9006669`
+      - Pulse W 1/2 and Pause 1/2  · `Conqueror-2-479.html#wp9006673`
+      - Pulse Cycle/Pulse Reset  · `Conqueror-2-479.html#wp9006678`
+      - Time Out  · `Conqueror-2-479.html#wp9006683`
+      - Strike Time  · `Conqueror-2-479.html#wp9006687`
+      - Mode  · `Conqueror-2-479.html#wp9006692`
+      - Auto Power  · `Conqueror-2-479.html#wp9006694`
+      - Impulse Divided  · `Conqueror-2-479.html#wp9006696`
+      - Short Pulse  · `Conqueror-2-479.html#wp9006699`
+      - Aux  · `Conqueror-2-479.html#wp9006702`
+      - Second Lamp  · `Conqueror-2-479.html#wp9006704`
+      - Automatic Foul  · `Conqueror-2-479.html#wp9006706`
+      - Strike N.C.  · `Conqueror-2-479.html#wp9006709`
+      - FBox+  · `Conqueror-2-479.html#wp9006712`
+      - Swap from Left to Right  · `Conqueror-2-479.html#wp9006715`
+      - Second Lamp Tenth Frame  · `Conqueror-2-479.html#wp9006720`
+      - Pinsetter Signal  · `Conqueror-2-479.html#wp9006723`
+      - Sensor Polarity  · `Conqueror-2-479.html#wp9006726`
+      - Pin Add Mode  · `Conqueror-2-479.html#wp9006729`
+    - 6.2  Camera Parameters  · `Conqueror-2-480.html`
+      - Auto  · `Conqueror-2-480.html#wp9006736`
+      - Save Image  · `Conqueror-2-480.html#wp9006738`
+      - Level  · `Conqueror-2-480.html#wp9006740`
+      - Last  · `Conqueror-2-480.html#wp9006742`
+      - Info  · `Conqueror-2-480.html#wp9006744`
+      - Image  · `Conqueror-2-480.html#wp9006747`
+  - 7.  Upload to Lanes  · `Conqueror-2-481.html`
+    - Select Lanes  · `Conqueror-2-481.html#wp9006755`
+    - Select Mask  · `Conqueror-2-481.html#wp9006757`
+    - Table  · `Conqueror-2-481.html#wp9006760`
+    - Erase Memory  · `Conqueror-2-481.html#wp9006762`
+    - Send HDC  · `Conqueror-2-481.html#wp9006765`
+    - Boot from Network  · `Conqueror-2-481.html#wp9006769`
+    - Reset  · `Conqueror-2-481.html#wp9006772`
+    - Upload  · `Conqueror-2-481.html#wp9006774`
+    - Reinitialize  · `Conqueror-2-481.html#wp9006776`
+  - 8.  Lane Setup  · `Conqueror-2-482.html`
+    - Available  · `Conqueror-2-482.html#wp9006787`
+    - Bowling Type  · `Conqueror-2-482.html#wp9006790`
+    - MAC Number  · `Conqueror-2-482.html#wp9006792`
+    - Action Replay Device  · `Conqueror-2-482.html#wp9006796`
+    - Keyboard  · `Conqueror-2-482.html#wp9006799`
+    - Intercom  · `Conqueror-2-482.html#wp9006801`
+    - Console Speaker  · `Conqueror-2-482.html#wp9006803`
+    - Lane Monitors  · `Conqueror-2-482.html#wp9006806`
+    - Default Mask  · `Conqueror-2-482.html#wp9006808`
+    - Monitors on Lanes  · `Conqueror-2-482.html#wp9006811`
+    - Pinsetter Type  · `Conqueror-2-482.html#wp9006814`
+    - Redemption  · `Conqueror-2-482.html#wp9006816`
+    - Lane Settings  · `Conqueror-2-482.html#wp9006819`
+    - Lane Usage  · `Conqueror-2-482.html#wp9006821`
+    - Reservation Setup  · `Conqueror-2-482.html#wp9006825`
+    - HDMI Monitor Settings  · `Conqueror-2-482.html#wp9006827`
+    - 8.1  Lane Counters  · `Conqueror-2-483.html`
+      - Reset Total  · `Conqueror-2-483.html#wp9006832`
+      - Decrease  · `Conqueror-2-483.html#wp9006834`
+  - 9.  High Scores  · `Conqueror-2-484.html`
+    - 9.1  High Score Standings  · `Conqueror-2-485.html`
+    - 9.2  Standings  · `Conqueror-2-486.html`
+    - 9.3  High Scores - Setup Tab  · `Conqueror-2-487.html`
+    - 9.4  High Scores - Settings Tab  · `Conqueror-2-488.html`
+  - 10.  HyperBowling Tests  · `Conqueror-2-489.html`
+    - 10.1  Tests and Direct Commands  · `Conqueror-2-490.html`
+      - Test Sensors  · `Conqueror-2-490.html#wp9006871`
+      - Test LEDs  · `Conqueror-2-490.html#wp9006875`
+      - Test Bumpers  · `Conqueror-2-490.html#wp9006877`
+      - Bumpers Up/Down  · `Conqueror-2-490.html#wp9006879`
+  - 11.  Calendar Setup  · `Conqueror-2-491.html`
+- ECONOMIC SETUP  · `Conqueror-2-492.html`
+  - 1.  Overview  · `Conqueror-2-493.html`
+  - 2.  Currencies  · `Conqueror-2-494.html`
+    - 2.1  Settings  · `Conqueror-2-495.html`
+    - 2.2  Adding a New Currency  · `Conqueror-2-496.html`
+    - 2.3  Modifying Currencies  · `Conqueror-2-497.html`
+    - 2.4  Changing the Main Currency  · `Conqueror-2-498.html`
+  - 3.  Taxes  · `Conqueror-2-499.html`
+    - 3.1  Settings  · `Conqueror-2-500.html`
+    - 3.2  Managing Taxes  · `Conqueror-2-501.html`
+      - Tax  · `Conqueror-2-501.html#wp9006946`
+      - Percentage/Fixed Value  · `Conqueror-2-501.html#wp9006948`
+      - From/To Value  · `Conqueror-2-501.html#wp9006950`
+      - RecTrac Code  · `Conqueror-2-501.html#wp9006952`
+      - Rounding Precision/Rounding Type  · `Conqueror-2-501.html#wp9006954`
+      - Level  · `Conqueror-2-501.html#wp9006957`
+      - Included in Price  · `Conqueror-2-501.html#wp9006960`
+      - Applied to Single Item  · `Conqueror-2-501.html#wp9006962`
+      - Apply to the Total of Item Value of Same Tax Group  · `Conqueror-2-501.html#wp9006964`
+    - 3.3  Managing Tax Groups  · `Conqueror-2-502.html`
+  - 4.  Departments  · `Conqueror-2-503.html`
+    - 4.1  Managing Departments  · `Conqueror-2-504.html`
+    - 4.2  Creating Departments  · `Conqueror-2-505.html`
+      - Unit of Measurement  · `Conqueror-2-505.html#wp9006985`
+      - Display Order  · `Conqueror-2-505.html#wp9006987`
+      - Department Type  · `Conqueror-2-505.html#wp9006990`
+      - Default Category/Create New Main Category  · `Conqueror-2-505.html#wp9006993`
+      - Color  · `Conqueror-2-505.html#wp9006996`
+      - Printer  · `Conqueror-2-505.html#wp9006998`
+    - 4.3  Modifying Departments  · `Conqueror-2-506.html`
+    - 4.4  Deleting Departments  · `Conqueror-2-507.html`
+  - 5.  Price Keys  · `Conqueror-2-508.html`
+    - 5.1  Creating Price Keys  · `Conqueror-2-509.html`
+      - Name  · `Conqueror-2-509.html#wp9007017`
+      - Price  · `Conqueror-2-509.html#wp9007019`
+      - Tax Group  · `Conqueror-2-509.html#wp9007021`
+      - Quantity  · `Conqueror-2-509.html#wp9007023`
+      - Berg Code  · `Conqueror-2-509.html#wp9007025`
+      - RecTrac Code  · `Conqueror-2-509.html#wp9007032`
+      - WinTic Code  · `Conqueror-2-509.html#wp9007034`
+      - External Key  · `Conqueror-2-509.html#wp9007036`
+      - Bar Code  · `Conqueror-2-509.html#wp9007038`
+      - Gratuity  · `Conqueror-2-509.html#wp9007040`
+      - Special Price  · `Conqueror-2-509.html#wp9007044`
+      - Authorization Required  · `Conqueror-2-509.html#wp9007047`
+      - Package Only  · `Conqueror-2-509.html#wp9007051`
+      - Members Only  · `Conqueror-2-509.html#wp9007053`
+      - Shoes  · `Conqueror-2-509.html#wp9007055`
+      - Sale Price  · `Conqueror-2-509.html#wp9007057`
+      - Point Collection  · `Conqueror-2-509.html#wp9007060`
+      - Discountable  · `Conqueror-2-509.html#wp9007062`
+      - Note Required  · `Conqueror-2-509.html#wp9007065`
+      - Best Prices  · `Conqueror-2-509.html#wp9007067`
+      - Kitchen Printable  · `Conqueror-2-509.html#wp9007069`
+      - Proportional  · `Conqueror-2-509.html#wp9007071`
+      - Applicability Dates  · `Conqueror-2-509.html#wp9007073`
+    - 5.2  Defining Prices  · `Conqueror-2-510.html`
+    - 5.3  Copying Price Keys  · `Conqueror-2-511.html`
+    - 5.4  Price Key Report  · `Conqueror-2-512.html`
+  - 6.  Modifiers  · `Conqueror-2-513.html`
+    - Duplicating Groups of Modifiers  · `Conqueror-2-513.html#wp9007100`
+    - 6.2  Creating a Modifier  · `Conqueror-2-514.html`
+    - 6.3  Linking Price Keys to Modifiers  · `Conqueror-2-515.html`
+    - 6.4  Automatic and Optional Modifiers  · `Conqueror-2-516.html`
+    - 6.5  Ordering Modifiers  · `Conqueror-2-517.html`
+  - 7.  Categories  · `Conqueror-2-518.html`
+    - Creating Categories  · `Conqueror-2-518.html#wp9007131`
+    - Linking Categories to Terminals  · `Conqueror-2-518.html#wp9007137`
+    - Category Display Order in the Sales Window  · `Conqueror-2-518.html#wp9007140`
+    - Choosing the Category Price Keys  · `Conqueror-2-518.html#wp9007142`
+    - Price Key Display Order in the Sales Window  · `Conqueror-2-518.html#wp9007147`
+  - 8.  Packages  · `Conqueror-2-519.html`
+    - 8.1  Package Settings  · `Conqueror-2-520.html`
+      - Price  · `Conqueror-2-520.html#wp9007156`
+      - Package Items  · `Conqueror-2-520.html#wp9007165`
+    - 8.2  Open Choice Menus  · `Conqueror-2-521.html`
+  - 9.  Discounts  · `Conqueror-2-522.html`
+    - 9.1  Discount Types  · `Conqueror-2-523.html`
+      - Automatic Discounts  · `Conqueror-2-523.html#wp9007183`
+      - Manual Discounts  · `Conqueror-2-523.html#wp9007189`
+    - 9.2  Discount Setup  · `Conqueror-2-524.html`
+      - Rate/Fixed Amount  · `Conqueror-2-524.html#wp9007198`
+      - Authorization Required  · `Conqueror-2-524.html#wp9007210`
+      - Apply Discount also to Other Bowlers  · `Conqueror-2-524.html#wp9007212`
+      - Member Category Only  · `Conqueror-2-524.html#wp9007217`
+      - External Key  · `Conqueror-2-524.html#wp9007221`
+      - Italian and Romanian Market  · `Conqueror-2-524.html#wp9007223`
+    - 9.3  Linking Discounts to Member Categories  · `Conqueror-2-525.html`
+  - 10.  Denominations  · `Conqueror-2-526.html`
+    - 10.1  Settings  · `Conqueror-2-527.html`
+      - Special Payment Settings  · `Conqueror-2-527.html#wp9007242`
+  - 11.  Fast Sale Items  · `Conqueror-2-528.html`
+    - 11.1  Settings  · `Conqueror-2-529.html`
+  - 12.  Lane Orders  · `Conqueror-2-530.html`
+    - 12.1  How Does it Work with BES X?  · `Conqueror-2-531.html`
+      - Bowler Side  · `Conqueror-2-531.html#wp9007268`
+      - Operator Side  · `Conqueror-2-531.html#wp9007272`
+    - 12.2  Settings  · `Conqueror-2-532.html`
+      - Menu Mode  · `Conqueror-2-532.html#wp9007286`
+      - Pictures  · `Conqueror-2-532.html#wp9007292`
+      - Display Without Taxes Notice on Console  · `Conqueror-2-532.html#wp9007295`
+      - Skip Amount Tendered  · `Conqueror-2-532.html#wp9007298`
+      - Automatically Save in Tab and Print  · `Conqueror-2-532.html#wp9007300`
+      - Customized Font  · `Conqueror-2-532.html#wp9007303`
+      - Quick Button for Urgent Tasks  · `Conqueror-2-532.html#wp9007306`
+- APPENDIX  · `Conqueror-2-533.html`
+  - 1.  Quick Access Menu Icons  · `Conqueror-2-534.html`

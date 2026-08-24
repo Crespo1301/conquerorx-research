@@ -1,0 +1,57 @@
+==========================================
+TEMPLATES AND EXCHANGE FORMATS
+Snapshot: 2026-08-24T21:03:30Z
+==========================================
+
+### EXCEL TEMPLATES (.xlt/.xltx) ###
+/mnt/c/QDesk/Bin/xlt/Members with ID.xlt
+/mnt/c/QDesk/Bin/xlt/Members.xlt
+/mnt/c/QDesk/Bin/xlt/ReservationDetailsImport.xlt
+/mnt/c/QDesk/Bin/xlt/TournamentPlayers.xlt
+
+### REPORT TEMPLATES (Crystal, RDL, etc.) ###
+/mnt/c/QDesk/Bin/Reports/AllBookingDetails.rpt
+/mnt/c/QDesk/Bin/Reports/BestGamesSupReport.rpt
+/mnt/c/QDesk/Bin/Reports/BestPlayerDetails.rpt
+/mnt/c/QDesk/Bin/Reports/BestPlayerDetailsWithoutTeamColumn.rpt
+/mnt/c/QDesk/Bin/Reports/BILLS.rpt
+/mnt/c/QDesk/Bin/Reports/BookingTypeCount.rpt
+/mnt/c/QDesk/Bin/Reports/BowlersAndGames.rpt
+/mnt/c/QDesk/Bin/Reports/CenterAvg.rpt
+/mnt/c/QDesk/Bin/Reports/ClassificationBestGame.rpt
+/mnt/c/QDesk/Bin/Reports/ClassificationBestGameWithoutTeamColumn.rpt
+/mnt/c/QDesk/Bin/Reports/ClassificationClubPlayer.rpt
+/mnt/c/QDesk/Bin/Reports/ClassificationGames.rpt
+/mnt/c/QDesk/Bin/Reports/ClassificationGenericSwedishLeague.rpt
+/mnt/c/QDesk/Bin/Reports/ClassificationPlayer.rpt
+/mnt/c/QDesk/Bin/Reports/ClassificationPlayerOnSeries.rpt
+/mnt/c/QDesk/Bin/Reports/ClassificationPlayerOnSeriesWithoutTeamColumn.rpt
+/mnt/c/QDesk/Bin/Reports/ClassificationPlayerWithoutTeamColumn.rpt
+/mnt/c/QDesk/Bin/Reports/ClassificationSwedishLeagueElite.rpt
+/mnt/c/QDesk/Bin/Reports/ClassificationSwedishLeagueEliteTeam.rpt
+/mnt/c/QDesk/Bin/Reports/ClassificDetailOrdered.rpt
+/mnt/c/QDesk/Bin/Reports/CoinHopper.rpt
+/mnt/c/QDesk/Bin/Reports/CoinOperated.rpt
+/mnt/c/QDesk/Bin/Reports/CreditCard.rpt
+/mnt/c/QDesk/Bin/Reports/DarReport.rpt
+/mnt/c/QDesk/Bin/Reports/EndOfShiftCashOut.rpt
+/mnt/c/QDesk/Bin/Reports/EndOfShiftCashOutBillsAndCoins.rpt
+/mnt/c/QDesk/Bin/Reports/ExtraFrames.rpt
+/mnt/c/QDesk/Bin/Reports/FBTCR.rpt
+/mnt/c/QDesk/Bin/Reports/FBTGIR.rpt
+/mnt/c/QDesk/Bin/Reports/FBTGR.rpt
+
+### PRINT TEMPLATES ###
+total 0
+drwxrwxrwx 1 cresp3 cresp3 4096 Aug 22 15:32 .
+drwxrwxrwx 1 cresp3 cresp3 4096 Aug 22 15:32 ..
+drwxrwxrwx 1 cresp3 cresp3 4096 Aug 22 15:32 Images
+drwxrwxrwx 1 cresp3 cresp3 4096 Aug 22 15:32 MadGameHeaders
+
+### RSA/CERT FILES ###
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/node_modules/socket.io/example/cert.crt
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/node_modules/socket.io/example/key.key
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/node_modules/restify/node_modules/http-signature/tst/rsa_private.pem
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/node_modules/restify/node_modules/http-signature/tst/rsa_public.pem
+
+### API SCHEMA / .proto / .thrift / .wsdl / .avsc ###

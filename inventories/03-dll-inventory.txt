@@ -1,0 +1,1120 @@
+==========================================
+DLL INVENTORY (grouped by naming family)
+Snapshot: 2026-08-24T21:01:42Z
+==========================================
+
+Total DLL files in C:\QDesk\Bin:
+865
+
+=== Qbk.Reservations*.dll  (14 file(s)) ===
+  Qbk.Reservations.ExtendedAvailability.Server.dll
+  Qbk.Reservations.Server.CloudData.dll
+  Qbk.Reservations.Server.Interop.dll
+  Qbk.Reservations.Server.dll
+  Qbk.Reservations.dll
+  Qbk.Reservations.Client.Interop.dll
+  Qbk.Reservations.Client.dll
+  Qbk.Reservations.DynamicDiscountsSetup.dll
+  Qbk.Reservations.ExtendedAvailability.Client.dll
+  Qbk.Reservations.ExtendedAvailability.Gui.dll
+  Qbk.Reservations.Gui.dll
+  Qbk.Reservations.Importer.dll
+  Qbk.Reservations.Promotion.Setup.dll
+  Qbk.Reservations.dll
+
+=== Qbk.Customer*.dll  (6 file(s)) ===
+  Qbk.Customers.Server.Interface.dll
+  Qbk.Customers.Server.dll
+  Qbk.Customers.dll
+  Qbk.Customers.Client.dll
+  Qbk.Customers.Homonymous.dll
+  Qbk.Customers.dll
+
+=== Qbk.League*.dll  (12 file(s)) ===
+  Qbk.Leagues.CDE.dll
+  Qbk.Leagues.Server.dll
+  Qbk.Leagues.dll
+  Qbk.Leagues.BowlersAndTeams.dll
+  Qbk.Leagues.CDE.dll
+  Qbk.Leagues.ClientLib.dll
+  Qbk.Leagues.LaneStatus.dll
+  Qbk.Leagues.ScoreSheet.dll
+  Qbk.Leagues.Setup.dll
+  Qbk.Leagues.Standings.Client.dll
+  Qbk.Leagues.Standings.dll
+  Qbk.Leagues.dll
+
+=== Qbk.Tournament*.dll  (9 file(s)) ===
+  Qbk.Tournaments.Interop.dll
+  Qbk.Tournaments.Server.dll
+  Qbk.Tournaments.dll
+  Qbk.Tournament.Gui.dll
+  Qbk.Tournament.Standing.dll
+  Qbk.Tournaments.Client.dll
+  Qbk.Tournaments.Gui.dll
+  Qbk.Tournaments.Interop.dll
+  Qbk.Tournaments.dll
+
+=== Qbk.Center*.dll  (3 file(s)) ===
+  Qbk.CenterManagement.Server.dll
+  Qbk.CenterManagement.dll
+  Qbk.CenterManagement.dll
+
+=== Qbk.Lane*.dll  (25 file(s)) ===
+  Qbk.LaneMovement.Interop.dll
+  Qbk.LaneMovement.dll
+  Qbk.LaneServices.dll
+  Qbk.Lanes.Data.Server.dll
+  Qbk.Lanes.GameDataExport.dll
+  Qbk.Lanes.Gui.Interop.dll
+  Qbk.Lanes.Hal.dll
+  Qbk.Lanes.Interop.dll
+  Qbk.Lanes.OpeningMessages.dll
+  Qbk.Lanes.Q2A.Server.dll
+  Qbk.Lanes.Server.Interop.dll
+  Qbk.Lanes.Server.dll
+  Qbk.Lanes.dll
+  Qbk.LaneControl.dll
+  Qbk.LaneMovement.Interop.dll
+  Qbk.LaneMovement.dll
+  Qbk.LaneServices.dll
+  Qbk.Lanes.GameDataExport.dll
+  Qbk.Lanes.Gui.Interop.dll
+  Qbk.Lanes.Gui.Score.dll
+  Qbk.Lanes.Gui.dll
+  Qbk.Lanes.Interop.dll
+  Qbk.Lanes.OpeningMessages.dll
+  Qbk.Lanes.Tilt.TiltPlugin.dll
+  Qbk.Lanes.dll
+
+=== Qbk.Terminal*.dll  (1 file(s)) ===
+  Qbk.Terminals.Setup.dll
+
+=== Qbk.Reports*.dll  (1 file(s)) ===
+  Qbk.Reports.dll
+
+=== Qbk.WebSetup*.dll  (1 file(s)) ===
+  Qbk.WebSetup.dll
+
+=== Qbk.CashDrawer*.dll  (1 file(s)) ===
+  Qbk.CashDrawer.dll
+
+=== Qbk.Redemption*.dll  (1 file(s)) ===
+  Qbk.Redemption.Setup.dll
+
+=== Qbk.MMS*.dll  (5 file(s)) ===
+  Qbk.MMS.Server.dll
+  Qbk.MMS.dll
+  Qbk.MMS.Setup.dll
+  Qbk.MMS.VideoValidator.dll
+  Qbk.MMS.dll
+
+=== Qbk.Kiosk*.dll  (2 file(s)) ===
+  Qbk.Kiosk.Assistance.dll
+  Qbk.Kiosk.AssistancePlugin.dll
+
+=== Qbk.TCS*.dll  (3 file(s)) ===
+  Qbk.TCS.dll
+  Qbk.TCS.Gui.dll
+  Qbk.TCS.dll
+
+=== Qbk.Notification*.dll  (1 file(s)) ===
+  Qbk.Notifications.dll
+
+=== Qbk.Bowler*.dll  (1 file(s)) ===
+  Qbk.BowlerPictures.dll
+
+=== Qbk*.dll  (323 file(s)) ===
+  Qbk.Api.dll
+  Qbk.BackupServices.dll
+  Qbk.BaseConquerorInfo.Server.dll
+  Qbk.BixolonInterfaces.dll
+  Qbk.BixolonSPP210.dll
+  Qbk.BowlingAgent.Interop.dll
+  Qbk.BowlingAgent.dll
+  Qbk.Bubble.Animations.dll
+  Qbk.Bubble.Birthday.dll
+  Qbk.Bubble.BowlingHistory.dll
+  Qbk.Bubble.BowlingModes.dll
+  Qbk.Bubble.Chat.dll
+  Qbk.Bubble.CloudBackup.dll
+  Qbk.Bubble.CloudConfiguration.dll
+  Qbk.Bubble.CloudReservations.dll
+  Qbk.Bubble.Customers.dll
+  Qbk.Bubble.Dassle.dll
+  Qbk.Bubble.EconomicalHistory.dll
+  Qbk.Bubble.EconomicalInterface.dll
+  Qbk.Bubble.EconomicalKiosk.dll
+  Qbk.Bubble.EconomicalReport.dll
+  Qbk.Bubble.Experiences.dll
+  Qbk.Bubble.GamesService.dll
+  Qbk.Bubble.Host.dll
+  Qbk.Bubble.Kiosk.dll
+  Qbk.Bubble.LaneOrder.dll
+  Qbk.Bubble.LaneServices.Presentation.dll
+  Qbk.Bubble.LaneServices.WarningMessage.dll
+  Qbk.Bubble.LaneServices.WelcomeMessage.dll
+  Qbk.Bubble.LaneServices.dll
+  Qbk.Bubble.LaneTalk.dll
+  Qbk.Bubble.LegacyResources.dll
+  Qbk.Bubble.Lights.dll
+  Qbk.Bubble.MxGCLogs.dll
+  Qbk.Bubble.Notifications.dll
+  Qbk.Bubble.Payments.dll
+  Qbk.Bubble.Pictures.dll
+  Qbk.Bubble.PublishedLanes.dll
+  Qbk.Bubble.QPadPayment.dll
+  Qbk.Bubble.ReservationsHistory.dll
+  Qbk.Bubble.Sally.dll
+  Qbk.Bubble.ScoreDistribution.dll
+  Qbk.Bubble.SpecialGames.dll
+  Qbk.Bubble.StatReports.dll
+  Qbk.Bubble.Tcs.dll
+  Qbk.Bubble.Tempus.dll
+  Qbk.Bubble.Time.dll
+  Qbk.Bubble.Voip.dll
+  Qbk.Bubble.YouToons.dll
+  Qbk.Bubble.dll
+  Qbk.CallCenter.Server.dll
+  Qbk.CallCenter.dll
+  Qbk.CenterManagement.Server.dll
+  Qbk.CenterManagement.dll
+  Qbk.Centralization.History.Server.dll
+  Qbk.Centralization.Server.dll
+  Qbk.Centralization.dll
+  Qbk.CleanCash.Server.dll
+  Qbk.CleanCash.dll
+  Qbk.Cloud.dll
+  Qbk.CloudConfiguration.dll
+  Qbk.ConquerorWeb.Server.dll
+  Qbk.ConquerorWeb.dll
+  Qbk.Customers.Server.Interface.dll
+  Qbk.Customers.Server.dll
+  Qbk.Customers.dll
+  Qbk.DailyTask.Server.Interop.dll
+  Qbk.DailyTask.Server.dll
+  Qbk.DailyTask.dll
+  Qbk.Data.Options.dll
+  Qbk.Economical.CoinTech.Server.dll
+  Qbk.Economical.CoinTech.dll
+  Qbk.Economical.Eft.dll
+  Qbk.Economical.Export.dll
+  Qbk.Economical.Kiosk.Data.dll
+  Qbk.Economical.LaneOrder.dll
+  Qbk.Economical.QPad.dll
+  Qbk.Economical.ReceiptPrint.dll
+  Qbk.Economical.Rest.dll
+  Qbk.Economical.Server.Interface.dll
+  Qbk.Economical.Server.dll
+  Qbk.Economical.dll
+  Qbk.EpsonTMP20.dll
+  Qbk.EventSupport.dll
+  Qbk.Experience.dll
+  Qbk.FBPointSystem.Server.dll
+  Qbk.FBTSelect.Server.dll
+  Qbk.FBTSelect.dll
+  Qbk.FileSaver.dll
+  Qbk.FlexyBookApi.Server.dll
+  Qbk.HighScores.dll
+  Qbk.HmacAuthentication.dll
+  Qbk.Imaging.dll
+  Qbk.InternetUpdate.Server.dll
+  Qbk.LaneMovement.Interop.dll
+  Qbk.LaneMovement.dll
+  Qbk.LaneServices.dll
+  Qbk.Lanes.Data.Server.dll
+  Qbk.Lanes.GameDataExport.dll
+  Qbk.Lanes.Gui.Interop.dll
+  Qbk.Lanes.Hal.dll
+  Qbk.Lanes.Interop.dll
+  Qbk.Lanes.OpeningMessages.dll
+  Qbk.Lanes.Q2A.Server.dll
+  Qbk.Lanes.Server.Interop.dll
+  Qbk.Lanes.Server.dll
+  Qbk.Lanes.dll
+  Qbk.Leagues.CDE.dll
+  Qbk.Leagues.Server.dll
+  Qbk.Leagues.dll
+  Qbk.LegacyResources.dll
+  Qbk.Lights.dll
+  Qbk.LocalBackend.Sdk.dll
+  Qbk.MMS.Server.dll
+  Qbk.MMS.dll
+  Qbk.Micros.Server.dll
+  Qbk.Net.Message.dll
+  Qbk.PoolControl.Server.dll
+  Qbk.PoolControl.dll
+  Qbk.Print.dll
+  Qbk.PrintGames.dll
+  Qbk.RecTrac.dll
+  Qbk.Reservations.ExtendedAvailability.Server.dll
+  Qbk.Reservations.Server.CloudData.dll
+  Qbk.Reservations.Server.Interop.dll
+  Qbk.Reservations.Server.dll
+  Qbk.Reservations.dll
+  Qbk.RestClient.dll
+  Qbk.Security.Server.dll
+  Qbk.Security.dll
+  Qbk.Server.Logger.dll
+  Qbk.Server.dll
+  Qbk.ServiceInterface.dll
+  Qbk.Shift.Control.dll
+  Qbk.Shift.Server.Interop.dll
+  Qbk.Shift.Server.dll
+  Qbk.Shift.dll
+  Qbk.TCS.dll
+  Qbk.Tournaments.Interop.dll
+  Qbk.Tournaments.Server.dll
+  Qbk.Tournaments.dll
+  Qbk.UpgradeManager.dll
+  Qbk.UserMessages.Server.dll
+  Qbk.UserMessages.dll
+  Qbk.WebBookingApi.Server.dll
+  Qbk.Xbowling.dll
+  Qbk.Youtoons.dll
+  Qbk.dll
+  Qbk.AcsACR1222L.dll
+  Qbk.AddressLookup.dll
+  Qbk.Badge.Broker.dll
+  Qbk.Badge.Interop.dll
+  Qbk.Badge.dll
+  Qbk.BarDispenser.dll
+  Qbk.BixolonInterfaces.dll
+  Qbk.BixolonSPP210.dll
+  Qbk.BowlerPictures.dll
+  Qbk.BowlingAgent.dll
+  Qbk.CallCenter.CenterChoice.dll
+  Qbk.CallCenter.ConsolidatedReports.dll
+  Qbk.CallCenter.Gui.dll
+  Qbk.CallCenter.Setup.dll
+  Qbk.CallCenter.dll
+  Qbk.CappingLights.Setup.dll
+  Qbk.CashDrawer.dll
+  Qbk.CenterManagement.dll
+  Qbk.Centralization.Gui.dll
+  Qbk.Centralization.dll
+  Qbk.CleanCash.dll
+  Qbk.Client.Logger.dll
+  Qbk.CloudConfiguration.dll
+  Qbk.Compress.dll
+  Qbk.ConquerorWeb.dll
+  Qbk.Customers.Client.dll
+  Qbk.Customers.Homonymous.dll
+  Qbk.Customers.dll
+  Qbk.DailyTask.Client.dll
+  Qbk.DailyTask.dll
+  Qbk.Data.Options.dll
+  Qbk.Economical.CategorySetup.dll
+  Qbk.Economical.Client.dll
+  Qbk.Economical.CoinTech.dll
+  Qbk.Economical.DARReport.dll
+  Qbk.Economical.Eft.Gui.dll
+  Qbk.Economical.Eft.dll
+  Qbk.Economical.EftBackOffice.dll
+  Qbk.Economical.Export.Client.dll
+  Qbk.Economical.Export.dll
+  Qbk.Economical.Gui.dll
+  Qbk.Economical.Invoicing.dll
+  Qbk.Economical.LaneOrder.dll
+  Qbk.Economical.LaneOrderSetup.dll
+  Qbk.Economical.ModifierSetup.dll
+  Qbk.Economical.NotAvailablePriceKeys.dll
+  Qbk.Economical.Pay.dll
+  Qbk.Economical.PaySplit.dll
+  Qbk.Economical.Pos.dll
+  Qbk.Economical.PosLayouts.dll
+  Qbk.Economical.PosSetup.dll
+  Qbk.Economical.PriceSetup.dll
+  Qbk.Economical.QPad.dll
+  Qbk.Economical.ReceiptPrint.dll
+  Qbk.Economical.ReceiptRefund.dll
+  Qbk.Economical.Reprint.dll
+  Qbk.Economical.Rest.dll
+  Qbk.Economical.Tabs.dll
+  Qbk.Economical.TipPlugin.dll
+  Qbk.Economical.TipsPay.dll
+  Qbk.Economical.dll
+  Qbk.EpsonTMP20.dll
+  Qbk.EventSupport.dll
+  Qbk.Experience.Gui.dll
+  Qbk.Experience.Setup.dll
+  Qbk.Experience.dll
+  Qbk.FBTSelect.Client.dll
+  Qbk.FBTSelect.dll
+  Qbk.GlobalMood.Setup.dll
+  Qbk.Gui.COM.dll
+  Qbk.Gui.CenterManagement.dll
+  Qbk.Gui.Controls.dll
+  Qbk.Gui.Menu.dll
+  Qbk.Gui.dll
+  Qbk.Hardware.CaptureDevices.Interop.dll
+  Qbk.Hardware.CaptureDevices.dll
+  Qbk.HighScores.Preview.dll
+  Qbk.HighScores.dll
+  Qbk.HistoricalGames.Gui.dll
+  Qbk.HmacAuthentication.dll
+  Qbk.HyperTools.dll
+  Qbk.InternetUpdate.Gui.dll
+  Qbk.Kiosk.Assistance.dll
+  Qbk.Kiosk.AssistancePlugin.dll
+  Qbk.LaneControl.dll
+  Qbk.LaneMovement.Interop.dll
+  Qbk.LaneMovement.dll
+  Qbk.LaneServices.dll
+  Qbk.Lanes.GameDataExport.dll
+  Qbk.Lanes.Gui.Interop.dll
+  Qbk.Lanes.Gui.Score.dll
+  Qbk.Lanes.Gui.dll
+  Qbk.Lanes.Interop.dll
+  Qbk.Lanes.OpeningMessages.dll
+  Qbk.Lanes.Tilt.TiltPlugin.dll
+  Qbk.Lanes.dll
+  Qbk.LcdKeyboard.dll
+  Qbk.Leagues.BowlersAndTeams.dll
+  Qbk.Leagues.CDE.dll
+  Qbk.Leagues.ClientLib.dll
+  Qbk.Leagues.LaneStatus.dll
+  Qbk.Leagues.ScoreSheet.dll
+  Qbk.Leagues.Setup.dll
+  Qbk.Leagues.Standings.Client.dll
+  Qbk.Leagues.Standings.dll
+  Qbk.Leagues.dll
+  Qbk.LegacyResources.dll
+  Qbk.Lights.Setup.dll
+  Qbk.Lights.TechnicalSetup.dll
+  Qbk.Lights.dll
+  Qbk.MMS.Setup.dll
+  Qbk.MMS.VideoValidator.dll
+  Qbk.MMS.dll
+  Qbk.Mail.Gui.dll
+  Qbk.Mail.dll
+  Qbk.Net.Message.dll
+  Qbk.Notifications.dll
+  Qbk.OrderReprintPlugin.dll
+  Qbk.PicturesValidation.Setup.dll
+  Qbk.PicturesValidation.dll
+  Qbk.PluginParams.dll
+  Qbk.PoolControl.dll
+  Qbk.Print.dll
+  Qbk.PrintGames.Plugin.dll
+  Qbk.PrintGames.dll
+  Qbk.QDesk.Shell.dll
+  Qbk.QDesk.dll
+  Qbk.QRBarcode.Broker.dll
+  Qbk.QRBarcode.dll
+  Qbk.RecTrac.dll
+  Qbk.Redemption.Setup.dll
+  Qbk.Reports.dll
+  Qbk.Reservations.Client.Interop.dll
+  Qbk.Reservations.Client.dll
+  Qbk.Reservations.DynamicDiscountsSetup.dll
+  Qbk.Reservations.ExtendedAvailability.Client.dll
+  Qbk.Reservations.ExtendedAvailability.Gui.dll
+  Qbk.Reservations.Gui.dll
+  Qbk.Reservations.Importer.dll
+  Qbk.Reservations.Promotion.Setup.dll
+  Qbk.Reservations.dll
+  Qbk.RestClient.dll
+  Qbk.Security.Gui.dll
+  Qbk.Security.dll
+  Qbk.ServiceInterface.dll
+  Qbk.Shift.Client.Interop.dll
+  Qbk.Shift.Client.dll
+  Qbk.Shift.Control.dll
+  Qbk.Shift.DrawerCount.dll
+  Qbk.Shift.HistoricalReport.dll
+  Qbk.Shift.dll
+  Qbk.SwedishLeague.dll
+  Qbk.TCS.Gui.dll
+  Qbk.TCS.dll
+  Qbk.Terminals.Setup.dll
+  Qbk.TouchIt.dll
+  Qbk.Tournament.Gui.dll
+  Qbk.Tournament.Standing.dll
+  Qbk.Tournaments.Client.dll
+  Qbk.Tournaments.Gui.dll
+  Qbk.Tournaments.Interop.dll
+  Qbk.Tournaments.dll
+  Qbk.UpgradeManager.dll
+  Qbk.UserMessages.Client.dll
+  Qbk.UserMessages.dll
+  Qbk.VirtualWaiter.Setup.dll
+  Qbk.VirtualWaiter.dll
+  Qbk.VoipSetup.dll
+  Qbk.WaitingList.Gui.dll
+  Qbk.WebBrowser.dll
+  Qbk.WebSetup.dll
+  Qbk.Youtoons.Gui.dll
+  Qbk.Youtoons.Setup.dll
+  Qbk.Youtoons.dll
+  Qbk.dll
+
+
+=== NON-Qbk DLLs (third-party libs, framework, misc) ===
+AForge.Controls.dll
+AForge.Imaging.dll
+AForge.Math.dll
+AForge.Video.DirectShow.dll
+AForge.Video.dll
+AForge.dll
+AdvResDll.dll
+Advertising.dll
+Aggiungi.dll
+AudioResampleWrapper.dll
+AxInterop.AXISMEDIACONTROLLib.dll
+AxInterop.CSDEFTLib.dll
+BXL.dll
+BesSpecGamesSetup.dll
+BouncyCastle.Crypto.dll
+BowlingMode.dll
+Calendar.dll
+ComTest.dll
+CompressionSink.dll
+Conqueror.Interop.dll
+CoreMediaConverter.dll
+CurrSetup.dll
+DanishLeagueSetup.dll
+DataADO.dll
+DatacapDsiEMVXBridge.dll
+DbLib.dll
+Definitions.dll
+DeskInfo.dll
+DirectShowLib-2005.dll
+DiscountsSetup.dll
+DivisionsSetup.dll
+Economical.Gui.dll
+Economical.dll
+Effects.dll
+ExcelDataReader.DataSet.dll
+ExcelDataReader.dll
+ExtFormsLib.dll
+FBTSelect.dll
+FileHelpers.dll
+GamesManager.dll
+Hardware.dll
+HistLaneHighs.dll
+ICSharpCode.SharpZipLib.dll
+IdealCS.dll
+InfoReg.dll
+Interop.ACTIVEVOICEPROJECTLib.dll
+Interop.AXISMEDIACONTROLLib.dll
+Interop.CSDEFTLib.dll
+Interop.SpeechLib.dll
+Interoperability.dll
+LBSReporting.dll
+LaneControl.dll
+LaneSetup.dll
+Lanes.dll
+LanesOrders.dll
+League.dll
+LeaguePay.dll
+LeagueSetup.dll
+LockClient.dll
+LockLib.dll
+Lockers.dll
+MailMerge.dll
+Messaggi.dll
+Microsoft.Bcl.AsyncInterfaces.dll
+Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Microsoft.Extensions.DependencyInjection.dll
+Microsoft.Extensions.Logging.Abstractions.dll
+Microsoft.IdentityModel.Abstractions.dll
+Microsoft.IdentityModel.JsonWebTokens.dll
+Microsoft.IdentityModel.Logging.dll
+Microsoft.IdentityModel.Tokens.dll
+Microsoft.Speech.dll
+Microsoft.Web.WebView2.Core.dll
+Microsoft.Web.WebView2.WinForms.dll
+Microsoft.Web.WebView2.Wpf.dll
+Microsoft.Win32.Registry.dll
+NReco.PdfGenerator.dll
+Newtonsoft.Json.dll
+OneOf.Extended.dll
+OneOf.dll
+OpenLeague.dll
+Options.dll
+OptionsLib.dll
+PCSC.Iso7816.dll
+PCSC.dll
+PinsetterAndCamera.dll
+Portable.System.DateTimeOnly.dll
+PriceKeysReport.dll
+PriceSetup.dll
+ProfileSetup.dll
+QBaseType.dll
+QDbHelper.dll
+QDesk.Client.dll
+QGui.dll
+QHal4HD.dll
+QHalBesNV.dll
+QHalTcpCom.dll
+QLeaguePaymentSetup.dll
+QMessageClient.dll
+QSecurityClient.dll
+QSlide.dll
+Qamf.Automation.dll
+Qamf.AxisCam.dll
+Qamf.Broker.dll
+Qamf.CashlessSystem.Embed.dll
+Qamf.CashlessSystem.Intercard.dll
+Qamf.CashlessSystem.Sacoa.dll
+Qamf.CashlessSystem.Semnox.dll
+Qamf.CashlessSystem.dll
+Qamf.Economical.dll
+Qamf.Eft.Payments.dll
+Qamf.FeaturesProvider.dll
+Qamf.Globals.dll
+Qamf.LocalSettings.dll
+Qamf.Log.dll
+Qamf.Net.dll
+Qamf.PerformanceLog.dll
+Qamf.Print.dll
+Qamf.RFIDReader.dll
+Qamf.Rest.dll
+Qamf.SimpleSocket.dll
+Qamf.Tcs.dll
+Qamf.Translation.dll
+Qamf.Windows.dll
+Refund.dll
+ReportData.dll
+ReportViewer.dll
+RestSharp.dll
+SGLib.dll
+Score.dll
+Shift.dll
+ShiftManager.dll
+ShiftReport.dll
+SixLabors.Fonts.dll
+SixLabors.ImageSharp.Drawing.dll
+SixLabors.ImageSharp.dll
+SpecialGames.dll
+SquadSetup.dll
+Square.dll
+Staff.dll
+StandingSheets.dll
+StatReportGui.dll
+Stripe.net.dll
+SwedishLeagueSetup.dll
+System.Buffers.dll
+System.CodeDom.dll
+System.IO.Pipelines.dll
+System.IdentityModel.Tokens.Jwt.dll
+System.Memory.dll
+System.Numerics.Vectors.dll
+System.Runtime.CompilerServices.Unsafe.dll
+System.Security.AccessControl.dll
+System.Security.Principal.Windows.dll
+System.Text.Encoding.CodePages.dll
+System.Text.Encodings.Web.dll
+System.Text.Json.dll
+System.Threading.Tasks.Extensions.dll
+System.ValueTuple.dll
+SystemLog.dll
+TCSPlugin.dll
+T_TeamsPlayersSetup.dll
+TaxSetup.dll
+TimeGames.dll
+TimeGamesSetup.dll
+TimePriceSetup.dll
+TimeTrackingReport.dll
+TournamentsSetup.dll
+UploadMMSPrograms.dll
+UploadPrograms.dll
+UploadTna.dll
+UsageStatistics.dll
+VKeyb.dll
+WaitingList.dll
+WebView2Loader.dll
+WhiteBoard.dll
+WpfAnimatedGif.dll
+ZXing.ImageSharp.V2.dll
+avcodec-53.dll
+avformat-53.dll
+avutil-51.dll
+bday.dll
+keyboard.dll
+log4net.dll
+qhal.dll
+stlpmt45.dll
+vdbip.dll
+zxing.dll
+zxing.presentation.dll
+
+=== ConquerorServer/ DLLs ===
+AudioResampleWrapper.dll
+Azure.Core.Amqp.dll
+Azure.Core.dll
+Azure.Identity.dll
+Azure.Messaging.ServiceBus.dll
+BFFQDeskSvc.dll
+BackTask.dll
+BlobStorageEmulatorSvc.Core.dll
+BlobStorageEmulatorSvc.Infrastructure.Database.dll
+BlobStorageEmulatorSvc.Infrastructure.FileSystem.dll
+BlobStorageEmulatorSvc.dll
+BouncyCastle.Crypto.dll
+BowlingAgentBridge.Core.dll
+BowlingAgentBridge.Packages.dll
+BowlingAgentBridge.dll
+CenterAttractionsSvc.Core.dll
+CenterAttractionsSvc.Database.dll
+CenterAttractionsSvc.Service.dll
+CenterAttractionsSvc.dll
+CenterBowlingSvc.Core.dll
+CenterBowlingSvc.Database.dll
+CenterBowlingSvc.Packages.dll
+CenterBowlingSvc.Services.dll
+CenterBowlingSvc.dll
+CenterCartSvc.Core.dll
+CenterCartSvc.Database.dll
+CenterCartSvc.Service.dll
+CenterCartSvc.dll
+CenterCashlessSvc.Core.dll
+CenterCashlessSvc.Services.dll
+CenterCashlessSvc.dll
+CenterCustomerSvc.Core.dll
+CenterCustomerSvc.Database.dll
+CenterCustomerSvc.Legacy.dll
+CenterCustomerSvc.dll
+CenterEconomicalSvc.Core.dll
+CenterEconomicalSvc.Database.dll
+CenterEconomicalSvc.Legacy.dll
+CenterEconomicalSvc.Packages.dll
+CenterEconomicalSvc.Services.dll
+CenterEconomicalSvc.dll
+CenterExternalPosSvc.Core.dll
+CenterExternalPosSvc.Packages.dll
+CenterExternalPosSvc.Services.dll
+CenterExternalPosSvc.dll
+CenterPaymentSvc.Core.dll
+CenterPaymentSvc.Database.dll
+CenterPaymentSvc.Services.dll
+CenterPaymentSvc.dll
+CenterReservationSvc.Core.dll
+CenterReservationSvc.Database.dll
+CenterReservationSvc.Legacy.dll
+CenterReservationSvc.Packages.dll
+CenterReservationSvc.dll
+CenterSecuritySvc.Core.dll
+CenterSecuritySvc.Database.dll
+CenterSecuritySvc.Services.dll
+CenterSecuritySvc.dll
+CleanCashProxy.dll
+CloudNative.CloudEvents.AspNetCore.dll
+CloudNative.CloudEvents.NewtonsoftJson.dll
+CloudNative.CloudEvents.dll
+CompressionSink.dll
+DataADO.dll
+DatacapDsiEMVXBridge.dll
+DbLib.dll
+Economical.dll
+ExcelDataReader.DataSet.dll
+ExcelDataReader.dll
+FileHelpers.dll
+GCLogClient.dll
+ICSharpCode.SharpZipLib.dll
+IdentityProviderSvc.Core.dll
+IdentityProviderSvc.Service.dll
+IdentityProviderSvc.dll
+Interop.ACTIVEVOICEPROJECTLib.dll
+Interop.NetFwTypeLib.dll
+Interop.PoolController.dll
+Interop.SpeechLib.dll
+Interoperability.dll
+KnowledgeSvc.Core.dll
+KnowledgeSvc.Files.Core.dll
+KnowledgeSvc.Files.dll
+KnowledgeSvc.Packages.dll
+KnowledgeSvc.Services.dll
+LockClient.dll
+LockLib.dll
+LockServer.dll
+Microsoft.ApplicationInsights.dll
+Microsoft.AspNetCore.Antiforgery.dll
+Microsoft.AspNetCore.Authentication.Abstractions.dll
+Microsoft.AspNetCore.Authentication.Core.dll
+Microsoft.AspNetCore.Authorization.Policy.dll
+Microsoft.AspNetCore.Authorization.dll
+Microsoft.AspNetCore.Connections.Abstractions.dll
+Microsoft.AspNetCore.Cors.dll
+Microsoft.AspNetCore.Cryptography.Internal.dll
+Microsoft.AspNetCore.DataProtection.Abstractions.dll
+Microsoft.AspNetCore.DataProtection.dll
+Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+Microsoft.AspNetCore.Diagnostics.dll
+Microsoft.AspNetCore.HostFiltering.dll
+Microsoft.AspNetCore.Hosting.Abstractions.dll
+Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+Microsoft.AspNetCore.Hosting.dll
+Microsoft.AspNetCore.Html.Abstractions.dll
+Microsoft.AspNetCore.Http.Abstractions.dll
+Microsoft.AspNetCore.Http.Connections.Common.dll
+Microsoft.AspNetCore.Http.Connections.dll
+Microsoft.AspNetCore.Http.Extensions.dll
+Microsoft.AspNetCore.Http.Features.dll
+Microsoft.AspNetCore.Http.dll
+Microsoft.AspNetCore.HttpOverrides.dll
+Microsoft.AspNetCore.JsonPatch.dll
+Microsoft.AspNetCore.Localization.dll
+Microsoft.AspNetCore.Mvc.Abstractions.dll
+Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+Microsoft.AspNetCore.Mvc.Core.dll
+Microsoft.AspNetCore.Mvc.Cors.dll
+Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+Microsoft.AspNetCore.Mvc.Localization.dll
+Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+Microsoft.AspNetCore.Mvc.Razor.dll
+Microsoft.AspNetCore.Mvc.RazorPages.dll
+Microsoft.AspNetCore.Mvc.TagHelpers.dll
+Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+Microsoft.AspNetCore.Mvc.dll
+Microsoft.AspNetCore.NodeServices.dll
+Microsoft.AspNetCore.Razor.Language.dll
+Microsoft.AspNetCore.Razor.Runtime.dll
+Microsoft.AspNetCore.Razor.dll
+Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+Microsoft.AspNetCore.Routing.Abstractions.dll
+Microsoft.AspNetCore.Routing.dll
+Microsoft.AspNetCore.Server.IISIntegration.dll
+Microsoft.AspNetCore.Server.Kestrel.Core.dll
+Microsoft.AspNetCore.Server.Kestrel.Https.dll
+Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+Microsoft.AspNetCore.Server.Kestrel.dll
+Microsoft.AspNetCore.SignalR.Common.dll
+Microsoft.AspNetCore.SignalR.Core.dll
+Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+Microsoft.AspNetCore.SignalR.dll
+Microsoft.AspNetCore.SpaServices.Extensions.dll
+Microsoft.AspNetCore.SpaServices.dll
+Microsoft.AspNetCore.StaticFiles.dll
+Microsoft.AspNetCore.WebSockets.dll
+Microsoft.AspNetCore.WebUtilities.dll
+Microsoft.AspNetCore.dll
+Microsoft.Azure.Amqp.dll
+Microsoft.Azure.EventHubs.dll
+Microsoft.Azure.KeyVault.Core.dll
+Microsoft.Azure.Relay.dll
+Microsoft.Azure.Services.AppAuthentication.dll
+Microsoft.Azure.Storage.Blob.dll
+Microsoft.Azure.Storage.Common.dll
+Microsoft.Azure.Storage.DataMovement.dll
+Microsoft.Azure.Storage.File.dll
+Microsoft.Bcl.AsyncInterfaces.dll
+Microsoft.CodeAnalysis.CSharp.dll
+Microsoft.CodeAnalysis.Razor.dll
+Microsoft.CodeAnalysis.dll
+Microsoft.DiaSymReader.Native.x86.dll
+Microsoft.DotNet.PlatformAbstractions.dll
+Microsoft.EntityFrameworkCore.Abstractions.dll
+Microsoft.EntityFrameworkCore.Design.dll
+Microsoft.EntityFrameworkCore.Relational.dll
+Microsoft.EntityFrameworkCore.SqlServer.dll
+Microsoft.EntityFrameworkCore.dll
+Microsoft.Extensions.Caching.Abstractions.dll
+Microsoft.Extensions.Caching.Memory.dll
+Microsoft.Extensions.Configuration.Abstractions.dll
+Microsoft.Extensions.Configuration.Binder.dll
+Microsoft.Extensions.Configuration.CommandLine.dll
+Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+Microsoft.Extensions.Configuration.FileExtensions.dll
+Microsoft.Extensions.Configuration.Json.dll
+Microsoft.Extensions.Configuration.UserSecrets.dll
+Microsoft.Extensions.Configuration.dll
+Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Microsoft.Extensions.DependencyInjection.dll
+Microsoft.Extensions.DependencyModel.dll
+Microsoft.Extensions.Diagnostics.Abstractions.dll
+Microsoft.Extensions.FileProviders.Abstractions.dll
+Microsoft.Extensions.FileProviders.Composite.dll
+Microsoft.Extensions.FileProviders.Embedded.dll
+Microsoft.Extensions.FileProviders.Physical.dll
+Microsoft.Extensions.FileSystemGlobbing.dll
+Microsoft.Extensions.Hosting.Abstractions.dll
+Microsoft.Extensions.Http.dll
+Microsoft.Extensions.Localization.Abstractions.dll
+Microsoft.Extensions.Localization.dll
+Microsoft.Extensions.Logging.Abstractions.dll
+Microsoft.Extensions.Logging.Configuration.dll
+Microsoft.Extensions.Logging.Console.dll
+Microsoft.Extensions.Logging.Debug.dll
+Microsoft.Extensions.Logging.dll
+Microsoft.Extensions.ObjectPool.dll
+Microsoft.Extensions.Options.ConfigurationExtensions.dll
+Microsoft.Extensions.Options.dll
+Microsoft.Extensions.Primitives.dll
+Microsoft.Extensions.WebEncoders.dll
+Microsoft.Identity.Client.Extensions.Msal.dll
+Microsoft.Identity.Client.dll
+Microsoft.IdentityModel.Abstractions.dll
+Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+Microsoft.IdentityModel.JsonWebTokens.dll
+Microsoft.IdentityModel.Logging.dll
+Microsoft.IdentityModel.Tokens.dll
+Microsoft.Net.Http.Headers.dll
+Microsoft.OpenApi.dll
+Microsoft.Rest.ClientRuntime.dll
+Microsoft.ServiceBus.dll
+Microsoft.Speech.dll
+Microsoft.Win32.Registry.dll
+Microsoft.WindowsAzure.Configuration.dll
+MxRem.dll
+MxServer.dll
+Newtonsoft.Json.Bson.dll
+Newtonsoft.Json.dll
+OneOf.Extended.dll
+OneOf.dll
+OptionsLib.dll
+Portable.System.DateTimeOnly.dll
+QBaseType.dll
+QDbHelper.dll
+QGetDBSupport.dll
+QGetDbLib.dll
+QGui.dll
+QHal4HD.dll
+QHalBesNV.dll
+QHalTcpCom.dll
+QMessageClient.dll
+QSecurityServerMgr.dll
+QTCSServer.dll
+Qamf.Broker.dll
+Qamf.CashlessSystem.Embed.dll
+Qamf.CashlessSystem.Intercard.dll
+Qamf.CashlessSystem.Sacoa.dll
+Qamf.CashlessSystem.Semnox.dll
+Qamf.CashlessSystem.dll
+Qamf.Economical.dll
+Qamf.Eft.Payments.dll
+Qamf.FeaturesProvider.dll
+Qamf.Globals.dll
+Qamf.InternetUpdate.dll
+Qamf.LocalSettings.dll
+Qamf.Log.dll
+Qamf.Net.dll
+Qamf.PerformanceLog.dll
+Qamf.PoolControl.dll
+Qamf.Print.dll
+Qamf.Rest.AspNet.dll
+Qamf.Rest.dll
+Qamf.SimpleSocket.dll
+Qamf.Tcs.dll
+Qamf.Translation.dll
+Qamf.Windows.dll
+Qbk.Api.dll
+Qbk.BackupServices.dll
+Qbk.BaseConquerorInfo.Server.dll
+Qbk.BixolonInterfaces.dll
+Qbk.BixolonSPP210.dll
+Qbk.BowlingAgent.Interop.dll
+Qbk.BowlingAgent.dll
+Qbk.Bubble.Animations.dll
+Qbk.Bubble.Birthday.dll
+Qbk.Bubble.BowlingHistory.dll
+Qbk.Bubble.BowlingModes.dll
+Qbk.Bubble.Chat.dll
+Qbk.Bubble.CloudBackup.dll
+Qbk.Bubble.CloudConfiguration.dll
+Qbk.Bubble.CloudReservations.dll
+Qbk.Bubble.Customers.dll
+Qbk.Bubble.Dassle.dll
+Qbk.Bubble.EconomicalHistory.dll
+Qbk.Bubble.EconomicalInterface.dll
+Qbk.Bubble.EconomicalKiosk.dll
+Qbk.Bubble.EconomicalReport.dll
+Qbk.Bubble.Experiences.dll
+Qbk.Bubble.GamesService.dll
+Qbk.Bubble.Host.dll
+Qbk.Bubble.Kiosk.dll
+Qbk.Bubble.LaneOrder.dll
+Qbk.Bubble.LaneServices.Presentation.dll
+Qbk.Bubble.LaneServices.WarningMessage.dll
+Qbk.Bubble.LaneServices.WelcomeMessage.dll
+Qbk.Bubble.LaneServices.dll
+Qbk.Bubble.LaneTalk.dll
+Qbk.Bubble.LegacyResources.dll
+Qbk.Bubble.Lights.dll
+Qbk.Bubble.MxGCLogs.dll
+Qbk.Bubble.Notifications.dll
+Qbk.Bubble.Payments.dll
+Qbk.Bubble.Pictures.dll
+Qbk.Bubble.PublishedLanes.dll
+Qbk.Bubble.QPadPayment.dll
+Qbk.Bubble.ReservationsHistory.dll
+Qbk.Bubble.Sally.dll
+Qbk.Bubble.ScoreDistribution.dll
+Qbk.Bubble.SpecialGames.dll
+Qbk.Bubble.StatReports.dll
+Qbk.Bubble.Tcs.dll
+Qbk.Bubble.Tempus.dll
+Qbk.Bubble.Time.dll
+Qbk.Bubble.Voip.dll
+Qbk.Bubble.YouToons.dll
+Qbk.Bubble.dll
+Qbk.CallCenter.Server.dll
+Qbk.CallCenter.dll
+Qbk.CenterManagement.Server.dll
+Qbk.CenterManagement.dll
+Qbk.Centralization.History.Server.dll
+Qbk.Centralization.Server.dll
+Qbk.Centralization.dll
+Qbk.CleanCash.Server.dll
+Qbk.CleanCash.dll
+Qbk.Cloud.dll
+Qbk.CloudConfiguration.dll
+Qbk.ConquerorWeb.Server.dll
+Qbk.ConquerorWeb.dll
+Qbk.Customers.Server.Interface.dll
+Qbk.Customers.Server.dll
+Qbk.Customers.dll
+Qbk.DailyTask.Server.Interop.dll
+Qbk.DailyTask.Server.dll
+Qbk.DailyTask.dll
+Qbk.Data.Options.dll
+Qbk.Economical.CoinTech.Server.dll
+Qbk.Economical.CoinTech.dll
+Qbk.Economical.Eft.dll
+Qbk.Economical.Export.dll
+Qbk.Economical.Kiosk.Data.dll
+Qbk.Economical.LaneOrder.dll
+Qbk.Economical.QPad.dll
+Qbk.Economical.ReceiptPrint.dll
+Qbk.Economical.Rest.dll
+Qbk.Economical.Server.Interface.dll
+Qbk.Economical.Server.dll
+Qbk.Economical.dll
+Qbk.EpsonTMP20.dll
+Qbk.EventSupport.dll
+Qbk.Experience.dll
+Qbk.FBPointSystem.Server.dll
+Qbk.FBTSelect.Server.dll
+Qbk.FBTSelect.dll
+Qbk.FileSaver.dll
+Qbk.FlexyBookApi.Server.dll
+Qbk.HighScores.dll
+Qbk.HmacAuthentication.dll
+Qbk.Imaging.dll
+Qbk.InternetUpdate.Server.dll
+Qbk.LaneMovement.Interop.dll
+Qbk.LaneMovement.dll
+Qbk.LaneServices.dll
+Qbk.Lanes.Data.Server.dll
+Qbk.Lanes.GameDataExport.dll
+Qbk.Lanes.Gui.Interop.dll
+Qbk.Lanes.Hal.dll
+Qbk.Lanes.Interop.dll
+Qbk.Lanes.OpeningMessages.dll
+Qbk.Lanes.Q2A.Server.dll
+Qbk.Lanes.Server.Interop.dll
+Qbk.Lanes.Server.dll
+Qbk.Lanes.dll
+Qbk.Leagues.CDE.dll
+Qbk.Leagues.Server.dll
+Qbk.Leagues.dll
+Qbk.LegacyResources.dll
+Qbk.Lights.dll
+Qbk.LocalBackend.Sdk.dll
+Qbk.MMS.Server.dll
+Qbk.MMS.dll
+Qbk.Micros.Server.dll
+Qbk.Net.Message.dll
+Qbk.PoolControl.Server.dll
+Qbk.PoolControl.dll
+Qbk.Print.dll
+Qbk.PrintGames.dll
+Qbk.RecTrac.dll
+Qbk.Reservations.ExtendedAvailability.Server.dll
+Qbk.Reservations.Server.CloudData.dll
+Qbk.Reservations.Server.Interop.dll
+Qbk.Reservations.Server.dll
+Qbk.Reservations.dll
+Qbk.RestClient.dll
+Qbk.Security.Server.dll
+Qbk.Security.dll
+Qbk.Server.Logger.dll
+Qbk.Server.dll
+Qbk.ServiceInterface.dll
+Qbk.Shift.Control.dll
+Qbk.Shift.Server.Interop.dll
+Qbk.Shift.Server.dll
+Qbk.Shift.dll
+Qbk.TCS.dll
+Qbk.Tournaments.Interop.dll
+Qbk.Tournaments.Server.dll
+Qbk.Tournaments.dll
+Qbk.UpgradeManager.dll
+Qbk.UserMessages.Server.dll
+Qbk.UserMessages.dll
+Qbk.WebBookingApi.Server.dll
+Qbk.Xbowling.dll
+Qbk.Youtoons.dll
+Qbk.dll
+RealTimeSvc.Core.dll
+RealTimeSvc.Services.dll
+RealTimeSvc.dll
+Remotion.Linq.dll
+ReportData.dll
+RestSharp.dll
+SGLib.dll
+SGSrv.dll
+SecuritySvc.Core.dll
+SecuritySvc.Service.dll
+SecuritySvc.dll
+SglW32.dll
+SixLabors.Fonts.dll
+SixLabors.ImageSharp.Drawing.dll
+SixLabors.ImageSharp.dll
+Square.dll
+Stripe.net.dll
+Swashbuckle.AspNetCore.Annotations.dll
+Swashbuckle.AspNetCore.Swagger.dll
+Swashbuckle.AspNetCore.SwaggerGen.dll
+Swashbuckle.AspNetCore.SwaggerUI.dll
+System.Buffers.dll
+System.ClientModel.dll
+System.Collections.Immutable.dll
+System.ComponentModel.Annotations.dll
+System.Data.SqlClient.dll
+System.Diagnostics.DiagnosticSource.dll
+System.IO.FileSystem.AccessControl.dll
+System.IO.Pipelines.dll
+System.IdentityModel.Tokens.Jwt.dll
+System.Interactive.Async.dll
+System.Memory.Data.dll
+System.Memory.dll
+System.Net.Http.Formatting.dll
+System.Net.WebSockets.WebSocketProtocol.dll
+System.Numerics.Vectors.dll
+System.Reflection.Metadata.dll
+System.Reflection.TypeExtensions.dll
+System.Runtime.CompilerServices.Unsafe.dll
+System.Security.AccessControl.dll
+System.Security.Cryptography.Cng.dll
+System.Security.Cryptography.ProtectedData.dll
+System.Security.Cryptography.Xml.dll
+System.Security.Principal.Windows.dll
+System.Text.Encoding.CodePages.dll
+System.Text.Encodings.Web.dll
+System.Text.Json.dll
+System.Threading.Channels.dll
+System.Threading.Tasks.Extensions.dll
+System.ValueTuple.dll
+System.Web.Http.SelfHost.dll
+System.Web.Http.dll
+TempBowlingAgent.Core.dll
+TempBowlingAgent.Database.dll
+TempBowlingAgent.Packages.dll
+TempBowlingAgent.dll
+UsageStatistics.dll
+UsbKey.dll
+WakeOnLan.dll
+ZXing.ImageSharp.V2.dll
+ZonalInterface.dll
+iAnywhere.Data.SQLAnywhere.dll
+log4net.dll
+qhal.dll
+skeylink.dll
+vdbip.dll
+zxing.dll
+zxing.presentation.dll

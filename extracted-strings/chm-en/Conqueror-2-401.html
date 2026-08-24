@@ -1,0 +1,218 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for Word 8.0.0.1194" />
+    <meta name="TEMPLATEBASE" content="Conqueror 3" />
+    <meta name="LASTUPDATED" content="05/18/21 08:50:59" />
+    <title>7.2	Commands</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+
+<script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/seealso.js"></script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="data/popups.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/popup.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/page.js"></script>
+
+    <script type="text/javascript" language="JavaScript1.2">
+     <!--
+      function  WWNoOp() {}
+      function  WWNoValue() { return ""; }
+
+
+      var  VarHTMLHelp;
+      var  VarSeeAlso;
+      var  VarDropDown;
+
+
+      if (typeof(HTMLHelp_Object) != "undefined")
+      {
+        VarHTMLHelp = new HTMLHelp_Object();
+        VarSeeAlso  = new WWSeeAlso_Object();
+        VarDropDown = new WWDropDown_Object();
+      }
+      else
+      {
+        VarHTMLHelp = new Object();
+        VarHTMLHelp.fNotifyClicked = WWNoOp;
+        VarHTMLHelp.fPopupDivTag   = WWNoValue;
+
+        VarSeeAlso = new Object();
+
+        VarDropDown = new Object();
+        VarDropDown.fAnchorOpen  = WWNoOp;
+        VarDropDown.fAnchorClose = WWNoOp;
+        VarDropDown.fDIVOpen  = WWNoOp;
+        VarDropDown.fDIVClose = WWNoOp;
+      }
+     // -->
+    </script>
+  </head>
+
+  <body onClick="javascript:VarHTMLHelp.fNotifyClicked();">
+
+    <hr align="left" />
+
+    <blockquote>
+<a name="wp9005377"> </a><h3 class="pHeading3">
+7.2	Commands
+</h3>
+
+
+
+<a name="wp9005378"> </a><p class="pBody">
+The following commands are entered in numeric form after the lane number:
+</p>
+
+
+
+<a name="wp9005379"> </a><h4 class="pHeading4">
+Acknowledge (Key 1)
+</h4>
+<a name="wp9005380"> </a><p class="pBody">
+This command can be used in 2 ways:
+</p>
+<div class="pSmartList1"><ul class="pSmartList1">
+<a name="wp9005381"> </a><div class="pSmartList1"><li>When referring to a specific lane it puts the lane in Work In Progress mode (i.e. if a Trouble Call has been signaled on lane 2 of 20 lanes, the mechanic would acknowledge this call by entering the code *021*.</li></div>
+<a name="wp9005382"> </a><div class="pSmartList1"><li>If the lane specified is zero, this response acknowledges the generic <a href="Conqueror-2-392.html"><span class="cLink">message</span></a> sent by the operator through Conqueror. Generic messages are used for communication between operator and mechanic when a specific lane is not referred to (e.g. the message &quot;Do you need the spare tool kit?&quot;).</li></div>
+</ul></div>
+
+
+
+<a name="wp9005383"> </a><h4 class="pHeading4">
+Repairs Completed (Key 2)
+</h4>
+<a name="wp9005384"> </a><p class="pBody">
+The mechanic enters the lane number followed by this code (i.e. *032* to convey that repairs are complete on lane 3), resetting the lane as OK, having finished the repairs.
+</p>
+
+
+
+<a name="wp9005385"> </a><h4 class="pHeading4">
+Cancel Request (Key 3)
+</h4>
+<a name="wp9005386"> </a><p class="pBody">
+The mechanic resets the lane as OK, cancelling the request received as there was no error found (false alarm).
+</p>
+<a name="wp9005387"> </a><p class="pBody">
+For example *053* cancels the error reported on lane 5, as no repairs were necessary.
+</p>
+
+
+
+<a name="wp9005388"> </a><h4 class="pHeading4">
+Perform a Pinsetter Partial Set (Key 4)
+</h4>
+<a name="wp9005389"> </a><p class="pBody">
+Enter *184* to perform a pinsetter partial set on lane 18.
+</p>
+<a name="wp9005390"> </a><p class="pBody">
+If the pinsetter is not capable of performing a partial set, a cycle will be executed instead.
+</p>
+<a name="wp9005391"> </a><p class="pBody">
+If not supported by the pinsetter, the operation will not be executed.
+</p>
+
+
+
+<a name="wp9005392"> </a><h4 class="pHeading4">
+Perform a Pinsetter Full Set (Key 5)
+</h4>
+<a name="wp9005393"> </a><p class="pBody">
+Enter *025* to perform a pinsetter full set on lane 2.
+</p>
+<a name="wp9005394"> </a><p class="pBody">
+If the pinsetter is not capable of performing a full set, a cycle will be executed instead.
+</p>
+<a name="wp9005395"> </a><p class="pBody">
+If not supported by the pinsetter, the operation will not be executed.
+</p>
+
+
+
+<a name="wp9005396"> </a><h4 class="pHeading4">
+Spot Pins (Key 6)
+</h4>
+<a name="wp9005397"> </a><p class="pBody">
+This allows the mechanic to identify the pins to be set as they were when the game was interrupted due to an error, so that the game can recommence from when the error occurred. After the command &#39;6&#39;, a list of pins to spot must be entered as follows:
+</p>
+<div class="pSmartList1"><ul class="pSmartList1">
+<a name="wp9005398"> </a><div class="pSmartList1"><li>*056 78* to spot specific pins on lane 5 (in this case, only pin 7 and 8).</li></div>
+<a name="wp9005399"> </a><div class="pSmartList1"><li>*206 0631* to spot specific pins on lane 20 (pins 10, 6, 3, and 1 - pin 10 is referred as digit 0).</li></div>
+<a name="wp9005400"> </a><div class="pSmartList1"><li>*206* this is an error: no pin specified for the spot pin command on lane 20!</li></div>
+</ul></div>
+<a name="wp9005401"> </a><p class="pBody">
+When a command has been executed correctly, the list should contain at least one pin digit and no pin digits should be repeated.
+</p>
+<a name="wp9005402"> </a><p class="pBody">
+If not supported by the pinsetter, the operation will not be executed.
+</p>
+
+
+
+<a name="wp9005403"> </a><h4 class="pHeading4">
+Record Voice Message (Key 9)
+</h4>
+<a name="wp9005404"> </a><p class="pBody">
+To record a message, enter zeros instead of the lane number.
+</p>
+<a name="wp9005405"> </a><p class="pBody">
+The second * symbol confirms the command; after which, the recording begins and goes for a fixed amount of time (20 seconds). To finish recording before the time is up, press * and the recorded message will be saved.
+</p>
+<a name="wp9005406"> </a><p class="pBody">
+To discard the message while recording, press <span class="cButton">#</span>
+.
+</p>
+<a name="wp9005407"> </a><p class="pBody">
+If the message has been recorded correctly, confirmation of correct sequence (as used for other commands) will be received; on the other hand, if the command is aborted, an error message will be played.
+</p>
+
+
+
+<a name="wp9005408"> </a><h4 class="pHeading4">
+Aborting a Command (Key #)
+</h4>
+<a name="wp9005409"> </a><p class="pBody">
+Pressing the <span class="cButton">#</span>
+ symbol, aborts the command. After which, enter the correct sequence starting and finishing with the * symbol.
+</p>
+<a name="wp9005410"> </a><p class="pBody">
+
+</p>
+<a name="wp9005411"> </a><p class="pBody">
+
+</p>
+    </blockquote>  
+
+    <hr />
+
+    <table id="SummaryNotReq1" align="right" border="0" cellspacing="0" cellpadding="0">
+      
+    </table>
+
+
+<script type="text/javascript" language="JavaScript1.2">
+     <!--
+      document.write(VarHTMLHelp.fPopupDivTag());
+     // -->
+    </script>
+
+
+<p class="breadcrumb"><a href="Conqueror-2-385.html">TROUBLE CALL SYSTEM</a> &gt; <a href="Conqueror-2-399.html">TCS Telephone Commands</a> &gt; <a href="Conqueror-2-401.html">Commands</a></p>
+
+    <table id="SummaryNotReq2" border="0" width="110" align="right" cellpadding="0" cellspacing="0">
+      <tr> 
+        <td>
+<a accesskey="4" href="Conqueror-2-400.html"><img id="LongDescNotReq1" src="images/prev.gif" border="0" alt="Previous" /></a><a accesskey="5" href="Conqueror-2-402.html"><img id="LongDescNotReq2" src="images/next.gif" border="0" alt="Next" /></a>
+        </td>
+      </tr>
+    </table>
+
+
+</body>
+</html>

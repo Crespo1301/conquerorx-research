@@ -1,0 +1,222 @@
+==========================================
+CONFIGURATION FILES
+Snapshot: 2026-08-24T21:02:23Z
+==========================================
+
+### .config FILES (.NET assembly configs) ###
+/mnt/c/QDesk/Bin/Conqueror.exe.config
+/mnt/c/QDesk/Bin/Conqueror.log4net.config
+/mnt/c/QDesk/Bin/ConquerorServer/BlobStorageEmulatorSvc.Infrastructure.Database.dll.config
+/mnt/c/QDesk/Bin/ConquerorServer/CenterAttractionsSvc.Database.dll.config
+/mnt/c/QDesk/Bin/ConquerorServer/CenterBowlingSvc.Database.dll.config
+/mnt/c/QDesk/Bin/ConquerorServer/CenterCustomerSvc.Database.dll.config
+/mnt/c/QDesk/Bin/ConquerorServer/CenterEconomicalSvc.Database.dll.config
+/mnt/c/QDesk/Bin/ConquerorServer/CenterPaymentSvc.Database.dll.config
+/mnt/c/QDesk/Bin/ConquerorServer/CenterReservationSvc.Database.dll.config
+/mnt/c/QDesk/Bin/ConquerorServer/CenterSecuritySvc.Database.dll.config
+/mnt/c/QDesk/Bin/ConquerorServer/ConquerorServer.exe.config
+/mnt/c/QDesk/Bin/ConquerorServer/ConquerorServer.log4net.config
+/mnt/c/QDesk/Bin/ConquerorServer/DbRepair.exe.config
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/server.config
+/mnt/c/QDesk/Bin/ConquerorServer/QCert.exe.config
+/mnt/c/QDesk/Bin/ConquerorServer/QGetDb.exe.config
+/mnt/c/QDesk/Bin/ConquerorServer/QServerMonitor.exe.config
+/mnt/c/QDesk/Bin/ConquerorServer/QServiceController.exe.config
+/mnt/c/QDesk/Bin/ConquerorServer/Qbk.Micros.Server.dll.config
+/mnt/c/QDesk/Bin/ConquerorServer/QdbSql.exe.config
+/mnt/c/QDesk/Bin/ConquerorServer/RestartServices.exe.config
+/mnt/c/QDesk/Bin/ConquerorServer/TechSupport.exe.config
+/mnt/c/QDesk/Bin/ConquerorServer/WarningMessageEngine.exe.config
+/mnt/c/QDesk/Bin/ConquerorServer/WebStaticServer.exe.config
+/mnt/c/QDesk/Bin/ConquerorServer/WelcomeMessageEngine.exe.config
+/mnt/c/QDesk/Bin/DailyTaskMonitor.exe.config
+/mnt/c/QDesk/Bin/Qbk.BixolonSPPR210HostProcess.exe.config
+/mnt/c/QDesk/Bin/ReportViewerApp.exe.config
+/mnt/c/QDesk/Bin/StopButton.exe.config
+/mnt/c/QDesk/Bin/TechSupportClient.exe.config
+
+### .ini / .cfg / .conf FILES ###
+/mnt/c/QDesk/Bin/ConquerorServer/HeidiSQL/functions-interbase.ini
+/mnt/c/QDesk/Bin/ConquerorServer/HeidiSQL/functions-mariadb.ini
+/mnt/c/QDesk/Bin/ConquerorServer/HeidiSQL/functions-mssql.ini
+/mnt/c/QDesk/Bin/ConquerorServer/HeidiSQL/functions-mysql.ini
+/mnt/c/QDesk/Bin/ConquerorServer/HeidiSQL/functions-postgresql.ini
+/mnt/c/QDesk/Bin/ConquerorServer/HeidiSQL/functions-redshift.ini
+/mnt/c/QDesk/Bin/ConquerorServer/HeidiSQL/functions-sqlite.ini
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/qdb.ini
+
+### .json CONFIG FILES ###
+/mnt/c/ProgramData/QubicaAMF/Logs/TerminalsData.json
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/release.json
+/mnt/c/QDesk/Bin/ConquerorServer/StorageConf.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/development-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/development-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/expo-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/expo-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/local-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/local-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/production-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/production-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/staging-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/staging-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-01-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-01-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-02-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-02-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-03-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-03-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-04-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-04-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-05-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-05-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-06-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-06-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-07-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-07-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-08-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-08-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-09-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-09-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-10-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-10-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-11-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-11-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-12-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-12-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-13-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-13-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-14-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-14-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-15-beta.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-15-stable.json
+/mnt/c/QDesk/Bin/ConquerorServer/qdesk-settings/testing-slot-16-beta.json
+/mnt/c/QDesk/Bin/QDeskConfigs/RoutingDefs.json
+/mnt/c/QDesk/Database/BackupedResources/Bubbles/GamesService/dummy_list_bowling.json
+/mnt/c/QDesk/Database/BackupedResources/Bubbles/GamesService/dummy_list_bowling5frames.json
+/mnt/c/QDesk/Database/BackupedResources/Bubbles/GamesService/dummy_list_evenbetter.json
+/mnt/c/QDesk/Database/BackupedResources/Bubbles/GamesService/dummy_list_headhunter.json
+/mnt/c/QDesk/Database/BackupedResources/Bubbles/GamesService/dummy_list_hyperactive.json
+/mnt/c/QDesk/Database/BackupedResources/Bubbles/GamesService/dummy_list_hyperbowl.json
+/mnt/c/QDesk/Database/BackupedResources/Bubbles/GamesService/dummy_list_hyperbowlpro.json
+/mnt/c/QDesk/Database/BackupedResources/Bubbles/GamesService/dummy_list_oddduck.json
+/mnt/c/QDesk/Database/BackupedResources/Bubbles/GamesService/dummy_list_oddeven.json
+
+### .xml CONFIG-LIKE FILES ###
+/mnt/c/ProgramData/QubicaAMF/Conqueror/ConquerorSetup.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09000000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09010000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09020000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09030000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09040000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09050000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09060000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09070000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09070100.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09070200.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09110000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09110100.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09110200.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09120000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09130000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09130100.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09130200.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09150000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09150200.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09160000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09170000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09170100.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09170200.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09170300.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09190000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09190100.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09190300.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09190400.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09210000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09210100.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09210300.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09210400.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09210500.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09210700.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09210800.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09220000.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09220100.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09220200.xml
+/mnt/c/QDesk/Bin/ConquerorServer/SqlScripts/cu09220400.xml
+
+### QDeskConfigs FOLDER ###
+total 4
+drwxrwxrwx 1 cresp3 cresp3 4096 Aug 22 15:32 .
+drwxrwxrwx 1 cresp3 cresp3 4096 Aug 22 15:32 ..
+-rwxrwxrwx 1 cresp3 cresp3 1808 Aug 14 11:39 RoutingDefs.json
+
+### RoutingDefs.json PREVIEW ###
+{
+    "Routes": [
+        {
+            "Name": "LaneOptions",
+            "RelativePath": "/lane-options",
+            "Icon": 3
+        },
+        {
+            "Name": "Loyalty",
+            "RelativePath": "/loyalty",
+            "Icon": 89
+        },
+        {
+            "Name": "MultiAttractions",
+            "RelativePath": "/ma-reservations",
+            "Icon": 617,
+            "SingleInstance": true
+        },
+        {
+            "Name": "SquareReceiptPlugin",
+            "RelativePath": "/square-receipt-plugin",
+            "Icon": 418,
+            "SingleInstance": true
+        },
+        {
+            "Name": "CashlessRecharge",
+            "RelativePath": "/cashless/recharge",
+            "Icon": 244
+        },
+        {
+            "Name": "CashlessPay",
+            "RelativePath": "/cashless/pay",
+            "Icon": 244
+        },
+        {
+            "Name": "Home",
+            "RelativePath": "/",
+            "Icon": 417
+        },
+        {
+            "Name": "Pos",
+            "RelativePath": "/pos",
+            "Icon": 33
+        },
+        {
+            "Name": "PictureValidation",
+            "RelativePath": "/picture-validation",
+            "Icon": 371,
+            "CloudPlugin": true
+        },
+        {
+            "Name": "Calculator",
+            "RelativePath": "/unicorn-calculator",
+            "Icon": 33,
+            "CloudPlugin": true
+        },
+        {
+            "Name": "CashDrawer",
+            "RelativePath": "/cash-drawer",
+            "Icon": 130,
+            "CloudPlugin": true
+        },
+        {
+            "Name": "CashDrawerReport",
+            "RelativePath": "/cash-drawer-report",
+            "Icon": 130,
+            "CloudPlugin": true
+        }
+    ]
+}

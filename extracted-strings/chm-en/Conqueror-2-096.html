@@ -1,0 +1,220 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for Word 8.0.0.1194" />
+    <meta name="TEMPLATEBASE" content="Conqueror 3" />
+    <meta name="LASTUPDATED" content="05/18/21 08:50:59" />
+    <title>10.6	SMS Notifications</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+
+<script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/seealso.js"></script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="data/popups.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/popup.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/page.js"></script>
+
+    <script type="text/javascript" language="JavaScript1.2">
+     <!--
+      function  WWNoOp() {}
+      function  WWNoValue() { return ""; }
+
+
+      var  VarHTMLHelp;
+      var  VarSeeAlso;
+      var  VarDropDown;
+
+
+      if (typeof(HTMLHelp_Object) != "undefined")
+      {
+        VarHTMLHelp = new HTMLHelp_Object();
+        VarSeeAlso  = new WWSeeAlso_Object();
+        VarDropDown = new WWDropDown_Object();
+      }
+      else
+      {
+        VarHTMLHelp = new Object();
+        VarHTMLHelp.fNotifyClicked = WWNoOp;
+        VarHTMLHelp.fPopupDivTag   = WWNoValue;
+
+        VarSeeAlso = new Object();
+
+        VarDropDown = new Object();
+        VarDropDown.fAnchorOpen  = WWNoOp;
+        VarDropDown.fAnchorClose = WWNoOp;
+        VarDropDown.fDIVOpen  = WWNoOp;
+        VarDropDown.fDIVClose = WWNoOp;
+      }
+     // -->
+    </script>
+  </head>
+
+  <body onClick="javascript:VarHTMLHelp.fNotifyClicked();">
+
+    <hr align="left" />
+
+    <blockquote>
+<a name="wp9000902"> </a><h3 class="pHeading3">
+10.6	SMS Notifications
+</h3>
+
+
+
+<a name="wp9000903"> </a><p class="pBody">
+It is now possible to send SMS messages to customers present in the Waiting List in order to advise bowlers when the lane or time game becomes available.
+</p>
+<a name="wp9000904"> </a><p class="pBody">
+To use SMS notifications in the Waiting List, it is necessary to configure Conqueror and the Bowling Center Twilio account.
+</p>
+
+
+
+<a name="wp9000905"> </a><h4 class="pHeading4">
+Conqueror Pro Settings
+</h4>
+<a name="wp9000906"> </a><p class="pBody">
+Go to Setup &gt; Center Setup, select the Lane Control tab and click on the SMS button. The SMS Notification Setup dialog opens.
+</p>
+<a name="wp9000907"> </a><p class="pBody">
+<span class="cLabel">SMS Notifications</span>
+
+</p>
+<a name="wp9000908"> </a><p class="pBody">
+The first checkbox enables the SMS messaging system.
+</p>
+<a name="wp9000909"> </a><p class="pBody">
+When disabled, no window appears to ask for the customer phone number when a new Waiting List item is inserted.
+</p>
+<a name="wp9000910"> </a><p class="pBody">
+<span class="cLabel">Default International Code</span>
+
+</p>
+<a name="wp9000911"> </a><p class="pBody">
+Insert the Default International Code, e.g. &quot;1&quot; for the US&quot;.
+</p>
+<a name="wp9000912"> </a><p class="pBody">
+When sending the SMS, this code is entered by default, but can be overwritten if necessary.
+</p>
+<a name="wp9000913"> </a><p class="pBody">
+<span class="cLabel">Messages</span>
+
+</p>
+<a name="wp9000914"> </a><p class="pBody">
+Three notifications have to be entered for each Resource type in the center (e.g. bowling and time games): select a resource type from the drop-down menu, enter the messages and then select the next resource type.
+</p>
+<a name="wp9000915"> </a><p class="pBody">
+·	<span class="cLabel">Welcome SMS</span>
+: send the welcome message; or resend it if the customer did not receive the original message for some reason, e.g. an incorrect phone number was inserted.
+</p>
+<a name="wp9000916"> </a><p class="pBody">
+·	<span class="cLabel">Notification SMS</span>
+: notifies the customer that the lane is ready;
+</p>
+<a name="wp9000917"> </a><p class="pBody">
+·	<span class="cLabel">Alert SMS</span>
+: this is the &quot;last call&quot; message that informs the customer that they will lose their priority in the Waiting List if they do not arrive soon after having already been notified about their lane availability.
+</p>
+<a name="wp9000918"> </a><p class="pBody">
+To disable all SMS notifications for a single resource, all messages for that resource must be left blank.
+</p>
+
+
+
+<a name="wp9000919"> </a><h4 class="pHeading4">
+Twilio Setup
+</h4>
+<a name="wp9000920"> </a><p class="pBody">
+After registering on Twilio, it is necessary to insert the proper <span class="cLabel">Account Sid</span>
+, <span class="cLabel">Auth Token</span>
+ and <span class="cLabel">Phone Number</span>
+ in the related tab.
+</p>
+<a name="wp9000921"> </a><p class="pBody">
+Click on <span class="cButton">Save</span>
+ to store the settings.
+</p>
+
+
+
+<a name="wp9000922"> </a><h4 class="pHeading4">
+Inserting a New Item in the Waiting List
+</h4>
+<a name="wp9000923"> </a><p class="pBody">
+When a new item is added to the Waiting List, the SMS Sender dialog appears for inserting the customer telephone number. If a number is entered, then the pre-configured Welcome SMS can be sent to the customer by clicking on Send. Then, this phone number is saved in order to be used for the Notification SMS and then for the Alert SMS. The Default International Code is the one inserted as default but can be overwritten if necessary. The prefix (e.g. &quot;347&quot;) is saved too and is entered by default for the further customer. Press Cancel in order to save the Waiting List item without connecting a phone number. If the SMS Welcome field was left empty in the SMS Message Setup dialog, the Send button turns to Save: the Waiting List item is saved without sending any Welcome SMS.
+</p>
+
+
+
+<a name="wp9000924"> </a><h4 class="pHeading4">
+Sending Notifications and Modifying Item Details
+</h4>
+<a name="wp9000925"> </a><p class="pBody">
+<span class="cLabel">Bowling Item Details</span>
+
+</p>
+<a name="wp9000926"> </a><p class="pBody">
+In the Waiting list module, select a bowling item and click on Details to open the Waiting List item details dialog. From here it is possible to send SMS notifications to the customer and also modify the associated phone number. Each message can be sent multiple times and the number of times that the messages have already been sent is shown below each button as shown in the picture. The SMS notification buttons are enabled if the corresponding SMS message has been defined in the SMS Message Setup dialog and the phone number field is not empty. After a notification button is pressed, Conqueror asks for confirmation to send the SMS; click on Yes to proceed and save any changes that have been made. In the Waiting List item dialog, it is also possible to change the Reference person for the Waiting List item, add Notes and modify the Phone number. If any changes are made, the Save and Undo buttons are enabled. Clicking on the Save button will store the modifications, while clicking on the Undo button causes the changes to be lost. The arrow buttons allow operators to move between items in the Waiting List. If the operator attempts to close the Waiting List item details dialog or use the arrow buttons to move between items, and some changes have been made, Conqueror will request confirmation from the operator before proceeding. Clicking on the Save button stores the modifications and ends the selected task, while clicking on the Do not save button causes the pending changes to be lost.
+</p>
+<a name="wp9000927"> </a><p class="pBody">
+<span class="cLabel">Time Game Details</span>
+
+</p>
+<a name="wp9000928"> </a><p class="pBody">
+In the case of a Time Game item, the details dialog only shows the SMS notification functions. These functions (SMS notification buttons, phone number field and navigation arrows) are the same as for Waiting List items.
+</p>
+
+
+
+<a name="wp9000929"> </a><h4 class="pHeading4">
+Waiting List Display
+</h4>
+<a name="wp9000930"> </a><p class="pBody">
+<span class="cLabel">How the Information is Displayed in the Waiting List</span>
+
+</p>
+<a name="wp9000931"> </a><p class="pBody">
+The Waiting List now includes new columns showing the SMS details of the items in the list. Three new columns have been added with the following information:
+</p>
+<a name="wp9000932"> </a><p class="pBody">
+-	Tel. shows whether the customer has provided a phone number.
+</p>
+<a name="wp9000933"> </a><p class="pBody">
+-	Notified shows if the customer has been already notified with the first Notification message. This column shows the time when the last Notification message has been sent. If the Notification messages are more than one, a number of sent messages will be displayed.
+</p>
+<a name="wp9000934"> </a><p class="pBody">
+-	Alerted shows if the customer has been already notified with an Alert message. This column shows the time when the last Alert message has been sent. If the Alert messages are more than one, a number of sent messages will be displayed.
+</p>
+    </blockquote>  
+
+    <hr />
+
+    <table id="SummaryNotReq1" align="right" border="0" cellspacing="0" cellpadding="0">
+      
+    </table>
+
+
+<script type="text/javascript" language="JavaScript1.2">
+     <!--
+      document.write(VarHTMLHelp.fPopupDivTag());
+     // -->
+    </script>
+
+
+<p class="breadcrumb"><a href="Conqueror-2-058.html">LANE MANAGEMENT</a> &gt; <a href="Conqueror-2-090.html">Waiting List</a> &gt; <a href="Conqueror-2-096.html">SMS Notifications</a></p>
+
+    <table id="SummaryNotReq2" border="0" width="110" align="right" cellpadding="0" cellspacing="0">
+      <tr> 
+        <td>
+<a accesskey="4" href="Conqueror-2-095.html"><img id="LongDescNotReq1" src="images/prev.gif" border="0" alt="Previous" /></a><a accesskey="5" href="Conqueror-2-097.html"><img id="LongDescNotReq2" src="images/next.gif" border="0" alt="Next" /></a>
+        </td>
+      </tr>
+    </table>
+
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+/* Default style for links */
+a:active  { color: #0000CC}
+a:hover   { color: #CC0033}
+a:link    { color: #0000CC}
+a:visited { color: #3366CC}
+
+/* Default style */
+body
+{
+  background-color: #FFFFFF;
+}
+
+
+.breadcrumb {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size; 8px;
+  background: #B7CFFF;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+}
+
+
+/* Use this style for footnote numbers */
+sup.Footnote
+{
+}
+
+/* Use this style for controlling spacing around the Related Topics button */
+p.HTMLHelpRelatedTopic
+{
+}
+
+/* Used by TOC styles */
+ul.wpTOCLevel1
+{
+  list-style-type: none;
+}
+ul.wpTOCLevel2
+{
+  list-style-type: none;
+}
+ul.wpTOCLevel3
+{
+  list-style-type: none;
+}
+ul.wpTOCLevel4
+{
+  list-style-type: none;
+}
+ul.wpTOCLevel5
+{
+  list-style-type: none;
+}
+
+/* Used by Index styles */
+ul.wpIndexLevel1
+{
+  list-style-type: none;
+}
+ul.wpIndexLevel2
+{
+  list-style-type: none;
+}
+ul.wpIndexLevel3
+{
+  list-style-type: none;
+}
+ul.wpIndexLevel4
+{
+  list-style-type: none;
+}
+ul.wpIndexLevel5
+{
+  list-style-type: none;
+}

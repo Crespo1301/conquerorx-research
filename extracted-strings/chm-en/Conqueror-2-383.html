@@ -1,0 +1,637 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for Word 8.0.0.1194" />
+    <meta name="TEMPLATEBASE" content="Conqueror 3" />
+    <meta name="LASTUPDATED" content="05/18/21 08:50:59" />
+    <title>8. 	Booking System Settings</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+
+<script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/seealso.js"></script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="data/popups.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/popup.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/page.js"></script>
+
+    <script type="text/javascript" language="JavaScript1.2">
+     <!--
+      function  WWNoOp() {}
+      function  WWNoValue() { return ""; }
+
+
+      var  VarHTMLHelp;
+      var  VarSeeAlso;
+      var  VarDropDown;
+
+
+      if (typeof(HTMLHelp_Object) != "undefined")
+      {
+        VarHTMLHelp = new HTMLHelp_Object();
+        VarSeeAlso  = new WWSeeAlso_Object();
+        VarDropDown = new WWDropDown_Object();
+      }
+      else
+      {
+        VarHTMLHelp = new Object();
+        VarHTMLHelp.fNotifyClicked = WWNoOp;
+        VarHTMLHelp.fPopupDivTag   = WWNoValue;
+
+        VarSeeAlso = new Object();
+
+        VarDropDown = new Object();
+        VarDropDown.fAnchorOpen  = WWNoOp;
+        VarDropDown.fAnchorClose = WWNoOp;
+        VarDropDown.fDIVOpen  = WWNoOp;
+        VarDropDown.fDIVClose = WWNoOp;
+      }
+     // -->
+    </script>
+  </head>
+
+  <body onClick="javascript:VarHTMLHelp.fNotifyClicked();">
+
+    <hr align="left" />
+
+    <blockquote>
+<a name="wp9005062"> </a><h2 class="pHeading2">
+8. 	Booking System Settings
+</h2>
+
+
+
+<a name="wp9005063"> </a><div style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 0pt; margin-left: 21pt; margin-right: 0pt; margin-top: 0pt; text-align: left; text-decoration: none; text-indent: -21pt" class="pPathParagrafo">
+Setup &gt; Center Setup &gt; Reservations
+
+</div>
+<a name="wp9005064"> </a><p class="pBody">
+Here the Booking System can be molded to cater perfectly for each Bowling Center.
+</p>
+
+
+
+<a name="wp9005065"> </a><h4 class="pHeading4">
+Grid Time Unit
+</h4>
+<a name="wp9005066"> </a><p class="pBody">
+The unit of measurement in the Reservation Sheet is based on the minutes entered here (preferably 10 or 15 minutes), which is also the minimum amount of time that can be booked. The unit of time set here is visible on the Reservation Sheet as vertical broken lines.
+</p>
+
+
+
+<a name="wp9005067"> </a><h4 class="pHeading4">
+Lane Status Advice Time
+</h4>
+<a name="wp9005068"> </a><p class="pBody">
+The number of minutes inserted here indicates how far in advance the reservation relative to a specific lane is displayed in the Lane Status window with the <span class="cButton">Reserved</span>
+ label and the starting time.
+</p>
+
+
+
+<a name="wp9005069"> </a><h4 class="pHeading4">
+Start Auto-allocation from Lane...
+</h4>
+<a name="wp9005070"> </a><p class="pBody">
+Select the lane from which the system starts to propose the first lane compatible with the reservation being created. Here it is advisable to select one of the least used lanes to ensure equal &#39;wear and tear&#39;. For example in a Bowling Center with 24 lanes where the first 12 are used more than the next, setting the 13th lane here, proposes suitable lanes from that lane onwards so that the other 12 lanes are used more than the first 12. This setting works best in allowing balanced lane usage when changed at regular intervals.
+</p>
+<a name="wp9005071"> </a><p class="pBody">
+To evaluate the &#39;wear and tear&#39; of the lanes with more precision, see <a href="Conqueror-2-342.html"><span class="cLink">Lane Usage Reports</span></a>.
+</p>
+
+
+
+<a name="wp9005072"> </a><h4 class="pHeading4">
+Arrival Time in Advance
+</h4>
+<a name="wp9005073"> </a><p class="pBody">
+Specify how much time in advance the player must arrive in order to allow adequate preparation time before the game. At the set Arrival Time, if the booking has not been set as Arrived, the reservation will automatically be labeled Late.
+</p>
+<a name="wp9005074"> </a><p class="pBody">
+This setting can then be modified in the <span class="cLabel">Reservation Details</span>
+ window.
+</p>
+
+
+
+<a name="wp9005075"> </a><h4 class="pHeading4">
+Suggested Maximum of Players per Lane
+</h4>
+<a name="wp9005076"> </a><p class="pBody">
+This option limits the number of players per lane, in order to maintain a steady pace when playing and must be less than or equal to the maximum set in <a href="Conqueror-2-448.html#wp9006026"><span class="cLink">Center Setup</span></a>. When this limit of players is exceeded, another lane is automatically assigned. For example if the Bowling Center chooses to set a maximum number of 10 players and 8 players as a <span class="cLabel">Suggested Maximum</span>
+ here, when creating a booking and setting 9 players, the system proposes that the booking be set on two lanes instead of one. This is only a suggestion, whereas if the number of players is over 10, the reservation will occupy an extra lane.
+</p>
+
+
+
+<a name="wp9005077"> </a><h4 class="pHeading4">
+Resource Type
+</h4>
+<a name="wp9005078"> </a><p class="pBody">
+Select the Bowling Center&#39;s resource (bowling session or Time Game) from the scroll menu and set the default <span class="cLabel">Number of Players</span>
+, the default <span class="cLabel">Number of Games</span>
+ or the default <span class="cLabel">Time in Minutes</span>
+; this option is given in the <a href="Conqueror-2-370.html"><span class="cLink">New Reservation</span></a> window.
+</p>
+
+
+
+<a name="wp9005079"> </a><h4 class="pHeading4">
+Meals
+</h4>
+<a name="wp9005080"> </a><p class="pBody">
+Here it is possible to set the capacity of the restaurant, that is, the number of people that can be served meals in the restaurant/snack bar during a certain time span. In the space next to <span class="cLabel">Kitchen Shift Length</span>
+, indicate the length of time in minutes into which each Shift is divided. In the space next to <span class="cLabel">Maximum Number of People per Shift</span>
+, indicate the maximum number of people that can be served in the restaurant during each kitchen Shift.
+</p>
+
+
+
+<a name="wp9005081"> </a><h4 class="pHeading4">
+Opening Hours
+</h4>
+<a name="wp9005082"> </a><p class="pBody">
+Define the time frame within which it is possible to allocate a reservation within the Reservation Sheet, a time frame that can be visualized outlined in red on the Reservation Sheet. Set <span class="cLabel">Always Open</span>
+ if it is possible to play/reserve games without interruption for 24 hours. The setting <span class="cLabel">From... To...</span>
+ excludes the time that the Bowling Center is closed.
+</p>
+
+
+
+<a name="wp9005083"> </a><h4 class="pHeading4">
+Reservation Types
+</h4>
+<a name="wp9005084"> </a><p class="pBody">
+In this window it is possible to create new types of reservations and modify or remove ones that already existing.
+</p>
+<a name="wp9005085"> </a><p class="pBody">
+To create a new <span class="cLabel">Reservation Type</span>
+ press <span class="cButton">Add</span>
+ and give it a name, e.g. National League.
+</p>
+<a name="wp9005086"> </a><p class="pBody">
+Enable the<span class="cLabel"> Type by Default</span>
+ option if the current reservation type is the one to be set by default when creating a new reservation. To change the default reservation type, enable another reservation type: the one set previously will be automatically disabled.
+</p>
+<a name="wp9005087"> </a><p class="pBody">
+If desired, assign a <a href="Conqueror-2-131.html"><span class="cLink">Bowling Mode</span></a> and then choose the details to be displayed in the <a href="Conqueror-2-374.html"><span class="cLink">Reservation Details</span></a> window from: <span class="cLabel">Lanes</span>
+, <span class="cLabel">Meals</span>
+, <span class="cLabel">Payments</span>
+, <span class="cLabel">History</span>
+, <span class="cLabel">Staff Requirements</span>
+, <span class="cLabel">Time Games </span>
+(a tab for each Time Game is displayed).
+</p>
+<a name="wp9005088"> </a><p class="pBody">
+Select the <a href="Conqueror-2-383.html#wp9005119"><span class="cLink">Confirmation E-mail Template</span></a> to be associated to the <span class="cLabel">Reservation Type</span>
+. The e-mail templates available in the scroll down menu are those previously set in <span style="font-size: 11pt" class="cPath">Center Setup &gt; Reservations &gt; Template Setup</span>.
+</p>
+<a name="wp9005089"> </a><p class="pBody">
+If working with a third party program, set the relevant <span class="cLabel">External Key</span>
+.
+</p>
+<a name="wp9005090"> </a><p class="pBody">
+In the lower section of the window, colors can be set for the types of reservations making them easily distinguishable: select the Reservation Type in the table, choose the colors by clicking on the <span class="cLabel">Background</span>
+, <span class="cLabel">Text</span>
+ and <span class="cLabel">Border</span>
+ box and choose if the reservation rectangle has to blink. If these changes are satisfactory, they can be set as default for that Reservation Type by pressing on the little save button. If the new settings are not to be set press the little reload button, which recalls the previous default colors.
+</p>
+<a name="wp9005091"> </a><p class="pBody">
+<span class="cLabel">Service Reservations</span>
+ relative to the management of the Bowling Center are used to block lanes to allow time for scheduled maintenance and the like (or to keep lanes free for walk-in trade). These are not real reservations and do not follow the logic of a normal reservation, therefore when setting a <span class="cLabel">Service Reservation</span>
+, the other options remain disabled.
+</p>
+<a name="wp9005092"> </a><p class="pBody">
+To delete a type of reservation, select it in the table and press <span class="cButton">Remove</span>
+.
+</p>
+
+
+
+<a name="wp9005093"> </a><h4 class="pHeading4">
+Reservation Status
+</h4>
+<a name="wp9005094"> </a><p class="pBody">
+Here it is possible to set a color for each reservation status: select the status, set the colors and close.
+</p>
+<a name="wp9005095"> </a><p class="pBody">
+Press the <span class="cButton">Color Table</span>
+ button in the Reservation Sheet to see the <a href="Conqueror-2-368.html#wp9004774"><span class="cLink">legend</span></a> of values set.
+</p>
+
+
+
+<a name="wp9005096"> </a><h4 class="pHeading4">
+Group Types
+</h4>
+<a name="wp9005097"> </a><p class="pBody">
+Here it is possible to define and modify the type of organization of a particular group e.g. Schools, Scouts, etc. This information will be available in the <a href="Conqueror-2-181.html#wp9002665"><span class="cLink">FBT module</span></a>, when a group is created.
+</p>
+
+
+
+<a name="wp9005098"> </a><h4 class="pHeading4">
+Professions and Workplaces
+</h4>
+<a name="wp9005099"> </a><p class="pBody">
+Allows the operator to define and modify the job description of a group.
+</p>
+<a name="wp9005100"> </a><p class="pBody">
+This information will be available in the <a href="Conqueror-2-181.html#wp9002665"><span class="cLink">FBT module</span></a>, when a group is created.
+</p>
+
+
+
+<a name="wp9005101"> </a><h4 class="pHeading4">
+Discover Sources
+</h4>
+<a name="wp9005102"> </a><p class="pBody">
+The <span class="cLabel">Discover Sources</span>
+ (that is how/where the customer first learned of the Bowling Center, like radio, TV advertising, newspaper etc.) can be defined or modified. The information can be used for marketing purposes.
+</p>
+<a name="wp9005103"> </a><p class="pBody">
+This information will be available in the <a href="Conqueror-2-182.html#wp9002689"><span class="cLink">FBT module</span></a>, when member/group is created.
+</p>
+
+
+
+<a name="wp9005104"> </a><h4 class="pHeading4">
+History Log Types
+</h4>
+<a name="wp9005105"> </a><p class="pBody">
+Here one can create informative messages that can then be chosen and inserted into the <span class="cLabel">Customer History</span>
+ and the <span class="cLabel">Reservation History</span>
+ by clicking on the <span class="cButton">Log</span>
+ button in the <a href="Conqueror-2-374.html#wp9004966"><span class="cLink">Reservation Details</span></a> window.
+</p>
+
+
+
+<a name="wp9005106"> </a><h4 class="pHeading4">
+Subtract Time from Late Bookings
+</h4>
+<a name="wp9005107"> </a><p class="pBody">
+Tick this option if the operator is to be given the choice to reduce the length of timed bowling sessions when the customer is late, incurring full payment of the reservation regardless of reduced playing time (in such cases a window appears whereby the amount of time to be subtracted from the booking can be entered). If this option is not selected, the original booking time remains valid, delaying all subsequent bookings.
+</p>
+
+
+
+<a name="wp9005108"> </a><h4 class="pHeading4">
+Incoming Reservation Delay (Minutes)
+</h4>
+<a name="wp9005109"> </a><p class="pBody">
+Insert here how many minutes in advance the incoming reservations have to be displayed in the <a href="Conqueror-2-032.html#wp9000297"><span class="cLink">Tab</span></a> module.
+</p>
+
+
+
+<a name="wp9005110"> </a><h4 class="pHeading4">
+Promotion Setup
+</h4>
+<a name="wp9005111"> </a><div style="color: #000000; font-size: 12pt; font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 0pt; margin-left: 0pt; margin-right: 0pt; margin-top: 0pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">
+<span class="cKeyword">Web Promotions require a specific Conqueror Pro license</span>
+
+</div>
+<a name="wp9005112"> </a><p class="pBody">
+Marketing campaigns can be managed to promote phone and/or web bookings based on discounts or special prices: by specifying the relevant code at booking time, customers can access the special conditions related to that specific promotion.
+</p>
+<a name="wp9005113"> </a><p class="pBody">
+In the <span class="cLabel">New Reservation</span>
+ window, a dedicated field called <span class="cLabel">Promotional Code</span>
+ allows operators to insert the promotional code; if the <span class="cLabel">Promotional Code</span>
+ does not satisfy the related constraints (validity dates, minimum amount required, sales channel), the operator is warned. Checks on the promotion validity are done also when changing the reservation start time.
+</p>
+<a name="wp9005114"> </a><p class="pBody">
+In this window the center can define marketing campaigns. Customers can receive promotional advantages if they specify a <span class="cLabel">Promotional Code</span>
+ at booking time and if they respect the <span class="cLabel">Validity Dates</span>
+ and <span class="cLabel">Sales Channel</span>
+ (web, call center and/or local).
+</p>
+<a name="wp9005115"> </a><p class="pBody">
+The promotion can be based on:
+</p>
+<div class="pSmartList1"><ul class="pSmartList1">
+<a name="wp9005116"> </a><div class="pSmartList1"><li><span class="cLabel">Discounts</span>
+: in this case, select one of the discounts previously set in <a href="Conqueror-2-524.html"><span class="cLink">Price Setup</span></a> and the <span class="cLabel">Minimum Reservation Amount Required</span>
+ to take advantage of the promotional discount.</li></div>
+<a name="wp9005117"> </a><div class="pSmartList1"><li><span class="cLabel">Dedicated price keys</span>
+: in this case it is possible to choose special price keys that will be available only for customers who have specified the related <span class="cLabel">Code</span>
+. Click on the yellow field to open the whole price key structure and choose all the price keys to associate to the promotion. Click on a department to display its price keys, then select the price keys and press the assign arrow. Similarly, in order to remove a previously chosen price key, select it and press the remove arrow (it is possible to use the multiple selection of price keys by pressing the <span class="cButton">Ctrl</span>
+ key on the keyboard).</li></div>
+</ul></div>
+<a name="wp9005118"> </a><p class="pBody">
+<span class="cLabel">Tracking Only</span>
+ campaigns can be set for statistical purposes.
+</p>
+
+
+
+<a name="wp9005119"> </a><h4 class="pHeading4">
+E-mail Template
+</h4>
+<a name="wp9005120"> </a><div style="color: #000000; font-size: 12pt; font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 0pt; margin-left: 0pt; margin-right: 0pt; margin-top: 0pt; text-align: left; text-decoration: none; text-indent: 0pt; text-transform: none">
+<span class="cKeyword">Call Center Only</span>
+
+</div>
+<a name="wp9005121"> </a><p class="pBody">
+When the new booking is created, the confirmation e-mail is sent to the customer e-mail address or saved to a shared folder for batch printing and sending.
+</p>
+<a name="wp9005122"> </a><p class="pBody">
+To create a <span class="cLabel">Confirmation E-mail Template</span>
+ press <span class="cButton">New</span>
+, specify a name for the template, enter customized header and footer and press <span class="cButton">Preview</span>
+ to check it. Modify it if necessary and <span class="cButton">Save</span>
+.
+</p>
+<a name="wp9005123"> </a><p class="pBody">
+When the various templates are ready, close the window, enter the <a href="Conqueror-2-383.html#wp9005083"><span class="cLink">Reservation Types</span></a> window and associate a template to each <span class="cLabel">Reservation Type</span>
+ by choosing it in the <span class="cLabel">E-mail Template</span>
+ scroll down menu.
+</p>
+
+
+
+<a name="wp9005124"> </a><h4 class="pHeading4">
+Fee Setup
+</h4>
+<a name="wp9005125"> </a><p class="pBody">
+Fees applied to reservations can be:
+</p>
+<div class="pSmartList1"><ul class="pSmartList1">
+<a name="wp9005126"> </a><div class="pSmartList1"><li>a <span class="cLabel">Fixed Amount</span>
+: in this case, the amount entered here will be charged to each web reservation.</li></div>
+<a name="wp9005127"> </a><div class="pSmartList1"><li>a <span class="cLabel">Percentage</span>
+: in this case, the fee will vary with the reservation total. Enter here the percentage to charge.</li></div>
+<a name="wp9005128"> </a><div class="pSmartList1"><li>a <span class="cLabel">Fixed Amount per Game</span>
+: in this case, the amount entered here will be charged for each game included in the reservation</li></div>
+<a name="wp9005129"> </a><div class="pSmartList1"><li>a <span class="cLabel">Fixed Amount per Player</span>
+: in this case, the amount entered here will be multiplied by the number of bowlers included in the reservation</li></div>
+</ul></div>
+<a name="wp9005130"> </a><p class="pBody">
+For the last 3 options it is possible to set the minimum fee that has to be charged and the maximum fee that can be applied. E.g. Enter 1 as the minimum fee in order to charge $1 even if the fee calculated is lower than $1. Enter $10 as the maximum fee in order to charge $10 even if the fee calculated is higher than $10.
+</p>
+<a name="wp9005131"> </a><p class="pBody">
+These settings only affect local reservations. In order to manage fees for web reservations, similar settings have to be specified in <q cite="">Web Setup</q>.
+</p>
+<a name="wp9005132"> </a><div class="pNote">
+To void or remove the predefined booking fee the relevant privilege is required.
+</div>
+
+
+
+<a name="wp9005133"> </a><h4 class="pHeading4">
+Provisional Auto Delete Setup
+</h4>
+<a name="wp9005134"> </a><p class="pBody">
+This panel contains settings that determine the automatic elimination of Provisional reservations made by <span class="cLabel">Individual Customers</span>
+, <span class="cLabel">Groups</span>
+ or <span class="cLabel">Anonymous</span>
+ customers.
+</p>
+<a name="wp9005135"> </a><p class="pBody">
+For each type of customer the operator can set when the Provisional reservation will be automatically deleted if the customer has failed to confirm their reservation.
+</p>
+
+
+
+<a name="wp9005136"> </a><h4 class="pHeading4">
+Late Arrival Management
+</h4>
+<a name="wp9005137"> </a><p class="pBody">
+Specify here how <a href="Conqueror-2-371.html#wp9004874"><span class="cLink">Late Reservations</span></a> are to be managed. Choose from:
+</p>
+<div class="pSmartList1"><ul class="pSmartList1">
+<a name="wp9005138"> </a><div class="pSmartList1"><li><span class="cLabel">Automatic No Show After ... Minutes</span>
+</li></div>
+<a name="wp9005139"> </a><div class="pSmartList1"><li><span class="cLabel">Automatic No Show at the End of the Day</span>
+</li></div>
+<a name="wp9005140"> </a><div class="pSmartList1"><li><span class="cLabel">Manual No Show</span>
+: Manually setting <span class="cButton">No Show</span>
+ allows more flexibility. For example, when the Reservation Sheet is not full, the reservation can be moved if the customer is late.</li></div>
+<a name="wp9005141"> </a><div class="pSmartList1"><li><span class="cLabel">Automatic Movement into the Overbooking Area</span>
+: late reservations are automatically moved to the overbooking area after the number of minutes specified here has passed. This allows centers to free up the lanes for new bookings, to recover late bookings when the customer shows up and to arrange the customer on the next available lanes.</li></div>
+</ul></div>
+
+
+
+<a name="wp9005142"> </a><h4 class="pHeading4">
+Reservation Confirmation
+</h4>
+<a name="wp9005143"> </a><p class="pBody">
+If this option is selected, a summary of reservation details which can be printed, e-mailed or made into a report appears as soon as a reservation has been saved. This is especially useful as written confirmation for customer or Center, of a reservation.
+</p>
+
+
+
+<a name="wp9005144"> </a><h4 class="pHeading4">
+Display Original Reservation
+</h4>
+<a name="wp9005145"> </a><p class="pBody">
+Tick this option to visualize the original reservation (in <a href="Conqueror-2-368.html#wp9004740"><span class="cLink">bar form</span></a>) underneath the actual reservation duration on the Reservation Sheet. This can be useful in cases where the reservation has been moved or delayed. Deselect if only actual reservations are to be visualized, i.e. for Centers visualizing many lanes full of bookings at once, the bar can take up valuable space.
+</p>
+
+
+
+<a name="wp9005146"> </a><h4 class="pHeading4">
+Confirmed Reservations by Default
+</h4>
+<a name="wp9005147"> </a><p class="pBody">
+If a Bowling Center chooses not to work with Provisional reservations this item must be selected, if however the Center works with Provisional reservations, they remain Provisional until a deposit is obtained or the reservation is confirmed manually in the <a href="Conqueror-2-374.html"><span class="cLink">Reservation Details</span></a> window.
+</p>
+
+
+
+<a name="wp9005148"> </a><h4 class="pHeading4">
+Anonymous Reservations by Default
+</h4>
+<a name="wp9005149"> </a><p class="pBody">
+Select this option if reservations are to be set as anonymous by default, skipping the <span class="cLabel">Member Search</span>
+ window when creating a reservation. Useful for Centers that don&#39;t always work with Frequent Bowlers, preferring to attach only a name, instead of a customer, to a booking.
+</p>
+
+
+
+<a name="wp9005150"> </a><h4 class="pHeading4">
+Pay after Customer Arrival
+</h4>
+<a name="wp9005151"> </a><p class="pBody">
+This option can be selected if the Bowling Center wishes to refuse pre-payment, thus dealing only with deposits until the customer arrives and pays in full.
+</p>
+
+
+
+<a name="wp9005152"> </a><h4 class="pHeading4">
+Use Quick Booking Window
+</h4>
+<a name="wp9005153"> </a><p class="pBody">
+Option for Bowling Centers using fast booking: when creating the reservation a simple window appears instead of the standard one. Only two fields have to be filled in: <span class="cLabel">Customer</span>
+ and <span class="cLabel">Notes</span>
+.
+</p>
+<a name="wp9005154"> </a><p class="pBody">
+If desired, by pressing the <span class="cButton">More</span>
+ button, the standard window will open and more details can be defined.
+</p>
+
+
+
+<a name="wp9005155"> </a><h4 class="pHeading4">
+Show Lane and Player Details in Receipts
+</h4>
+<a name="wp9005156"> </a><p class="pBody">
+Enable this option to print the reservation lane and player details on the receipts. The player details printed are the name, the handicap, the gender, the player attribute, etc.
+</p>
+
+
+
+<a name="wp9005157"> </a><h4 class="pHeading4">
+Dynamic Prices for Local Booking System
+</h4>
+<a name="wp9005158"> </a><p class="pBody">
+This option enables the <a href="Conqueror-2-383.html#wp9005174"><span class="cLink">Dynamic Prices</span></a> also for the local Booking System reservations and not only to the booking website.
+</p>
+
+
+
+<a name="wp9005159"> </a><h4 class="pHeading4">
+Close Reserved Lanes Still to be Paid
+</h4>
+<a name="wp9005160"> </a><p class="pBody">
+Enable this option to automatically close lanes related to reservations, even if they are not paid in full.
+</p>
+
+
+
+<a name="wp9005161"> </a><h4 class="pHeading4">
+Deposit Default Value (%)
+</h4>
+<a name="wp9005162"> </a><p class="pBody">
+Set a default percentage to calculate the deposit the customer has to pay in order to confirm their reservation.
+</p>
+<a name="wp9005163"> </a><p class="pBody">
+To allow reservations without any deposit, enter zero.
+</p>
+
+
+
+<a name="wp9005164"> </a><h4 class="pHeading4">
+Days after Date of Insertion the Deposit Must be Paid
+</h4>
+<a name="wp9005165"> </a><p class="pBody">
+Enter how many days are available to the customer to pay their reservation deposit, starting from the insertion day.
+</p>
+
+
+
+<a name="wp9005166"> </a><h4 class="pHeading4">
+Days before Date of Play the Balance Must be Paid
+</h4>
+<a name="wp9005167"> </a><p class="pBody">
+Enter the number of days before the date of play the reservation has to be paid in full.
+</p>
+
+
+
+<a name="wp9005168"> </a><h4 class="pHeading4">
+Message of the Day
+</h4>
+<a name="wp9005169"> </a><p class="pBody">
+In this space the operator can write a message that will be visualized by all of the operators above the Control Panel of the Reservation Sheet. For example: &quot;No league games are scheduled for today&quot;. This message remains the same until changed manually.
+</p>
+<a name="wp9005170"> </a><p class="pBody">
+This can also be achieved by clicking directly on the <a href="Conqueror-2-367.html"><span class="cLink">Customer Space</span></a> in the Reservation Sheet.
+</p>
+
+
+
+<a name="wp9005171"> </a><h4 class="pHeading4">
+Extended Availability
+</h4>
+<a name="wp9005172"> </a><p class="pBody">
+Enables the search for the <a href="Conqueror-2-509.html#wp9007067"><span class="cLink">Best Prices</span></a> within a time range through the <span class="cLabel">New Reservation</span>
+ window.
+</p>
+<a name="wp9005173"> </a><p class="pBody">
+The day has to be divided into four non-overlapping time zones. By default they are: <span class="cLabel">Morning</span>
+, <span class="cLabel">Afternoon</span>
+, <span class="cLabel">Evening</span>
+ and <span class="cLabel">Night</span>
+.
+</p>
+
+
+
+<a name="wp9005174"> </a><h4 class="pHeading4">
+Dynamic Pricing
+</h4>
+<a name="wp9005175"> </a><p class="pBody">
+Dynamic prices can be created for bookable bowling price keys: discounts can be applied automatically during non-peak hours, and higher prices during peak periods.
+</p>
+<a name="wp9005176"> </a><p class="pBody">
+The dynamic price is automatically calculated and displayed accordingly with the setup; when the customer selects a price key that doesn&#39;t belong to any discount rule sets, the items are offered at the regular price (not discounted). Also, discounts and surcharges are automatically applied to bowling products only, so if a customer purchases a package including food and bowling, only the bowling part will be discounted/surcharged.
+</p>
+<a name="wp9005177"> </a><p class="pBody">
+Sets of rules have to be created and then the price keys involved have to be associated to the sets of rules. Two sets cannot define rules for the same price key in the same period: the system automatically checks the correctness of the rules and warns the operator to avoid mistakes.
+</p>
+<a name="wp9005178"> </a><p class="pBody">
+In order to create a new set of rules press <span class="cButton">Add</span>
+, specify a <span class="cLabel">Name</span>
+ and a <span class="cLabel">Validity Date Range</span>
+ (the rule set is valid from ... to ...) and press <span class="cButton">OK</span>
+. Now the different rules have to be created, and the price keys that have to follow the set of rules have to be specified.
+</p>
+<a name="wp9005179"> </a><p class="pBody">
+Press on <span class="cButton"> + </span>
+ to create a rule. Each rule that will manage the dynamic price is based on:
+</p>
+<div class="pSmartList1"><ul class="pSmartList1">
+<a name="wp9005180"> </a><div class="pSmartList1"><li>The day of the week: it is possible to create a rule to be applied on Saturday only, another rule to be applied from Monday to Friday, etc.</li></div>
+<a name="wp9005181"> </a><div class="pSmartList1"><li>A time range: enter at what time the rule starts and ends (the rule is applied from ... to ...)</li></div>
+<a name="wp9005182"> </a><div class="pSmartList1"><li>The number of days the customer books in advance: e.g. a rule can be applied only if the customer books a lane between 5 and 7 days in advance.</li></div>
+<a name="wp9005183"> </a><div class="pSmartList1"><li>The occupancy calculation time range: it is a global setting for the Bowling Center; it is the amount of time to add to the starting time specified by the user, in order to define the period when calculating the Bowling Center occupancy. The minimum value is 30 minutes.</li></div>
+<a name="wp9005184"> </a><div class="pSmartList1"><li>The Bowling Center occupancy: the price rule also considers how many lanes are booked for the reservation day and time, so a discount will be applied when the Center is empty and a surcharge can be applied if the Center is nearly full. The occupancy is considered as the percentage of lanes already booked within a calculation period. For example, to set a discount when 2-4 lanes are booked (in a center with a total of 10 lanes), enter 20 - 40 (%) in the <span class="cLabel">Occupancy </span>
+range.</li></div>
+</ul></div>
+<a name="wp9005185"> </a><p class="pBody">
+Then enter the <span class="cLabel">Price Variation</span>
+ as a percentage to be deducted or added to the normal price and save by pressing <span class="cButton">OK</span>
+ : the rule is now showed in the list, with the various parameters displayed in the different columns.
+</p>
+<a name="wp9005186"> </a><p class="pBody">
+When making a reservation the operator can help the customer to choose the most convenient date &amp; time by opening a screen displaying the <a href="Conqueror-2-509.html#wp9007067"><span class="cLink">Best Prices</span></a> across 4 weeks. This screen is open by pressing <span class="cButton">Prices</span>
+ in the <span class="cLabel">New Reservation</span>
+ window.
+</p>
+    </blockquote>  
+
+    <hr />
+
+    <table id="SummaryNotReq1" align="right" border="0" cellspacing="0" cellpadding="0">
+      
+    </table>
+
+
+<script type="text/javascript" language="JavaScript1.2">
+     <!--
+      document.write(VarHTMLHelp.fPopupDivTag());
+     // -->
+    </script>
+
+<p class="breadcrumb"><a href="Conqueror-2-364.html">BOOKING SYSTEM</a> &gt; <a href="Conqueror-2-383.html">Booking System Settings</a></p>
+
+    <table id="SummaryNotReq2" border="0" width="110" align="right" cellpadding="0" cellspacing="0">
+      <tr> 
+        <td>
+<a accesskey="4" href="Conqueror-2-382.html"><img id="LongDescNotReq1" src="images/prev.gif" border="0" alt="Previous" /></a><a accesskey="5" href="Conqueror-2-384.html"><img id="LongDescNotReq2" src="images/next.gif" border="0" alt="Next" /></a>
+        </td>
+      </tr>
+    </table>
+
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for Word 8.0.0.1194" />
+    <meta name="TEMPLATEBASE" content="Conqueror 3" />
+    <meta name="LASTUPDATED" content="05/18/21 08:50:59" />
+    <title>7.1	Entering Response Codes</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+
+<script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/seealso.js"></script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="data/popups.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/popup.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/page.js"></script>
+
+    <script type="text/javascript" language="JavaScript1.2">
+     <!--
+      function  WWNoOp() {}
+      function  WWNoValue() { return ""; }
+
+
+      var  VarHTMLHelp;
+      var  VarSeeAlso;
+      var  VarDropDown;
+
+
+      if (typeof(HTMLHelp_Object) != "undefined")
+      {
+        VarHTMLHelp = new HTMLHelp_Object();
+        VarSeeAlso  = new WWSeeAlso_Object();
+        VarDropDown = new WWDropDown_Object();
+      }
+      else
+      {
+        VarHTMLHelp = new Object();
+        VarHTMLHelp.fNotifyClicked = WWNoOp;
+        VarHTMLHelp.fPopupDivTag   = WWNoValue;
+
+        VarSeeAlso = new Object();
+
+        VarDropDown = new Object();
+        VarDropDown.fAnchorOpen  = WWNoOp;
+        VarDropDown.fAnchorClose = WWNoOp;
+        VarDropDown.fDIVOpen  = WWNoOp;
+        VarDropDown.fDIVClose = WWNoOp;
+      }
+     // -->
+    </script>
+  </head>
+
+  <body onClick="javascript:VarHTMLHelp.fNotifyClicked();">
+
+    <hr align="left" />
+
+    <blockquote>
+<a name="wp9005369"> </a><h3 class="pHeading3">
+7.1	Entering Response Codes
+</h3>
+
+
+
+<a name="wp9005370"> </a><p class="pBody">
+The generic command format is:
+</p>
+<a name="wp9005371"> </a><div style="color: #000000; font-style: normal; font-variant: normal; font-weight: normal; margin-bottom: 0pt; margin-left: 21pt; margin-right: 0pt; margin-top: 0pt; text-align: left; text-decoration: none; text-indent: -21pt" class="pPathParagrafo">
+* &lt;lane number&gt;&lt;command&gt;*
+
+</div>
+<a name="wp9005372"> </a><p class="pBody">
+With the * symbol present at the start and end of a sequence.
+</p>
+<a name="wp9005373"> </a><p class="pBody">
+The lane number is composed of either 2 or 3 digits. That is, the number of lanes affects the number of digits, so if there are more than 99 lanes, 3 digits must be entered for the lane number; for up to 100 lanes (including 1-10 lanes), 2 digits are entered.
+</p>
+<a name="wp9005374"> </a><p class="pBody">
+The number of lanes in the Bowling Center is set by a command sent from Conqueror to the QDac, setting the number of digits to use. The mechanic needs to use the correct number of digits for the lane, or the command will not be executed (if the number of lanes is set at 20, the code to enter for lane 8 is &#39;08&#39;, not simply &#39;8&#39;).
+</p>
+<a name="wp9005375"> </a><p class="pBody">
+The mechanic&#39;s own recorded message (used to send messages to Conqueror) requires that the mechanic enters zero to start recording, therefore the code must be &#39;00&#39; or &#39;000&#39; according to that explained previously.
+</p>
+<a name="wp9005376"> </a><p class="pBody">
+The mechanic gets feedback as to the correct/wrong sequence entered through confirmation (for a correct sequence or a correct sequence on an incorrect lane) or an error tone (for incorrect sequences) given by the phone. The mechanic hereby understands if the correct command has been recognized or if the incorrect code was entered and it is necessary to try again.
+</p>
+    </blockquote>  
+
+    <hr />
+
+    <table id="SummaryNotReq1" align="right" border="0" cellspacing="0" cellpadding="0">
+      
+    </table>
+
+
+<script type="text/javascript" language="JavaScript1.2">
+     <!--
+      document.write(VarHTMLHelp.fPopupDivTag());
+     // -->
+    </script>
+
+
+<p class="breadcrumb"><a href="Conqueror-2-385.html">TROUBLE CALL SYSTEM</a> &gt; <a href="Conqueror-2-399.html">TCS Telephone Commands</a> &gt; <a href="Conqueror-2-400.html">Entering Response Codes</a></p>
+
+    <table id="SummaryNotReq2" border="0" width="110" align="right" cellpadding="0" cellspacing="0">
+      <tr> 
+        <td>
+<a accesskey="4" href="Conqueror-2-399.html"><img id="LongDescNotReq1" src="images/prev.gif" border="0" alt="Previous" /></a><a accesskey="5" href="Conqueror-2-401.html"><img id="LongDescNotReq2" src="images/next.gif" border="0" alt="Next" /></a>
+        </td>
+      </tr>
+    </table>
+
+
+</body>
+</html>

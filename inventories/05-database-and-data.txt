@@ -1,0 +1,29 @@
+==========================================
+DATABASE AND DATA FILES
+Snapshot: 2026-08-24T21:02:24Z
+==========================================
+
+### SQL SERVER INSTANCES ON THIS MACHINE ###
+
+Name                     Status DisplayName                         
+----                     ------ -----------                         
+MSSQL$CONQUERORX        Running SQL Server (CONQUERORX)             
+SQLBrowser              Running SQL Server Browser                  
+SQLTELEMETRY$CONQUERORX Running SQL Server CEIP service (CONQUERORX)
+
+
+
+
+### DATABASE FILES (.mdf/.ldf/.bak/.sqlite) ###
+/mnt/c/ProgramData/QubicaAMF/BowlingAgent/Database/BowlingAgent.db
+
+### CONNECTION STRINGS FOUND IN .config FILES ###
+
+### BOWLINGAGENT/Database CONTENTS ###
+/mnt/c/ProgramData/QubicaAMF/BowlingAgent/Database/BowlingAgent.db
+
+### CONQUEROR REPOSITORY VERSION ###
+total 0
+drwxrwxrwx 1 cresp3 cresp3 4096 Aug 22 14:06 .
+drwxrwxrwx 1 cresp3 cresp3 4096 Aug 22 14:10 ..
+drwxrwxrwx 1 cresp3 cresp3 4096 Aug 22 14:06 15.18.0+22859

@@ -1,0 +1,175 @@
+==========================================
+NETWORK, IPC, HTTP ENDPOINTS
+Snapshot: 2026-08-24T21:02:32Z
+==========================================
+
+### ALL LISTENING TCP PORTS ###
+
+ Port Address        PID Process                  
+ ---- -------        --- -------                  
+  135 ::            1796 svchost                  
+  135 0.0.0.0       1796 svchost                  
+  139 10.47.123.29     4 System                   
+  139 172.25.80.1      4 System                   
+  443 0.0.0.0      32508 distributer              
+  445 ::               4 System                   
+  873 0.0.0.0      19368 rsync                    
+ 2345 0.0.0.0      32976 ConquerorServer          
+ 2387 0.0.0.0      32976 ConquerorServer          
+ 3000 ::1          13444 wslrelay                 
+ 3535 0.0.0.0      32976 ConquerorServer          
+ 4767 127.0.0.1     5576 PanGPS                   
+ 5040 0.0.0.0       1584 svchost                  
+ 5130 ::           29184 BowlingAgent             
+ 5500 0.0.0.0      32508 distributer              
+ 5555 0.0.0.0      32976 ConquerorServer          
+ 5556 0.0.0.0      32976 ConquerorServer          
+ 5557 0.0.0.0       8328 QWorkingCopyServer       
+ 5901 0.0.0.0      32508 distributer              
+ 5912 0.0.0.0      32508 distributer              
+ 5959 0.0.0.0       8328 QWorkingCopyServer       
+ 6767 0.0.0.0      32976 ConquerorServer          
+ 7014 ::           29184 BowlingAgent             
+ 7024 0.0.0.0      32976 ConquerorServer          
+ 8018 0.0.0.0      32976 ConquerorServer          
+ 8048 0.0.0.0      32976 ConquerorServer          
+ 8083 ::               4 System                   
+ 8084 0.0.0.0      32976 ConquerorServer          
+ 8760 0.0.0.0      35196 node                     
+ 9999 ::               4 System                   
+10010 ::               4 System                   
+10011 ::               4 System                   
+10013 ::               4 System                   
+24830 127.0.0.1     6808 AsusSoftwareManager      
+27015 127.0.0.1    13868 AppleMobileDeviceProcess 
+27036 0.0.0.0      15552 steam                    
+27060 127.0.0.1    15552 steam                    
+28201 0.0.0.0       5384 CTskMstr                 
+42050 ::1          17328 OneDrive.Sync.Service    
+49664 ::            1452 lsass                    
+49664 0.0.0.0       1452 lsass                    
+49665 ::            1348 wininit                  
+49665 0.0.0.0       1348 wininit                  
+49666 0.0.0.0       3076 svchost                  
+49666 ::            3076 svchost                  
+49667 ::            3364 svchost                  
+49667 0.0.0.0       3364 svchost                  
+49668 ::            4608 spoolsv                  
+49668 0.0.0.0       4608 spoolsv                  
+49669 ::            1424 services                 
+49669 0.0.0.0       1424 services                 
+50372 127.0.0.1    15552 steam                    
+50373 127.0.0.1    15552 steam                    
+50379 127.0.0.1    13848 AppleMobileDeviceLauncher
+61690 127.0.0.1    19088 Code                     
+62362 127.0.0.1     9740 Code                     
+64002 ::           36540 sqlservr                 
+
+### UDP LISTENERS ###
+
+ Port   PID Process        
+ ----   --- -------        
+   37  3612 MxSvc          
+   67  3612 MxSvc          
+   69  3612 MxSvc          
+ 8086  3612 MxSvc          
+ 8093  3612 MxSvc          
+10000  3612 MxSvc          
+10990  3612 MxSvc          
+10992  3612 MxSvc          
+55126 32976 ConquerorServer
+58669 32976 ConquerorServer
+58670 32976 ConquerorServer
+
+
+
+
+### WINDOWS FIREWALL RULES FOR QUBICAAMF PROGRAMS ###
+
+DisplayName                 Enabled Direction Action
+-----------                 ------- --------- ------
+Qubica Rsync Server            True   Inbound  Allow
+Qubica Working Copy Monitor    True   Inbound  Allow
+Qubica Working Copy Server     True   Inbound  Allow
+Qubica Mx Service              True   Inbound  Allow
+Qubica Bubbles                 True   Inbound  Allow
+Qubica Conqueror server        True   Inbound  Allow
+Qubica SQL Server Instance     True   Inbound  Allow
+Qubica MMS App                 True   Inbound  Allow
+Qubica Sally server            True   Inbound  Allow
+Qubica Score Udp               True   Inbound  Allow
+Qubica Score Tcp               True   Inbound  Allow
+Qubica Web static server       True   Inbound  Allow
+SQL Server Browser             True   Inbound  Allow
+Qubica Stop Button             True   Inbound  Allow
+
+
+
+
+### MMSAppServer node.js MODULE INVENTORY ###
+connect
+linq
+log4js
+mime
+modulr
+node-async
+node-formidable
+node-static
+node-xml2js
+node_modules
+restify
+socket.io
+socket.io-client
+uglify-js
+
+### MMSAppServer TOP LEVEL ###
+data
+lib
+node-builds
+node.cmd
+node_modules
+runserver.cmd
+runserver.js
+server.config
+version.txt
+
+### MMSAppServer package.json (if any) ###
+
+===========================================================
+### ADDENDUM (2026-08-24) — CORRECTED WINDOWS FIREWALL SCAN
+===========================================================
+
+Earlier scan used the pattern /Qbk|Qubica|Conqueror|MxSvc/ which missed
+the rules named with "Qubica " (with trailing space). Correct pattern is
+/Qubica|BowlingAgent/. Below is the full firewall picture.
+
+
+Name    Enabled DefaultInboundAction DefaultOutboundAction
+----    ------- -------------------- ---------------------
+Domain     True        NotConfigured         NotConfigured
+Private    True        NotConfigured         NotConfigured
+Public     True        NotConfigured         NotConfigured
+
+
+
+
+
+DisplayName                 Enabled Direction Action                 Profile
+-----------                 ------- --------- ------                 -------
+BowlingAgent                   True   Inbound  Allow                     Any
+Qubica Bubbles                 True   Inbound  Allow Domain, Private, Public
+Qubica Conqueror server        True   Inbound  Allow Domain, Private, Public
+Qubica MMS App                 True   Inbound  Allow Domain, Private, Public
+Qubica Mx Service              True   Inbound  Allow Domain, Private, Public
+Qubica Rsync Server            True   Inbound  Allow Domain, Private, Public
+Qubica Sally server            True   Inbound  Allow Domain, Private, Public
+Qubica Score Tcp               True   Inbound  Allow Domain, Private, Public
+Qubica Score Udp               True   Inbound  Allow Domain, Private, Public
+Qubica SQL Server Instance     True   Inbound  Allow Domain, Private, Public
+Qubica Stop Button             True   Inbound  Allow Domain, Private, Public
+Qubica Web static server       True   Inbound  Allow Domain, Private, Public
+Qubica Working Copy Monitor    True   Inbound  Allow Domain, Private, Public
+Qubica Working Copy Server     True   Inbound  Allow Domain, Private, Public
+
+
+

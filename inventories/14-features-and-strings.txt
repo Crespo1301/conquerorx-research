@@ -1,0 +1,310 @@
+==========================================
+FEATURE INVENTORY — extracted from Qdesk.0409 (EN)
+Snapshot: 2026-08-24T21:10:49Z
+==========================================
+
+The QDesk translation files are FLAT concatenated strings — every UI
+element, dialog title, menu item, warning, and error appears once in
+English at Qdesk.0409 (Language Code 0409 = English United States).
+
+File size: 858KB, thousands of strings.
+
+### DIALOG / SCREEN NAMES (contain commas — Qubica uses them as breadcrumb) ###
+AccuScore - Lane Options
+AccuScore - Lane Options,AS 80/90 - Lane Options
+AccuScore - Lane Options,AS 80/90 - Lane Options,BOSS - Lane Options
+AccuScore - Lane Options,AS 80/90 - Lane Options,BOSS - Lane Options,Frameworx - Lane Options
+AccuScore - Lane Options,AS 80/90 - Lane Options,Frameworx - Lane Options
+AccuScore - Lane Options,BOSS - Lane Options
+BES X - GameConnect
+BES X - GameConnect,New MMS,Historical Games,BES X - SuperTouch,Online Score
+BES X - GameConnect,New MMS,Historical Games,League - Bowlers and Teams,BES X - SuperTouch,Online Score
+BES X - Mad Games
+BES X - SuperTouch
+BES X - SuperTouch,New MMS
+BOSS - Advertising
+BOSS - Keyboard
+BOSS - Lane Options
+BOSS - Lane Options,Frameworx - Lane Options
+BOSS - Lanes
+BOSS - Special Functions,Universal - Special Functions
+Call Center - Consolidated Reports
+Call Center - Consolidated Reports,Main Menu
+Call Center - Setup
+Call Center - Setup,Micros
+Center Setup - Backup
+Center Setup - Basic
+Center Setup - Basic,Prepaid Cards
+Center Setup - Basic,Terminal Setup
+Center Setup - Intercom
+Center Setup - Intercom,AS 80/90 - Lane Options
+Center Setup - Lane Control
+Center Setup - Payments
+Center Setup - Payments,Customers
+Center Setup - Prices
+Center Setup - Prices,Center Setup,Time Games
+Center Setup - Prices,Tax Setup
+Center Setup - Prices,Time Games
+Center Setup - Reservations
+Center Setup - Reservations,Reservation - Generic,Web Setup,Statistical Reports
+Center Setup - Reservations,Reservation - Import
+Center Setup - Reservations,Web Setup
+Center Setup - Score
+Center Setup - Score,Center Setup - Tournaments,Center Setup - Swedish League
+Center Setup - Score,League - Scores,DlgLeagueHandicapSetup.Designer.cs,Reservation - Extended Availability,Capping Lighting,Prepaid Cards,Micros,High Scores,MMS - Setup,Redemption Setup,Dynamic Discounts
+Center Setup - Sector and Cash Drawers
+Center Setup - Sector and Cash Drawers,Lockers,DlgCashTurn.Designer.cs
+Center Setup - Sector and Cash Drawers,Lockers,P.O.S. 2 - Categories,Web Setup
+Center Setup - Sector and Cash Drawers,Terminal Setup,Shift Management,P.O.S. 2 - Tips
+Center Setup - Sector and Cash Drawers,Terminal Setup,Shift Management,Shift Reports,System and Staff Log
+Center Setup - Sector and Cash Drawers,Tournament - Setup
+Center Setup - Shifts
+Center Setup - Shifts,Center Setup
+Center Setup - Swedish League
+Center Setup - System
+Center Setup - System,Call Center - Setup
+Center Setup - System,Terminal Setup,P.O.S. 2 - Setup,Payment Provider,Receipt,Conqueror Mail,Prepaid Cards,EmbedSocketSetupPanel.Designer.cs
+Center Setup - Tournaments
+Center Setup - Tournaments,Center Setup - Swedish League
+Center Setup - Tournaments,Center Setup - Swedish League,League - Setup
+Center Setup - Trouble Call System
+Center Setup - Trouble Call System,Center Setup - Intercom
+Center Setup - Trouble Call System,Center Setup - Intercom,Customer Search
+Center Setup - Trouble Call System,Center Setup - Intercom,Customers,Customer Search,P.O.S. 2 - Generic,Center Setup - Lane Control,P.O.S. 2 - Modifiers,Conqueror
+Center Setup - Trouble Call System,Center Setup - Intercom,Reservation - Reports,Call Center
+Center Setup - Trouble Call System,Center Setup - Intercom,TCS & Intercom
+Center Setup - Trouble Call System,Center Setup - Intercom,TCS & Intercom,Customers,TCS Reports
+Center Setup - Trouble Call System,Center Setup - Intercom,TV and Sound Settings,TCS & Intercom,Tabs
+Centralization - Customers
+Cloud - Customers
+Customers - Points
+Customers - Points,Customers
+Customers - Points,P.O.S. 2 - Generic,TV and Sound Settings,DlgLeagueHandicapSetup.Designer.cs,MMS - Setup
+Customers - Reporting
+Customers - Reporting,Conqueror Errors,Lane - Setup,League - Setup,Reservation - Extended Availability,Stop Button,CycleMotors.Designer.cs,Promotions,Terminal Setup,Tournament - Teams and Players,Web Setup
+Customers - Reporting,Lane - Setup
+Customers - Reporting,League - Setup
+Customers - Selection
+Customers - Selection,Bowling Game,Historical Games
+Customers - Selection,Bowling Game,League - Generic,Historical Games,Print Games
+Customers - Selection,Center Average,Print Games
+Customers - Selection,Center Setup - Tournaments,Center Setup
+Customers - Selection,Customers
+
+### MENU / BUTTON CANDIDATES (start with &) ###
+&Absent
+&Absent teams
+&Across:
+&Activate
+&Activation
+&Add
+&Add Group
+&Add all
+&Add card
+&Add category
+&Add contact
+&Add filter
+&Add game
+&Add group
+&Add image
+&Add new
+&Add points
+&Add space
+&Add to check
+&Added operators
+&Advert. time:
+&Advertising
+&Advice
+&Alert
+&All
+&All Lanes
+&All Teams
+&All categories
+&All invoices
+&All members found
+&All receipts
+&All records (%d)
+&Amount
+&Amount tendered
+&Anonymously thrown balls
+&Apply
+&Apply filters
+&Ascending
+&Assign
+&Attach
+&Attachment:
+&Authorization required
+&Authorize
+&Auto
+&Available players:
+&Back
+&Balls:
+&Bank:
+&Banquet fund
+&Base:
+&Best rounding
+&Bill
+&Black
+&Bold
+&Boot from network
+&Bottom:
+&Bowl opt
+&Bowling
+&Bowling Modes:
+&Bowling mode
+
+### REPORT NAMES ###
+ARGlobals.cpp,Call Center - Consolidated Reports
+ARGlobals.cpp,Customers,Payment Provider,MonetaryEngine.cs,TrancloudHelper.cs,Customers - Points,Credit Cards,Prepaid Cards,Gift Certificate,Payment Window,Payments,P.O.S. 2 - Tips,DlgPaymentModeCount.Designer.cs,Statistical Reports
+ARGlobals.cpp,Deck Lighting,TimeSelectionPanel.Designer.cs,MMS - Setup,Statistical Reports
+ARGlobals.cpp,Pricekey Reporting,Shift Reports,DAR Report,Statistical Reports
+ARGlobals.cpp,Reservation - Reports
+ARGlobals.cpp,Shift Reports
+Access Consolidated Reports
+Access DAR Report
+Batch Report
+Bowling Modes,Statistical Reports
+COMPARISON REPORT
+Calendar,Time Tracking Report
+Calendar,Time Tracking Report,Statistical Reports
+Call Center - Consolidated Reports
+Center Setup - Reservations,Reservation - Generic,Web Setup,Statistical Reports
+Center Setup - Trouble Call System,Center Setup - Intercom,TCS & Intercom,Customers,TCS Reports
+Co&unter report
+Coin-Op,Redemption Report
+Conqueror,Reports
+Consolidated Historical Reports
+Consolidated Reports
+Credit Cards,Coin-Op,Redemption Report,Statistical Reports
+Credit Cards,Statistical Reports
+Customers - Selection,Lockers,Time Tracking Report
+Customers - Selection,Reservation - Reports
+Customers - Selection,Reservation - Reports,League - Payments,Shift Reports,Time Tracking Report,League - Standings,TCS Reports,High Scores,League - Setup,Statistical Reports
+Customers - Selection,Reservation - Reports,League - Payments,Tournament - Squads,Shift Reports,TCS Reports
+Customers - Selection,Reservation - Reports,Shift Reports,Print Games,Statistical Reports
+Customers - Selection,Shift Reports
+Customers - Selection,Shift Reports,Coin-Op,Redemption Report
+Customers - Selection,Shift Reports,Standing Sheets,Time Tracking Report
+Customers - Selection,Shift Reports,Statistical Reports
+Customers - Selection,TCS Reports,Statistical Reports
+Customers - Selection,Time Tracking Report
+Customers,Special Games - Bowland,Extend Bowling Session,Reports
+Customers,Statistical Reports
+DAR Report
+Daily Report
+Display and print reports
+End-of-shift Reports
+
+### PERMISSION / PRIVILEGE STRINGS ###
+Administrative privileges cannot be removed
+All privileges enabled
+All privileges introduced after that version will be denied to all profiles.
+Create and manage user profiles and privileges
+Has temporarily authorized the operator '{0}' to take advantage of the following user privilege:
+No privileges enabled
+Operator '{0}' doesn't have the following privilege:
+P.O.S. 2 - Generic,Privileges
+Permission denied
+Privileges
+Selected profile is the last in use with full administrative privileges.
+The selected user does not have the privilege allowing them to login on a QPad
+The selected user does not have the privilege allowing them to login using their user name and password; try to login using the fingerprint sensor or swiping the membership card
+Verify folder and file permissions
+You might not have the permission to browse the network, or a network error has occurred.
+Your profile ({0}) does not allow you to perform this action because it does not include the following user privilege:
+
+### INTEGRATION / API / EXTERNAL SERVICE MENTIONS ###
+A Micros check with the same name already exists.
+A Micros external key is not correctly configured
+A check with desired name cannot be opened on Micros
+API type
+Add items to existing Micros Checks
+An error occurred during the export procedure to Micros:
+BowlerTrac files (*.xml)|*.xml|OVR files (*.dbf)|*.dbf|Excel files (*.xls)|*.xls|All files (*.*)|*.*||
+Call Center - Setup,Micros
+Center Setup - Score,League - Scores,DlgLeagueHandicapSetup.Designer.cs,Reservation - Extended Availability,Capping Lighting,Prepaid Cards,Micros,High Scores,MMS - Setup,Redemption Setup,Dynamic Discounts
+Communication problem with Micros Server
+Conqueror Security,Micros
+Conqueror operation successful but not exported to Micros
+Credit Cards,EmbedAPISetupPanel.Designer.cs
+During the export procedure to Micros, this error occurred:
+EmbedAPICommunication.cs
+EmbedAPISetupPanel.Designer.cs
+If a different check with the same name already exists on Micros, you can add items to a new check
+If the check has already been closed on Micros, you can add items to a new check
+It is necessary to manually execute the payment in Micros
+MAPI
+Micros
+Micros codes are not defined for:
+Micros me&nu item code:
+Micros revenue center
+Micros server address
+Micros server connection error:
+Micros server connection verified
+Micros setup
+Please attempt to solve the problem then press 'Retry', or press 'Continue' to complete payment without export to Micros
+Please close the check window on Micros or add items to a new check
+Please enter the correct Micros 'Order type'
+Please enter the correct Micros 'Revenue center'
+Please enter the correct Micros 'Service total code'
+Please enter the correct Micros 'Service total description'
+Prepaid Cards,Micros
+Press 'Retry' when the problem is solved, or press 'Continue' to complete payment without export to Micros
+Reservation successfully exported into an XML file
+Selected check cannot be opened on Micros
+Selected check is currently in use on Micros
+Standard Buttons,DlgCopy.hpp,Tournament - Squads,Tournament - Divisions,Tournament - Teams and Players,Tournament - Setup,Conqueror,ARGlobals.cpp,Lane Control,Lane - Setup,Lane Options,MMS,Lane - Communication,DlgCashTraySelect.Designer.cs,Customers,Customer Import and Export,Customers - Points,Refunds,Customer Search,P.O.S. 2 - Setup,Payment Provider,Credit Cards,P.O.S. 2 - Generic,Micros,QuickBooks,DlgSelectDepartments.Designer.cs,Discounts,Payments,Tabs,Promotions,ReceiptHeaderSetup.Designer.cs,Experience,Center Average,Customers - Selection,Conqueror Security,Extend Bowling Session,Lane Mood,Center Setup,Frameworx Score,Universal - Special Functions,Lane Grids,Lane Status,LaneTalk Setup,Lane - Generic,Bowler Options,Center Setup - Lane Control,Redemption Setup,Score Management,TV and Sound Settings,Lane Welcome Message,League - Scores,Lane - Animations,Deck Lighting,League - Generic,Conqueror Mail,Reservation - Item Status,Reservation - Generic,Reservation - Types,TCS Reports,TCS & Intercom,DlgSmsSetup.Designer.cs,DlgSmsWaitingList.Designer.cs,YouToons,Call Center - Consolidated Reports,Duplicated Members,P.O.S. 2 - Categories,Lane Orders,DlgLaneOrderSetupSettings.Designer.cs,P.O.S. 2 - Modifiers,Payment Window,SoldSummary.Designer.cs,Prepaid Cards,Gift Certificate,DlgVoucherSelect.Designer.cs,Gift Card,Price Setup,ColorsDialog.Designer.cs,Remote Cameras,Main Menu,QuickAccessOrderDlg.Designer.cs,DlgDefaultPlayers.Designer.cs,High Scores,Historical Games,BOSS - Lane Options,League - Bowlers and Teams,League - Status,League - Setup,MMS - Setup,Print Games,Redemption,Web Setup,Dynamic Discounts,DlgPaymentModeCount.Designer.cs,Statistical Reports
+
+### CLOUD/QCLOUD/QPORTAL/AZURE STRINGS ###
+&QCloud username
+&Synchronize
+ARGlobals.cpp,Customers,Payment Provider,MonetaryEngine.cs,TrancloudHelper.cs,Customers - Points,Credit Cards,Prepaid Cards,Gift Certificate,Payment Window,Payments,P.O.S. 2 - Tips,DlgPaymentModeCount.Designer.cs,Statistical Reports
+An error occurred during the synchronization of Marketing kits
+An error occurred during the synchronization of animations
+Animations synchronization started...
+Balls thrown on &unsynchronized score-pinspotter
+Cloud - Customers
+Cloud Authentication
+Cloud Connection
+Cloud Data upload
+Cloudy
+Connection to the Cloud has been restored
+Connection to the Cloud is now active for the center
+Connection to the Cloud is temporarily not available and some services may not be available at this time
+Conqueror Server cannot connect to the Cloud
+Conqueror Server cannot connect to the Cloud because another Conqueror Server is already connected
+Conqueror Server cannot connect to the Cloud because another Conqueror Server is already connected. Please verify that your spare server computer is not running or contact QubicaAmf for support
+Conqueror Server has lost connectivity to the Cloud
+Current working copy is inconsistent
+Do you want to proceed with the synchronization?
+Drawer synchronization error
+It is not possible to create a new customer because the Cloud is not reachable.
+League - Setup,Customers,TCS & Intercom,TCSLogCloudBuilder.cs,TCS Reports
+Marketing Kits synchronization failed!
+Marketing Kits synchronization started...
+Partly cloudy
+Payment Provider,TrancloudHelper.cs
+Synchronization error occurred on the server. This may happen when some files are used by other application. Please reboot the ConquerorServer system and try again.
+Synchronization with customer centralization server has failed. Local data may not be up to date.
+
+### PLUGIN / EXTENSION / MODULE-LOAD STRINGS ###
+A problem occurred when loading the Lane Control module: %d
+A problem occurred while calling LaneControl module: no lane ID has been specified
+Access League Module
+Access POS module
+Access Web Setup module
+Access the Bowling Mode module
+Access the Cameras && Real Time Income module
+Access the Credit Card module
+Access the FBT module
+Access the HyperBowling Tests module
+Access the Invoice module
+Access the Lane Option module
+Access the Lights - Lane Effects module
+Access the TCS module
+Access the point of sale module
+Access to POS modules
+Add module to Quick Access
+Add module to Quick Access and customize
+Add-ons
+Add-ons chosen

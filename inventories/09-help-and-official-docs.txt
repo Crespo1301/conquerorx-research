@@ -1,0 +1,41 @@
+==========================================
+HELP FILES AND OFFICIAL DOCUMENTATION
+Snapshot: 2026-08-24T21:03:34Z
+==========================================
+
+### .chm HELP FILES ###
+total 9772
+drwxrwxrwx 1 cresp3 cresp3    4096 Aug 22 15:32 .
+drwxrwxrwx 1 cresp3 cresp3    4096 Aug 22 15:32 ..
+-rwxrwxrwx 1 cresp3 cresp3 1486255 Jul 24 12:27 ConquerorHelp_CZ.chm
+-rwxrwxrwx 1 cresp3 cresp3 1458815 Jul 24 12:27 ConquerorHelp_DE.chm
+-rwxrwxrwx 1 cresp3 cresp3 1386229 Jul 24 12:27 ConquerorHelp_EN.chm
+-rwxrwxrwx 1 cresp3 cresp3 1431617 Jul 24 12:27 ConquerorHelp_ES.chm
+-rwxrwxrwx 1 cresp3 cresp3 1426663 Jul 24 12:27 ConquerorHelp_FR.chm
+-rwxrwxrwx 1 cresp3 cresp3 1427573 Jul 24 12:27 ConquerorHelp_IT.chm
+-rwxrwxrwx 1 cresp3 cresp3 1374515 Jul 24 12:27 ConquerorHelp_JP.chm
+
+### PDFs BUNDLED WITH INSTALL ###
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/HelpAndDocs/RegistrationForms/Explanations_about_Registration_Form.pdf
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/HelpAndDocs/RegistrationForms/Formulaire_de_Registration_France.pdf
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/HelpAndDocs/RegistrationForms/Formulario_di_Registrazione_Italiano.pdf
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/HelpAndDocs/RegistrationForms/Registration_Form_Chinese.pdf
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/HelpAndDocs/RegistrationForms/Registration_Form_English.pdf
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/HelpAndDocs/RegistrationForms/Registration_Form_Japanese.pdf
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/HelpAndDocs/RegistrationForms/Registration_Form_Russian.pdf
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Posiflex/Pole Display PD-3xxUE 5.1.9.7600/USB Printer VCOM Drivers Installing Guide.pdf
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Posiflex/Pole Display PD-3xxUE 5.1.9.7600/USB VCOM Drivers Installing Guide.pdf
+/mnt/c/QDesk/Bin/ConquerorServer/QAnimationManager/QubicaAMF_QAnimation_Manager.pdf
+
+### README / MANUAL / GUIDE FILES ###
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/HelpAndDocs/Licenses/License-ReadMe.txt
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/ACS_Unified_Driver_MSI_Win/ReadMe.txt
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Bematech (Logic Control)/v2.0.7.231/readme.txt
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/IdTech/IdTech_IDWA_V2.00_Driver_XP_ 2K/Installation Guides.url
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Posiflex/Pole Display PD-3xxUE 5.1.9.7600/USB Printer VCOM Drivers Installing Guide.pdf
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/Misc/Posiflex/Pole Display PD-3xxUE 5.1.9.7600/USB VCOM Drivers Installing Guide.pdf
+
+### HelpAndDocs FOLDER IN REPOSITORY ###
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/HelpAndDocs
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/HelpAndDocs/Licenses
+/mnt/c/ProgramData/QubicaAMF/Repositories/Conqueror/15.18.0+22859/Repository/HelpAndDocs/RegistrationForms

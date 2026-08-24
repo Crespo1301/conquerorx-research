@@ -1,0 +1,129 @@
+==========================================
+MMSAppServer NODE.JS + PLUGIN EXTENSIBILITY
+Snapshot: 2026-08-24T21:11:29Z
+==========================================
+
+### MMSAppServer TOP-LEVEL ###
+total 0
+drwxrwxrwx 1 cresp3 cresp3 4096 Aug 22 15:32 .
+drwxrwxrwx 1 cresp3 cresp3 4096 Aug 24 09:14 ..
+drwxrwxrwx 1 cresp3 cresp3 4096 Aug 22 15:32 data
+drwxrwxrwx 1 cresp3 cresp3 4096 Aug 22 15:32 lib
+drwxrwxrwx 1 cresp3 cresp3 4096 Aug 22 15:32 node-builds
+-rwxrwxrwx 1 cresp3 cresp3   36 Nov 14  2024 node.cmd
+drwxrwxrwx 1 cresp3 cresp3 4096 Aug 22 15:32 node_modules
+-rwxrwxrwx 1 cresp3 cresp3   24 Nov 14  2024 runserver.cmd
+-rwxrwxrwx 1 cresp3 cresp3  426 Nov 14  2024 runserver.js
+-rwxrwxrwx 1 cresp3 cresp3  129 Nov 14  2024 server.config
+-rwxrwxrwx 1 cresp3 cresp3    7 Nov 14  2024 version.txt
+
+### MMSAppServer/lib TOP-LEVEL ###
+client
+node_modules
+server
+
+### MMSAppServer/lib/*.js (application source) ###
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/client.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/coinop.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/environment.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/logmanager.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/mainbox.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/mms_communication.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/monitor.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/render_engine.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/requirejs_loader.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/server_listener.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/stage_model.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/stage_presenter.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/status_observer.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/timer.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/translator.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/utility.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/video_plugin.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/server/arguments_parser.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/server/client_dispatcher.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/server/current_session_notifier.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/server/device_decoder.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/server/log_manager.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/server/message_cache.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/server/request_dispatcher.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/server/server.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/server/session_factory.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/server/session_service.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/server/status_service.js
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/server/video_source_factory.js
+
+### server.js entry (first 60 lines) ###
+
+### node_modules INSTALLED (application deps only) ###
+connect
+linq
+log4js
+mime
+mmsutil.js
+modulr
+node-async
+node-formidable
+node-static
+node-xml2js
+restify
+socket.io
+socket.io-client
+uglify-js
+
+### HTTP ROUTES DEFINED IN MMSAppServer .js FILES ###
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/server/client_dispatcher.js:142:		httpClient.get('/recovery/' + side, function(err, req) {
+
+### SOCKET.IO EVENT NAMES IN MMSAppServer .js ###
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/server_listener.js:10:		socket.on("message", function(data) {
+/mnt/c/QDesk/Bin/ConquerorServer/MMSAppServer/lib/client/server_listener.js:13:		socket.on("disconnect", function() {
+
+### RoutingDefs.json PLUGINS DEEP DIVE ###
+(from QDeskConfigs/RoutingDefs.json — the CloudPlugin flag marks Azure-hosted plugins)
+
+Names       | RelativePath              | Icon | Flags
+------------|---------------------------|------|--------------------
+LaneOptions         | /lane-options             |    3 | 
+Loyalty             | /loyalty                  |   89 | 
+MultiAttractions    | /ma-reservations          |  617 | SingleInstance
+SquareReceiptPlugin | /square-receipt-plugin    |  418 | SingleInstance
+CashlessRecharge    | /cashless/recharge        |  244 | 
+CashlessPay         | /cashless/pay             |  244 | 
+Home                | /                         |  417 | 
+Pos                 | /pos                      |   33 | 
+PictureValidation   | /picture-validation       |  371 | CloudPlugin
+Calculator          | /unicorn-calculator       |   33 | CloudPlugin
+CashDrawer          | /cash-drawer              |  130 | CloudPlugin
+CashDrawerReport    | /cash-drawer-report       |  130 | CloudPlugin
+
+### CenterAttractions / Games / SpecialGames / PlaylandGames DLLs ###
+/mnt/c/QDesk/Bin/BesSpecGamesSetup.dll
+/mnt/c/QDesk/Bin/GamesManager.dll
+/mnt/c/QDesk/Bin/Qbk.HistoricalGames.Gui.dll
+/mnt/c/QDesk/Bin/Qbk.PrintGames.Plugin.dll
+/mnt/c/QDesk/Bin/Qbk.PrintGames.dll
+/mnt/c/QDesk/Bin/SpecialGames.dll
+/mnt/c/QDesk/Bin/TimeGames.dll
+/mnt/c/QDesk/Bin/TimeGamesSetup.dll
+
+### DLLs with "Plugin" or "Extension" in name ###
+/mnt/c/QDesk/Bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/mnt/c/QDesk/Bin/Microsoft.Extensions.DependencyInjection.dll
+/mnt/c/QDesk/Bin/Microsoft.Extensions.Logging.Abstractions.dll
+/mnt/c/QDesk/Bin/Qbk.Economical.TipPlugin.dll
+/mnt/c/QDesk/Bin/Qbk.Kiosk.AssistancePlugin.dll
+/mnt/c/QDesk/Bin/Qbk.Lanes.Tilt.TiltPlugin.dll
+/mnt/c/QDesk/Bin/Qbk.OrderReprintPlugin.dll
+/mnt/c/QDesk/Bin/Qbk.PluginParams.dll
+/mnt/c/QDesk/Bin/Qbk.PrintGames.Plugin.dll
+/mnt/c/QDesk/Bin/System.Threading.Tasks.Extensions.dll
+/mnt/c/QDesk/Bin/TCSPlugin.dll
+/mnt/c/QDesk/Bin/VirtualWaiterFrontDesk/QtWebKit/qmlwebkitplugin.dll
+/mnt/c/QDesk/Bin/VirtualWaiterFrontDesk/QtWebKit/qmlwebkitplugin.lib
+/mnt/c/QDesk/Bin/VirtualWaiterFrontDesk/QtWebKit/qmlwebkitplugind.dll
+/mnt/c/QDesk/Bin/VirtualWaiterFrontDesk/QtWebKit/qmlwebkitplugind.lib
+/mnt/c/QDesk/Bin/ConquerorServer/Microsoft.AspNetCore.Http.Extensions.dll
+/mnt/c/QDesk/Bin/ConquerorServer/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+/mnt/c/QDesk/Bin/ConquerorServer/Microsoft.AspNetCore.SpaServices.Extensions.dll
+/mnt/c/QDesk/Bin/ConquerorServer/Microsoft.Extensions.Caching.Abstractions.dll
+/mnt/c/QDesk/Bin/ConquerorServer/Microsoft.Extensions.Caching.Memory.dll
