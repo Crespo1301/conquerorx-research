@@ -45,6 +45,7 @@ one system area.
 | 16 | [lane-management.md](16-lane-management.md) | **Lane Management deep-read:** opening modes, lane lifecycle (Mermaid state diagram), control panel actions, per-scoring-family behavior. |
 | 17 | [api-surface.md](17-api-surface.md) | **REST + WCF API inventory:** WebBookingApi (25+ ASP.NET Core routes for reservations, availability, customers) and FlexyBook (WCF lane realtime API). The migration path away from Excel import + AutoHotkey. |
 | 18 | [mms-realtime.md](18-mms-realtime.md) | **MMSAppServer deep-read:** Node.js Socket.IO real-time fan-out layer on port 8760, 10 service channels, message-flow sequence diagram, path to a live lane dashboard. |
+| 19 | [point-of-sale.md](19-point-of-sale.md) | **POS deep-read:** sales, tabs, tips, deposits, refunds, tax exemption, credit-card providers, payment types, related SQL tables and reports. |
 
 ## Market context: why we care about this platform
 
