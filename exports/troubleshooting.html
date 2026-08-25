@@ -1,0 +1,395 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'>
+<title>Kings Seaport — ConquerorX Operations Troubleshooting Reference</title>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+       max-width: 780px; margin: 40px auto; color: #1f2937; line-height: 1.55; font-size: 11pt; }
+h1 { border-bottom: 2px solid #1d4ed8; padding-bottom: 8px; color: #1e3a8a; font-size: 22pt; }
+h2 { color: #1e3a8a; margin-top: 32px; border-bottom: 1px solid #cbd5e1; padding-bottom: 4px; font-size: 15pt; }
+h3 { color: #334155; font-size: 12pt; margin-top: 24px; }
+h4 { color: #475569; font-size: 11pt; }
+code { background: #f1f5f9; padding: 1px 5px; border-radius: 3px; font-size: 9pt; }
+pre { background: #0f172a; color: #e2e8f0; padding: 12px; border-radius: 4px; font-size: 8.5pt; overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 10pt; }
+th, td { border: 1px solid #cbd5e1; padding: 6px 10px; text-align: left; vertical-align: top; }
+th { background: #eff6ff; color: #1e3a8a; }
+ul { margin: 8px 0; padding-left: 24px; }
+.header-block { background: #eff6ff; border-left: 4px solid #1d4ed8; padding: 16px 20px; margin: 0 0 24px 0; }
+</style></head><body>
+<div class="header-block">
+  <div style="font-size: 10pt; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em;">
+    ConquerorX Research Docset — Kings Seaport
+  </div>
+  <div style="font-size: 15pt; margin-top: 6px; color: #1e3a8a;">
+    Operations Troubleshooting Reference
+  </div>
+  <div style="font-size: 9pt; color: #64748b; margin-top: 6px;">
+    Extracted from: <code>13-operations-troubleshooting.md</code> ·
+    Full research repo: github.com/Crespo1301/conquerorx-research (private) ·
+    Prepared by Carlos Crespo / CSolutions · 2026-08-24
+  </div>
+</div>
+<h1>Operations &amp; Troubleshooting Log</h1>
+<p></p>
+<p>Living record of real ConquerorX incidents observed at Kings Seaport, with</p>
+<p>diagnosis and resolution. Both a reference (what does this alert mean?) and</p>
+<p>an incident log (has this happened before? how often?).</p>
+<p></p>
+<h2>How to use this doc</h2>
+<p></p>
+<p><strong>When something goes wrong on a shift:</strong></p>
+<p></p>
+<p>1. Scan the &quot;Known incident patterns&quot; section for a match by symptom.</p>
+<p>2. If found, follow the diagnosis + resolution steps.</p>
+<p>3. If not found, log it in the &quot;New incidents&quot; section at the bottom with</p>
+<p>   as much detail as you can capture (time, lanes involved, what the guests</p>
+<p>   were doing, exact error text).</p>
+<p>4. Later — someone (Carlos + Claude) turns new incidents into new &quot;Known</p>
+<p>   patterns&quot; as we learn what they mean.</p>
+<p></p>
+<p><strong>Field entry template</strong> — copy into a new incident:</p>
+<p></p>
+<pre>
+### Incident: &lt;one-line summary&gt;
+- **When:** YYYY-MM-DD HH:MM ET
+- **Lanes / terminals:** e.g. lanes 13-14, front desk terminal 1
+- **Symptom:** what did staff / guests see
+- **In-progress activity:** who was on those lanes doing what
+- **Exact message text (if any):** verbatim
+- **Duration:** how long from onset to normal
+- **Recovery action:** what fixed it (or &quot;self-recovered&quot;)
+- **Guest impact:** none / minor / had to comp
+- **Follow-up:** what still needs to happen (ticket to QubicaAMF, etc.)
+- **Diagnosis (added later):** root cause once known
+</pre>
+<p></p>
+<p>---</p>
+<p></p>
+<h2>The comm chain (authoritative)</h2>
+<p></p>
+<p>Mapped from <code>Conqueror-2-386.html</code> (TCS Overview) and the DLL family under</p>
+<p><code>Qbk.Lanes.*</code>.</p>
+<p></p>
+<p>_(diagram — see the online repo for a rendered version)_</p>
+<p></p>
+<h2>Known incident patterns</h2>
+<p></p>
+<h3>Pattern A — &quot;No comms&quot; on a pod, both lanes reset together</h3>
+<p></p>
+<p><strong>Symptom:</strong> two paired lanes (e.g. 13/14, 15/16) show &quot;No Comms&quot; simultaneously</p>
+<p>in the front-desk lane grid, then their score consoles reboot on their own.</p>
+<p></p>
+<p><strong>What&#x27;s happening:</strong> the pod&#x27;s score console lost heartbeat with the</p>
+<p>BowlingAgent daemon on the server, hit its watchdog timeout (~5-15 seconds</p>
+<p>of missed pings), and rebooted itself as a recovery. This is built-in</p>
+<p>QubicaAMF behavior, not a bug — it&#x27;s the console&#x27;s &quot;I&#x27;ve lost my brain,</p>
+<p>restart&quot; reflex.</p>
+<p></p>
+<p><strong>Comm chain that was interrupted:</strong></p>
+<pre>
+Score console → Q2A protocol → BowlingAgent (server 5130/7014)
+             → MxSvc → ConquerorServer → Front-desk UI
+</pre>
+<p></p>
+<p><strong>Most likely root cause, ranked:</strong></p>
+<p></p>
+<p>1. <strong>Network glitch on the pod&#x27;s cable/switch</strong> — Two paired lanes share a</p>
+<p>   network run; a flap or bump takes both down. Self-recovers when link</p>
+<p>   returns.</p>
+<p>2. <strong>Console hard-locked</strong> — bad game state (weird pinfall pattern) froze the</p>
+<p>   console. Watchdog kicked in.</p>
+<p>3. <strong>Pinsetter fault</strong> — jam trip or overcurrent → pinsetter controller</p>
+<p>   reboots → score console loses hardware → resets.</p>
+<p>4. <strong>Power dip on the pod</strong> — a lone pod power blip.</p>
+<p>5. <strong>BowlingAgent hiccup on the server</strong> — GC pause or brief crash. Would</p>
+<p>   affect more pods, so less likely if only 13/14.</p>
+<p>6. <strong>Working Copy sync at wrong time</strong> — very rare mid-shift.</p>
+<p></p>
+<p><strong>Immediate action:</strong></p>
+<p></p>
+<p>1. Give it 60-90 seconds — consoles usually reconnect on their own.</p>
+<p>2. Verify in the lane grid that 13/14 return to &quot;Ready&quot; or &quot;In Session&quot;.</p>
+<p>3. Check with guests on the lanes — did their session/scores restore?</p>
+<p>   (They usually do; scores are persisted server-side.)</p>
+<p>4. If TCS (Trouble Call System) fired, dismiss / resolve those tickets.</p>
+<p></p>
+<p><strong>Follow-up if repeated (&gt;1× per week on the same pod):</strong></p>
+<p></p>
+<ul>
+<li>Ask maintenance to inspect the pod&#x27;s network cable and switch port.</li>
+<li>Ask maintenance to inspect the pinsetter for intermittent faults.</li>
+<li>File a QubicaAMF support ticket including the SystemLog entries around</li>
+</ul>
+<p>  the incident times.</p>
+<p></p>
+<p><strong>How to check the logs (needs SQL access):</strong></p>
+<ul>
+<li>Table: <code>SystemLog</code> (in the ConquerorX DB, populated by <code>qsp_log_insert</code>)</li>
+<li>Filter by timestamp ± 2 minutes of the incident</li>
+<li>Look for entries mentioning &quot;lane 13&quot;, &quot;lane 14&quot;, &quot;heartbeat&quot;, &quot;no comms&quot;,</li>
+</ul>
+<p>  &quot;reconnect&quot;</p>
+<ul>
+<li>Also check <code>LaneHistory</code> for state transitions (OFF → ON) on 13/14</li>
+<li><code>C:\ProgramData\QubicaAMF\BowlingAgent\Logs\</code> on the server for BA-side</li>
+</ul>
+<p>  connection logs</p>
+<p></p>
+<p><strong>First observed:</strong> 2026-08-24 mid-shift at Kings Seaport (see incident C1</p>
+<p>below).</p>
+<p></p>
+<p><strong>Escalation thresholds:</strong></p>
+<p></p>
+<table>
+<tr><th>Frequency</th><th>Response</th></tr>
+<tr><td>Once a month, self-recovers</td><td>Note in shift log, no ticket</td></tr>
+<tr><td>Same pod &gt; 1× per week</td><td>Maintenance check on that pod</td></tr>
+<tr><td>Multiple pods same day</td><td>Server-side issue — file QubicaAMF ticket</td></tr>
+<tr><td>Session data lost</td><td>File QubicaAMF ticket immediately</td></tr>
+</table>
+<p></p>
+<p>---</p>
+<p></p>
+<h3>Pattern B — Terminal shows &quot;Connection to Conqueror server missing&quot;</h3>
+<p></p>
+<p><strong>Symptom:</strong> front-desk / back-office terminal can no longer talk to the</p>
+<p>server. Shows a persistent error dialog or the app just closes.</p>
+<p></p>
+<p><strong>Cause:</strong> either MxSvc, ConquerorServer, or the network between terminal</p>
+<p>and server is down.</p>
+<p></p>
+<p><strong>Immediate action:</strong></p>
+<p></p>
+<p>1. Wait 30 seconds — brief service restarts happen.</p>
+<p>2. Ping the server IP from the terminal (Command Prompt: <code>ping &lt;server-ip&gt;</code>).</p>
+<p>3. If ping fails → network/switch issue.</p>
+<p>4. If ping works but Conqueror still errors → server-side service issue.</p>
+<p>   On the server:</p>
+<ul>
+<li>Check Windows Services: <code>MxSvc</code> and <code>MSSQL$CONQUERORX</code> should both be</li>
+</ul>
+<p>     &quot;Running&quot;.</p>
+<ul>
+<li>If not, restart via <code>RestartServices.exe</code> (in an elevated PowerShell,</li>
+</ul>
+<p>     from <code>C:\QDesk\Bin\ConquerorServer\</code>).</p>
+<p>5. If services restart cleanly but the error persists, restart the server</p>
+<p>   PC — MxSvc has a startup dependency on SQL Server that can get out of</p>
+<p>   order.</p>
+<p></p>
+<p><strong>Never known to happen without a root cause.</strong> If it happens, log it.</p>
+<p></p>
+<p>---</p>
+<p></p>
+<h3>Pattern C — Cloud connection lost</h3>
+<p></p>
+<p><strong>Symptom:</strong> notification like &quot;Conqueror Server cannot connect to the</p>
+<p>Cloud&quot; or &quot;Cloud is temporarily not available&quot;.</p>
+<p></p>
+<p><strong>What still works locally:</strong> everything — reservations, POS, lane control,</p>
+<p>payments. The cloud is only for centralization sync, plugin loading, and</p>
+<p>updates.</p>
+<p></p>
+<p><strong>What breaks:</strong> new customer signups (if configured to require cloud</p>
+<p>validation), cross-center loyalty lookups, CloudPlugin loading, Working</p>
+<p>Copy sync of new versions.</p>
+<p></p>
+<p><strong>Immediate action:</strong></p>
+<p></p>
+<ul>
+<li><strong>Wait 5 minutes</strong> — most cloud interruptions are QubicaAMF-side and</li>
+</ul>
+<p>  auto-recover.</p>
+<ul>
+<li>Check internet from the server PC (open a browser, load any external</li>
+</ul>
+<p>  site).</p>
+<ul>
+<li>Try <code>QCloudTestConnection.exe</code> from <code>C:\QDesk\Bin\ConquerorServer\</code> — it</li>
+</ul>
+<p>  runs a diagnostic to <code>qcloud.qubicaamf.com</code>.</p>
+<p></p>
+<p><strong>If persistent &gt;30 minutes:</strong> call QubicaAMF support. Local operations can</p>
+<p>continue in the meantime.</p>
+<p></p>
+<p>---</p>
+<p></p>
+<h3>Pattern D — Reservation import rejected</h3>
+<p></p>
+<p><strong>Symptom:</strong> the reservation <code>.xls</code> upload fails with a &quot;not valid&quot; or</p>
+<p>&quot;please specify …&quot; error message.</p>
+<p></p>
+<p><strong>Cause:</strong> violates the ConquerorX reservation import contract. All known</p>
+<p>error messages and their fixes are documented in</p>
+<p>[<code>08-templates-and-imports.md</code>](08-templates-and-imports.md#documented-import-error-messages-from-the-en-translation-file)</p>
+<p>and the reservations-builder <code>CHANGELOG.md</code>.</p>
+<p></p>
+<p><strong>Immediate action:</strong> cross-reference the error verbatim to the fixes list.</p>
+<p>Common ones:</p>
+<p></p>
+<table>
+<tr><th>Error</th><th>Fix</th></tr>
+<tr><td>&quot;The start date specified in the Excel file is not valid&quot;</td><td>Column 0 must be an Excel date serial; also date must be today or future</td></tr>
+<tr><td>&quot;The lane type specified in the Excel file is not valid&quot;</td><td>Column 3 must be <code>1</code> (Single) or <code>2</code> (Pair)</td></tr>
+<tr><td>&quot;Please specify the reservation name in the Excel file&quot;</td><td>Column 2 must have a non-blank string</td></tr>
+<tr><td>&quot;Not all the genders specified in the Excel file are valid&quot;</td><td>Bowler gender column must be <code>1</code> or <code>2</code> (0 rejected)</td></tr>
+<tr><td>&quot;Unable to import reservations in the past&quot;</td><td>Date is past-dated — regenerate for today or later</td></tr>
+<tr><td>&quot;Unable to import reservation because there are not enough bookable lanes&quot;</td><td>Assigned lanes don&#x27;t exist or aren&#x27;t bookable in ConquerorX for that time</td></tr>
+</table>
+<p></p>
+<p>---</p>
+<p></p>
+<h2>New incidents</h2>
+<p></p>
+<p>Add new incidents here as they happen. Move them into a &quot;Pattern&quot; section</p>
+<p>above once we understand them well enough to write a diagnosis.</p>
+<p></p>
+<h3>C1 — Lanes 13/14 reset with &quot;no comms&quot; then rebooted</h3>
+<p></p>
+<ul>
+<li><strong>When:</strong> 2026-08-24, mid-shift (exact time not captured)</li>
+<li><strong>Lanes / terminals:</strong> lanes 13, 14</li>
+<li><strong>Symptom:</strong> lane grid showed &quot;No Comms&quot; on both, then their consoles</li>
+</ul>
+<p>  spontaneously started rebooting</p>
+<ul>
+<li><strong>In-progress activity:</strong> unknown — mid-shift, likely a party bowling</li>
+<li><strong>Exact message text:</strong> &quot;no comms&quot; (paraphrased from staff report)</li>
+<li><strong>Duration:</strong> unknown; recovery observed</li>
+<li><strong>Recovery action:</strong> self-recovered (consoles rebooted, reconnected)</li>
+<li><strong>Guest impact:</strong> unknown (session state on those lanes not verified in</li>
+</ul>
+<p>  the moment)</p>
+<ul>
+<li><strong>Follow-up:</strong> watch for repeats on this pod; add to shift log for</li>
+</ul>
+<p>  pattern tracking</p>
+<ul>
+<li><strong>Diagnosis:</strong> classic Pattern A above. Most likely a brief network glitch</li>
+</ul>
+<p>  on the 13/14 pod or a console watchdog reset. First occurrence — no</p>
+<p>  escalation needed yet.</p>
+<p></p>
+<p>---</p>
+<p></p>
+<h2>TCS (Trouble Call System) — how QubicaAMF designed it</h2>
+<p></p>
+<p>Authoritative content from <code>Conqueror-2-385.html</code> through <code>Conqueror-2-401.html</code>.</p>
+<p></p>
+<p><strong>BES, Bowland, and Bowland-X only.</strong> Older scoring generations don&#x27;t run</p>
+<p>TCS.</p>
+<p></p>
+<h3>The four actors that raise a trouble call</h3>
+<p></p>
+<p>Per <code>Conqueror-2-388.html</code> &quot;Signaling Errors&quot;:</p>
+<p></p>
+<table>
+<tr><th>Actor</th><th>How they raise a call</th></tr>
+<tr><td><strong>MAG 3 Pinsetter</strong></td><td>Intelligent auto-detection. The pinsetter identifies its own problems and raises the alarm directly, cutting out any human. Fastest path.</td></tr>
+<tr><td><strong>Bowler</strong></td><td>Presses button on the ball return, OR (on BES lanes) uses the lane console menu. Requires &quot;Mechanic Call&quot; option enabled in Setup → Bowling Setup → Lane Options. Default message: &quot;Lane N, Bowler call&quot;.</td></tr>
+<tr><td><strong>Operator</strong></td><td>From Lane Status: Mechanic Service → Mechanic Call, enter message, OK. OR from Back Office → TCS → New, select lane, enter voice message, OK. Default message if none entered.</td></tr>
+<tr><td><strong>Mechanic</strong></td><td>Doesn&#x27;t raise, but resolves. Acknowledges via button behind the pinsetter OR via Acknowledge on the telephone. Puts lane into Work in Progress mode.</td></tr>
+</table>
+<p></p>
+<h3>Alarm surfaces that fire</h3>
+<p></p>
+<p>Per <code>Conqueror-2-389.html</code> &quot;Alarms and User Warnings&quot;:</p>
+<p></p>
+<ul>
+<li><strong>Telephone call</strong> to the mechanic with synthesized voice message describing the error. Repeats until response.</li>
+<li><strong>Loud-speaker voice message</strong> in the center. Repeats until response.</li>
+<li><strong>Alarm siren.</strong></li>
+<li><strong>Front-desk pop-up:</strong> &quot;Intervention required on lane N&quot; (if pinsetter- or bowler-initiated; toggleable in Setup → Terminal Setup → Preferences).</li>
+<li><strong>Per-lane light</strong> behind each lane, flashing.</li>
+<li><strong>General light</strong> above the lanes, indicating an out-of-order lane.</li>
+</ul>
+<p></p>
+<p>All of the above continue firing until acknowledgement or cancellation.</p>
+<p></p>
+<h3>Telephone command codes (yes, the mechanic uses a phone)</h3>
+<p></p>
+<p>From <code>Conqueror-2-401.html</code> — touch-tone commands the mechanic enters</p>
+<p>after picking up the auto-call:</p>
+<p></p>
+<table>
+<tr><th>Key</th><th>Command</th></tr>
+<tr><td><code>1</code></td><td>Acknowledge</td></tr>
+<tr><td><code>2</code></td><td>Repairs Completed</td></tr>
+<tr><td><code>3</code></td><td>Cancel Request</td></tr>
+<tr><td><code>4</code></td><td>Perform a Pinsetter Partial Set</td></tr>
+<tr><td><code>5</code></td><td>Perform a Pinsetter Full Set</td></tr>
+<tr><td><code>6</code></td><td>Spot Pins</td></tr>
+<tr><td><code>9</code></td><td>Record Voice Message</td></tr>
+<tr><td><code>#</code></td><td>Abort a Command</td></tr>
+</table>
+<p></p>
+<h3>TCS privileges</h3>
+<p></p>
+<p>Per <code>Conqueror-2-398.html</code> — permissions granted per staff role:</p>
+<p></p>
+<ul>
+<li>Make a New Trouble Call</li>
+<li>Acknowledge a Call</li>
+<li>Complete a Call</li>
+<li>Cancel a Call</li>
+<li>Access TCS Plugin</li>
+<li>Access TCS Setup Plugin</li>
+</ul>
+<p></p>
+<h3>TCS reports (7 built-in report templates)</h3>
+<p></p>
+<p>From <code>Conqueror-2-393.html</code>:</p>
+<p></p>
+<ul>
+<li><code>TCS.rpt</code> — master report</li>
+<li><code>TCSDownTime.rpt</code> — lane downtime aggregate</li>
+<li><code>TCSErrorPerCenter.rpt</code> — errors per center (chain-wide view)</li>
+<li><code>TCSErrorPerLane.rpt</code> — errors per lane (which pod fails most)</li>
+<li><code>TCSTypeOfErrorPerCenter.rpt</code> — error-type distribution</li>
+<li><code>TCSWorkshop.rpt</code> — mechanic workshop activity</li>
+<li><code>TcsVocalMessages.rpt</code> — voice-message log</li>
+</ul>
+<p></p>
+<p>For Kings&#x27; opening/closing managers: <strong>TCSErrorPerLane.rpt</strong> is the report</p>
+<p>that flags recurring hardware problems (Pattern A escalation from above).</p>
+<p></p>
+<h3>TCS setup — records retention</h3>
+<p></p>
+<p>Per <code>Conqueror-2-396.html</code> &quot;Alarm Checks&quot;:</p>
+<p></p>
+<ul>
+<li><strong>Keep Records for _ Days</strong> — configurable retention. Center chooses</li>
+</ul>
+<p>  how long TCS history is kept.</p>
+<p></p>
+<h2>Escalation contacts</h2>
+<p></p>
+<p>Fill in with real Kings-side and QubicaAMF-side contact info once known:</p>
+<p></p>
+<table>
+<tr><th>Situation</th><th>Contact</th></tr>
+<tr><td>Local network / cable issue</td><td>Kings maintenance team</td></tr>
+<tr><td>Pinsetter / lane hardware fault</td><td>Kings mechanical team</td></tr>
+<tr><td>Persistent multi-pod outage</td><td>QubicaAMF support</td></tr>
+<tr><td>Data-loss incident</td><td>QubicaAMF support (file with logs)</td></tr>
+<tr><td>Software bug / crash</td><td>QubicaAMF support (build TechSupport bundle first)</td></tr>
+</table>
+<p></p>
+<h2>Building a TechSupport bundle for QubicaAMF</h2>
+<p></p>
+<p>When escalating anything to QubicaAMF:</p>
+<p></p>
+<p>1. Run <code>C:\QDesk\Bin\TechSupportClient.exe</code> (client) or</p>
+<p>   <code>C:\QDesk\Bin\ConquerorServer\TechSupport.exe</code> (server) — one of them</p>
+<p>   packages logs + config + a DB snapshot into a zip.</p>
+<p>2. Note the incident time in local timezone (QubicaAMF is in Europe / East</p>
+<p>   Coast, be explicit).</p>
+<p>3. Attach the bundle to the support ticket.</p>
+<p></p>
+<h2>Reference</h2>
+<p></p>
+<ul>
+<li>Comm chain and root-cause reasoning: [<code>03-services-and-processes.md</code>](03-services-and-processes.md)</li>
+<li>Log source (<code>qsp_log_insert</code> → <code>SystemLog</code>): [<code>05-database-schema.md</code>](05-database-schema.md)</li>
+<li>BowlingAgent details: [<code>03-services-and-processes.md</code>](03-services-and-processes.md#running-processes-owned-by-conquerorx-server-role)</li>
+</ul>
+<p></p></body></html>
