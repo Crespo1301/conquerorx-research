@@ -1,6 +1,56 @@
 # Architecture
 
-## Deployment topology
+## Deployment topology (Mermaid)
+
+```mermaid
+flowchart TB
+    subgraph Center["A Kings Seaport location (LAN)"]
+        subgraph Server["Conqueror SERVER host"]
+            CS[ConquerorServer.exe<br/>10+ TCP ports]
+            MMS[MMSAppServer<br/>Node.js, port 8760]
+            WCS[QWorkingCopyServer<br/>ports 5557/5959]
+            MX[MxSvc<br/>Matrix Config]
+            BA[BowlingAgent<br/>ports 5130/7014]
+            DB[(MSSQL<br/>CONQUERORX)]
+            CS <--> DB
+            MX <--> CS
+            BA <--> MX
+        end
+
+        subgraph Terminals["Terminals"]
+            T1[Front Desk<br/>Conqueror.exe]
+            T2[Bar / Mgr Office<br/>Conqueror.exe]
+            KIOSK[QPad / Kiosk]
+        end
+
+        subgraph LaneHW["Lane Hardware"]
+            SC[BES X Score Consoles]
+            PIN[MAG 3 Pinsetters]
+            SC <--> PIN
+        end
+
+        T1 <-->|WCF ports 2345-7024<br/>REST 8018/8048/8084| CS
+        T2 <--> CS
+        KIOSK <--> CS
+        SC <-.->|Socket.IO 8760| MMS
+        SC <-.->|Q2A protocol| BA
+    end
+
+    subgraph Cloud["QubicaAMF Azure Cloud"]
+        QC[qcloud.qubicaamf.com<br/>backend + license + updates]
+        QP[qportal.qubicaamf.com<br/>web portal]
+        DIST[dist.qubicaamf.com<br/>Working Copy + Local CA]
+        BLOB[Azure Blob<br/>animations · marketing kits]
+        AI[Application Insights<br/>telemetry]
+    end
+
+    CS -->|HTTPS| QC
+    CS -->|HTTPS| BLOB
+    CS -->|HTTPS| AI
+    WCS -->|rsync 873<br/>+ HTTPS| DIST
+```
+
+## Deployment topology (ASCII, for terminals without Mermaid)
 
 ```
 ┌───────────────────────────────────────────────────────────────────────┐

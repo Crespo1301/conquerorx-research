@@ -34,6 +34,49 @@ an incident log (has this happened before? how often?).
 
 ---
 
+## The comm chain (authoritative)
+
+Mapped from `Conqueror-2-386.html` (TCS Overview) and the DLL family under
+`Qbk.Lanes.*`.
+
+```mermaid
+sequenceDiagram
+    participant Console as Score Console (BES X)
+    participant Pinsetter as MAG 3 Pinsetter
+    participant Bowler as Bowler Console
+    participant BA as BowlingAgent<br/>(ports 5130/7014)
+    participant MxSvc as MxSvc<br/>(Matrix Config)
+    participant CS as ConquerorServer
+    participant FD as Front Desk<br/>(Conqueror.exe)
+
+    Note over Console,Pinsetter: Normal operation
+    Console->>BA: heartbeat (every N seconds)
+    BA->>MxSvc: lane state sync
+    MxSvc->>CS: lane state update
+    CS->>FD: lane grid tile refresh
+
+    Note over Pinsetter,BA: Fault detection paths
+    Pinsetter->>BA: auto-signal error (intelligent detection)
+    Bowler->>Console: presses ball-return "Mechanic Call" button
+    Console->>BA: relay bowler call
+    FD->>CS: operator presses Mechanic Service
+
+    BA->>MxSvc: raise Trouble Call
+    MxSvc->>CS: create TCS record
+    CS-->>FD: pop-up "Intervention required on lane N"
+    CS-->>Console: siren + flashing lane light
+    Note over CS: also: telephone call to mechanic with<br/>synthesized voice message
+
+    Note over Console,BA: No-Comms scenario
+    Console--xBA: heartbeat lost (N missed pings)
+    BA-->>MxSvc: mark lane offline
+    MxSvc-->>FD: lane tile shows "No Comms"
+    Note over Console: Watchdog timer fires<br/>(~5-15 seconds)
+    Console->>Console: auto-reboot
+    Console->>BA: reconnect after reboot
+    BA->>MxSvc: lane back online
+```
+
 ## Known incident patterns
 
 ### Pattern A — "No comms" on a pod, both lanes reset together
@@ -207,6 +250,86 @@ above once we understand them well enough to write a diagnosis.
   escalation needed yet.
 
 ---
+
+## TCS (Trouble Call System) — how QubicaAMF designed it
+
+Authoritative content from `Conqueror-2-385.html` through `Conqueror-2-401.html`.
+
+**BES, Bowland, and Bowland-X only.** Older scoring generations don't run
+TCS.
+
+### The four actors that raise a trouble call
+
+Per `Conqueror-2-388.html` "Signaling Errors":
+
+| Actor | How they raise a call |
+|---|---|
+| **MAG 3 Pinsetter** | Intelligent auto-detection. The pinsetter identifies its own problems and raises the alarm directly, cutting out any human. Fastest path. |
+| **Bowler** | Presses button on the ball return, OR (on BES lanes) uses the lane console menu. Requires "Mechanic Call" option enabled in Setup → Bowling Setup → Lane Options. Default message: "Lane N, Bowler call". |
+| **Operator** | From Lane Status: Mechanic Service → Mechanic Call, enter message, OK. OR from Back Office → TCS → New, select lane, enter voice message, OK. Default message if none entered. |
+| **Mechanic** | Doesn't raise, but resolves. Acknowledges via button behind the pinsetter OR via Acknowledge on the telephone. Puts lane into Work in Progress mode. |
+
+### Alarm surfaces that fire
+
+Per `Conqueror-2-389.html` "Alarms and User Warnings":
+
+- **Telephone call** to the mechanic with synthesized voice message describing the error. Repeats until response.
+- **Loud-speaker voice message** in the center. Repeats until response.
+- **Alarm siren.**
+- **Front-desk pop-up:** "Intervention required on lane N" (if pinsetter- or bowler-initiated; toggleable in Setup → Terminal Setup → Preferences).
+- **Per-lane light** behind each lane, flashing.
+- **General light** above the lanes, indicating an out-of-order lane.
+
+All of the above continue firing until acknowledgement or cancellation.
+
+### Telephone command codes (yes, the mechanic uses a phone)
+
+From `Conqueror-2-401.html` — touch-tone commands the mechanic enters
+after picking up the auto-call:
+
+| Key | Command |
+|---|---|
+| `1` | Acknowledge |
+| `2` | Repairs Completed |
+| `3` | Cancel Request |
+| `4` | Perform a Pinsetter Partial Set |
+| `5` | Perform a Pinsetter Full Set |
+| `6` | Spot Pins |
+| `9` | Record Voice Message |
+| `#` | Abort a Command |
+
+### TCS privileges
+
+Per `Conqueror-2-398.html` — permissions granted per staff role:
+
+- Make a New Trouble Call
+- Acknowledge a Call
+- Complete a Call
+- Cancel a Call
+- Access TCS Plugin
+- Access TCS Setup Plugin
+
+### TCS reports (7 built-in report templates)
+
+From `Conqueror-2-393.html`:
+
+- `TCS.rpt` — master report
+- `TCSDownTime.rpt` — lane downtime aggregate
+- `TCSErrorPerCenter.rpt` — errors per center (chain-wide view)
+- `TCSErrorPerLane.rpt` — errors per lane (which pod fails most)
+- `TCSTypeOfErrorPerCenter.rpt` — error-type distribution
+- `TCSWorkshop.rpt` — mechanic workshop activity
+- `TcsVocalMessages.rpt` — voice-message log
+
+For Kings' opening/closing managers: **TCSErrorPerLane.rpt** is the report
+that flags recurring hardware problems (Pattern A escalation from above).
+
+### TCS setup — records retention
+
+Per `Conqueror-2-396.html` "Alarm Checks":
+
+- **Keep Records for _ Days** — configurable retention. Center chooses
+  how long TCS history is kept.
 
 ## Escalation contacts
 

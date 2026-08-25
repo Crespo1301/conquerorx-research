@@ -39,7 +39,10 @@ one system area.
 | 10 | [integrations.md](10-integrations.md) | Micros, QuickBooks, Square, BowlerTrac, OVR, Cloud sync |
 | 11 | [glossary.md](11-glossary.md) | BES X, Frameworx, MMS, TCS, QCloud, QDesk, QPad, FBT, etc. |
 | 12 | [open-questions.md](12-open-questions.md) | What we still don't know and how to find out |
-| 13 | [operations-troubleshooting.md](13-operations-troubleshooting.md) | **Living incident log** — patterns, symptoms, diagnoses. Update this after real shifts. |
+| 13 | [operations-troubleshooting.md](13-operations-troubleshooting.md) | **Living incident log** — patterns, symptoms, diagnoses (including full TCS reference + comm-chain sequence diagram). Update this after real shifts. |
+| 14 | [booking-system-reference.md](14-booking-system-reference.md) | **Booking System deep-read** — 12-status reservation lifecycle (Mermaid state diagram), required fields, our tool's placement in the flow. |
+| 15 | [reports-catalog.md](15-reports-catalog.md) | Every one of the 182 Crystal Reports templates categorized + the 7 built-in Statistical Reports. |
+| 16 | [lane-management.md](16-lane-management.md) | **Lane Management deep-read** — opening modes, lane lifecycle (Mermaid state diagram), control panel actions, per-scoring-family behavior. |
 
 ## Market context — why we care about this platform
 
