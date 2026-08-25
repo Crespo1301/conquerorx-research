@@ -52,6 +52,7 @@ one system area.
 | 23 | [kings-seaport-layout.md](23-kings-seaport-layout.md) | **Site-specific intake template** for Kings Seaport: room-to-lane mapping, terminal roster, network + server host, maintenance contacts. Fill from a single floor walk with the opening manager. |
 | 24 | [master-architecture.md](24-master-architecture.md) | **Master architecture visual:** the whole ConquerorX system on one page across 5 Mermaid diagrams (physical deployment, component graph, ingest paths, reservation state machine, layer stack). Read this after doc 00 for the wide-angle view. |
 | 25 | [leagues.md](25-leagues.md) | **Leagues deep-read:** all four league variants (standard, BLS, Swedish, Danish), 17-field creation form for standard, financial model (linage, prize fund, banquet fund), Peterson Points, handicap systems, Mermaid league-night lifecycle. |
+| 26 | [tournaments.md](26-tournaments.md) | **Tournaments deep-read:** three-layer hierarchy (Tournament, Event, Squad), auto-movement engine, roster + team + player setup, standings, Mermaid tournament lifecycle. Complement to Leagues. |
 
 ## Market context: why we care about this platform
 
