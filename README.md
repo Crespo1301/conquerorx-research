@@ -50,6 +50,7 @@ one system area.
 | 21 | [fbt-membership.md](21-fbt-membership.md) | **FBT (Frequent Bowler Tracking) deep-read:** member records, cards, QCash + Points + Games-on-Account balances (ER + flow diagrams), duplicate detection, import/export, mail merge, reporting. |
 | 22 | [center-setup.md](22-center-setup.md) | **Center Setup deep-read:** the master configuration module. 10 sub-areas covering security, lane defaults, pricing model per opening mode, receipt formatting, per-scoring-generation hardware config, integrations, backups, intercom. |
 | 23 | [kings-seaport-layout.md](23-kings-seaport-layout.md) | **Site-specific intake template** for Kings Seaport: room-to-lane mapping, terminal roster, network + server host, maintenance contacts. Fill from a single floor walk with the opening manager. |
+| 24 | [master-architecture.md](24-master-architecture.md) | **Master architecture visual:** the whole ConquerorX system on one page across 5 Mermaid diagrams (physical deployment, component graph, ingest paths, reservation state machine, layer stack). Read this after doc 00 for the wide-angle view. |
 
 ## Market context: why we care about this platform
 
