@@ -3,7 +3,7 @@
 Every place a third-party (us, or anyone) can hook into ConquerorX,
 ordered from most accessible to least.
 
-## 1. Excel batch imports — the surface we already use
+## 1. Excel batch imports: the surface we already use
 
 - **Templates:** `C:\QDesk\Bin\xlt\*.xlt` (4 files).
 - **How to hook:** produce a valid `.xls` matching the template contract,
@@ -15,7 +15,7 @@ ordered from most accessible to least.
   template.
 - **Documented at:** [`08-templates-and-imports.md`](08-templates-and-imports.md).
 
-## 2. RoutingDefs Cloud Plugins — the modern extension model
+## 2. RoutingDefs Cloud Plugins: the modern extension model
 
 This is the most interesting surface for someone building a new integration.
 
@@ -34,11 +34,11 @@ loads inside the ConquerorX front-end as a first-class screen:
 ```
 
 **Currently registered CloudPlugins:**
-- `PictureValidation` — image capture / validation flow
-- `Calculator` (unicorn-calculator) — the "unicorn" prefix suggests an internal
+- `PictureValidation`: image capture / validation flow
+- `Calculator` (unicorn-calculator), the "unicorn" prefix suggests an internal
   codename or feature-flag name
-- `CashDrawer` — cash drawer control UI
-- `CashDrawerReport` — cash drawer reporting
+- `CashDrawer`: cash drawer control UI
+- `CashDrawerReport`: cash drawer reporting
 
 **Currently registered non-cloud plugins** (local, in-tree):
 - `Home`, `Pos`, `LaneOptions`, `Loyalty`, `MultiAttractions`,
@@ -64,7 +64,7 @@ loads inside the ConquerorX front-end as a first-class screen:
 **Accessibility for us:**
 - Editing `RoutingDefs.json` locally is possible but the next Working Copy
   sync would probably overwrite it.
-- Publishing a real CloudPlugin requires QubicaAMF partner enrollment — the
+- Publishing a real CloudPlugin requires QubicaAMF partner enrollment, the
   process is not publicly documented.
 - If Kings management + QubicaAMF sales channel are both agreeable, this
   is the correct home for a "CSolutions Reservation Sync" or similar
@@ -86,7 +86,7 @@ The `Qbk.*.Plugin.dll` files are ConquerorX's internal plugin model:
 Coupled with `Qbk.PluginParams.dll` for per-plugin config.
 
 This is a **real plugin API** but appears to be for QubicaAMF's own internal
-team — no obvious public SDK. Would need DLL decompilation to reverse the
+team, no obvious public SDK. Would need DLL decompilation to reverse the
 interface contract.
 
 ## 4. Micros POS integration (XML-based)
@@ -122,7 +122,7 @@ YouToons, brand kits) reaches the lanes.
 ## 7. MMSAppServer Socket.IO
 
 The Node.js MMS server on port 8760 uses Socket.IO for real-time comms.
-Potentially observable by any LAN-connected client — could power a
+Potentially observable by any LAN-connected client, could power a
 read-only dashboard.
 
 **Risks:** undocumented protocol, may break between versions, may need auth
@@ -134,7 +134,7 @@ The `MSSQL$CONQUERORX` instance is on the LAN and accepts connections with
 the right credentials. Every table, view, and stored procedure is available.
 
 - **Read** is technically possible with `WITH (NOLOCK)` for reporting.
-- **Write is unsafe** — bypasses triggers, business rules, cloud sync.
+- **Write is unsafe:** bypasses triggers, business rules, cloud sync.
 - Not documented, not supported. Would require careful DBA cooperation.
 
 ## 9. Report definitions (.rpt)
@@ -145,9 +145,9 @@ would be overwritten by Working Copy updates.
 
 ## 10. Not-really-extensibility surfaces
 
-- **Physical hardware injection** — plug in lane hardware speaking the Q2A
+- **Physical hardware injection:** plug in lane hardware speaking the Q2A
   protocol. Not applicable to software integrations.
-- **DLL replacement** — override a `Qbk.*.dll` with a modified version.
+- **DLL replacement:** override a `Qbk.*.dll` with a modified version.
   Would fail assembly signing checks. Do not do this.
 
 ## What we should build against, ranked

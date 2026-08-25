@@ -31,7 +31,7 @@ one system area.
 | 02 | [filesystem-layout.md](02-filesystem-layout.md) | Every important folder and what lives in it |
 | 03 | [services-and-processes.md](03-services-and-processes.md) | Windows services, listening ports, running processes |
 | 04 | [modules-and-dlls.md](04-modules-and-dlls.md) | The `Qbk.*` DLL family grouped by feature area |
-| 05 | [database-schema.md](05-database-schema.md) | SQL Server `CONQUERORX` instance — tables, procs, functions, views, triggers |
+| 05 | [database-schema.md](05-database-schema.md) | SQL Server `CONQUERORX` instance, tables, procs, functions, views, triggers |
 | 06 | [configuration.md](06-configuration.md) | `.config`, `.json`, `.log4net.config`, `qdesk-settings/` |
 | 07 | [network-and-api.md](07-network-and-api.md) | Local ports, cloud endpoints, MMSAppServer Node.js layer |
 | 08 | [templates-and-imports.md](08-templates-and-imports.md) | The four Excel templates and other exchange formats |
@@ -39,19 +39,19 @@ one system area.
 | 10 | [integrations.md](10-integrations.md) | Micros, QuickBooks, Square, BowlerTrac, OVR, Cloud sync |
 | 11 | [glossary.md](11-glossary.md) | BES X, Frameworx, MMS, TCS, QCloud, QDesk, QPad, FBT, etc. |
 | 12 | [open-questions.md](12-open-questions.md) | What we still don't know and how to find out |
-| 13 | [operations-troubleshooting.md](13-operations-troubleshooting.md) | **Living incident log** — patterns, symptoms, diagnoses (including full TCS reference + comm-chain sequence diagram). Update this after real shifts. |
-| 14 | [booking-system-reference.md](14-booking-system-reference.md) | **Booking System deep-read** — 12-status reservation lifecycle (Mermaid state diagram), required fields, our tool's placement in the flow. |
+| 13 | [operations-troubleshooting.md](13-operations-troubleshooting.md) | **Living incident log:** patterns, symptoms, diagnoses (including full TCS reference + comm-chain sequence diagram). Update this after real shifts. |
+| 14 | [booking-system-reference.md](14-booking-system-reference.md) | **Booking System deep-read:** 12-status reservation lifecycle (Mermaid state diagram), required fields, our tool's placement in the flow. |
 | 15 | [reports-catalog.md](15-reports-catalog.md) | Every one of the 182 Crystal Reports templates categorized + the 7 built-in Statistical Reports. |
-| 16 | [lane-management.md](16-lane-management.md) | **Lane Management deep-read** — opening modes, lane lifecycle (Mermaid state diagram), control panel actions, per-scoring-family behavior. |
+| 16 | [lane-management.md](16-lane-management.md) | **Lane Management deep-read:** opening modes, lane lifecycle (Mermaid state diagram), control panel actions, per-scoring-family behavior. |
 
-## Market context — why we care about this platform
+## Market context: why we care about this platform
 
-[`research/01-market-context.md`](research/01-market-context.md) — Web
+[`research/01-market-context.md`](research/01-market-context.md), Web
 research on Lyons Group / Kings Dining & Entertainment ownership, the
 industry duopoly (QubicaAMF vs Brunswick), why Kings runs Conqueror X
 specifically (hardware lock-in, not preference), competitor pricing
 benchmarks, and what other bowling chains use. Answers "why does this
-matter for our tools" — the same platform runs across all 10 Kings
+matter for our tools", the same platform runs across all 10 Kings
 locations, so anything we build has chain-wide leverage.
 
 ## Official product documentation (extracted)
@@ -62,17 +62,17 @@ in full:
 | File | What |
 |---|---|
 | `chm-en-outline.md` | Complete table of contents (2035 lines, 2026 entries across 30 top-level product areas) |
-| `chm-en-corpus.txt` | 835 KB plain-text corpus of all 535 help topics — grep for any feature question |
-| `chm-en/` | Raw extracted HTML + CSS + images — original files as QubicaAMF ships them |
+| `chm-en-corpus.txt` | 835 KB plain-text corpus of all 535 help topics, grep for any feature question |
+| `chm-en/` | Raw extracted HTML + CSS + images, original files as QubicaAMF ships them |
 
 Extracted via Windows `hh.exe -decompile` from
 `C:\QDesk\Bin\Help\ConquerorHelp_EN.chm` (v15.18.0). Six other language
-CHMs sit alongside — extract with the same method if a non-English
+CHMs sit alongside, extract with the same method if a non-English
 reference is needed.
 
 ## Raw evidence
 
-All inventories live in [`inventories/`](inventories/) — these are the raw
+All inventories live in [`inventories/`](inventories/), these are the raw
 tool outputs the summary docs are built from. Kept committed so a future
 reader can verify claims against the actual filesystem snapshot.
 
@@ -109,13 +109,13 @@ reader can verify claims against the actual filesystem snapshot.
 
 ## Not investigated (deliberately)
 
-- **Live SQL Server queries** — the instance rejected our Microsoft-account
+- **Live SQL Server queries:** the instance rejected our Microsoft-account
   Integrated Security, and rather than reset the sa password on a working test
   install we relied on the static DDL scripts, which are more useful anyway.
-- **DLL decompilation** — the `Qbk.*` assemblies are .NET and could be opened
+- **DLL decompilation:** the `Qbk.*` assemblies are .NET and could be opened
   in ILSpy/dnSpy, but we didn't. Structural evidence (names + config +
   translation strings + templates) has been enough so far.
-- **CHM help contents** — `.chm` extraction needs Windows-side tooling; the
+- **CHM help contents:** `.chm` extraction needs Windows-side tooling; the
   file paths are logged but the pages are not yet mined.
 
 ## Update flow

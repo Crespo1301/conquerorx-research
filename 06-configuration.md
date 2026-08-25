@@ -5,15 +5,15 @@ the ConquerorX runtime.
 
 ## The two config categories
 
-1. **`.config` files** — standard .NET assembly configs (binding redirects,
+1. **`.config` files:** standard .NET assembly configs (binding redirects,
    supported runtime, log4net include). Boring but shows framework
    dependencies.
-2. **`.json` files** — actual behavior configuration (routing, environments,
+2. **`.json` files:** actual behavior configuration (routing, environments,
    storage, MMS server). This is where the interesting settings live.
 
 ## The high-value config files
 
-### `C:\QDesk\Bin\QDeskConfigs\RoutingDefs.json` — plugin routes
+### `C:\QDesk\Bin\QDeskConfigs\RoutingDefs.json`: plugin routes
 
 **The single most important config file on the system for extensibility.**
 
@@ -31,32 +31,32 @@ front-end. Each entry:
 ```
 
 Fields:
-- `Name` — display / lookup key
-- `RelativePath` — the internal route URI
-- `Icon` — icon ID in the ConquerorX icon library
-- `SingleInstance` — only one instance visible at a time
-- `CloudPlugin` — served from QubicaAMF's Azure cloud, not from disk
+- `Name`: display / lookup key
+- `RelativePath`: the internal route URI
+- `Icon`: icon ID in the ConquerorX icon library
+- `SingleInstance`: only one instance visible at a time
+- `CloudPlugin`: served from QubicaAMF's Azure cloud, not from disk
 
 **Current routes** (12 total):
 
 | Name | Path | Cloud | Single |
 |---|---|---|---|
-| `Home` | `/` | — | — |
-| `Pos` | `/pos` | — | — |
-| `LaneOptions` | `/lane-options` | — | — |
-| `Loyalty` | `/loyalty` | — | — |
-| `CashlessRecharge` | `/cashless/recharge` | — | — |
-| `CashlessPay` | `/cashless/pay` | — | — |
-| `MultiAttractions` | `/ma-reservations` | — | ✅ |
-| `SquareReceiptPlugin` | `/square-receipt-plugin` | — | ✅ |
-| `PictureValidation` | `/picture-validation` | ✅ | — |
-| `Calculator` | `/unicorn-calculator` | ✅ | — |
-| `CashDrawer` | `/cash-drawer` | ✅ | — |
-| `CashDrawerReport` | `/cash-drawer-report` | ✅ | — |
+| `Home` | `/` | n/a |, |
+| `Pos` | `/pos` | n/a |, |
+| `LaneOptions` | `/lane-options` | n/a |, |
+| `Loyalty` | `/loyalty` | n/a |, |
+| `CashlessRecharge` | `/cashless/recharge` | n/a |, |
+| `CashlessPay` | `/cashless/pay` | n/a |, |
+| `MultiAttractions` | `/ma-reservations` | n/a | ✅ |
+| `SquareReceiptPlugin` | `/square-receipt-plugin` | n/a | ✅ |
+| `PictureValidation` | `/picture-validation` | ✅ | n/a |
+| `Calculator` | `/unicorn-calculator` | ✅ | n/a |
+| `CashDrawer` | `/cash-drawer` | ✅ | n/a |
+| `CashDrawerReport` | `/cash-drawer-report` | ✅ | n/a |
 
 Deep-dive: [`09-extensibility.md`](09-extensibility.md).
 
-### `C:\QDesk\Bin\ConquerorServer\qdesk-settings\` — environment tiers
+### `C:\QDesk\Bin\ConquerorServer\qdesk-settings\`: environment tiers
 
 22 JSON files, one per environment × channel combo. Each contains:
 
@@ -93,8 +93,8 @@ Deep-dive: [`09-extensibility.md`](09-extensibility.md).
 | `testing-slot-01`…`05` × `stable`/`beta` | `qcloud-test0N.qubicaamf.com[:44301]` | Slot-specific azurewebsites.net | Slot-specific App Insights |
 
 **Auth surfaces (empty on all environments in the install):**
-- `adb2cAuth: {}` — Azure AD B2C
-- `oidcAuth: {}` — OpenID Connect
+- `adb2cAuth: {}`: Azure AD B2C
+- `oidcAuth: {}`: OpenID Connect
 - Both are structurally reserved for future auth flows; not active yet.
 
 **Analytics surfaces (also empty):**
@@ -102,7 +102,7 @@ Deep-dive: [`09-extensibility.md`](09-extensibility.md).
 - `amplitudeProjectId: ""`
 
 **The Kings live install runs `production/stable`.** Anything else is a red
-flag — likely means someone flipped the environment for testing and forgot.
+flag, likely means someone flipped the environment for testing and forgot.
 
 ### `C:\QDesk\Bin\ConquerorServer\StorageConf.json`
 
@@ -134,15 +134,15 @@ this.
 ```
 
 Poll intervals (ms) for the MMS Node.js layer:
-- `experienceIntervals.static` — static content refresh every 10 seconds
-- `experienceIntervals.video` — video refresh every 6 seconds
-- `highscoresInterval` — high-scores every 20 seconds
-- `loglevel: TRACE` — noisy logging by default (dev-like setting)
+- `experienceIntervals.static`: static content refresh every 10 seconds
+- `experienceIntervals.video`: video refresh every 6 seconds
+- `highscoresInterval`: high-scores every 20 seconds
+- `loglevel: TRACE`: noisy logging by default (dev-like setting)
 
 ## The log4net configs
 
-- `C:\QDesk\Bin\Conqueror.log4net.config` — client
-- `C:\QDesk\Bin\ConquerorServer\ConquerorServer.log4net.config` — server
+- `C:\QDesk\Bin\Conqueror.log4net.config`: client
+- `C:\QDesk\Bin\ConquerorServer\ConquerorServer.log4net.config`: server
 
 Both configure appenders including:
 - `ADONetBufferedAppender` → SQL Server via `qsp_log_insert` stored proc
@@ -157,7 +157,7 @@ seconds.
 
 The environment is chosen by which `qdesk-settings/*.json` file gets loaded
 at startup. There's likely a registry key or an environment variable that
-selects it. Not yet identified — one for the open-questions doc.
+selects it. Not yet identified, one for the open-questions doc.
 
 To confirm which environment a running center is on, look at
 `TerminalsData.json` in `C:\ProgramData\QubicaAMF\Logs\` or check the About

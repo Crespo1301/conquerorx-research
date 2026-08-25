@@ -29,7 +29,7 @@ DLLs, config, translation strings, and DB tables.
 ### Square (via CloudPlugin)
 
 - **RoutingDefs entry:** `SquareReceiptPlugin` → `/square-receipt-plugin`
-  (not currently a CloudPlugin — served locally but presumably talks to
+  (not currently a CloudPlugin, served locally but presumably talks to
   Square's cloud).
 - **Purpose:** likely prints Square-branded receipts after a Square payment
   runs through their payment terminal.
@@ -43,13 +43,13 @@ DLLs, config, translation strings, and DB tables.
 
 ### QubicaAMF BES X, Frameworx, BOSS, AS 80/90 (native)
 
-- These are QubicaAMF's own hardware — not "integrations" strictly, but
+- These are QubicaAMF's own hardware, not "integrations" strictly, but
   they're switchable per install.
 - Score-system version chosen at install time via ConquerorSetup.exe.
 
 ### Q2A protocol bridge
 
-- `Qbk.Lanes.Q2A.Server.dll` = "Qubica-to-AMF" — bridges Qubica-format score
+- `Qbk.Lanes.Q2A.Server.dll` = "Qubica-to-AMF", bridges Qubica-format score
   data to AMF-format hardware or vice versa. This is the compatibility layer
   that came out of the 2005 merger.
 
@@ -63,14 +63,14 @@ DLLs, config, translation strings, and DB tables.
   - Customer lookup by BowlerTrac ID: `qsp_cust_get_by_bowlertrack_id`
     stored proc.
   - Import `.xml` files: filter mask `BowlerTrac files (*.xml)|*.xml`
-  - `BowlerTracRentalShoes.dll` — shoe rental integration.
+  - `BowlerTracRentalShoes.dll`: shoe rental integration.
 - **Practical use:** if Kings ever bought a location that ran BowlerTrac,
   ConquerorX can absorb their customer records.
 
 ### OVR
 
 - Import `.dbf` files. Filter mask `OVR files (*.dbf)|*.dbf`.
-- Format unclear — likely another legacy bowling system.
+- Format unclear, likely another legacy bowling system.
 
 ## Accounting
 
@@ -78,7 +78,7 @@ DLLs, config, translation strings, and DB tables.
 
 - Mentioned in translation strings (module list).
 - Presumably an export to QuickBooks-compatible format for accounting.
-- No dedicated `Qbk.QuickBooks*.dll` found — may be implemented as a
+- No dedicated `Qbk.QuickBooks*.dll` found, may be implemented as a
   Crystal Report / .xls export.
 
 ## Payment processing
@@ -93,7 +93,7 @@ DLLs, config, translation strings, and DB tables.
 
 ### Prepaid cards / Gift cards / Loyalty
 
-- Full built-in support. Not really "third-party" — QubicaAMF's own
+- Full built-in support. Not really "third-party", QubicaAMF's own
   loyalty stack. But integratable with external card providers.
 
 ## Cloud services
@@ -107,7 +107,7 @@ DLLs, config, translation strings, and DB tables.
 ### QPortal (QubicaAMF)
 
 - Endpoint: `qportal.qubicaamf.com`
-- Customer-facing web portal — where a chain operator would log in to see
+- Customer-facing web portal, where a chain operator would log in to see
   cross-center data.
 
 ### Azure Application Insights (Microsoft)
@@ -144,7 +144,7 @@ DLLs, config, translation strings, and DB tables.
 
 ### VNC
 
-- Bundled `vncviewer.exe` and `VncRepeater\` — QubicaAMF's remote support
+- Bundled `vncviewer.exe` and `VncRepeater\`: QubicaAMF's remote support
   team can screen-share into any terminal.
 
 ### TechSupport bundle
@@ -158,7 +158,7 @@ DLLs, config, translation strings, and DB tables.
 - `amplitudeProjectId` reserved (currently empty)
 
 QubicaAMF may adopt Mixpanel / Amplitude for product analytics in a future
-version — the config schema is ready.
+version, the config schema is ready.
 
 ## What Kings likely uses (best guess)
 
@@ -166,12 +166,12 @@ Confirm during the next work-terminal visit:
 
 - ✅ QubicaAMF hardware (BES X or similar)
 - ✅ QCloud (cloud connection needed for updates & licensing)
-- ⚠️ Micros — unknown. Might use a different POS.
-- ⚠️ Square — possibly used for on-lane orders?
+- ⚠️ Micros, unknown. Might use a different POS.
+- ⚠️ Square, possibly used for on-lane orders?
 - ⚠️ Tripleseat → ConquerorX manual entry (what our tool replaces)
-- ❌ BowlerTrac — unlikely (Kings is modern QubicaAMF)
-- ❌ OVR — legacy
-- ❌ QuickBooks — Kings is likely Sage / NetSuite / Oracle at their scale
+- ❌ BowlerTrac, unlikely (Kings is modern QubicaAMF)
+- ❌ OVR, legacy
+- ❌ QuickBooks, Kings is likely Sage / NetSuite / Oracle at their scale
 
 ## Reference
 

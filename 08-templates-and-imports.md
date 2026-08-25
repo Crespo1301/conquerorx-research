@@ -3,7 +3,7 @@
 ## The four Excel import templates
 
 Located at `C:\QDesk\Bin\xlt\`. These are the *officially blessed batch
-import surfaces* — everything else is either single-record UI entry or a
+import surfaces*, everything else is either single-record UI entry or a
 QubicaAMF-proprietary sync (Cloud, Micros).
 
 | Template file | Imports what | Corresponding DLL |
@@ -16,12 +16,12 @@ QubicaAMF-proprietary sync (Cloud, Micros).
 All are Excel 97-2003 `.xlt` (BIFF format). ConquerorX's importer parses
 them via `xlwt`-family readers on the .NET side.
 
-## `ReservationDetailsImport.xlt` — the one we integrate with
+## `ReservationDetailsImport.xlt`: the one we integrate with
 
 **This is fully documented in `09-extensibility.md` and the reservations-builder
 `HANDOFF.md`.** Two-section layout, one reservation per file.
 
-### Row 0 — reservation header (6 columns)
+### Row 0: reservation header (6 columns)
 
 | Col | Header | Value type | Notes |
 |---|---|---|---|
@@ -32,16 +32,16 @@ them via `xlwt`-family readers on the .NET side.
 | 4 | `Game opening mode` | Numeric enum | 1 = Game, 2 = Time |
 | 5 | `Game per bowler` | Integer | Number of games (ignored when mode = 2) |
 
-### Row 1 — reservation data
+### Row 1: reservation data
 
 Fill each column above with the actual value.
 
-### Row 2 — bowler header (10 columns)
+### Row 2: bowler header (10 columns)
 
 | Col | Header | Value type | Notes |
 |---|---|---|---|
 | 0 | `Lane progressive number` | Integer | Which lane this bowler is on |
-| 1 | `FBT ID` | Text | Optional — links to existing FBT customer |
+| 1 | `FBT ID` | Text | Optional, links to existing FBT customer |
 | 2 | `Display name` | Text | Bowler-facing name |
 | 3 | `HDCP` | Integer | Handicap value |
 | 4 | `Gender` | Numeric enum | 1 = Male, 2 = Female. `0` REJECTED |
@@ -51,7 +51,7 @@ Fill each column above with the actual value.
 | 8 | `Team name` | Text | Groups bowlers into teams |
 | 9 | `Team attribute` | Text | Optional |
 
-### Row 3+ — one row per bowler
+### Row 3+: one row per bowler
 
 Repeat for every bowler on this reservation. Distribute across lanes by
 setting column 0.
@@ -97,9 +97,9 @@ Not inspected. Related DB tables: `T_Players`, `T_PlayersDivisions`, `T_Teams`,
 
 From the EN translation strings:
 
-- **`.xml`** — BowlerTrac files: `BowlerTrac files (*.xml)|*.xml|OVR files (*.dbf)|*.dbf|Excel files (*.xls)|*.xls|All files (*.*)|*.*||`
-- **`.dbf`** — OVR (Old Version Records? Overall?) legacy DBF format
-- **`.xls`** — Excel 97-2003, what we use
+- **`.xml`:** BowlerTrac files: `BowlerTrac files (*.xml)|*.xml|OVR files (*.dbf)|*.dbf|Excel files (*.xls)|*.xls|All files (*.*)|*.*||`
+- **`.dbf`:** OVR (Old Version Records? Overall?) legacy DBF format
+- **`.xls`:** Excel 97-2003, what we use
 
 BowlerTrac is a longtime independent bowling scoring system; QubicaAMF
 supports importing customer data from it directly. Would be worth a
@@ -107,7 +107,7 @@ separate inspection if any Kings location has legacy BowlerTrac data.
 
 ## Output / Export formats
 
-### Crystal Reports (.rpt) — 60+ templates in `C:\QDesk\Bin\Reports\`
+### Crystal Reports (.rpt): 60+ templates in `C:\QDesk\Bin\Reports\`
 
 Runtime: Crystal Reports SDK, hosted by `ReportViewerApp.exe`.
 
@@ -137,12 +137,12 @@ Sends orders/checks to Oracle Micros POS as XML documents. Bidirectional:
 
 ### Cloud sync
 
-Not really "export" — the Cloud sync just replicates customer data,
+Not really "export", the Cloud sync just replicates customer data,
 animations, marketing kits to QCloud for centralization across a chain.
 
 ### Cloud Data upload
 
-Individual translations mention "Cloud Data upload" — sends aggregated data
+Individual translations mention "Cloud Data upload", sends aggregated data
 (shift totals, activity) up to QubicaAMF's cloud for reporting.
 
 ## Import surface summary

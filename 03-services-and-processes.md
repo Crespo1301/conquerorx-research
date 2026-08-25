@@ -7,12 +7,12 @@ Actual Kings terminal may show a subset (TERMINAL role runs fewer services).
 
 | Service name | Status | Start | Executable | Purpose |
 |---|---|---|---|---|
-| `MxSvc` | Running | Auto | `C:\QDesk\Bin\ConquerorServer\MxSvc.exe` | Matrix Configuration Server — the master coordinator |
+| `MxSvc` | Running | Auto | `C:\QDesk\Bin\ConquerorServer\MxSvc.exe` | Matrix Configuration Server, the master coordinator |
 | `QWorkingCopyServer` | Running | Auto | `C:\Program Files (x86)\QubicaAMF_Internet_Update\QWorkingCopyMonitor\Server\QWorkingCopyServer.exe` | Hosts the working-copy distribution to terminals |
 | `WorkingCopyUpdater` | Stopped | Manual | `C:\Program Files (x86)\QubicaAMF_Internet_Update\WorkingCopyUpdater.exe /runservice` | Fetches new versions from `dist.qubicaamf.com` |
 | `MSSQL$CONQUERORX` | Running | Auto | (SQL Server Express 2022) | The named instance holding the reservation DB |
 | `SQLBrowser` | Running | Auto | (SQL Server) | Named-instance discovery on port 1434 UDP |
-| `SQLTELEMETRY$CONQUERORX` | Running | Auto | (SQL Server) | Microsoft CEIP telemetry — safe to disable on a locked-down box |
+| `SQLTELEMETRY$CONQUERORX` | Running | Auto | (SQL Server) | Microsoft CEIP telemetry, safe to disable on a locked-down box |
 
 **MxSvc** is the important one. It's the "Matrix" configuration server that
 coordinates every terminal, every lane, every score console. If MxSvc is
@@ -22,12 +22,12 @@ down, nothing else works.
 
 | PID (snapshot) | Process | Path | Role |
 |---|---|---|---|
-| 32976 | `ConquerorServer.exe` | `...\QDesk\Bin\ConquerorServer\` | The big one — all business services, ASP.NET Core layer, most listening ports |
+| 32976 | `ConquerorServer.exe` | `...\QDesk\Bin\ConquerorServer\` | The big one, all business services, ASP.NET Core layer, most listening ports |
 | 29184 | `BowlingAgent` | (BowlingAgent install) | Daemon that talks to lane hardware / scoring; ports 5130, 7014 |
 | 35196 | `node.exe` | `...\MMSAppServer\node-builds\node.exe` | MMS Node.js layer; port 8760 |
 | 8328 | `QWorkingCopyServer.exe` | (Internet Update path) | Update distribution; ports 5557, 5959 |
-| — | `MxSvc.exe` | `...\ConquerorServer\` | Runs as Windows service, not always visible as user process |
-| — | `sqlservr.exe` | (SQL Server) | The DB engine, dynamic ephemeral port 64002 in our snapshot |
+| n/a | `MxSvc.exe` | `...\ConquerorServer\` | Runs as Windows service, not always visible as user process |
+| n/a | `sqlservr.exe` | (SQL Server) | The DB engine, dynamic ephemeral port 64002 in our snapshot |
 
 ## Listening TCP ports (owned by QubicaAMF processes)
 
@@ -55,7 +55,7 @@ Sorted by port number.
 
 **Ports 2345 / 2387 / 3535 / 5555 / 5556 / 6767 / 7024 / 8018 / 8048 / 8084**
 all belong to a single ConquerorServer process. That process hosts many
-services simultaneously — each port probably maps to one service/module
+services simultaneously, each port probably maps to one service/module
 (reservation, customer, bowling, cash, payment, etc.). Confirming the
 port→service mapping would need either a WCF endpoint dump or a live packet
 capture, both out of scope for this pass.
@@ -92,7 +92,7 @@ scoped to all three profiles:
 Practical implication: any terminal on the LAN can reach any of these
 services on the server host, but external networks are blocked by the
 default `NotConfigured` inbound stance. Cloud outbound (to
-`qcloud.qubicaamf.com`, etc.) is not restricted by these rules — that flows
+`qcloud.qubicaamf.com`, etc.) is not restricted by these rules, that flows
 via the default outbound allow.
 
 To audit live at any time:
@@ -103,7 +103,7 @@ Get-NetFirewallRule | Where-Object DisplayName -match 'Qubica|BowlingAgent' |
   Format-Table -AutoSize
 ```
 
-## Utility executables (not services — invoked as tools)
+## Utility executables (not services: invoked as tools)
 
 | Executable | Purpose |
 |---|---|

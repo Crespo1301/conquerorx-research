@@ -13,7 +13,7 @@ an answer.
   default set at install.
 - **How to find out:** inspect `CenterReservationSvc.Database.dll.config`
   and other `*.dll.config` files under `ConquerorServer/` for
-  `connectionStrings` — they're .NET config format so `System.Configuration`
+  `connectionStrings`: they're .NET config format so `System.Configuration`
   may transparently decrypt.
 - **Why it matters:** without this we can't do direct read-only reporting
   queries.
@@ -50,7 +50,7 @@ an answer.
 
 - 8 legacy ports (2345 through 7024).
 - **How to find out:** each WCF service usually publishes a WSDL at
-  `/service/mex` — try that on each port. Also the log4net XML has service
+  `/service/mex`: try that on each port. Also the log4net XML has service
   names.
 - **Why it matters:** unlikely we'd integrate here, but knowing the shape
   helps.
@@ -95,7 +95,7 @@ an answer.
 - **How to find out:** enable HTTPS decryption on a test terminal and watch
   the traffic to `qcloud.qubicaamf.com`.
 - **Legal caveat:** decrypting Kings traffic is potentially covered by their
-  IT AUP — get permission first.
+  IT AUP, get permission first.
 
 ### Q10. What's the process to become a QubicaAMF partner and publish a CloudPlugin?
 
@@ -177,9 +177,9 @@ Extracted via Windows `hh.exe -decompile`. **535 HTML topic pages, 2026 TOC
 entries, 30 top-level product areas.** Full outputs live in
 `extracted-strings/`:
 
-- `chm-en-outline.md` — the complete navigable TOC (2035 lines)
-- `chm-en-corpus.txt` — plain-text corpus for grep (835 KB)
-- `chm-en/` — the raw extracted HTML pages, CSS, images
+- `chm-en-outline.md`: the complete navigable TOC (2035 lines)
+- `chm-en-corpus.txt`: plain-text corpus for grep (835 KB)
+- `chm-en/`: the raw extracted HTML pages, CSS, images
 
 Top-level product surface confirmed as: MAIN MENU, POINT OF SALE, LANE
 MANAGEMENT, EXPERIENCE, SHIFT MANAGEMENT, FREQUENT BOWLER TRACKING,
@@ -191,7 +191,7 @@ MULTI MEDIA SYSTEM, CALL CENTER, WEB SETUP, COIN-OP INSTALLATIONS,
 CENTER SETUP, TERMINAL SETUP, TECHNICAL SETUP, ECONOMIC SETUP, APPENDIX.
 
 The reservation import flow lives under **BOOKING SYSTEM**
-(`Conqueror-2-364.html` onward) — 22 sub-sections including creating
+(`Conqueror-2-364.html` onward), 22 sub-sections including creating
 reservations, mixed/recurring reservations, reservation types, deposits,
 web reservations. Worth a targeted read when we next extend the import
 tool.
@@ -204,12 +204,12 @@ tool.
 
 ## Terms we haven't decoded
 
-- **FBT** — best guess "Frame By Twist" but not confirmed. `FBTLeague`,
+- **FBT:** best guess "Frame By Twist" but not confirmed. `FBTLeague`,
   `FBTStats`, `FBTLinks`, `FBTCR/GIR/GR` reports.
-- **CDE** — Centralized Data Environment. Confirmed but shape/API unclear.
-- **Q2A** vs **Q3A** protocols — Q2A confirmed as "Qubica-to-AMF"; Q3A
+- **CDE:** Centralized Data Environment. Confirmed but shape/API unclear.
+- **Q2A** vs **Q3A** protocols, Q2A confirmed as "Qubica-to-AMF"; Q3A
   possibly a newer variant.
-- **Cde2Qubica** table — bridge table for something.
+- **Cde2Qubica** table, bridge table for something.
 
 ## Update this document as we learn
 

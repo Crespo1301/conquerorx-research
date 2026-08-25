@@ -1,4 +1,4 @@
-# Modules and DLLs — Feature Map
+# Modules and DLLs: Feature Map
 
 The `Qbk.*` DLL family maps 1:1 to product feature areas. This is the
 best structural view of everything ConquerorX does.
@@ -31,7 +31,7 @@ Everything about booking lanes, F&B, deposits, extended availability.
 | `Qbk.Reservations.Server.dll` / `.Interop.dll` | Server domain logic |
 | `Qbk.Reservations.Client.dll` / `.Interop.dll` | Client-side reservation ops |
 | `Qbk.Reservations.Gui.dll` | Windows Forms UI |
-| `Qbk.Reservations.Importer.dll` | **The .xls import engine — what our tool feeds** |
+| `Qbk.Reservations.Importer.dll` | **The .xls import engine, what our tool feeds** |
 | `Qbk.Reservations.Server.CloudData.dll` | Cloud-sync layer for multi-center |
 | `Qbk.Reservations.DynamicDiscountsSetup.dll` | Dynamic pricing/discount setup |
 | `Qbk.Reservations.ExtendedAvailability.Client.dll` / `.Server.dll` / `.Gui.dll` | Extended-availability calendar feature |
@@ -43,11 +43,11 @@ CRM, member management, homonymous (duplicate) detection.
 
 - `Qbk.Customers.dll` / `Server.dll` / `Client.dll`
 - `Qbk.Customers.Server.Interface.dll`
-- `Qbk.Customers.Homonymous.dll` — duplicate detection engine
+- `Qbk.Customers.Homonymous.dll`: duplicate detection engine
 
 ### Leagues (12 DLLs)
 
-League play — bowlers, teams, scoresheet, standings.
+League play, bowlers, teams, scoresheet, standings.
 
 - `Qbk.Leagues.dll` / `Server.dll` / `ClientLib.dll` / `CDE.dll`
 - `Qbk.Leagues.BowlersAndTeams.dll`
@@ -61,7 +61,7 @@ League play — bowlers, teams, scoresheet, standings.
 - `Qbk.Tournaments.dll` / `Server.dll` / `Client.dll` / `Gui.dll` / `Interop.dll`
 - `Qbk.Tournament.Gui.dll` / `Tournament.Standing.dll`
 
-### Lanes (25 DLLs) — the biggest area
+### Lanes (25 DLLs): the biggest area
 
 Everything about the physical lane surface and its state machine.
 
@@ -83,15 +83,15 @@ Everything about the physical lane surface and its state machine.
 
 Discovered via strings + individual DLL search:
 
-- `Qbk.CashDrawer.dll` — cash drawer control
-- `Qbk.Payment*.dll` — payment gateway integrations
-- `Qbk.PricingSetup*.dll` — price key definitions
-- `Qbk.Discount*.dll` — discounts
-- `Qbk.Promotion*.dll` — promotions
-- `Qbk.LaneOrder*.dll` — order-taking at the lane
-- `Qbk.Kiosk.AssistancePlugin.dll` — kiosk help/assistance mode
-- `Qbk.Economical.TipPlugin.dll` — gratuity handling
-- `Qbk.OrderReprintPlugin.dll` — receipt reprint
+- `Qbk.CashDrawer.dll`: cash drawer control
+- `Qbk.Payment*.dll`: payment gateway integrations
+- `Qbk.PricingSetup*.dll`: price key definitions
+- `Qbk.Discount*.dll`: discounts
+- `Qbk.Promotion*.dll`: promotions
+- `Qbk.LaneOrder*.dll`: order-taking at the lane
+- `Qbk.Kiosk.AssistancePlugin.dll`: kiosk help/assistance mode
+- `Qbk.Economical.TipPlugin.dll`: gratuity handling
+- `Qbk.OrderReprintPlugin.dll`: receipt reprint
 
 ### Scoring / Games / Bowler
 
@@ -110,20 +110,20 @@ Discovered via strings + individual DLL search:
 
 ### TCS (Trouble Call System)
 
-- `TCSPlugin.dll` — the "call attendant" system for lanes
+- `TCSPlugin.dll`: the "call attendant" system for lanes
 - Multiple DLLs mention `TCSCloudBuilder`, `TCS Reports`
 
 ### Reports
 
 - `Qbk.Reports.dll`
 - `ReportViewerApp.exe` (Crystal Reports host)
-- `Reports\*.rpt` — 60+ Crystal Reports templates
+- `Reports\*.rpt`: 60+ Crystal Reports templates
 
 ### Web / API layer
 
 - `Qbk.WebSetup.dll`
-- `Microsoft.AspNetCore.*` — ~15 AspNet Core 2.3 DLLs, hosted in-process
-- `WebStaticServer.exe` — static file server, likely serves the SPA
+- `Microsoft.AspNetCore.*`: ~15 AspNet Core 2.3 DLLs, hosted in-process
+- `WebStaticServer.exe`: static file server, likely serves the SPA
 
 ### Loyalty / Cards / Prepaid
 
@@ -138,23 +138,23 @@ Discovered via strings + individual DLL search:
 
 ### Advertising / Announcements
 
-- Advertising modules — `Advertising.dll`
+- Advertising modules, `Advertising.dll`
 - Deck lighting effects
 - YouToons integration (Fox partnership assets)
 
 ### Special integrations
 
-- `Qbk.Micros.Server.dll` — Micros POS bridge
-- `Aggiungi.dll` — Italian for "Add" (legacy)
-- `BXL.dll` — Bixolon printer driver
-- `AForge.*.dll` — computer vision libraries (camera + video)
-- `BouncyCastle.Crypto.dll` — cryptography
-- `AudioResampleWrapper.dll` — audio playback
+- `Qbk.Micros.Server.dll`: Micros POS bridge
+- `Aggiungi.dll`: Italian for "Add" (legacy)
+- `BXL.dll`: Bixolon printer driver
+- `AForge.*.dll`: computer vision libraries (camera + video)
+- `BouncyCastle.Crypto.dll`: cryptography
+- `AudioResampleWrapper.dll`: audio playback
 
 ### Multi-center (CDE)
 
-- `CDE` = **Centralized Data Environment** — multi-center management
-- `Qbk.Leagues.CDE.dll` — CDE-aware league handling
+- `CDE` = **Centralized Data Environment:** multi-center management
+- `Qbk.Leagues.CDE.dll`: CDE-aware league handling
 - `Cde2Qubica` table in DB
 
 ### Cloud sync
@@ -165,7 +165,7 @@ Discovered via strings + individual DLL search:
 
 ### Third-party (bundled)
 
-- `AForge.*.dll` — computer vision
+- `AForge.*.dll`: computer vision
 - `BouncyCastle.Crypto.dll`
 - `Newtonsoft.Json.dll`
 - Microsoft.AspNetCore.*
@@ -185,13 +185,13 @@ These are the extension points ConquerorX already exposes internally:
 | `Qbk.PrintGames.Plugin.dll` | Historical game print |
 | `TCSPlugin.dll` | Trouble Call System |
 
-Combined with `Qbk.PluginParams.dll` — parameters for plugin config — this is
+Combined with `Qbk.PluginParams.dll`: parameters for plugin config, this is
 a real internal plugin model. But it's for QubicaAMF internal team use, not
 open to third parties.
 
 ## The `Qbk` prefix
 
-`Qbk` almost certainly stands for **Qubica** — the scoring-system company
+`Qbk` almost certainly stands for **Qubica:** the scoring-system company
 that merged with AMF Bowling Products in 2005 to form QubicaAMF Worldwide.
 Every business DLL carries the Qubica lineage in its name.
 

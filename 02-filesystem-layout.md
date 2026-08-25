@@ -8,11 +8,11 @@ Sizes are approximate, captured on 2026-08-24.
 | Path | Size | Purpose |
 |---|---|---|
 | `C:\QDesk\Bin\` | 484 MB | The entire runnable app. All 865 DLLs, ~30 EXEs, help, translations, templates, reports, SQL scripts. |
-| `C:\ProgramData\QubicaAMF\` | 1.6 GB | Mutable runtime data — logs, working-copy repositories, animation assets, printer images. |
+| `C:\ProgramData\QubicaAMF\` | 1.6 GB | Mutable runtime data, logs, working-copy repositories, animation assets, printer images. |
 | `C:\Program Files (x86)\QubicaAMF\` | 0 KB* | Empty on a fresh install; used by ancillary component installers (Font, Third-Party, VncRepeater, BowlingAgent). *(size is dir-only; children install elsewhere)* |
 | `C:\Program Files (x86)\QubicaAMF_Internet_Update\` | 244 MB | Working Copy Server + Monitor (multi-language). Update distribution. |
 
-## `C:\QDesk\Bin\` — the application
+## `C:\QDesk\Bin\`: the application
 
 ```
 C:\QDesk\Bin\
@@ -45,7 +45,7 @@ C:\QDesk\Bin\
 │   ├── DarReport.rpt             (DAR = Daily Activity Report)
 │   └── ...
 ├── Translations\                 ← 30 language files, one per locale
-│   ├── Qdesk.0409                (English US — the master reference)
+│   ├── Qdesk.0409                (English US, the master reference)
 │   ├── QDesk.0410                (Italian)
 │   ├── Qdesk.0407                (German)
 │   └── ...
@@ -58,7 +58,7 @@ C:\QDesk\Bin\
     └── TournamentPlayers.xlt
 ```
 
-### `C:\QDesk\Bin\ConquerorServer\` — the server-side component
+### `C:\QDesk\Bin\ConquerorServer\`: the server-side component
 
 ```
 ConquerorServer\
@@ -99,7 +99,7 @@ ConquerorServer\
 └── HeidiSQL\functions-*.ini      ← HeidiSQL syntax help files per DB engine
 ```
 
-### `C:\QDesk\Bin\ConquerorServer\MMSAppServer\` — the Node.js layer
+### `C:\QDesk\Bin\ConquerorServer\MMSAppServer\`: the Node.js layer
 
 ```
 MMSAppServer\
@@ -134,7 +134,7 @@ MMSAppServer\
 │       ├── mime, connect, linq, node-xml2js, ...
 ```
 
-## `C:\ProgramData\QubicaAMF\` — mutable runtime data
+## `C:\ProgramData\QubicaAMF\`: mutable runtime data
 
 ```
 ProgramData\QubicaAMF\
@@ -173,11 +173,11 @@ ProgramData\QubicaAMF\
 │   └── Logs\
 ├── PrintImages\                  ← print asset cache
 ├── RsyncServer\                  ← rsync serving root (working copy dist)
-├── SwapForUpg\                   ← during upgrade — swap directory
+├── SwapForUpg\                   ← during upgrade, swap directory
 └── WorkingCopyServer\            ← working copy state
 ```
 
-## `C:\Program Files (x86)\QubicaAMF_Internet_Update\` — update pipeline
+## `C:\Program Files (x86)\QubicaAMF_Internet_Update\`: update pipeline
 
 ```
 QubicaAMF_Internet_Update\
@@ -216,11 +216,11 @@ QubicaAMF_Internet_Update\
 
 | Path | What |
 |---|---|
-| `C:\ProgramData\QubicaAMF\BowlingAgent\Database\BowlingAgent.db` | SQLite DB, separate from main SQL Server — likely for Bowling Agent daemon state |
+| `C:\ProgramData\QubicaAMF\BowlingAgent\Database\BowlingAgent.db` | SQLite DB, separate from main SQL Server, likely for Bowling Agent daemon state |
 | `C:\ProgramData\QubicaAMF\Logs\TerminalsData.json` | Live list of registered terminals |
 | `C:\ProgramData\QubicaAMF\Repositories\Conqueror\<version>\Repository\release.json` | This version's release manifest |
 | `C:\QDesk\Bin\ConquerorServer\qdesk-settings\production-stable.json` | The environment config that live centers actually run |
-| `C:\QDesk\Bin\QDeskConfigs\RoutingDefs.json` | Plugin route registry — CloudPlugin flags |
+| `C:\QDesk\Bin\QDeskConfigs\RoutingDefs.json` | Plugin route registry, CloudPlugin flags |
 | `C:\QDesk\Bin\xlt\ReservationDetailsImport.xlt` | The reservation import contract our tool builds against |
 
 ## Log locations
@@ -235,5 +235,5 @@ Log4net writes both to disk **and** into the SQL Server via
 | ConquerorServer runtime | Buffered file `Buffer.127.0.0.1.log` then flushed to DB via `ADONetBufferedAppender` |
 
 To read runtime logs, query the SQL Server table populated by
-`qsp_log_insert` (name unknown without live DB access — best guess `SystemLog`
+`qsp_log_insert` (name unknown without live DB access, best guess `SystemLog`
 based on the schema, since we saw a `SystemLog` table in `cs0000.sql`).

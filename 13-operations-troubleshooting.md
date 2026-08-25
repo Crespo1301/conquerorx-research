@@ -13,10 +13,10 @@ an incident log (has this happened before? how often?).
 3. If not found, log it in the "New incidents" section at the bottom with
    as much detail as you can capture (time, lanes involved, what the guests
    were doing, exact error text).
-4. Later — someone (Carlos + Claude) turns new incidents into new "Known
+4. Later, someone (Carlos + Claude) turns new incidents into new "Known
    patterns" as we learn what they mean.
 
-**Field entry template** — copy into a new incident:
+**Field entry template:** copy into a new incident:
 
 ```markdown
 ### Incident: <one-line summary>
@@ -79,7 +79,7 @@ sequenceDiagram
 
 ## Known incident patterns
 
-### Pattern A — "No comms" on a pod, both lanes reset together
+### Pattern A: "No comms" on a pod, both lanes reset together
 
 **Symptom:** two paired lanes (e.g. 13/14, 15/16) show "No Comms" simultaneously
 in the front-desk lane grid, then their score consoles reboot on their own.
@@ -87,7 +87,7 @@ in the front-desk lane grid, then their score consoles reboot on their own.
 **What's happening:** the pod's score console lost heartbeat with the
 BowlingAgent daemon on the server, hit its watchdog timeout (~5-15 seconds
 of missed pings), and rebooted itself as a recovery. This is built-in
-QubicaAMF behavior, not a bug — it's the console's "I've lost my brain,
+QubicaAMF behavior, not a bug, it's the console's "I've lost my brain,
 restart" reflex.
 
 **Comm chain that was interrupted:**
@@ -98,23 +98,23 @@ Score console → Q2A protocol → BowlingAgent (server 5130/7014)
 
 **Most likely root cause, ranked:**
 
-1. **Network glitch on the pod's cable/switch** — Two paired lanes share a
+1. **Network glitch on the pod's cable/switch:** Two paired lanes share a
    network run; a flap or bump takes both down. Self-recovers when link
    returns.
-2. **Console hard-locked** — bad game state (weird pinfall pattern) froze the
+2. **Console hard-locked:** bad game state (weird pinfall pattern) froze the
    console. Watchdog kicked in.
-3. **Pinsetter fault** — jam trip or overcurrent → pinsetter controller
+3. **Pinsetter fault:** jam trip or overcurrent → pinsetter controller
    reboots → score console loses hardware → resets.
-4. **Power dip on the pod** — a lone pod power blip.
-5. **BowlingAgent hiccup on the server** — GC pause or brief crash. Would
+4. **Power dip on the pod:** a lone pod power blip.
+5. **BowlingAgent hiccup on the server:** GC pause or brief crash. Would
    affect more pods, so less likely if only 13/14.
-6. **Working Copy sync at wrong time** — very rare mid-shift.
+6. **Working Copy sync at wrong time:** very rare mid-shift.
 
 **Immediate action:**
 
-1. Give it 60-90 seconds — consoles usually reconnect on their own.
+1. Give it 60-90 seconds, consoles usually reconnect on their own.
 2. Verify in the lane grid that 13/14 return to "Ready" or "In Session".
-3. Check with guests on the lanes — did their session/scores restore?
+3. Check with guests on the lanes, did their session/scores restore?
    (They usually do; scores are persisted server-side.)
 4. If TCS (Trouble Call System) fired, dismiss / resolve those tickets.
 
@@ -143,12 +143,12 @@ below).
 |---|---|
 | Once a month, self-recovers | Note in shift log, no ticket |
 | Same pod > 1× per week | Maintenance check on that pod |
-| Multiple pods same day | Server-side issue — file QubicaAMF ticket |
+| Multiple pods same day | Server-side issue, file QubicaAMF ticket |
 | Session data lost | File QubicaAMF ticket immediately |
 
 ---
 
-### Pattern B — Terminal shows "Connection to Conqueror server missing"
+### Pattern B: Terminal shows "Connection to Conqueror server missing"
 
 **Symptom:** front-desk / back-office terminal can no longer talk to the
 server. Shows a persistent error dialog or the app just closes.
@@ -158,7 +158,7 @@ and server is down.
 
 **Immediate action:**
 
-1. Wait 30 seconds — brief service restarts happen.
+1. Wait 30 seconds, brief service restarts happen.
 2. Ping the server IP from the terminal (Command Prompt: `ping <server-ip>`).
 3. If ping fails → network/switch issue.
 4. If ping works but Conqueror still errors → server-side service issue.
@@ -168,19 +168,19 @@ and server is down.
    - If not, restart via `RestartServices.exe` (in an elevated PowerShell,
      from `C:\QDesk\Bin\ConquerorServer\`).
 5. If services restart cleanly but the error persists, restart the server
-   PC — MxSvc has a startup dependency on SQL Server that can get out of
+   PC, MxSvc has a startup dependency on SQL Server that can get out of
    order.
 
 **Never known to happen without a root cause.** If it happens, log it.
 
 ---
 
-### Pattern C — Cloud connection lost
+### Pattern C: Cloud connection lost
 
 **Symptom:** notification like "Conqueror Server cannot connect to the
 Cloud" or "Cloud is temporarily not available".
 
-**What still works locally:** everything — reservations, POS, lane control,
+**What still works locally:** everything, reservations, POS, lane control,
 payments. The cloud is only for centralization sync, plugin loading, and
 updates.
 
@@ -190,11 +190,11 @@ Copy sync of new versions.
 
 **Immediate action:**
 
-- **Wait 5 minutes** — most cloud interruptions are QubicaAMF-side and
+- **Wait 5 minutes:** most cloud interruptions are QubicaAMF-side and
   auto-recover.
 - Check internet from the server PC (open a browser, load any external
   site).
-- Try `QCloudTestConnection.exe` from `C:\QDesk\Bin\ConquerorServer\` — it
+- Try `QCloudTestConnection.exe` from `C:\QDesk\Bin\ConquerorServer\`: it
   runs a diagnostic to `qcloud.qubicaamf.com`.
 
 **If persistent >30 minutes:** call QubicaAMF support. Local operations can
@@ -202,7 +202,7 @@ continue in the meantime.
 
 ---
 
-### Pattern D — Reservation import rejected
+### Pattern D: Reservation import rejected
 
 **Symptom:** the reservation `.xls` upload fails with a "not valid" or
 "please specify …" error message.
@@ -221,7 +221,7 @@ Common ones:
 | "The lane type specified in the Excel file is not valid" | Column 3 must be `1` (Single) or `2` (Pair) |
 | "Please specify the reservation name in the Excel file" | Column 2 must have a non-blank string |
 | "Not all the genders specified in the Excel file are valid" | Bowler gender column must be `1` or `2` (0 rejected) |
-| "Unable to import reservations in the past" | Date is past-dated — regenerate for today or later |
+| "Unable to import reservations in the past" | Date is past-dated, regenerate for today or later |
 | "Unable to import reservation because there are not enough bookable lanes" | Assigned lanes don't exist or aren't bookable in ConquerorX for that time |
 
 ---
@@ -231,13 +231,13 @@ Common ones:
 Add new incidents here as they happen. Move them into a "Pattern" section
 above once we understand them well enough to write a diagnosis.
 
-### C1 — Lanes 13/14 reset with "no comms" then rebooted
+### C1: Lanes 13/14 reset with "no comms" then rebooted
 
 - **When:** 2026-08-24, mid-shift (exact time not captured)
 - **Lanes / terminals:** lanes 13, 14
 - **Symptom:** lane grid showed "No Comms" on both, then their consoles
   spontaneously started rebooting
-- **In-progress activity:** unknown — mid-shift, likely a party bowling
+- **In-progress activity:** unknown, mid-shift, likely a party bowling
 - **Exact message text:** "no comms" (paraphrased from staff report)
 - **Duration:** unknown; recovery observed
 - **Recovery action:** self-recovered (consoles rebooted, reconnected)
@@ -246,12 +246,12 @@ above once we understand them well enough to write a diagnosis.
 - **Follow-up:** watch for repeats on this pod; add to shift log for
   pattern tracking
 - **Diagnosis:** classic Pattern A above. Most likely a brief network glitch
-  on the 13/14 pod or a console watchdog reset. First occurrence — no
+  on the 13/14 pod or a console watchdog reset. First occurrence, no
   escalation needed yet.
 
 ---
 
-## TCS (Trouble Call System) — how QubicaAMF designed it
+## TCS (Trouble Call System): how QubicaAMF designed it
 
 Authoritative content from `Conqueror-2-385.html` through `Conqueror-2-401.html`.
 
@@ -284,7 +284,7 @@ All of the above continue firing until acknowledgement or cancellation.
 
 ### Telephone command codes (yes, the mechanic uses a phone)
 
-From `Conqueror-2-401.html` — touch-tone commands the mechanic enters
+From `Conqueror-2-401.html`: touch-tone commands the mechanic enters
 after picking up the auto-call:
 
 | Key | Command |
@@ -300,7 +300,7 @@ after picking up the auto-call:
 
 ### TCS privileges
 
-Per `Conqueror-2-398.html` — permissions granted per staff role:
+Per `Conqueror-2-398.html`: permissions granted per staff role:
 
 - Make a New Trouble Call
 - Acknowledge a Call
@@ -313,22 +313,22 @@ Per `Conqueror-2-398.html` — permissions granted per staff role:
 
 From `Conqueror-2-393.html`:
 
-- `TCS.rpt` — master report
-- `TCSDownTime.rpt` — lane downtime aggregate
-- `TCSErrorPerCenter.rpt` — errors per center (chain-wide view)
-- `TCSErrorPerLane.rpt` — errors per lane (which pod fails most)
-- `TCSTypeOfErrorPerCenter.rpt` — error-type distribution
-- `TCSWorkshop.rpt` — mechanic workshop activity
-- `TcsVocalMessages.rpt` — voice-message log
+- `TCS.rpt`: master report
+- `TCSDownTime.rpt`: lane downtime aggregate
+- `TCSErrorPerCenter.rpt`: errors per center (chain-wide view)
+- `TCSErrorPerLane.rpt`: errors per lane (which pod fails most)
+- `TCSTypeOfErrorPerCenter.rpt`: error-type distribution
+- `TCSWorkshop.rpt`: mechanic workshop activity
+- `TcsVocalMessages.rpt`: voice-message log
 
 For Kings' opening/closing managers: **TCSErrorPerLane.rpt** is the report
 that flags recurring hardware problems (Pattern A escalation from above).
 
-### TCS setup — records retention
+### TCS setup: records retention
 
 Per `Conqueror-2-396.html` "Alarm Checks":
 
-- **Keep Records for _ Days** — configurable retention. Center chooses
+- **Keep Records for _ Days:** configurable retention. Center chooses
   how long TCS history is kept.
 
 ## Escalation contacts
@@ -348,7 +348,7 @@ Fill in with real Kings-side and QubicaAMF-side contact info once known:
 When escalating anything to QubicaAMF:
 
 1. Run `C:\QDesk\Bin\TechSupportClient.exe` (client) or
-   `C:\QDesk\Bin\ConquerorServer\TechSupport.exe` (server) — one of them
+   `C:\QDesk\Bin\ConquerorServer\TechSupport.exe` (server), one of them
    packages logs + config + a DB snapshot into a zip.
 2. Note the incident time in local timezone (QubicaAMF is in Europe / East
    Coast, be explicit).

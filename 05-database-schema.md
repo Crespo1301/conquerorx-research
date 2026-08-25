@@ -10,7 +10,7 @@ Runs SQL Server Express 2022 (bundled installer under
 `Repository\Conqueror\SQL Server Express 2022\`).
 
 Integrated Windows auth against a MicrosoftAccount login was **rejected** in
-our test — a QubicaAMF service account (probably `sa` or a dedicated
+our test, a QubicaAMF service account (probably `sa` or a dedicated
 `qdesk_srv` user) is used by ConquerorServer.
 
 ## Migration convention
@@ -21,11 +21,11 @@ All DDL and migrations ship as UTF-16 encoded `.sql` files in
 | Prefix | Meaning |
 |---|---|
 | `a*` | Application procs/funcs/views (base app-level objects) |
-| `cs*` | Create Structure — base tables. `cs0000.sql` is the v2.2.0.0 baseline |
-| `cd*` | Create Data — seed rows |
-| `cu*` | Create Upgrade — versioned migrations (e.g. `cu02020600.sql` = upgrade to v2.20.06) |
+| `cs*` | Create Structure, base tables. `cs0000.sql` is the v2.2.0.0 baseline |
+| `cd*` | Create Data, seed rows |
+| `cu*` | Create Upgrade, versioned migrations (e.g. `cu02020600.sql` = upgrade to v2.20.06) |
 | `cusp*` | Create User Stored Procedures |
-| `cuz*` | Create Upgrade — later-series migrations, contains many stored procs |
+| `cuz*` | Create Upgrade, later-series migrations, contains many stored procs |
 | `luz*` | Legacy upgrade zone |
 | `hs*` / `hu*` | Help / history support |
 | `ts*` | Trigger scripts |
@@ -100,7 +100,7 @@ Grouped by domain:
 `Events` · `Calendar` · `StatCustomers` · `StatPlayedFrames` · `StatTimeZones` · `Weather` · `QueuesElems`
 
 ### Central Data Environment
-`Cde2Qubica` — bridge for multi-center CDE
+`Cde2Qubica`: bridge for multi-center CDE
 
 ## Naming translation
 
@@ -125,7 +125,7 @@ Rest of the schema is English.
 | Prefix | Domain |
 |---|---|
 | `qsp_adm_*` | Administrative / DDL (add_column, drop_table, reindex, set_permissions) |
-| `qsp_anag_*` | Anagraphic — master data (paymenttypes, pricekeys, staff) |
+| `qsp_anag_*` | Anagraphic, master data (paymenttypes, pricekeys, staff) |
 | `qsp_cust_*` | Customer (get, upd, del, decode_layout, points, cards) |
 | `qsp_lbs_*` | Load booking system data (group_list, operator_list, rsrv_type_list) |
 | `qsp_lbsrpt_*` | Booking system reporting (canceled, deposit, detail, function_sheet, noshow, outstanding, revenue, spenders) |
@@ -136,15 +136,15 @@ Rest of the schema is English.
 
 Notable examples:
 
-- `qsp_cust_get_by_bowlertrack_id` — customer lookup by BowlerTrac ID (proves BowlerTrac is a first-class integration path)
-- `qsp_cust_get_by_email` — email-based lookup
-- `qsp_homonymous_customers` — duplicate detection
-- `qsp_merge_customers` — de-duplication
-- `qsp_replace_customer` — replace one customer with another (merge target)
-- `qsp_lbsrpt_function_sheet_get_data` — the "function sheet" (banquet event order) data pull
-- `qsp_lbsrpt_deposit_get_data` — deposit report
-- `qsp_customerToActivate_register_member` — new member activation
-- `qsp_customersToChangePassword_AddRequest` — password reset request
+- `qsp_cust_get_by_bowlertrack_id`: customer lookup by BowlerTrac ID (proves BowlerTrac is a first-class integration path)
+- `qsp_cust_get_by_email`: email-based lookup
+- `qsp_homonymous_customers`: duplicate detection
+- `qsp_merge_customers`: de-duplication
+- `qsp_replace_customer`: replace one customer with another (merge target)
+- `qsp_lbsrpt_function_sheet_get_data`: the "function sheet" (banquet event order) data pull
+- `qsp_lbsrpt_deposit_get_data`: deposit report
+- `qsp_customerToActivate_register_member`: new member activation
+- `qsp_customersToChangePassword_AddRequest`: password reset request
 
 ## Functions (`qfn_*`)
 
@@ -161,9 +161,9 @@ Notable examples:
 
 ## Views (`qvw_*`)
 
-- `qvw_cust_all_categories` — customer categories rollup
-- `qvw_scenariopricekeyswithimage` / `qvw_ScenariosWithImage` — pricing UI helpers
-- `qvw_ut_*` — schema-introspection utility views
+- `qvw_cust_all_categories`: customer categories rollup
+- `qvw_scenariopricekeyswithimage` / `qvw_ScenariosWithImage`: pricing UI helpers
+- `qvw_ut_*`: schema-introspection utility views
 
 ## Triggers
 
@@ -193,7 +193,7 @@ if we ever need to investigate what happened during an import.
 stored procs (e.g., `Members_ITrig` fires on new members). Bypassing them
 would leave the system in an inconsistent state and would fail cloud sync.
 
-**Reading is safer**, but still risky if it's the live production DB —
+**Reading is safer**, but still risky if it's the live production DB ,
 running a big query could lock tables during a busy shift. If we ever do
 read-only queries, either use `WITH (NOLOCK)` (dirty reads) or take a
 snapshot backup via `QGetDb.exe` and query the copy.

@@ -8,7 +8,7 @@ Terms and acronyms you'll encounter across the ConquerorX system.
 |---|---|
 | **QubicaAMF** | The vendor. Formed from the 2005 merger of Qubica (scoring systems, Italy) and AMF Bowling Products (hardware, USA). HQ Bologna + Mechanicsville VA. |
 | **Conqueror X** | Current-generation bowling center management platform. What Kings runs. |
-| **QDesk** | The client shell brand — `C:\QDesk\Bin\` is the install root, translation files are `QDesk.<hex>`. Older internal name still used in paths. |
+| **QDesk** | The client shell brand, `C:\QDesk\Bin\` is the install root, translation files are `QDesk.<hex>`. Older internal name still used in paths. |
 | **QCloud** | QubicaAMF's cloud back-end at `qcloud.qubicaamf.com`. Handles centralization, license, updates. |
 | **QPortal** | QubicaAMF's customer-facing web portal at `qportal.qubicaamf.com`. |
 | **QPad** | Touchscreen kiosk / handheld terminal for staff. Referenced in privilege strings. |
@@ -38,26 +38,26 @@ Which scoring gen a center runs is chosen at install time (see
 |---|---|
 | **MxSvc** | Matrix Configuration Server. The master coordinator Windows service. |
 | **Matrix** | QubicaAMF's internal name for the configuration coordination layer. |
-| **MMS** | Multimedia Messaging System — score console display / video / animation layer. Runs on Node.js at port 8760. |
+| **MMS** | Multimedia Messaging System, score console display / video / animation layer. Runs on Node.js at port 8760. |
 | **MMSAppServer** | The Node.js server for MMS. |
-| **TCS** | Trouble Call System — the "call attendant" button on lanes. Generates tickets when guests need help. |
-| **HAL** | Hardware Abstraction Layer — `Qbk.Lanes.Hal.dll` — talks to pinsetter/pindeck. |
+| **TCS** | Trouble Call System, the "call attendant" button on lanes. Generates tickets when guests need help. |
+| **HAL** | Hardware Abstraction Layer, `Qbk.Lanes.Hal.dll`: talks to pinsetter/pindeck. |
 | **Q2A** | Qubica-to-AMF hardware protocol bridge. |
 | **Working Copy** | Update distribution system. Terminals rsync from server; server pulls from `dist.qubicaamf.com`. |
 | **BowlingAgent** | Daemon that handles lane hardware traffic between MxSvc and the score consoles. |
-| **CDE** | Centralized Data Environment — QubicaAMF's multi-center chain management. |
+| **CDE** | Centralized Data Environment, QubicaAMF's multi-center chain management. |
 
 ## Data / financial
 
 | Term | Meaning |
 |---|---|
-| **FBT** | **Frequent Bowler Tracking** — QubicaAMF's loyalty / membership program. Confirmed via the extracted CHM help (top-level section "FREQUENT BOWLER TRACKING", `Conqueror-2-176.html`). `FBT ID` is the membership card ID; `FBTLeague`, `FBTStats`, `FBTLinks` are member-related league tables; `FBTGR`/`FBTGIR`/`FBTCR` are FBT-related reports. |
-| **DAR Report** | Daily Activity Report — the shift-end financial summary. |
+| **FBT** | **Frequent Bowler Tracking:** QubicaAMF's loyalty / membership program. Confirmed via the extracted CHM help (top-level section "FREQUENT BOWLER TRACKING", `Conqueror-2-176.html`). `FBT ID` is the membership card ID; `FBTLeague`, `FBTStats`, `FBTLinks` are member-related league tables; `FBTGR`/`FBTGIR`/`FBTCR` are FBT-related reports. |
+| **DAR Report** | Daily Activity Report, the shift-end financial summary. |
 | **Cash Turn** | A shift's cash session (open/close with drawer counts). |
 | **Shift** | A staff work period. `Shifts`, `ShiftOperators`, `ShiftTimeZones` DB tables. |
 | **Bowlings** | DB table for actual bowling session records (a party's play on lane X between time A and B). |
 | **Reservation** | Future booking. `RsrvHdr` + `RsrvBody` in the DB. Distinct from `Bowlings` (past/current sessions). |
-| **Function Sheet** | Banquet Event Order (BEO) equivalent — printed detail sheet for large events. `qsp_lbsrpt_function_sheet_get_data`. |
+| **Function Sheet** | Banquet Event Order (BEO) equivalent, printed detail sheet for large events. `qsp_lbsrpt_function_sheet_get_data`. |
 | **Homonymous** | Duplicate-customer detection (`Qbk.Customers.Homonymous.dll`, `qsp_homonymous_customers`). |
 | **Price Key** | A price entry. Related to game pricing, package pricing. `PriceKeys` table. |
 
@@ -70,7 +70,7 @@ Which scoring gen a center runs is chosen at install time (see
 | **Gender** | 1 = Male, 2 = Female (0 rejected) |
 | **Hand** | 0 = Right, 1 = Left |
 | **Bumpers** | 0 = No, 1 = Yes |
-| **Status** (Tripleseat side) | DEFINITE, TENTATIVE, PROSPECT, LOST, CANCELED — only DEFINITE exports to ConquerorX in our tool |
+| **Status** (Tripleseat side) | DEFINITE, TENTATIVE, PROSPECT, LOST, CANCELED, only DEFINITE exports to ConquerorX in our tool |
 
 ## Lane hardware terminology
 
@@ -118,7 +118,7 @@ Which scoring gen a center runs is chosen at install time (see
 
 | Code | Language | File |
 |---|---|---|
-| `0409` | English (US) | `Qdesk.0409` — 858 KB, our master reference |
+| `0409` | English (US) | `Qdesk.0409`: 858 KB, our master reference |
 | `0407` | German | `Qdesk.0407` |
 | `040C` | French | `Qdesk.040C` |
 | `0410` | Italian | `Qdesk.0410` |
@@ -144,10 +144,10 @@ Which scoring gen a center runs is chosen at install time (see
 | Term | Meaning |
 |---|---|
 | **Booking System** | The reservation engine module. The `RsrvHdr`/`RsrvBody`/`RsrvItemDetails` tables live under this. What our tool imports into. |
-| **BLS Leagues** | Bowling League Secretary format — a league management standard imported/exported by ConquerorX alongside its own league engine. |
-| **Swedish Leagues / Danish Leagues** | Regional league variants — Sweden and Denmark have specific league scoring rules built-in as first-class product modules. |
+| **BLS Leagues** | Bowling League Secretary format, a league management standard imported/exported by ConquerorX alongside its own league engine. |
+| **Swedish Leagues / Danish Leagues** | Regional league variants, Sweden and Denmark have specific league scoring rules built-in as first-class product modules. |
 | **BES X Mad Games / BES Special Games / Bowland Special Games** | Novelty game modes bundled per scoring generation. Different populations of mini-games depending on hardware family. |
-| **Experience** | Package/experience management — bundles lane time + food + arcade credit + party assets under a single "experience" template. |
+| **Experience** | Package/experience management, bundles lane time + food + arcade credit + party assets under a single "experience" template. |
 | **Time Tracking System** | Staff time-clock module (punch in/out, hours, wages). Separate from Shift Management. |
 | **Coin-Op Installations** | Coin/token operated legacy hardware integration. |
 | **Impact Images** | On-lane celebration images shown at strikes/spares. |

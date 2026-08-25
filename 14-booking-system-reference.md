@@ -6,7 +6,7 @@ cross-referenced against the SQL schema in
 [`05-database-schema.md`](05-database-schema.md).
 
 **This is what our reservations-builder feeds into.** Every field name,
-enum value, and state transition below is authoritative — verified against
+enum value, and state transition below is authoritative, verified against
 what QubicaAMF ships in the English help file for v15.18.0.
 
 ## What the Booking System is
@@ -22,14 +22,14 @@ Per QubicaAMF's own words:
 
 Integrated with **Price Keys, Discounts, Center Setup, Lane Status, and
 Frequent Bowlers**. The whole booking process is designed to avoid the
-operator ever leaving the Booking area — the system pulls prices,
+operator ever leaving the Booking area, the system pulls prices,
 discounts, and customer info in-context.
 
 ## The main window components
 
 | Component | What it is |
 |---|---|
-| **Reservation Sheet** | Grid view — lanes down one axis, time down the other. Every booking appears as a colored rectangle. Over-booking area shown at the bottom. |
+| **Reservation Sheet** | Grid view, lanes down one axis, time down the other. Every booking appears as a colored rectangle. Over-booking area shown at the bottom. |
 | **Control Panel** | Toolbar surrounding the sheet. Buttons for Calendar, Navigator, Zoom, Find, New Reservation, Set Arrived / Set Ready, Open/Close, Merge/Split, Customer, Reservation, Information, Cut/Copy/Paste, Modify, Delete, No Show, Color Table, Clear Customer, Print, Waiting List/Lane Status/Menu/Exit. |
 | **Calendar** | Date navigator. |
 | **Overbooking Area** | Where reservations that don't fit their assigned lane slot show. |
@@ -57,7 +57,7 @@ stateDiagram-v2
 
     Arrived --> Ready : operator presses Set Ready
     Arrived --> Delayed : arrived but not ready when start time expires
-    Arrived --> Running : mixed reservation — other element opens
+    Arrived --> Running : mixed reservation, other element opens
 
     Delayed --> Ready : customer becomes ready
     Delayed --> Running : lane opened despite delay
@@ -85,10 +85,10 @@ stateDiagram-v2
 | **Provisional** | Booking not yet confirmed by deposit. Subject to auto- or manual cancellation after deposit due date expires. Skip this status entirely by center policy. |
 | **Confirmed** | Deposit paid, OR center chose not to work with Provisional (so all bookings arrive Confirmed). Operator can also confirm manually. |
 | **Late** | Customer late relative to the required arrival time (which is `start_time - arrival_lead_time`). For Time-mode bookings, "Subtract Time from Late Bookings" option can be enabled. |
-| **Arrived** | Operator pressed **Set Arrived** — customer is here. |
+| **Arrived** | Operator pressed **Set Arrived:** customer is here. |
 | **Delayed** | Customer is here but not yet ready to play, and start time has expired. Operator can wait or open the lane anyway. |
 | **Ready** | Customer ready to play. Operator pressed **Set Ready**. From here, if **Automatic Opening** is enabled, the lane opens on its own. |
-| **Customer Waiting** | Start time expired, customer is ready, but lane never opened. Highlighted urgently — this is a bad state. |
+| **Customer Waiting** | Start time expired, customer is ready, but lane never opened. Highlighted urgently, this is a bad state. |
 | **Running** | Lane opened, customer bowling. In a mixed reservation, other elements auto-move to Arrived + Confirmed. |
 | **Finished** | Customer stopped playing. Operator can close the lane. |
 | **Incomplete Payment** | Element closed without payment. Highly visible to alert operator to non-payment risk. |
@@ -102,7 +102,7 @@ Our tool creates reservations at status **Confirmed** (via the `.xls`
 import). From there:
 
 - If Kings has enabled Provisional-status usage, our imports may need a
-  deposit flag — currently we don't set one. Worth verifying at the next
+  deposit flag, currently we don't set one. Worth verifying at the next
   work-terminal test.
 - Everything past Confirmed is driven by staff action or automatic
   time-based transitions. Our tool doesn't influence any of it.
@@ -115,7 +115,7 @@ From `Conqueror-2-370.html` "Necessary Data for New Reservation":
 |---|---|---|
 | **Starting Date/Time** | Date + time of the reservation. Bounded by center opening hours unless 24-hour operation. | Rows 0-1, cols 0-1 in our .xls |
 | **Customer** | Insert via card swipe, member search, or anonymous name typed in. | Row 1, col 2 (Reservation Name); no customer card link |
-| **Type of Reservation** | Open, League, Parties, etc. (from dropdown). Determines color on sheet. | Not currently set — defaults to whatever ConquerorX uses when unspecified |
+| **Type of Reservation** | Open, League, Parties, etc. (from dropdown). Determines color on sheet. | Not currently set, defaults to whatever ConquerorX uses when unspecified |
 | **Quantities** | Number of Players, Games, Lanes, Open Mode, Open Type. | Bowler rows count = players; Row 1 col 5 = Games; body col 0 = Lane assignments; Row 1 cols 3-4 = Lane type + Opening mode |
 | **Resource** | Which lane / room / table | Body row lane column |
 | **Requirements** | Special needs (staff, F&B) | Not set |
@@ -123,31 +123,31 @@ From `Conqueror-2-370.html` "Necessary Data for New Reservation":
 | **Fast Sale** | POS pre-attach | Not set |
 | **Promotional Code** | Discount code | Not set |
 | **Finding the Best Price** | Auto-pick lowest applicable price | Not set |
-| **Finding Free Booking Space** | Auto-find open slot | Not applicable — we specify explicit times |
+| **Finding Free Booking Space** | Auto-find open slot | Not applicable, we specify explicit times |
 
 ## Reservation Details fields (what shows on the edit modal)
 
 From `Conqueror-2-374.html`:
 
 - **Customer**
-- **Reservation Type** — Open / League / Parties / etc.
+- **Reservation Type:** Open / League / Parties / etc.
 - **Notes**
-- **Arrival Time in Advance** — how many minutes before start_time the party must arrive to avoid Late
-- **Players** — bowler roster
-- **Lanes** — assigned lane numbers
-- **Open Type** — payment model (see below)
-- **Bumpers** — 0/1
-- **Sales** — associated POS sales
-- **Payments** — deposits + final
-- **Meals** — associated F&B
-- **History and Log** — audit trail
-- **Staff Requirements** — assigned staff / instructor
+- **Arrival Time in Advance:** how many minutes before start_time the party must arrive to avoid Late
+- **Players:** bowler roster
+- **Lanes:** assigned lane numbers
+- **Open Type:** payment model (see below)
+- **Bumpers:** 0/1
+- **Sales:** associated POS sales
+- **Payments:** deposits + final
+- **Meals:** associated F&B
+- **History and Log:** audit trail
+- **Staff Requirements:** assigned staff / instructor
 
 ## Reservation types
 
 Enumerated in the CHM as **Open, League, Parties, etc.** with center-specific
 extension. Each type gets a color on the sheet. Full list requires
-inspection at a specific center — the DB table `RsrvTypes` holds them.
+inspection at a specific center, the DB table `RsrvTypes` holds them.
 
 ## Advanced reservation patterns
 
@@ -156,12 +156,12 @@ inspection at a specific center — the DB table `RsrvTypes` holds them.
 | **Mixed Reservations** | `Conqueror-2-375.html` | One reservation with multiple linked elements (e.g., bowling + billiards + food). When one element goes Running, siblings auto-move to Arrived + Confirmed. |
 | **Recurring Reservations** | `Conqueror-2-376.html` | Weekly / monthly repeat bookings. |
 | **Reservation Confirmation** | `Conqueror-2-377.html` | Print + email confirmation to customer. |
-| **Overbooking** | `Conqueror-2-367.html` | Bookings that don't fit their lane slot get pushed to the overbooking area — visual signal of allocation problems. |
+| **Overbooking** | `Conqueror-2-367.html` | Bookings that don't fit their lane slot get pushed to the overbooking area, visual signal of allocation problems. |
 
 ## Web Reservations
 
 `Conqueror-2-046.html` and `Conqueror-2-213.html` cover web-originated
-bookings — customer-facing web reservation flow ingested by the Booking
+bookings, customer-facing web reservation flow ingested by the Booking
 System. Comes into the same `RsrvHdr`/`RsrvBody` tables.
 
 ## How our reservations-builder maps to this model
@@ -187,7 +187,7 @@ staff pressing Control Panel buttons.
   doesn't have a type column; ConquerorX uses whatever the venue default
   is when unspecified. If Kings needs each imported reservation labeled
   as "Party" or "Corporate Event" instead of the default, we'd need to
-  add that column (Column 3 in the template maybe — not defined in the
+  add that column (Column 3 in the template maybe, not defined in the
   base template we decoded).
 - **Does the Booking System auto-set Automatic Opening on imported
   reservations, or does staff have to flip it per-reservation?** Affects
@@ -200,17 +200,17 @@ staff pressing Control Panel buttons.
 
 From [`05-database-schema.md`](05-database-schema.md#reservations-7):
 
-- `RsrvHdr` — reservation header (one per reservation)
-- `RsrvBody` — reservation body (bowler-level rows, our body section)
+- `RsrvHdr`: reservation header (one per reservation)
+- `RsrvBody`: reservation body (bowler-level rows, our body section)
 - `RsrvItemDetails`
-- `RsrvItemStatus` — status tracking
-- `RsrvTypes` — the Type of Reservation dropdown values
-- `RsrvGroups` — reservation grouping
-- `RsrvContacts` — contact info
-- `RsrvAgencies` — booking agencies (external partners)
-- `RsrvColourDefs` — the color mapping for the sheet
-- `RsrvHistory` + `RsrvHistoryLogTypes` — audit log
-- `RsrvPaymentHistory` + `RsrvPaymentTypes` — payments
+- `RsrvItemStatus`: status tracking
+- `RsrvTypes`: the Type of Reservation dropdown values
+- `RsrvGroups`: reservation grouping
+- `RsrvContacts`: contact info
+- `RsrvAgencies`: booking agencies (external partners)
+- `RsrvColourDefs`: the color mapping for the sheet
+- `RsrvHistory` + `RsrvHistoryLogTypes`: audit log
+- `RsrvPaymentHistory` + `RsrvPaymentTypes`: payments
 
 ## Reference
 
