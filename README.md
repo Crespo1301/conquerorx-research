@@ -43,6 +43,7 @@ one system area.
 | 14 | [booking-system-reference.md](14-booking-system-reference.md) | **Booking System deep-read:** 12-status reservation lifecycle (Mermaid state diagram), required fields, our tool's placement in the flow. |
 | 15 | [reports-catalog.md](15-reports-catalog.md) | Every one of the 182 Crystal Reports templates categorized + the 7 built-in Statistical Reports. |
 | 16 | [lane-management.md](16-lane-management.md) | **Lane Management deep-read:** opening modes, lane lifecycle (Mermaid state diagram), control panel actions, per-scoring-family behavior. |
+| 17 | [api-surface.md](17-api-surface.md) | **REST + WCF API inventory:** WebBookingApi (25+ ASP.NET Core routes for reservations, availability, customers) and FlexyBook (WCF lane realtime API). The migration path away from Excel import + AutoHotkey. |
 
 ## Market context: why we care about this platform
 

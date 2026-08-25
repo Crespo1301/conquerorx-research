@@ -28,7 +28,27 @@ an answer.
 
 ## APIs
 
-### Q3. What routes are hosted on ports 8018/8048/8084?
+### Q3. What routes are hosted on ports 8018/8048/8084?  ✅ ANSWERED 2026-08-25
+
+**Full API surface documented in [`17-api-surface.md`](17-api-surface.md).**
+
+Two distinct HTTP stacks inside ConquerorServer.exe:
+
+- **WebBookingApi** (Qbk.WebBookingApi.Server.dll, ASP.NET Core) — 25+
+  routes covering the reservation flow: `POST /booking`, `POST /booking/{id}/confirm`,
+  `GET /availability`, `GET /scenarios`, `GET /customer/email/{email}`,
+  and more. This is the API that could replace our Excel import + AutoHotkey
+  workflow with a single HTTP call per event.
+- **FlexyBook** (Qbk.FlexyBookApi.Server.dll, WCF ServiceModel.Web) —
+  realtime lane operations: `GET /AllLaneStatus`, `POST /Workshop/{lanes}`,
+  `GET /Scores/Last/{lanes}`, `POST /PinsetterCycle/{laneNumber}`, waiting
+  list management.
+
+Which specific port each API binds to needs a live probe (ports are
+runtime-assigned, not hardcoded in DLLs). Also: auth uses JWT bearer
+tokens (System.IdentityModel.Tokens.Jwt referenced), issued by
+IdentityProviderSvc.Service.dll. Exact token endpoint and per-center
+credentials are the next unknowns.
 
 - Strong evidence of ASP.NET Core 2.3 REST endpoints.
 - **How to find out:**
