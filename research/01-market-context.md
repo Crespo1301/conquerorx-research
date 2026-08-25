@@ -64,7 +64,7 @@ we mapped in [`04-modules-and-dlls.md`](../04-modules-and-dlls.md)).
 
 So the choice was really made once, when the first Kings location bought
 its pinsetter package back in 2002. Every subsequent Kings has almost
-certainly matched to keep everything on one system.
+matched to keep everything on one system.
 
 ## 3. Pricing landscape
 

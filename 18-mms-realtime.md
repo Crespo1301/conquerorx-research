@@ -138,26 +138,25 @@ sequenceDiagram
 
 From `server.config`:
 
-- `experienceIntervals.static` (default 10000 ms) — how often static content refreshes
-- `experienceIntervals.video` (default 6000 ms) — video refresh
-- `highscoresInterval` (default 20000 ms) — high-scores rotation
+- `experienceIntervals.static` (default 10000 ms), how often static content refreshes
+- `experienceIntervals.video` (default 6000 ms), video refresh
+- `highscoresInterval` (default 20000 ms), high-scores rotation
 
 From command-line args (`arguments_parser.js`):
 
-- `port` — HTTP + Socket.IO port (production `8760`)
-- `datafolder` — where the server keeps logs, advertising, translations
-- `root` — static file root
-- `loglevel` — log verbosity
-- `recoveryEnabled` — turns MrWolf on / off
-- `websocketHeartbeatTimeout` (default 15) — Socket.IO heartbeat timeout
-- `websocketHeartbeatInterval` (default 20) — Socket.IO heartbeat interval
+- `port`: HTTP + Socket.IO port (production `8760`)
+- `datafolder`: where the server keeps logs, advertising, translations
+- `root`: static file root
+- `loglevel`: log verbosity
+- `recoveryEnabled`: turns MrWolf on / off
+- `websocketHeartbeatTimeout` (default 15), Socket.IO heartbeat timeout
+- `websocketHeartbeatInterval` (default 20), Socket.IO heartbeat interval
 - `waitingListInterval`, `standingsInterval`, `scoringInterval`,
-  `scoringPlayerInterval`, `priceListInterval`, `strikeChallengeInterval` —
-  per-service poll intervals
-- `mediaNotFoundWaitingTime` — how long to wait before giving up on a
+  `scoringPlayerInterval`, `priceListInterval`, `strikeChallengeInterval`, per-service poll intervals
+- `mediaNotFoundWaitingTime`: how long to wait before giving up on a
   missing advertising asset
-- `sequenceDelay` — delay between session transitions
-- `experienceVideoBaseUri` — base URI for hosted experience videos
+- `sequenceDelay`: delay between session transitions
+- `experienceVideoBaseUri`: base URI for hosted experience videos
 
 ## Logging
 
@@ -187,7 +186,7 @@ the server will accept the connection and send a default "Off" session.
 To get real lane data, we would need a MonitorId that Conqueror considers
 a valid monitor.
 
-**Better path** — instead of impersonating a client, do a passive tap on
+**Better path:** instead of impersonating a client, do a passive tap on
 the northbound side. Every `.conq` HTTP POST from ConquerorServer is an
 XML message describing an event. Point a small proxy at MMS's port 8760
 and log the POST bodies to file. That gives us the full realtime feed

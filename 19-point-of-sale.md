@@ -68,19 +68,19 @@ flowchart LR
 
 From `Conqueror-2-028.html`:
 
-- **Multi-quantity sales** — click item N times, or press a numeric key then the item
-- **Modifiers** — options attached to a price key (size, temperature, etc.). Automatic vs Optional
-- **Menu choices** — pick a specific item from a package (which soda in a combo)
-- **Notes** — free text under a line
-- **Delete row** — remove an item from the cart
-- **Void a price key** — full-price-key void with tracked reason
-- **Discount** — apply a discount to a line or the whole cart
-- **Clear bill** — wipe the cart before payment
-- **Assign to member** — link the transaction to an FBT member for points/tracking
-- **Add a tip** — enter gratuity
-- **Create/save/manage tabs** — open a tab, save items to it, retrieve later
-- **Proceed with Payment** — open the payment window
-- **Undo payment + reprint** — restricted, tracked
+- **Multi-quantity sales:** click item N times, or press a numeric key then the item
+- **Modifiers:** options attached to a price key (size, temperature, etc.). Automatic vs Optional
+- **Menu choices:** pick a specific item from a package (which soda in a combo)
+- **Notes:** free text under a line
+- **Delete row:** remove an item from the cart
+- **Void a price key:** full-price-key void with tracked reason
+- **Discount:** apply a discount to a line or the whole cart
+- **Clear bill:** wipe the cart before payment
+- **Assign to member:** link the transaction to an FBT member for points/tracking
+- **Add a tip:** enter gratuity
+- **Create/save/manage tabs:** open a tab, save items to it, retrieve later
+- **Proceed with Payment:** open the payment window
+- **Undo payment + reprint:** restricted, tracked
 
 ## Tabs
 
@@ -101,8 +101,8 @@ From `Conqueror-2-032.html`. Tabs are one of the busiest POS constructs.
 
 From `Conqueror-2-033.html`:
 
-- **Automatic Gratuities** — auto-apply gratuity on parties over N people
-- **Collecting a Payment** — gratuity flows during payment
+- **Automatic Gratuities:** auto-apply gratuity on parties over N people
+- **Collecting a Payment:** gratuity flows during payment
 - Reported separately in Shift Reports
 
 ## Payment types
@@ -118,19 +118,19 @@ The full menu, from `Conqueror-2-034.html` and `Conqueror-2-035.html`:
 - Member Account
 
 Special flows:
-- **Paying Separately** (`Conqueror-2-036.html`) — split by bowler
-- **Dividing the Bill in Equal Portions** (`Conqueror-2-037.html`) — even split
+- **Paying Separately** (`Conqueror-2-036.html`), split by bowler
+- **Dividing the Bill in Equal Portions** (`Conqueror-2-037.html`), even split
 - **Reprinting Receipts** (`Conqueror-2-038.html`)
-- **Undoing Payments** (`Conqueror-2-039.html`) — with documented restrictions
-- **Open the Cash Drawer** (`Conqueror-2-040.html`) — no-sale drawer open
+- **Undoing Payments** (`Conqueror-2-039.html`), with documented restrictions
+- **Open the Cash Drawer** (`Conqueror-2-040.html`), no-sale drawer open
 
 ## Expenses, Deposits, Refunds
 
 Three side flows off the main POS surface:
 
-- **Expenses** (`Conqueror-2-041.html`) — pay a supplier, tracked as expense category
-- **Deposits** (`Conqueror-2-042.html`) — take a deposit against a future reservation; deposits transition from held to consumed when the reservation runs
-- **Refunds** (`Conqueror-2-043.html`) — return money to a customer; tracked with reason
+- **Expenses** (`Conqueror-2-041.html`), pay a supplier, tracked as expense category
+- **Deposits** (`Conqueror-2-042.html`), take a deposit against a future reservation; deposits transition from held to consumed when the reservation runs
+- **Refunds** (`Conqueror-2-043.html`), return money to a customer; tracked with reason
 
 ## Tax exemption
 
@@ -173,15 +173,15 @@ From `Conqueror-2-054.html` onward. Configures:
 
 From [`05-database-schema.md`](05-database-schema.md):
 
-- `Bills` — issued bills
-- `Receipts` + `ReceiptsRows` + `ReceiptsPaymentRows` + `ReceiptsTaxRows` + `ReceiptsPointsRows` — receipt detail
-- `Transactions` + `TransactionsRows` + `TransactionsStack` + `TransSubRows` — transaction ledger
-- `PaymentTypes` — the payment-mode dropdown values
-- `PriceKeys` + `PriceTime` — items + time-based pricing
-- `BarGroups` + `BarItems` + `BarOrders` + `BarOrdersItems` + `PackageItems` — F+B side
-- `MicroSaleSettings` + `MicroSaleTransactions` — Micros POS integration
-- `CreditCardHistory` + `CreditCardTransaction` — CC processing
-- `PointsCollection` — loyalty points earned
+- `Bills`: issued bills
+- `Receipts` + `ReceiptsRows` + `ReceiptsPaymentRows` + `ReceiptsTaxRows` + `ReceiptsPointsRows`: receipt detail
+- `Transactions` + `TransactionsRows` + `TransactionsStack` + `TransSubRows`: transaction ledger
+- `PaymentTypes`: the payment-mode dropdown values
+- `PriceKeys` + `PriceTime`: items + time-based pricing
+- `BarGroups` + `BarItems` + `BarOrders` + `BarOrdersItems` + `PackageItems`: F+B side
+- `MicroSaleSettings` + `MicroSaleTransactions`: Micros POS integration
+- `CreditCardHistory` + `CreditCardTransaction`: CC processing
+- `PointsCollection`: loyalty points earned
 
 ## Related Crystal Reports
 
@@ -209,12 +209,12 @@ templates:
 
 From [`10-integrations.md`](10-integrations.md):
 
-- **Micros POS** (Oracle) — bidirectional XML bridge for kitchen/bar orders
+- **Micros POS** (Oracle), bidirectional XML bridge for kitchen/bar orders
 - **Square** via `SquareReceiptPlugin` in RoutingDefs
-- **QuickBooks Desktop** — export of tax-exempt transactions
-- **PAYwareConnect / PAYwarePC / PCCharge** — CC processor gateways
-- **Bixolon SRP-210** — receipt printers
-- **CleanCash / Dassle (QCAD)** — Swedish fiscal receipt system
+- **QuickBooks Desktop:** export of tax-exempt transactions
+- **PAYwareConnect / PAYwarePC / PCCharge:** CC processor gateways
+- **Bixolon SRP-210:** receipt printers
+- **CleanCash / Dassle (QCAD):** Swedish fiscal receipt system
 
 ## Reference
 

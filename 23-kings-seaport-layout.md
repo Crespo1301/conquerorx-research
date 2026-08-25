@@ -83,7 +83,7 @@ network run per pod (relevant to Pattern A troubleshooting).
 
 **TBD.** Which physical PC runs `ConquerorServer.exe`, `MxSvc`,
 `MSSQL$CONQUERORX`, `MMSAppServer`, and holds the master database.
-Almost certainly a rack-mounted or under-desk box in the back office.
+Likely a rack-mounted or under-desk box in the back office.
 
 Fields to confirm:
 

@@ -19,7 +19,7 @@ Terms and acronyms you'll encounter across the ConquerorX system.
 
 | Term | Meaning |
 |---|---|
-| **BES X** | Current-gen QubicaAMF Bowling Entertainment System. What Kings almost certainly uses. |
+| **BES X** | Current-gen QubicaAMF Bowling Entertainment System. What Kings almost uses. |
 | **BES V** | Older BES version. |
 | **BES 3QT / RDB** | Hardware variants (3Q Terminal, RDB). |
 | **BES NV** | Older BES variant. |

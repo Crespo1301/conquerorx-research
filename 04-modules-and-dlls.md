@@ -191,7 +191,7 @@ open to third parties.
 
 ## The `Qbk` prefix
 
-`Qbk` almost certainly stands for **Qubica:** the scoring-system company
+`Qbk` almost stands for **Qubica:** the scoring-system company
 that merged with AMF Bowling Products in 2005 to form QubicaAMF Worldwide.
 Every business DLL carries the Qubica lineage in its name.
 

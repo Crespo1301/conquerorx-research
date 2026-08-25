@@ -101,9 +101,9 @@ Notable fields for our tooling (if we ever look up existing members
 during an import):
 - **VAT Number**, **National Code**, **Tax-exempt ID** for business
   customers
-- **Company Name** — group bookings key off this
-- **Category** — which member category (drives default pricing)
-- **Card ID** — swipe lookup value
+- **Company Name:** group bookings key off this
+- **Category:** which member category (drives default pricing)
+- **Card ID:** swipe lookup value
 
 ## Three currency-like balances on an FBT account
 
@@ -115,20 +115,20 @@ FBT accounts carry three separate balances:
 | **Points** | Loyalty points | Earn on qualifying transactions (see Point Collection setup), spend on member-only rewards |
 | **QCash** | Prepaid cash-equivalent balance | Recharge with real cash/card at POS, spend as a payment mode |
 
-Plus a fourth: **Account Balance / Account Debt Limit** — for members
+Plus a fourth: **Account Balance / Account Debt Limit:** for members
 allowed to run a running balance (Kings-style corporate accounts).
 
 ## FBT operations
 
 From `Conqueror-2-178.html` through `Conqueror-2-179.html`:
 
-- **New Member / New Group** — add member record + assign card(s) +
+- **New Member / New Group:** add member record + assign card(s) +
   take photo
-- **Modify** — update member record
-- **Info** — quick view (photo + card + games credit + expiry + default
+- **Modify:** update member record
+- **Info:** quick view (photo + card + games credit + expiry + default
   price keys + contact)
-- **Search** — lookup by any field
-- **Clear** — clear the current tab view
+- **Search:** lookup by any field
+- **Clear:** clear the current tab view
 
 ## FBT flow when a member arrives (Mermaid)
 
@@ -161,9 +161,9 @@ flowchart LR
 
 `Conqueror-2-198.html`. Duplicate detection + merge:
 
-- **Identifying Duplicated Members** — matches on name / email / phone
+- **Identifying Duplicated Members:** matches on name / email / phone
   / card
-- **Comparing and Merging Two Members** — side-by-side, pick which
+- **Comparing and Merging Two Members:** side-by-side, pick which
   fields survive, merge history + balances
 
 Backed by `qsp_homonymous_customers`, `qsp_merge_customers`,
@@ -173,8 +173,8 @@ Backed by `qsp_homonymous_customers`, `qsp_merge_customers`,
 
 `Conqueror-2-199.html`. Bulk operations:
 
-- **Export** — CSV or Excel of the member roster + selected fields
-- **Import** — batch add / update via templates. This is where
+- **Export:** CSV or Excel of the member roster + selected fields
+- **Import:** batch add / update via templates. This is where
   `Members.xlt` and `Members with ID.xlt` (in `C:\QDesk\Bin\xlt\`)
   come in
 
@@ -188,9 +188,9 @@ BowlerTrac / OVR context.
 `Conqueror-2-195.html` through `Conqueror-2-197.html`. Built-in mail
 merge for member marketing:
 
-- **Creating Mail** — build a targeted list, apply filters
-- **Templates** — Word / Excel templates for letters and labels
-- **Print** — letters + address labels
+- **Creating Mail:** build a targeted list, apply filters
+- **Templates:** Word / Excel templates for letters and labels
+- **Print:** letters + address labels
 
 Modernized version of this is presumably the QCloud-side marketing
 kits + cross-center loyalty (see [`10-integrations.md`](10-integrations.md)).
@@ -222,10 +222,10 @@ From `Conqueror-2-201.html` through `Conqueror-2-207.html`:
 
 From `Conqueror-2-192.html`:
 
-- **Basic filters** — active/inactive, category, date range, VIP
-- **Advanced filters** — behavioral (games played, visits, spend
+- **Basic filters:** active/inactive, category, date range, VIP
+- **Advanced filters:** behavioral (games played, visits, spend
   threshold, birthday range)
-- **Reporting** — export filtered lists for analysis / mail merge / CRM
+- **Reporting:** export filtered lists for analysis / mail merge / CRM
   push
 
 Related Crystal Reports (from [`15-reports-catalog.md`](15-reports-catalog.md)):
@@ -238,16 +238,16 @@ Related Crystal Reports (from [`15-reports-catalog.md`](15-reports-catalog.md)):
 
 From [`05-database-schema.md`](05-database-schema.md):
 
-- `Members` — the member roster (with triggers `Members_ITrig` +
+- `Members`: the member roster (with triggers `Members_ITrig` +
   `Members_UTrig`)
-- `FamilyContacts` — family contact links
-- `Titles` — title dropdown (Mr, Mrs, etc.)
-- `Cards` + `CardTypes` — physical membership cards
-- `Industries` — industry dropdown
-- `GroupTypes` — group definitions
-- `DiscoverSources` — "how did you hear about us" dropdown
-- `PointsCollection` — points ledger
-- `HHighsMasks` — high-scores masking (FBT integrates with high-score
+- `FamilyContacts`: family contact links
+- `Titles`: title dropdown (Mr, Mrs, etc.)
+- `Cards` + `CardTypes`: physical membership cards
+- `Industries`: industry dropdown
+- `GroupTypes`: group definitions
+- `DiscoverSources`: "how did you hear about us" dropdown
+- `PointsCollection`: points ledger
+- `HHighsMasks`: high-scores masking (FBT integrates with high-score
   boards)
 
 ## Related stored procs
@@ -269,10 +269,10 @@ From [`05-database-schema.md`](05-database-schema.md):
 
 From [`17-api-surface.md`](17-api-surface.md), WebBookingApi routes:
 
-- `GET /customer/email/{email}` — lookup by email
-- `GET /customer/checkemail/{email}` — check exists
-- `POST /customer/validate` — validate credentials
-- `POST /customer/resetPassword` — password reset
+- `GET /customer/email/{email}`: lookup by email
+- `GET /customer/checkemail/{email}`: check exists
+- `POST /customer/validate`: validate credentials
+- `POST /customer/resetPassword`: password reset
 
 ## Reference
 

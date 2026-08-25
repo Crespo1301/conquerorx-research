@@ -123,12 +123,12 @@ config:
 
 From `Conqueror-2-169.html`. Manager tools:
 
-- **Report** — re-run report for a past shift
-- **Delete Shift** — remove a shift record (audit-tracked)
-- **Transfer History** — move transactions between shifts
-- **Ordered by** — sort filter
-- **Magic Number** — verify shift closed cleanly
-- **Filters** — search across shift history
+- **Report:** re-run report for a past shift
+- **Delete Shift:** remove a shift record (audit-tracked)
+- **Transfer History:** move transactions between shifts
+- **Ordered by:** sort filter
+- **Magic Number:** verify shift closed cleanly
+- **Filters:** search across shift history
 
 ## Historical reports
 
@@ -146,11 +146,11 @@ Shift management ties directly to the security system. Each staff role
 has a profile with a set of privileges. Common privilege examples for a
 Kings-like center:
 
-- **Cashier** — open drawer, take payment, print own shift report
-- **Bartender** — cashier + bar-specific F+B ops
-- **Front Desk Lead** — cashier + reservation edit + lane control
-- **Manager** — all cashier ops + close shifts + delete shift + view all reports + manage users
-- **Mechanic** — TCS acknowledge + lane workshop + no cash
+- **Cashier:** open drawer, take payment, print own shift report
+- **Bartender:** cashier + bar-specific F+B ops
+- **Front Desk Lead:** cashier + reservation edit + lane control
+- **Manager:** all cashier ops + close shifts + delete shift + view all reports + manage users
+- **Mechanic:** TCS acknowledge + lane workshop + no cash
 
 Full privilege catalog is per-center; SQL tables `AccessRights`,
 `Profiles`, `UserProfiles`, `Staff` hold the model.
@@ -159,30 +159,30 @@ Full privilege catalog is per-center; SQL tables `AccessRights`,
 
 From `Conqueror-2-173.html`. Center-wide shift knobs:
 
-- **Shifts** — number and schedule
-- **Personal Cash Drawer** — enable / disable
-- **Count Float on Closure** — require cashier to count float
-- **Bill and Coin Details** — require denomination breakdown
-- **Stricter Under/over Management** — require manager approval for any discrepancy
-- **Notes, Weather and Staff** — additional shift-report fields
-- **Float Confirmation** — require confirm on float count
-- **Shift Report Signing Section** — printed signature line
-- **Automatic Shift Closure** — auto-close at end-of-day
-- **Print Function** — printer routing
-- **Automatic Export** — auto-fire QuickBooks / Dassle export
-- **Tax Exemption Suffix** — suffix on tax-exempt line
-- **QuickBooks Desktop** — QB export config
-- **Reset Shift Report Number** — reset the sequential shift number
-- **Backtask Sector** — which sector runs background tasks
-- **Send Report** — auto-send via email
-- **Shift Zone** — time zone for shift boundaries
+- **Shifts:** number and schedule
+- **Personal Cash Drawer:** enable / disable
+- **Count Float on Closure:** require cashier to count float
+- **Bill and Coin Details:** require denomination breakdown
+- **Stricter Under/over Management:** require manager approval for any discrepancy
+- **Notes, Weather and Staff:** additional shift-report fields
+- **Float Confirmation:** require confirm on float count
+- **Shift Report Signing Section:** printed signature line
+- **Automatic Shift Closure:** auto-close at end-of-day
+- **Print Function:** printer routing
+- **Automatic Export:** auto-fire QuickBooks / Dassle export
+- **Tax Exemption Suffix:** suffix on tax-exempt line
+- **QuickBooks Desktop:** QB export config
+- **Reset Shift Report Number:** reset the sequential shift number
+- **Backtask Sector:** which sector runs background tasks
+- **Send Report:** auto-send via email
+- **Shift Zone:** time zone for shift boundaries
 
 ## Sector Setup
 
 From `Conqueror-2-174.html`. Per-sector config:
 
 - Sector name, hours, active drawers
-- **Exclusive Responsibility of Cash Drawers** — lock a drawer to one
+- **Exclusive Responsibility of Cash Drawers:** lock a drawer to one
   cashier per session (vs shared)
 
 ## QuickBooks Desktop Account Settings
@@ -196,33 +196,33 @@ the wiring is present if it ever gets adopted.
 
 From [`05-database-schema.md`](05-database-schema.md):
 
-- `Shifts` — shift definitions
-- `ShiftOperators` — cashiers per shift
-- `ShiftTimeZones` — shift time-zone boundaries
-- `CashStatus`, `CashTurns`, `CashTurnOperators` — cash-drawer sessions
-- `Staff` + `StaffLog` + `StaffSectors` — staff roster + audit
-- `Sectors` — sector definitions
-- `Departments` — department mapping
-- `AccessRights` + `Profiles` + `UserProfiles` — security model
+- `Shifts`: shift definitions
+- `ShiftOperators`: cashiers per shift
+- `ShiftTimeZones`: shift time-zone boundaries
+- `CashStatus`, `CashTurns`, `CashTurnOperators`: cash-drawer sessions
+- `Staff` + `StaffLog` + `StaffSectors`: staff roster + audit
+- `Sectors`: sector definitions
+- `Departments`: department mapping
+- `AccessRights` + `Profiles` + `UserProfiles`: security model
 
 ## Related Crystal Reports
 
 From [`15-reports-catalog.md`](15-reports-catalog.md):
 
-- `EndOfShiftCashOut.rpt` — the primary shift-close report
-- `EndOfShiftCashOutBillsAndCoins.rpt` — denomination breakdown variant
-- `DarReport.rpt` — Daily Activity Report (No-Shift mode)
-- `UnderOverNotes.rpt` — cash discrepancies
-- `IndividualTimeTracking.rpt` — per-staff time
-- `GlobalTimeTracking.rpt` — all-staff aggregate
+- `EndOfShiftCashOut.rpt`: the primary shift-close report
+- `EndOfShiftCashOutBillsAndCoins.rpt`: denomination breakdown variant
+- `DarReport.rpt`: Daily Activity Report (No-Shift mode)
+- `UnderOverNotes.rpt`: cash discrepancies
+- `IndividualTimeTracking.rpt`: per-staff time
+- `GlobalTimeTracking.rpt`: all-staff aggregate
 - Historical variants for each
 
 ## Related integrations
 
-- **QuickBooks Desktop** — chart-of-accounts export
-- **Dassle / QCAD** — Swedish fiscal receipt exports
-- **Zonal / QuCad** — POS exports
-- **CleanCash** — Swedish fiscal-compliance service (bundled DLL)
+- **QuickBooks Desktop:** chart-of-accounts export
+- **Dassle / QCAD:** Swedish fiscal receipt exports
+- **Zonal / QuCad:** POS exports
+- **CleanCash:** Swedish fiscal-compliance service (bundled DLL)
 
 ## Reference
 

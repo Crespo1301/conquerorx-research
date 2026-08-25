@@ -34,13 +34,12 @@ an answer.
 
 Two distinct HTTP stacks inside ConquerorServer.exe:
 
-- **WebBookingApi** (Qbk.WebBookingApi.Server.dll, ASP.NET Core) — 25+
+- **WebBookingApi** (Qbk.WebBookingApi.Server.dll, ASP.NET Core), 25+
   routes covering the reservation flow: `POST /booking`, `POST /booking/{id}/confirm`,
   `GET /availability`, `GET /scenarios`, `GET /customer/email/{email}`,
   and more. This is the API that could replace our Excel import + AutoHotkey
   workflow with a single HTTP call per event.
-- **FlexyBook** (Qbk.FlexyBookApi.Server.dll, WCF ServiceModel.Web) —
-  realtime lane operations: `GET /AllLaneStatus`, `POST /Workshop/{lanes}`,
+- **FlexyBook** (Qbk.FlexyBookApi.Server.dll, WCF ServiceModel.Web), realtime lane operations: `GET /AllLaneStatus`, `POST /Workshop/{lanes}`,
   `GET /Scores/Last/{lanes}`, `POST /PinsetterCycle/{laneNumber}`, waiting
   list management.
 
