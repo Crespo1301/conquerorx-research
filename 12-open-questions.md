@@ -59,7 +59,22 @@ credentials are the next unknowns.
 - **Why it matters:** REST endpoints would be a much cleaner integration
   than driving the file picker.
 
-### Q4. What events does the MMSAppServer Socket.IO channel broadcast?
+### Q4. What events does the MMSAppServer Socket.IO channel broadcast?  ✅ ANSWERED 2026-08-25
+
+**Full architecture documented in [`18-mms-realtime.md`](18-mms-realtime.md).**
+
+MMS is a Node.js Socket.IO server on port 8760 that acts as the realtime
+fan-out layer. ConquerorServer POSTs XML messages to `/*.conq` endpoints,
+MMS parses and dispatches to 10 services (status, session, bestscores,
+waitinglist, pricelist, score, standings, strikechallenge, experience,
+highscores), and pushes updates to connected clients via Socket.IO.
+Clients are lane score consoles + digital signage, identified by
+`MonitorId` in the format `<mac>-<monitor>`.
+
+The best path for a lane-status dashboard is a passive tap on the
+northbound `.conq` HTTP feed rather than impersonating a Socket.IO
+client, since MonitorId validation semantics are unclear on our test
+install.
 
 - Port 8760, Socket.IO protocol.
 - **How to find out:** connect a Socket.IO client, subscribe to all events,

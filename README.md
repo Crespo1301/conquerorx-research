@@ -44,6 +44,7 @@ one system area.
 | 15 | [reports-catalog.md](15-reports-catalog.md) | Every one of the 182 Crystal Reports templates categorized + the 7 built-in Statistical Reports. |
 | 16 | [lane-management.md](16-lane-management.md) | **Lane Management deep-read:** opening modes, lane lifecycle (Mermaid state diagram), control panel actions, per-scoring-family behavior. |
 | 17 | [api-surface.md](17-api-surface.md) | **REST + WCF API inventory:** WebBookingApi (25+ ASP.NET Core routes for reservations, availability, customers) and FlexyBook (WCF lane realtime API). The migration path away from Excel import + AutoHotkey. |
+| 18 | [mms-realtime.md](18-mms-realtime.md) | **MMSAppServer deep-read:** Node.js Socket.IO real-time fan-out layer on port 8760, 10 service channels, message-flow sequence diagram, path to a live lane dashboard. |
 
 ## Market context: why we care about this platform
 
