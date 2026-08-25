@@ -58,7 +58,7 @@ Deep-dive: [`09-extensibility.md`](09-extensibility.md).
 
 ### `C:\QDesk\Bin\ConquerorServer\qdesk-settings\`: environment tiers
 
-22 JSON files, one per environment × channel combo. Each contains:
+26 JSON files, one per environment × channel combo (8 core environments + 10 testing slots, each stable + beta). Each contains:
 
 ```json
 {
@@ -90,7 +90,7 @@ Deep-dive: [`09-extensibility.md`](09-extensibility.md).
 | `development/stable` | `qcloud-develop.qubicaamf.com` | `qportal-develop-qamfeuw.azurewebsites.net` | Azure App Insights (West Europe) |
 | `development/beta` | `qcloud-develop.qubicaamf.com:44301` | `qportal-develop-qamfeuw-beta.azurewebsites.net` | Azure App Insights |
 | `local/stable` + `local/beta` | `qcloud-develop.qubicaamf.com` | `localhost:5001` | Azure App Insights |
-| `testing-slot-01`…`05` × `stable`/`beta` | `qcloud-test0N.qubicaamf.com[:44301]` | Slot-specific azurewebsites.net | Slot-specific App Insights |
+| `testing-slot-01`…`10` × `stable`/`beta` | `qcloud-test0N.qubicaamf.com[:44301]` | Slot-specific azurewebsites.net | Slot-specific App Insights |
 
 **Auth surfaces (empty on all environments in the install):**
 - `adb2cAuth: {}`: Azure AD B2C
@@ -155,13 +155,19 @@ seconds.
 
 ## Environment-tier switching
 
-The environment is chosen by which `qdesk-settings/*.json` file gets loaded
-at startup. There's likely a registry key or an environment variable that
-selects it. Not yet identified, one for the open-questions doc.
+**Not a customer-configurable knob.** Documented in the Q6 finding at
+[`12-open-questions.md`](12-open-questions.md#q6-what-selects-the-environment-tier-at-startup--answered-2026-08-25).
 
-To confirm which environment a running center is on, look at
-`TerminalsData.json` in `C:\ProgramData\QubicaAMF\Logs\` or check the About
-dialog in the ConquerorX UI.
+Short version: all 26 `qdesk-settings/*.json` files ship in every
+release as reference config, but which one the runtime actually loads
+is baked into the release build QubicaAMF pushes via Working Copy.
+There is no registry key, no command-line switch, no editable env
+setting on the center's side. Switching environments would require
+QubicaAMF to push a different release build.
+
+To confirm which environment a running center is on, look at the About
+dialog in the ConquerorX UI (which shows the release variant), or
+check `TerminalsData.json` in `C:\ProgramData\QubicaAMF\Logs\`.
 
 ## Reference
 

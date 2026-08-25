@@ -48,7 +48,7 @@ QubicaAMF cloud back-end for updates and multi-center features.**
 6. **QCloud** at `qcloud.qubicaamf.com`: production cloud back-end. Six
    environment tiers (`production`, `staging`, `expo`, `development`,
    `testing-slot-01`…`05`), each with `stable`/`beta` channels. Full config
-   files for all 22 combinations ship in `qdesk-settings/`.
+   files for all 26 combinations ship in `qdesk-settings/`.
 7. **Working Copy:** QubicaAMF's version distribution system.
    `QWorkingCopyServer.exe` on port 5557/5959 pulls updates from the mothership
    and distributes them to terminals over rsync (port 873 is running).

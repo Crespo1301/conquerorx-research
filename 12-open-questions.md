@@ -91,13 +91,40 @@ install.
 
 ## Configuration
 
-### Q6. What selects the environment tier at startup?
+### Q6. What selects the environment tier at startup?  ✅ ANSWERED 2026-08-25
 
-- 22 `qdesk-settings/*.json` files exist. Something picks one.
-- **Guess:** registry key `HKLM\SOFTWARE\QubicaAMF\Environment` or a
-  command-line switch in the shortcut.
-- **How to find out:** `reg query HKLM\SOFTWARE\QubicaAMF /s`, or check
-  the Conqueror X shortcut's target.
+**Nothing local selects it at runtime.** No registry key, no command-line
+switch, no user-editable config file.
+
+Evidence:
+- `HKLM\SOFTWARE\QubicaAMF\Conqueror` holds only `Version` and `Path`.
+  No env / channel / tier key. Same for the sibling QubicaAMF subkeys
+  (BowlingAgent, FontInstaller, ThirdPartyComponentsInstaller,
+  VncRepeater, WorkingCopyServer).
+- Desktop shortcut launches `C:\QDesk\Bin\Conqueror.exe` with no args
+  and working dir `C:\QDesk\Bin\`.
+- `ConquerorServer` and `MxSvc` Windows services both launch with no
+  args.
+- The `qdesk-settings/*.json` files are all timestamped identically
+  (`2026-08-04 12:43:38`, install-time only), so none of them is
+  actively edited.
+- No environment env-var (`QUBICA_*`, `CONQUEROR_*`, `QDESK_*`,
+  `QCLOUD_*`) is set in the process environment.
+- The Working Copy pull URL (in `WorkingCopyAI.aiu`) is
+  `https://dist.qubicaamf.com/workingcopy/WorkingCopySetup.105.0.129.exe`,
+  a fixed stable-channel URL with no channel selector in the query
+  string.
+
+**Conclusion:** the environment tier is **baked in at build time by
+QubicaAMF**. All 25+ `qdesk-settings/*.json` files ship in every
+release as reference config, but the runtime reads the one matching
+the release variant it was built for. Kings almost certainly runs the
+release built for `production/stable`, and switching would require
+QubicaAMF to push a different release variant via Working Copy.
+Not a customer-configurable knob.
+
+Correction to earlier count: there are 26 `qdesk-settings/*.json`
+files (10 testing slots + 8 core), not 22.
 
 ### Q7. What does the `Icon` integer in `RoutingDefs.json` map to?
 
