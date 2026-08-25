@@ -47,6 +47,7 @@ one system area.
 | 18 | [mms-realtime.md](18-mms-realtime.md) | **MMSAppServer deep-read:** Node.js Socket.IO real-time fan-out layer on port 8760, 10 service channels, message-flow sequence diagram, path to a live lane dashboard. |
 | 19 | [point-of-sale.md](19-point-of-sale.md) | **POS deep-read:** sales, tabs, tips, deposits, refunds, tax exemption, credit-card providers, payment types, related SQL tables and reports. |
 | 20 | [shift-management.md](20-shift-management.md) | **Shift Management deep-read:** sectors, cash drawer sessions (Mermaid state diagram), personal drawers, shift reporting, privileges, QuickBooks/Dassle exports. |
+| 21 | [fbt-membership.md](21-fbt-membership.md) | **FBT (Frequent Bowler Tracking) deep-read:** member records, cards, QCash + Points + Games-on-Account balances (ER + flow diagrams), duplicate detection, import/export, mail merge, reporting. |
 
 ## Market context: why we care about this platform
 
