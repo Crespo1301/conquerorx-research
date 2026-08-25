@@ -56,6 +56,7 @@ one system area.
 | 27 | [security.md](27-security.md) | **Security deep-read:** staff roster, profiles with 6 privilege tabs (Operate, Shifts, Prices, Technical, Management, Reservations), 3 recognition modes (fingerprint / card / password), Safe Mode, Quick Authorization, System Log, Suspect Actions. Mermaid ER + login sequence. |
 | 28 | [time-tracking.md](28-time-tracking.md) | **Time Tracking System deep-read:** staff clock-in/out tied to Security login, Mermaid sequence, Staff Log manager tools (add/modify/delete with audit), payroll export via GlobalTimeTracking.rpt. |
 | 29 | [web-and-call-center.md](29-web-and-call-center.md) | **Web Reservations + Call Center deep-read:** customer self-service booking widget (Scenarios, Global Settings, Bookable Days, Legal Info, Extended Availability, Online Scoring, BES X GameConnect) and chain-wide Call Center module (one desk books into all locations). |
+| 30 | [ancillary-modules.md](30-ancillary-modules.md) | **Experience + Time Games + Lockers deep-read:** bundling package (Experience mode), non-lane billable activities (pool, ping pong, arcade), and locker rental. |
 
 ## Market context: why we care about this platform
 
