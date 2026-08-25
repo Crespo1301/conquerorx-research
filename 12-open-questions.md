@@ -118,7 +118,7 @@ Evidence:
 **Conclusion:** the environment tier is **baked in at build time by
 QubicaAMF**. All 25+ `qdesk-settings/*.json` files ship in every
 release as reference config, but the runtime reads the one matching
-the release variant it was built for. Kings almost certainly runs the
+the release variant it was built for. Kings very likely runs the
 release built for `production/stable`, and switching would require
 QubicaAMF to push a different release variant via Working Copy.
 Not a customer-configurable knob.

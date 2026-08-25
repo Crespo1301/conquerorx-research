@@ -138,7 +138,7 @@ Simpler surface than standard LEAGUES:
 | League Lanes | Per-lane control: Start Practice, Send Roster, Start Score, League off, Pinsetter on/off, Absent Teams, Options |
 | Opening and Closing a League | Session lifecycle |
 
-Kings almost certainly runs standard LEAGUES not BLS mode, since
+Kings very likely runs standard LEAGUES not BLS mode, since
 BLS-mode is for centers migrating in existing CDE data.
 
 ## SWEDISH LEAGUES (`Conqueror-2-266.html`)
