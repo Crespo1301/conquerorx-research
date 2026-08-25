@@ -48,6 +48,7 @@ one system area.
 | 19 | [point-of-sale.md](19-point-of-sale.md) | **POS deep-read:** sales, tabs, tips, deposits, refunds, tax exemption, credit-card providers, payment types, related SQL tables and reports. |
 | 20 | [shift-management.md](20-shift-management.md) | **Shift Management deep-read:** sectors, cash drawer sessions (Mermaid state diagram), personal drawers, shift reporting, privileges, QuickBooks/Dassle exports. |
 | 21 | [fbt-membership.md](21-fbt-membership.md) | **FBT (Frequent Bowler Tracking) deep-read:** member records, cards, QCash + Points + Games-on-Account balances (ER + flow diagrams), duplicate detection, import/export, mail merge, reporting. |
+| 22 | [center-setup.md](22-center-setup.md) | **Center Setup deep-read:** the master configuration module. 10 sub-areas covering security, lane defaults, pricing model per opening mode, receipt formatting, per-scoring-generation hardware config, integrations, backups, intercom. |
 
 ## Market context: why we care about this platform
 
