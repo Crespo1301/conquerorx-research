@@ -49,6 +49,7 @@ one system area.
 | 20 | [shift-management.md](20-shift-management.md) | **Shift Management deep-read:** sectors, cash drawer sessions (Mermaid state diagram), personal drawers, shift reporting, privileges, QuickBooks/Dassle exports. |
 | 21 | [fbt-membership.md](21-fbt-membership.md) | **FBT (Frequent Bowler Tracking) deep-read:** member records, cards, QCash + Points + Games-on-Account balances (ER + flow diagrams), duplicate detection, import/export, mail merge, reporting. |
 | 22 | [center-setup.md](22-center-setup.md) | **Center Setup deep-read:** the master configuration module. 10 sub-areas covering security, lane defaults, pricing model per opening mode, receipt formatting, per-scoring-generation hardware config, integrations, backups, intercom. |
+| 23 | [kings-seaport-layout.md](23-kings-seaport-layout.md) | **Site-specific intake template** for Kings Seaport: room-to-lane mapping, terminal roster, network + server host, maintenance contacts. Fill from a single floor walk with the opening manager. |
 
 ## Market context: why we care about this platform
 

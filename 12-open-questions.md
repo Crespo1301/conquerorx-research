@@ -179,13 +179,20 @@ install.
 
 ## Kings-specific
 
-### Q16. What room / lane mapping exists at Kings Seaport?
+### Q16. What room / lane mapping exists at Kings Seaport?  🟡 STAGED 2026-08-25
 
-- We only know King Pin Lounge → lanes 1-4.
-- Royal Room, Kings Corner unmapped.
-- **How to find out:** ask the opening manager, or look at the physical
-  floorplan; then update `ROOM_LANE_NUMBER_MAP` in
-  `src/morning_import_builder.py`.
+Intake template ready at [`23-kings-seaport-layout.md`](23-kings-seaport-layout.md).
+Waiting on values from Kings staff. Once collected (single walk of the
+floor with the opening manager gets everything), the mapping goes
+into `ROOM_LANE_NUMBER_MAP` in the reservations-builder repo.
+
+Known so far:
+- King Pin Lounge maps to lanes 1, 2, 3, 4
+- Pod 13/14 confirmed as a pair (from the recurring reboot incident)
+
+Still needed: Royal Room lane range, Kings Corner lane range, walk-up
+lane pool, total lane count, terminal roster, server host details,
+maintenance contacts.
 
 ### Q17. What POS does Kings use? (Micros? Toast? Square?)
 
