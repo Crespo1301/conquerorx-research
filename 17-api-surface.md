@@ -242,10 +242,38 @@ client. Rough plan:
 This is a multi-session effort, not a next-hour thing. Documenting the
 surface now so we can act on it when we have terminal time.
 
+## Live-probe attempt on 2026-08-25
+
+Tried to start the `ConquerorServer` Windows service to hit the endpoints
+directly. Blocked at `Start-Service`: the service ACL requires an
+elevated shell to control it, and we ran from a non-elevated WSL bridge.
+
+To finish the live probe, run this from an elevated PowerShell on the
+Windows side (right-click PowerShell, Run as Administrator):
+
+```powershell
+Start-Service ConquerorServer
+Start-Sleep -Seconds 30
+Get-NetTCPConnection -State Listen | Where-Object { $_.LocalPort -in 8018,8048,8084,8760 } | Format-Table LocalPort,OwningProcess
+```
+
+Then probe each candidate port:
+
+```powershell
+Invoke-WebRequest http://localhost:8018/swagger -UseBasicParsing
+Invoke-WebRequest http://localhost:8048/swagger -UseBasicParsing
+Invoke-WebRequest http://localhost:8084/swagger -UseBasicParsing
+```
+
+A 200 with an OpenAPI JSON confirms the port and gives the full
+authoritative schema for every route. Any 401/403 is also useful (tells
+us auth is enforced and where). A 404 or connection refused means
+that port hosts something else.
+
 ## What we did NOT do here
 
-- **No live probe.** ConquerorServer was not running during this pass.
-  Everything above is static evidence from DLL string tables.
+- **No live probe completed.** ConquerorServer service failed to start
+  from our non-elevated shell (see above); needs Run-as-Administrator.
 - **No DLL decompilation.** ILSpy on `Qbk.WebBookingApi.Server.dll` would
   give us controller-attribute-level ground truth (`[HttpPost]`,
   `[Route("...")]`, `[Authorize]`), which would replace all "(inferred)"
