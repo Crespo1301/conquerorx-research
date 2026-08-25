@@ -54,6 +54,7 @@ one system area.
 | 25 | [leagues.md](25-leagues.md) | **Leagues deep-read:** all four league variants (standard, BLS, Swedish, Danish), 17-field creation form for standard, financial model (linage, prize fund, banquet fund), Peterson Points, handicap systems, Mermaid league-night lifecycle. |
 | 26 | [tournaments.md](26-tournaments.md) | **Tournaments deep-read:** three-layer hierarchy (Tournament, Event, Squad), auto-movement engine, roster + team + player setup, standings, Mermaid tournament lifecycle. Complement to Leagues. |
 | 27 | [security.md](27-security.md) | **Security deep-read:** staff roster, profiles with 6 privilege tabs (Operate, Shifts, Prices, Technical, Management, Reservations), 3 recognition modes (fingerprint / card / password), Safe Mode, Quick Authorization, System Log, Suspect Actions. Mermaid ER + login sequence. |
+| 28 | [time-tracking.md](28-time-tracking.md) | **Time Tracking System deep-read:** staff clock-in/out tied to Security login, Mermaid sequence, Staff Log manager tools (add/modify/delete with audit), payroll export via GlobalTimeTracking.rpt. |
 
 ## Market context: why we care about this platform
 
