@@ -27,12 +27,12 @@ awkward to bolt on as config toggles.
 
 Day-to-day operations on a running league:
 
-- **Opening League Lanes** — start the league session on assigned lanes
-- **Turning Pinsetters on/off** — per-lane pinsetter control
-- **Closing League Lanes** — end the session, roll scores forward
-- **Zooming in/out the Lanes** — UI zoom for the lane grid
+- **Opening League Lanes:** start the league session on assigned lanes
+- **Turning Pinsetters on/off:** per-lane pinsetter control
+- **Closing League Lanes:** end the session, roll scores forward
+- **Zooming in/out the Lanes:** UI zoom for the lane grid
 
-### Creating a League (from `Conqueror-2-213.html`) — 17 setup fields
+### Creating a League (from `Conqueror-2-213.html`): 17 setup fields
 
 | Field | What it controls |
 |---|---|
@@ -75,30 +75,30 @@ Day-to-day operations on a running league:
 
 Two independent handicap systems:
 
-- **Team Handicap** — added to team score
-- **Bowler Handicap** — added per bowler
+- **Team Handicap:** added to team score
+- **Bowler Handicap:** added per bowler
 
 Formulae are configurable per league.
 
 ### Average rules (3.3)
 
-- **Minimum Number of Games for Establishing League Average** — how
+- **Minimum Number of Games for Establishing League Average:** how
   many games a bowler must play before their average is used for
   handicap
-- **Apply League Average to Games Already Played** — whether the
+- **Apply League Average to Games Already Played:** whether the
   average recomputes retroactively
-- **Maintain the Same Average for the Entire Series** — locks average
+- **Maintain the Same Average for the Entire Series:** locks average
   for a series run
 
 ### Point attribution (3.6)
 
 Multiple scoring systems supported:
 
-- **Automatic Points** — points auto-computed per rule
-- **Team Point Attribution Rules** — per-team logic
-- **Player Point Attribution Rules** — per-bowler logic
-- **Regressive Points** — degrading point values with position
-- **Peterson Points** — the Peterson scoring system (a US bowling
+- **Automatic Points:** points auto-computed per rule
+- **Team Point Attribution Rules:** per-team logic
+- **Player Point Attribution Rules:** per-bowler logic
+- **Regressive Points:** degrading point values with position
+- **Peterson Points:** the Peterson scoring system (a US bowling
   standard for team leagues that awards points per game and per series
   based on ranking)
 
@@ -106,17 +106,17 @@ Multiple scoring systems supported:
 
 Comprehensive per-league financial model:
 
-- **Structured Number of Players** — expected roster size for
+- **Structured Number of Players:** expected roster size for
   budgeting
-- **Linage and Linage Total** — per-lane fee accumulation ("linage" is
+- **Linage and Linage Total:** per-lane fee accumulation ("linage" is
   bowling industry term for lane use fees)
-- **Prize Fund and Banquet Fund** — separate pools that accumulate
+- **Prize Fund and Banquet Fund:** separate pools that accumulate
   through the season
-- **Total per Player / Included Taxes** — final per-player price
-- **Enrolled Number of Players** — actual roster size
-- **Guarantee Players** — minimum guaranteed enrollment
-- **Generic Fund** — miscellaneous fund
-- **One Game Price** — per-game fee for makeup games
+- **Total per Player / Included Taxes:** final per-player price
+- **Enrolled Number of Players:** actual roster size
+- **Guarantee Players:** minimum guaranteed enrollment
+- **Generic Fund:** miscellaneous fund
+- **One Game Price:** per-game fee for makeup games
 
 ## BLS LEAGUES (`Conqueror-2-238.html` onward)
 
@@ -167,20 +167,20 @@ different rules that could not be unified.
 
 From [`05-database-schema.md`](05-database-schema.md):
 
-- `FBTLeague` — league membership tied to FBT
-- `FBTLinks` — link tables for league entities
-- `FBTStats` — league stats per member
-- `ClubLeague` — club-level league data
-- `GiocatoriLeague` — league players (Italian: "giocatori" = players)
-- `ListaLeague` — league list (Italian: "lista" = list)
-- `MemoLeague` — league memo
-- `PayLeague` — league payments
-- `PisteLeague` — league lanes (Italian: "piste" = lanes)
-- `PointsCollection` — points ledger
-- `SetupLeague` — league setup
-- `LeagueOptions` — per-league options
-- `LeaguePayHistory` — payment history
-- `ApriPiste` — opened lanes ("apri" = open) with league tie-in
+- `FBTLeague`: league membership tied to FBT
+- `FBTLinks`: link tables for league entities
+- `FBTStats`: league stats per member
+- `ClubLeague`: club-level league data
+- `GiocatoriLeague`: league players (Italian: "giocatori" = players)
+- `ListaLeague`: league list (Italian: "lista" = list)
+- `MemoLeague`: league memo
+- `PayLeague`: league payments
+- `PisteLeague`: league lanes (Italian: "piste" = lanes)
+- `PointsCollection`: points ledger
+- `SetupLeague`: league setup
+- `LeagueOptions`: per-league options
+- `LeaguePayHistory`: payment history
+- `ApriPiste`: opened lanes ("apri" = open) with league tie-in
 
 ## Related Crystal Reports (from `15-reports-catalog.md`)
 
@@ -208,7 +208,7 @@ reports:
 
 - `Qbk.Leagues.dll`, `Qbk.Leagues.Server.dll`
 - `Qbk.Leagues.ClientLib.dll`
-- `Qbk.Leagues.CDE.dll` — the BLS/CDE-compatibility layer
+- `Qbk.Leagues.CDE.dll`: the BLS/CDE-compatibility layer
 - `Qbk.Leagues.BowlersAndTeams.dll`
 - `Qbk.Leagues.LaneStatus.dll`
 - `Qbk.Leagues.ScoreSheet.dll`
