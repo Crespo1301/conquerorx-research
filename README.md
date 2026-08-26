@@ -60,6 +60,7 @@ one system area.
 | 31 | [cameras-coinop-specialgames.md](31-cameras-coinop-specialgames.md) | **Cameras + Coin-Op + Special Games bundle:** back-office camera surveillance, Real Time Income live revenue dashboard, coin-operated lane setup (not Kings-relevant), BES X Mad Games and BES/Bowland Special Games (score-console mini-games). |
 | 32 | [trouble-call-system.md](32-trouble-call-system.md) | **Trouble Call System (TCS) CHM deep-read:** end-to-end trouble-call lifecycle (Mermaid), three management surfaces (Lane Status, Back Office, Voice Messages), reports (Response Time / Work Time / Down Time), full TCS Setup surface (QDacs, 6 alarm-check toggles, 9 voice-alarm knobs), telephone command syntax. Companion to doc 13. |
 | 33 | [terminal-setup.md](33-terminal-setup.md) | **Terminal Setup deep-read:** per-terminal configuration across 7 tabs (Preferences, Devices, Print, Printers, Externals, Quick Buttons, Credit Card). Every knob a terminal exposes for identity, hardware, printing, external-program bridges, and CC receipts. Provisioning + audit reference. |
+| 34 | [technical-setup.md](34-technical-setup.md) | **Technical Setup deep-read:** 11 vendor-technician sub-sections (Upload Animation, LCB Replacement + Address, Com Test, TV+Sound, Pinsetter + Camera parameters with 25+ knobs, Upload to Lanes, Lane Setup roster, HyperBowling High Scores + Tests, Calendar Setup). Includes strong guardrail: do not modify without QubicaAMF authorization. |
 
 ## Market context: why we care about this platform
 
