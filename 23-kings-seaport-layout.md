@@ -28,10 +28,20 @@ actual lane number range for that Kings Seaport room.
 | Tripleseat Room name | Lane numbers | Group behavior | Confirmed by | Confirmed on |
 |---|---|---|---|---|
 | King Pin Lounge | 1, 2, 3, 4 | 4-lane group, boutique lounge | Carlos (from repo notes) | 2026-08-24 |
+| Kings Corner | 13, 14, 15, 16 | 4-lane group, back-corner private area | Carlos (from Praxis Precision Medicines import test) | 2026-08-26 |
 | Royal Room | TBD | TBD | | |
-| Kings Corner | TBD | TBD | | |
 | (other named rooms) | TBD | TBD | | |
 | (walk-up lane pool) | TBD (usually the remaining lanes not in a private room) | individual lanes | | |
+
+**Multi-room bookings:** a single Tripleseat event can span multiple
+rooms. Confirmed example: the Praxis Precision Medicines booking on
+2026-08-26 covered **lane 12 + Kings Corner (lanes 13-16)** as a
+single 5-lane group. When the reservations-builder maps only the
+first room (or misses the multi-room signal), ConquerorX rejects the
+import with a "too many people for lane" error because the party
+size exceeds a single lane's capacity. The builder needs to sum
+lane inventory across every room named in the booking before
+distributing bowlers.
 
 Once filled in, the same table gets copied into
 `src/morning_import_builder.py` in the `ROOM_LANE_NUMBER_MAP` dict of
@@ -51,7 +61,8 @@ observed via the reboot incident:
 
 | Pod | Lanes | Notes |
 |---|---|---|
-| Pod at 13/14 | 13, 14 | The pod that recurring No-Comms + reboot incidents happened on 2026-08-24. Shut down that night pending diagnosis. See [`13-operations-troubleshooting.md`](13-operations-troubleshooting.md#c1--lanes-1314-reset-with-no-comms-then-rebooted). |
+| Pod at 13/14 | 13, 14 | Part of Kings Corner (lanes 13-16). Site of the 2026-08-24 No-Comms + reboot incident, resolved 2026-08-26 (worn UTP cable under ball return motor). See [`13-operations-troubleshooting.md`](13-operations-troubleshooting.md#c1-lanes-1314-reset-with-no-comms-then-rebooted-resolved). |
+| Pod at 15/16 | 15, 16 | Part of Kings Corner (lanes 13-16). |
 
 Standard QubicaAMF pods pair consecutive odd-even lane numbers
 (1/2, 3/4, 5/6, ..., 13/14, 15/16, etc.). Kings Seaport likely follows
