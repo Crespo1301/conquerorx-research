@@ -58,6 +58,7 @@ one system area.
 | 29 | [web-and-call-center.md](29-web-and-call-center.md) | **Web Reservations + Call Center deep-read:** customer self-service booking widget (Scenarios, Global Settings, Bookable Days, Legal Info, Extended Availability, Online Scoring, BES X GameConnect) and chain-wide Call Center module (one desk books into all locations). |
 | 30 | [ancillary-modules.md](30-ancillary-modules.md) | **Experience + Time Games + Lockers deep-read:** bundling package (Experience mode), non-lane billable activities (pool, ping pong, arcade), and locker rental. |
 | 31 | [cameras-coinop-specialgames.md](31-cameras-coinop-specialgames.md) | **Cameras + Coin-Op + Special Games bundle:** back-office camera surveillance, Real Time Income live revenue dashboard, coin-operated lane setup (not Kings-relevant), BES X Mad Games and BES/Bowland Special Games (score-console mini-games). |
+| 32 | [trouble-call-system.md](32-trouble-call-system.md) | **Trouble Call System (TCS) CHM deep-read:** end-to-end trouble-call lifecycle (Mermaid), three management surfaces (Lane Status, Back Office, Voice Messages), reports (Response Time / Work Time / Down Time), full TCS Setup surface (QDacs, 6 alarm-check toggles, 9 voice-alarm knobs), telephone command syntax. Companion to doc 13. |
 
 ## Market context: why we care about this platform
 
