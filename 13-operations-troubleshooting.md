@@ -98,9 +98,15 @@ Score console → Q2A protocol → BowlingAgent (server 5130/7014)
 
 **Most likely root cause, ranked:**
 
-1. **Network glitch on the pod's cable/switch:** Two paired lanes share a
-   network run; a flap or bump takes both down. Self-recovers when link
-   returns.
+1. **Network glitch or physical UTP cable damage on the pod's cable/switch:**
+   Two paired lanes share a network run; a flap or bump takes both
+   down. Self-recovers when link returns. **Confirmed at Kings on
+   2026-08-26** (incident C1): a UTP cable powering SuperTouch #13
+   had been routed under the ball return motor at initial assembly
+   and gradually worn through, causing intermittent link loss that
+   damaged both the SuperTouch and the 5HD HUB. When Pattern A
+   repeats on the same pod, inspect the cable routing for contact
+   with moving mechanical parts before assuming it's a switch flap.
 2. **Console hard-locked:** bad game state (weird pinfall pattern) froze the
    console. Watchdog kicked in.
 3. **Pinsetter fault:** jam trip or overcurrent → pinsetter controller
@@ -135,7 +141,8 @@ Score console → Q2A protocol → BowlingAgent (server 5130/7014)
   connection logs
 
 **First observed:** 2026-08-24 mid-shift at Kings Seaport (see incident C1
-below).
+below). **Root cause confirmed 2026-08-26:** worn UTP cable under
+ball return motor. Parts replaced, cable rerouted, back in service.
 
 **Escalation thresholds:**
 
@@ -231,23 +238,57 @@ Common ones:
 Add new incidents here as they happen. Move them into a "Pattern" section
 above once we understand them well enough to write a diagnosis.
 
-### C1: Lanes 13/14 reset with "no comms" then rebooted
+### C1: Lanes 13/14 reset with "no comms" then rebooted (RESOLVED)
 
-- **When:** 2026-08-24, mid-shift (exact time not captured)
+- **When:** 2026-08-24, mid-shift (twice in the same day, then lanes
+  shut down for the night to prevent a third occurrence)
 - **Lanes / terminals:** lanes 13, 14
 - **Symptom:** lane grid showed "No Comms" on both, then their consoles
   spontaneously started rebooting
 - **In-progress activity:** unknown, mid-shift, likely a party bowling
 - **Exact message text:** "no comms" (paraphrased from staff report)
-- **Duration:** unknown; recovery observed
-- **Recovery action:** self-recovered (consoles rebooted, reconnected)
-- **Guest impact:** unknown (session state on those lanes not verified in
-  the moment)
-- **Follow-up:** watch for repeats on this pod; add to shift log for
-  pattern tracking
-- **Diagnosis:** classic Pattern A above. Most likely a brief network glitch
-  on the 13/14 pod or a console watchdog reset. First occurrence, no
-  escalation needed yet.
+- **Duration:** two full reboot cycles before lanes were pulled from
+  service
+- **Recovery action:** self-recovered on the first two events; then
+  lanes taken out of service pending technician
+- **Guest impact:** unknown (session state on those lanes not verified
+  in the moment)
+- **Escalation:** email to Daniel Martines (external technician) on
+  2026-08-24; response received 2026-08-25 and 2026-08-26
+
+**Root cause (confirmed by technician 2026-08-26):**
+
+The UTP LAN cable powering **SuperTouch #13** was damaged. When the
+pod was originally assembled, the cable had been routed underneath
+the ball return motor. Over time the motor gradually wore through
+the cable jacket, and this week the conductors finally started
+faulting. The faulting cable took down the SuperTouch and cascaded
+damage into the 5HD HUB.
+
+**Fix applied:**
+
+- **SuperTouch #13** replaced with a new unit
+- **5HD HUB** replaced with a new unit
+- **UTP cable** replaced and rerouted underneath the lanes (no longer
+  in contact with the ball return motor)
+- Lanes 13/14 back in service, tested and working
+
+**Ops follow-up owed to Jon Stoyer:** the two replacement parts
+(SuperTouch and 5HD HUB) were the site's only spare inventory.
+Reorder replacement spares so the next pod failure doesn't leave
+us without stock.
+
+**Unrelated technician deliverable (same visit):** new projector
+installed over lanes 9/10 and 11/12.
+
+**Pattern relevance:** this is the first confirmed root cause instance
+for Pattern A above ("No Comms" on a pod, both lanes reset together)
+at Kings Seaport. Root cause #1 in the Pattern A ranking (network
+glitch on the pod's cable) was correct in category; the specific
+mechanism was a physically-worn UTP jacket, not intermittent link
+flap. Update Pattern A guidance to check for cable routing near
+moving mechanical parts when diagnosing recurrent pod-level No
+Comms.
 
 ---
 

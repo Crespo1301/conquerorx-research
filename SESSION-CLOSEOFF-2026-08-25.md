@@ -63,10 +63,17 @@ Six more docs would give the repo full CHM coverage.
    config once the floor walk is done
    - Repo: `/home/cresp3/Kings/repos/kings-morning-reservations-builder`
    - File: `config.example.json`, add per-room lane arrays
-4. **Check on lanes 13 and 14** (No Comms reboot pattern from
+4. ~~**Check on lanes 13 and 14** (No Comms reboot pattern from
    yesterday). Confirm whether Daniel Martines has responded to the
    English email sent 2026-08-24. If technician has looked, capture
-   the diagnosis into [doc 13](13-operations-troubleshooting.md).
+   the diagnosis into [doc 13](13-operations-troubleshooting.md).~~
+   **CLOSED 2026-08-26.** Daniel replied same day: root cause was a
+   UTP cable powering SuperTouch #13, routed under the ball return
+   motor at initial assembly, worn through over time. Damaged
+   SuperTouch #13 and 5HD HUB replaced, UTP cable replaced and
+   rerouted underneath the lanes. Lanes back in service. Follow-up
+   owed to Jon Stoyer: reorder replacement spares (SuperTouch, 5HD
+   HUB). Full write-up in [doc 13 incident C1](13-operations-troubleshooting.md).
 
 ### Deferred technical work
 
