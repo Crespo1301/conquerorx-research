@@ -273,10 +273,11 @@ damage into the 5HD HUB.
   in contact with the ball return motor)
 - Lanes 13/14 back in service, tested and working
 
-**Ops follow-up owed to Jon Stoyer:** the two replacement parts
-(SuperTouch and 5HD HUB) were the site's only spare inventory.
-Reorder replacement spares so the next pod failure doesn't leave
-us without stock.
+**Ops follow-up (Daniel-owned, not ours):** the two replacement
+parts (SuperTouch and 5HD HUB) were the site's only spare
+inventory. Daniel flagged Jon Stoyer directly to reorder
+replacement spares so the next pod failure doesn't leave the site
+without stock. Not a CSolutions action item.
 
 **Unrelated technician deliverable (same visit):** new projector
 installed over lanes 9/10 and 11/12.

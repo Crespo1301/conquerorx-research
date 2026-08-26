@@ -76,8 +76,11 @@ optional enhancement.
    - Which Kings terminals have Lane Orders enabled and whether
      "Automatically Save in Tab and Print" is off (see
      [doc 35 section 11](35-economic-setup.md))
-5. **Follow up with Jon Stoyer** on the parts reorder Daniel
-   flagged (SuperTouch and 5HD HUB spares)
+5. ~~**Follow up with Jon Stoyer** on the parts reorder Daniel
+   flagged (SuperTouch and 5HD HUB spares)~~
+   **CLOSED 2026-08-26.** Not our action item. Daniel is the
+   external technician and owns the parts-reorder loop with Jon
+   directly. We are not in that chain.
 
 ### Optional enhancement work
 
