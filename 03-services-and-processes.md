@@ -68,9 +68,9 @@ would be on 1434 UDP but wasn't listed under our filter.
 ## Windows Firewall rules
 
 Windows Firewall is **enabled** on all three profiles (Domain, Private,
-Public) with `DefaultInboundAction = NotConfigured` (block by default). The
-ConquerorX installer registers 14 dedicated inbound allow rules, all
-scoped to all three profiles:
+Public) with `DefaultInboundAction = NotConfigured` (block by default). Our
+dev test install shows the ConquerorX installer registering 14 dedicated
+inbound allow rules, all scoped to all three profiles:
 
 | Rule display name | Likely covers |
 |---|---|
@@ -88,6 +88,24 @@ scoped to all three profiles:
 | `Qubica Sally server` | Sally score-console persona server |
 | `Qubica Stop Button` | Emergency stop button traffic |
 | `BowlingAgent` | 5130 + 7014 lane hardware bridge |
+
+**Confirmed live at Kings Seaport (2026-08-26):** a read-only capture on
+terminal `FRONTDESK1` found **15** `Qubica*`-named rules enabled, all
+Inbound/Allow, two more than our dev install's 13 `Qubica*` rules (the
+dev install's 14th rule, `BowlingAgent`, is not `Qubica*`-prefixed and
+wasn't checked by this capture). The two new ones:
+
+| Rule display name | Likely covers |
+|---|---|
+| `Qubica Upgrade agent` | Working Copy version-upgrade agent traffic |
+| `Qubica Upgrade Monitor Server` | Upgrade-monitor tray/service comms |
+
+Kings runs ConquerorX 15.17.2.0 (installed 2026-08-25, see the README
+version note), one patch generation behind our dev pin of 15.18.0+22859.
+Most likely explanation: the newer installer that shipped 15.17.2.0 to
+Kings added these two upgrade-related firewall rules, and our dev install
+predates that installer revision. Worth re-checking this list against
+a fresh dev install the next time we update the reference machine.
 
 Practical implication: any terminal on the LAN can reach any of these
 services on the server host, but external networks are blocked by the

@@ -107,6 +107,21 @@ top. The installer at
 `C:\ProgramData\QubicaAMF\Repositories\Conqueror\15.18.0+22859\Repository\ConquerorSetup.exe`
 supports both roles.
 
+**Confirmed live at Kings Seaport (2026-08-26):** a read-only diagnostic
+capture from a terminal named `FRONTDESK1` showed `ConquerorServer` and
+`MxSvc` both `Stopped`, while `MSSQL$CONQUERORX` was `Running`. A port
+check confirmed only 5130 and 7014 (BowlingAgent, lane hardware comms)
+were listening locally, none of ConquerorServer's ports (2345, 2387,
+3535, 5555, 5556, 6767, 7024, 8018, 8048, 8084) or MMS's 8760. This
+matches the TERMINAL role exactly: `FRONTDESK1` runs the client shell and
+connects out to wherever the SQL Server instance and ConquerorServer
+actually live. Kings runs at least a two-machine topology, a dedicated
+server host plus one or more front-desk terminals, not the combined
+single-box setup our dev test install uses. The server host itself has
+not yet been identified; running the same capture on the back-office PC
+would confirm it by showing `ConquerorServer` and `MxSvc` as `Running`
+there instead.
+
 ## Update distribution: the Working Copy system
 
 Neither of the two Conqueror components is patched directly. Instead:

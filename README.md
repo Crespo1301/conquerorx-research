@@ -18,6 +18,7 @@ files on a live install at `C:\QDesk\Bin\`.
 | **Version studied** | 15.18.0+22859 (installed 2026-08-22) |
 | **Install machine** | Carlos Crespo's Windows dev laptop (in-house test rig) |
 | **Live customer target** | Kings Seaport bowling center (real ConquerorX terminal) |
+| **Live Kings version (confirmed 2026-08-26)** | 15.17.2.0, installed 2026-08-25, one patch generation behind the 15.18.0+22859 dev pin above |
 
 ## Document map
 

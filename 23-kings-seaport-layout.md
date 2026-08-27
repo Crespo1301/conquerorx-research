@@ -70,18 +70,28 @@ this convention.
 
 ## Terminal roster
 
-**TBD.** ConquerorX assigns each PC on the LAN a Terminal number when
-it first registers. The list of registered terminals lives in the DB
-(`TerminalLicenses` table) and can be viewed at Center Setup > Basic >
-Terminals.
+**Partially confirmed.** ConquerorX assigns each PC on the LAN a Terminal
+number when it first registers. The list of registered terminals lives
+in the DB (`TerminalLicenses` table) and can be viewed at Center Setup >
+Basic > Terminals (needs Center Setup access we don't currently have,
+see [`CLAUDE.md`](../../repos/kings-morning-reservations-builder/CLAUDE.md)
+in the reservations-builder repo for the access-model note). Hostname
+and role can still be captured without that privilege via the
+[Kings intake scripts](https://github.com/Crespo1301/kings-morning-reservations-builder/tree/main/scripts/kings-intake).
 
-Fill in when collected:
+Fill in the rest as collected:
 
-| Terminal # | Location | Role | MAC / hostname |
-|---|---|---|---|
-| 1 | Front desk main | Primary POS + Booking | |
-| 2 | Front desk secondary | Backup POS | |
-| ... | ... | ... | |
+| Terminal # | Location | Role | MAC / hostname | Confirmed |
+|---|---|---|---|---|
+| TBD | Front desk (likely) | TERMINAL: client shell only, `ConquerorServer` and `MxSvc` both Stopped, only BowlingAgent ports (5130, 7014) listening | `FRONTDESK1`, IP `192.168.71.1/23` on a dedicated `Conqueror NET` interface | 2026-08-26, via intake capture |
+| ? | Server host, not yet located | SERVER: should show `ConquerorServer` and `MxSvc` Running | | Not yet captured |
+| ... | ... | ... | | |
+
+The dedicated `Conqueror NET` network interface name confirms ConquerorX
+traffic runs on its own logical network segment at Kings Seaport,
+separate from general office/guest networking, consistent with the
+per-pod dedicated network runs noted in
+[`13-operations-troubleshooting.md`](13-operations-troubleshooting.md).
 
 ## Network layout
 
