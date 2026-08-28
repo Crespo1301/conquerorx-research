@@ -293,6 +293,49 @@ Comms.
 
 ---
 
+### C2: Lanes 9/10 TCS "Lift Err" (OPEN)
+
+- **When:** 2026-08-27
+- **Lanes / terminals:** lanes 9, 10 (same pod that got the new
+  projector during the 2026-08-26 C1 visit, see the "Unrelated
+  technician deliverable" note above)
+- **Symptom:** TCS fired a pinsetter fault on the lift mechanism
+  (the mechanical elevator that carries fallen pins from the pit
+  back up into the pinsetter)
+- **Exact message text:** originally signaled as **"Lift Error 3"**;
+  after a physical blockage was found and removed, the code changed
+  to **"Lift Error 1"**. The code change itself is notable, it
+  confirms the two codes correspond to different fault states along
+  the same lift mechanism rather than a static code that persists
+  regardless of what's physically wrong. Whether "1" is a
+  lesser-severity residual fault or an unrelated second issue is
+  not yet confirmed; needs the MAG 3 pinsetter service manual (not
+  in our possession, ConquerorX software CHM does not document
+  mechanical pinsetter fault codes) or direct technician
+  confirmation.
+- **In-progress activity:** unknown
+- **Duration:** ongoing as of log time
+- **Recovery action so far:** a blockage was located and removed by
+  on-site staff, which changed the error from Lift Error 3 to Lift
+  Error 1, but did not clear the fault entirely
+- **Guest impact:** unknown, lanes 9/10 status during the fault not
+  captured
+- **Diagnosis so far:** this is a mechanical MAG 3 pinsetter fault,
+  not a ConquerorX software or network issue, distinct from every
+  Pattern A-D above (all of which are comms/connection/cloud/import
+  issues). The partial clear from removing a visible blockage
+  suggests the lift mechanism was at least partially jammed, but
+  Lift Error 1 persisting after that removal means either a second
+  obstruction, a mechanical fault in the lift motor/belt/chain, or
+  a limit switch that isn't resetting cleanly.
+- **Next step:** escalate to Daniel Martines (external technician)
+  the same way C1 was handled, with the exact code-change sequence
+  documented here as context. If QubicaAMF's own pinsetter service
+  documentation becomes available to us, add the "Lift Error 1"
+  and "Lift Error 3" code definitions here once known.
+
+---
+
 ## TCS (Trouble Call System): how QubicaAMF designed it
 
 Authoritative content from `Conqueror-2-385.html` through `Conqueror-2-401.html`.
